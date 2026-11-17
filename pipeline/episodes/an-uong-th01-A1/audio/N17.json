@@ -1,0 +1,63 @@
+{
+ "id": "N17",
+ "speaker": "tin",
+ "lang": "vi",
+ "text": "Mẫu câu số năm.",
+ "sent_text": "Mẫu câu số năm.",
+ "model": "eleven_v3",
+ "voice_id": "cQ2W4ckra8YvQY18vkmE",
+ "hash": "ebc164c01ac7",
+ "alignment": {
+  "characters": [
+   "M",
+   "ẫ",
+   "u",
+   " ",
+   "c",
+   "â",
+   "u",
+   " ",
+   "s",
+   "ố",
+   " ",
+   "n",
+   "ă",
+   "m",
+   "."
+  ],
+  "character_start_times_seconds": [
+   0,
+   0.08,
+   0.12,
+   0.16,
+   0.22,
+   0.28,
+   0.34,
+   0.4,
+   0.453,
+   0.507,
+   0.56,
+   0.64,
+   0.72,
+   0.8,
+   0.88
+  ],
+  "character_end_times_seconds": [
+   0.08,
+   0.12,
+   0.16,
+   0.22,
+   0.28,
+   0.34,
+   0.4,
+   0.453,
+   0.507,
+   0.56,
+   0.64,
+   0.72,
+   0.8,
+   0.88,
+   1.04
+  ]
+ }
+}

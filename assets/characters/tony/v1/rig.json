@@ -1,0 +1,36 @@
+{
+  "character": "tony",
+  "image": "hero-nomouth.png",
+  "source": "hero-cut.png",
+  "coords": "pixels in hero-cut.png",
+  "mouth": {
+    "cx": 470,
+    "cy": 410,
+    "w": 130,
+    "erase": {
+      "rx": 76,
+      "ry": 42
+    }
+  },
+  "eyes": [
+    {
+      "cx": 418,
+      "cy": 300,
+      "rx": 34,
+      "ry": 26
+    },
+    {
+      "cx": 532,
+      "cy": 300,
+      "rx": 30,
+      "ry": 26
+    }
+  ],
+  "height_rel": 1.02,
+  "note": "Tony cười toe mặc định",
+  "skin": [
+    240,
+    172,
+    123
+  ]
+}

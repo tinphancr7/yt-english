@@ -1,0 +1,136 @@
+1
+00:00:00,300 --> 00:00:03,400
+JAKE: Cô Ba ơi... cho tôi một TỜ phở!
+
+2
+00:00:03,700 --> 00:00:07,200
+CÔ BA: Một tờ? Tờ gì? Tờ báo hả con?
+
+3
+00:00:08,300 --> 00:00:13,500
+TÍN: Xin chào, mình là Tín! Sáng nay
+quán nhà mình có anh Jake ghé ăn phở.
+
+4
+00:00:13,700 --> 00:00:19,000
+TÍN: Thôi, anh Jake cứ gọi bằng tiếng Anh
+cho dễ. Hôm nay mình học 6 câu gọi món.
+
+5
+00:00:19,200 --> 00:00:21,500
+TÍN: Xem phim trước nhé!
+
+6
+00:00:30,300 --> 00:00:32,300
+TÍN: Good morning, Jake!
+Chào buổi sáng, anh Jake!
+
+7
+00:00:32,600 --> 00:00:34,800
+JAKE: Hi, Tín! Good morning!
+Chào Tín! Chào buổi sáng!
+
+8
+00:00:35,200 --> 00:00:37,200
+TÍN: What would you like?
+Anh muốn ăn gì?
+
+9
+00:00:37,500 --> 00:00:39,600
+JAKE: Beef pho, please.
+Cho anh phở bò.
+
+10
+00:00:39,900 --> 00:00:41,800
+TÍN: Small or large?
+Tô nhỏ hay tô lớn?
+
+11
+00:00:42,100 --> 00:00:45,300
+JAKE: Large, please. I'm very hungry!
+Tô lớn nhé. Anh đói lắm!
+
+12
+00:00:45,600 --> 00:00:46,800
+TÍN: Onions?
+Có hành không?
+
+13
+00:00:47,100 --> 00:00:49,200
+JAKE: No onions, please.
+Không hành nhé.
+
+14
+00:00:49,500 --> 00:00:51,600
+TÍN: OK. And to drink?
+Dạ. Còn uống gì ạ?
+
+15
+00:00:51,900 --> 00:00:53,800
+JAKE: Iced tea, please.
+Trà đá nhé.
+
+16
+00:01:25,200 --> 00:01:26,800
+TÍN: Here you are.
+Của anh đây ạ.
+
+17
+00:01:27,100 --> 00:01:30,200
+JAKE: Thank you! Hmm... Is it spicy?
+Cảm ơn! Ừm... Có cay không?
+
+18
+00:01:30,500 --> 00:01:33,200
+TÍN: No, it isn't. The chili is here.
+Không cay đâu. Ớt ở đây nè.
+
+19
+00:01:33,500 --> 00:01:35,600
+JAKE: Mmm! It's delicious!
+Ngon quá!
+
+20
+00:01:35,900 --> 00:01:37,300
+TONY: Tín! Me too!
+Tín! Anh nữa!
+
+21
+00:01:37,300 --> 00:01:39,600
+TONY: One pho, no onion, many beef!
+Một phở, không hành, "nhiều bò"!
+
+22
+00:01:39,900 --> 00:01:42,400
+TÍN: Tony... "More beef, please."
+Anh Tony... phải nói "More beef, please."
+
+23
+00:01:42,700 --> 00:01:44,800
+TONY: Yes! More beef, please!
+Đúng rồi! Thêm bò nhé!
+
+24
+00:01:50,300 --> 00:01:52,300
+JAKE: Tín, how much is it?
+Tín ơi, bao nhiêu tiền?
+
+25
+00:01:52,600 --> 00:01:54,600
+TÍN: Sixty thousand dong.
+Sáu mươi nghìn đồng ạ.
+
+26
+00:01:54,900 --> 00:01:57,200
+JAKE: Here you are. Thank you!
+Gửi em. Cảm ơn nhé!
+
+27
+00:01:57,500 --> 00:02:00,000
+TÍN: Thank you! See you tomorrow!
+Cảm ơn anh! Hẹn gặp lại ngày mai nha!
+
+28
+00:02:00,300 --> 00:02:05,500
+CÔ BA: Ô kê, sank kiu! Tín, con thấy chưa,
+má nói tiếng Anh cũng được nè!

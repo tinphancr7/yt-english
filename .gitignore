@@ -1,0 +1,15 @@
+# Secrets
+.env
+.env.*
+
+# Dependencies / build output
+node_modules/
+out/
+render/
+*.log
+
+# Tool caches
+.playwright-mcp/
+
+# Third-party binaries (download again, see pipeline/README.md)
+pipeline/tools/

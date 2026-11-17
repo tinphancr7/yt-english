@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-17",
+  "model": "eleven_ttv_v3",
+  "description": "A 52-year-old Vietnamese woman from Saigon speaking Vietnamese with a strong Southern accent. Loud, cheerful, talkative street-food shop owner, warm and motherly, slightly raspy. Clean studio recording.",
+  "text": "Trời ơi, khách Tây tới quán mình nè! Tín ơi, ra đây coi ổng nói gì nè con. Phở bò tái nạm, sáu chục ngàn một tô, ăn ngon thì ghé hoài nha. Mướp, đi chỗ khác chơi, đừng có leo lên bàn!",
+  "previews": [
+    {
+      "file": "preview-1.mp3",
+      "generated_voice_id": "7P2QZ4wFFUb1Iu8aGp8Q",
+      "duration_secs": 14.6835625,
+      "language": "vi"
+    },
+    {
+      "file": "preview-2.mp3",
+      "generated_voice_id": "DDBnYXHQR851iNeLpsn9",
+      "duration_secs": 14.1088125,
+      "language": "vi"
+    },
+    {
+      "file": "preview-3.mp3",
+      "generated_voice_id": "D0zeKIiyvVRTnjRoXBFt",
+      "duration_secs": 13.638625,
+      "language": "vi"
+    }
+  ]
+}

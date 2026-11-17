@@ -1,0 +1,54 @@
+{
+  "character": "jake",
+  "version": "v1",
+  "chosen_on": "2026-11-17",
+  "hero": {
+    "file": "hero.png",
+    "source": "explore/jake-hero-03.png",
+    "date": "2026-11-17",
+    "tool": "Higgsfield via ChatGPT plugin (free-trial unlimited, 0 credits)",
+    "model": "nano_banana_flash (Nano Banana 2)",
+    "aspect_ratio": "3:4",
+    "resolution": "2k",
+    "style_reference_job": "e50ec22d-8c2a-444d-83a6-48d928f368ea (Tín hero)",
+    "higgsfield_job_id": "e8643ca3-6f57-4664-a820-651c79c984c0",
+    "review": "Cười thân thiện nhìn thẳng, râu gọn, áo hoa chi tiết nhất — đề xuất",
+    "note": "Chosen by the user (recommended option)."
+  },
+  "sheet": {
+    "file": "sheet.png",
+    "source": "explore/jake-turnaround-01.png",
+    "date": "2026-11-17",
+    "tool": "Higgsfield via ChatGPT plugin (free-trial unlimited, 0 credits)",
+    "model": "nano_banana_flash (Nano Banana 2)",
+    "aspect_ratio": "16:9",
+    "resolution": "2k",
+    "reference_job": "e8643ca3-6f57-4664-a820-651c79c984c0 (hero)",
+    "higgsfield_job_id": "641799ad-f326-4d7f-a2fb-cba8d3041e78",
+    "prompt_source": "prompts/character-sheet.md — Bước 2",
+    "review": "Nhất quán; áo hoa, túi đeo chéo ở mọi góc."
+  },
+  "expressions": {
+    "file": "expressions.png",
+    "order": [
+      "neutral",
+      "happy",
+      "laughing",
+      "surprised",
+      "confused",
+      "embarrassed",
+      "annoyed",
+      "sad"
+    ],
+    "source": "explore/jake-expressions-01.png",
+    "date": "2026-11-17",
+    "tool": "Higgsfield via ChatGPT plugin (free-trial unlimited, 0 credits)",
+    "model": "nano_banana_flash (Nano Banana 2)",
+    "aspect_ratio": "16:9",
+    "resolution": "2k",
+    "reference_job": "e8643ca3-6f57-4664-a820-651c79c984c0 (hero)",
+    "higgsfield_job_id": "f353fd10-dbba-4213-b3f5-4aa43bcc9c6f",
+    "prompt_source": "prompts/character-sheet.md — Bước 3",
+    "review": "Đủ 8 biểu cảm, rõ ràng."
+  }
+}

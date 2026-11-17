@@ -1,0 +1,54 @@
+{
+  "character": "muop",
+  "version": "v1",
+  "chosen_on": "2026-11-17",
+  "hero": {
+    "file": "hero.png",
+    "source": "explore/muop-hero-01.png",
+    "date": "2026-11-17",
+    "tool": "Higgsfield via ChatGPT plugin (free-trial unlimited, 0 credits)",
+    "model": "nano_banana_flash (Nano Banana 2)",
+    "aspect_ratio": "3:4",
+    "resolution": "2k",
+    "style_reference_job": "e50ec22d-8c2a-444d-83a6-48d928f368ea (Tín hero)",
+    "higgsfield_job_id": "fdc042e1-8ef6-4509-a6ac-b3c591702093",
+    "review": "Mắt lim dim, cười mỉm \"tự mãn\", đáng yêu — đề xuất",
+    "note": "Chosen by the user (recommended option)."
+  },
+  "sheet": {
+    "file": "sheet.png",
+    "source": "explore/muop-turnaround-02.png",
+    "date": "2026-11-17",
+    "tool": "Higgsfield via ChatGPT plugin (free-trial unlimited, 0 credits)",
+    "model": "nano_banana_flash (Nano Banana 2)",
+    "aspect_ratio": "16:9",
+    "resolution": "2k",
+    "reference_job": "fdc042e1-8ef6-4509-a6ac-b3c591702093 (hero)",
+    "higgsfield_job_id": "f096083a-675a-4e33-87d8-4f3c35f313b9",
+    "prompt_source": "prompts/character-sheet.md — Bước 2",
+    "review": "Bản 01 (bd93f8b3-…) bị loại vì mèo đứng hai chân như người; bản 02 ghi rõ \"REAL CAT on ALL FOUR LEGS\" — đạt."
+  },
+  "expressions": {
+    "file": "expressions.png",
+    "order": [
+      "neutral",
+      "happy",
+      "laughing",
+      "surprised",
+      "confused",
+      "embarrassed",
+      "annoyed",
+      "sad"
+    ],
+    "source": "explore/muop-expressions-01.png",
+    "date": "2026-11-17",
+    "tool": "Higgsfield via ChatGPT plugin (free-trial unlimited, 0 credits)",
+    "model": "nano_banana_flash (Nano Banana 2)",
+    "aspect_ratio": "16:9",
+    "resolution": "2k",
+    "reference_job": "fdc042e1-8ef6-4509-a6ac-b3c591702093 (hero)",
+    "higgsfield_job_id": "93751108-1dc2-4f28-a929-ddc1fd0089e5",
+    "prompt_source": "prompts/character-sheet.md — Bước 3",
+    "review": "Đủ 8 biểu cảm, rất hợp tính lười/tự mãn."
+  }
+}

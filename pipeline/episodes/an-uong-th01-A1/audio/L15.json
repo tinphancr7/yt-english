@@ -1,0 +1,57 @@
+{
+ "id": "L15",
+ "speaker": "tin",
+ "lang": "en",
+ "text": "Here you are.",
+ "sent_text": "Here you are.",
+ "model": "eleven_v3",
+ "voice_id": "ygQC3D3EQ0TOSCJE0CdR",
+ "hash": "410b1c0da62e",
+ "alignment": {
+  "characters": [
+   "H",
+   "e",
+   "r",
+   "e",
+   " ",
+   "y",
+   "o",
+   "u",
+   " ",
+   "a",
+   "r",
+   "e",
+   "."
+  ],
+  "character_start_times_seconds": [
+   0,
+   0.04,
+   0.08,
+   0.12,
+   0.16,
+   0.22,
+   0.28,
+   0.34,
+   0.4,
+   0.46,
+   0.52,
+   0.58,
+   0.64
+  ],
+  "character_end_times_seconds": [
+   0.04,
+   0.08,
+   0.12,
+   0.16,
+   0.22,
+   0.28,
+   0.34,
+   0.4,
+   0.46,
+   0.52,
+   0.58,
+   0.64,
+   0.8
+  ]
+ }
+}

@@ -1,0 +1,16 @@
+{
+  "bg-cozy-ukulele": {
+    "file": "bg-cozy-ukulele.mp3",
+    "seconds": 30,
+    "prompt": "Light, cheerful, cozy background music for a friendly educational cartoon set in a Saigon street-food alley. Acoustic ukulele, soft acoustic guitar, gentle hand percussion and light glockenspiel. Warm, happy, unobtrusive, mid-tempo around 100 BPM, steady from start to end so it can loop. No vocals, no drops.",
+    "source": "ElevenLabs Music API (force_instrumental)",
+    "date": "2026-11-17"
+  },
+  "jingle-yolo7": {
+    "file": "jingle-yolo7.mp3",
+    "seconds": 4,
+    "prompt": "A 4-second cheerful channel jingle for a kids-friendly English learning cartoon: bright ukulele strum, a quick bicycle bell ring, and a playful glockenspiel sparkle ending on a happy resolved chord. No vocals.",
+    "source": "ElevenLabs Music API (force_instrumental)",
+    "date": "2026-11-17"
+  }
+}

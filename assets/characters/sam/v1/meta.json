@@ -1,0 +1,54 @@
+{
+  "character": "sam",
+  "version": "v1",
+  "chosen_on": "2026-11-17",
+  "hero": {
+    "file": "hero.png",
+    "source": "explore/sam-hero-01.png",
+    "date": "2026-11-17",
+    "tool": "Higgsfield via ChatGPT plugin (free-trial unlimited, 0 credits)",
+    "model": "nano_banana_flash (Nano Banana 2)",
+    "aspect_ratio": "3:4",
+    "resolution": "2k",
+    "style_reference_job": "e50ec22d-8c2a-444d-83a6-48d928f368ea (Tín hero)",
+    "higgsfield_job_id": "50df77fc-2291-4eea-8f25-9f6b37ddfcc6",
+    "review": "Đúng mô tả bồi bàn, cười lịch sự — đề xuất",
+    "note": "Chosen by the user (recommended option). Waiter uniform variant; other uniforms (airport, shop, hotel) to be derived from this face later."
+  },
+  "sheet": {
+    "file": "sheet.png",
+    "source": "explore/sam-turnaround-01.png",
+    "date": "2026-11-17",
+    "tool": "Higgsfield via ChatGPT plugin (free-trial unlimited, 0 credits)",
+    "model": "nano_banana_flash (Nano Banana 2)",
+    "aspect_ratio": "16:9",
+    "resolution": "2k",
+    "reference_job": "50df77fc-2291-4eea-8f25-9f6b37ddfcc6 (hero)",
+    "higgsfield_job_id": "d6a75c39-48e5-4d38-aa8b-9e2cb01ab3f4",
+    "prompt_source": "prompts/character-sheet.md — Bước 2",
+    "review": "Nhất quán; nền hơi kem thay vì trắng."
+  },
+  "expressions": {
+    "file": "expressions.png",
+    "order": [
+      "neutral",
+      "happy",
+      "laughing",
+      "surprised",
+      "confused",
+      "embarrassed",
+      "annoyed",
+      "sad"
+    ],
+    "source": "explore/sam-expressions-01.png",
+    "date": "2026-11-17",
+    "tool": "Higgsfield via ChatGPT plugin (free-trial unlimited, 0 credits)",
+    "model": "nano_banana_flash (Nano Banana 2)",
+    "aspect_ratio": "16:9",
+    "resolution": "2k",
+    "reference_job": "50df77fc-2291-4eea-8f25-9f6b37ddfcc6 (hero)",
+    "higgsfield_job_id": "770f9db3-e597-404c-8916-68a8dd349223",
+    "prompt_source": "prompts/character-sheet.md — Bước 3",
+    "review": "Đủ 8 biểu cảm, ria mép và nơ đỏ nhất quán."
+  }
+}

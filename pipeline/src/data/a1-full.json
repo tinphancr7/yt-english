@@ -1,0 +1,7320 @@
+{
+ "id": "an-uong-th01-A1-a1-full",
+ "fps": 30,
+ "width": 1920,
+ "height": 1080,
+ "durationInFrames": 7855,
+ "duration": 261.81,
+ "characters": {
+  "jake": {
+   "character": "jake",
+   "image": "hero-nomouth.png",
+   "source": "hero-cut.png",
+   "coords": "pixels in hero-cut.png",
+   "mouth": {
+    "cx": 395,
+    "cy": 378,
+    "w": 110,
+    "erase": {
+     "rx": 62,
+     "ry": 20
+    }
+   },
+   "eyes": [
+    {
+     "cx": 320,
+     "cy": 272,
+     "rx": 36,
+     "ry": 26
+    },
+    {
+     "cx": 434,
+     "cy": 272,
+     "rx": 30,
+     "ry": 26
+    }
+   ],
+   "height_rel": 1.06,
+   "note": "Jake cao nhất; miệng nằm trong râu — chỉ xóa hẹp",
+   "skin": [
+    251,
+    193,
+    154
+   ],
+   "pose": "stand",
+   "img": "characters/jake/hero-nomouth.png",
+   "width": 632,
+   "height": 2190
+  },
+  "co-ba": {
+   "character": "co-ba",
+   "image": "hero-nomouth.png",
+   "source": "hero-cut.png",
+   "coords": "pixels in hero-cut.png",
+   "mouth": {
+    "cx": 520,
+    "cy": 492,
+    "w": 120,
+    "erase": {
+     "rx": 70,
+     "ry": 22
+    }
+   },
+   "eyes": [
+    {
+     "cx": 436,
+     "cy": 368,
+     "rx": 38,
+     "ry": 30
+    },
+    {
+     "cx": 598,
+     "cy": 368,
+     "rx": 34,
+     "ry": 30
+    }
+   ],
+   "height_rel": 0.86,
+   "note": "Cô Ba thấp, tròn",
+   "skin": [
+    252,
+    195,
+    150
+   ],
+   "pose": "stand",
+   "img": "characters/co-ba/hero-nomouth.png",
+   "width": 863,
+   "height": 2144
+  },
+  "co-ba@newspaper": {
+   "image": "hero-nomouth.png",
+   "source": "hero-cut.png",
+   "coords": "pixels in hero-cut.png",
+   "height_rel": 0.86,
+   "character": "co-ba",
+   "pose": "newspaper",
+   "origin": "newspaper-01.png (job 93b82d26-36e9-46a4-9d53-b658f664b0c5)",
+   "mouth": {
+    "cx": 482,
+    "cy": 497,
+    "w": 96,
+    "erase": {
+     "rx": 56,
+     "ry": 20
+    }
+   },
+   "eyes": [
+    {
+     "cx": 392,
+     "cy": 372,
+     "rx": 40,
+     "ry": 32
+    },
+    {
+     "cx": 552,
+     "cy": 372,
+     "rx": 36,
+     "ry": 32
+    }
+   ],
+   "skin": [
+    253,
+    193,
+    152
+   ],
+   "img": "characters/co-ba/newspaper/hero-nomouth.png",
+   "width": 979,
+   "height": 2146
+  },
+  "tin@wave": {
+   "image": "hero-nomouth.png",
+   "source": "hero-cut.png",
+   "coords": "pixels in hero-cut.png",
+   "height_rel": 1,
+   "character": "tin",
+   "pose": "wave",
+   "origin": "wave-01.png (job 959ecd9b-926f-44a5-be13-8d4ee76ceebc)",
+   "mouth": {
+    "cx": 383,
+    "cy": 368,
+    "w": 100,
+    "erase": {
+     "rx": 56,
+     "ry": 18
+    }
+   },
+   "eyes": [
+    {
+     "cx": 316,
+     "cy": 262,
+     "rx": 34,
+     "ry": 26
+    },
+    {
+     "cx": 441,
+     "cy": 262,
+     "rx": 30,
+     "ry": 26
+    }
+   ],
+   "skin": [
+    254,
+    200,
+    160
+   ],
+   "img": "characters/tin/wave/hero-nomouth.png",
+   "width": 831,
+   "height": 2175
+  },
+  "jake@seated": {
+   "character": "jake",
+   "pose": "seated",
+   "image": "hero-nomouth.png",
+   "source": "hero-cut.png",
+   "coords": "pixels in hero-cut.png",
+   "origin": "seated-01.png (Higgsfield job f24a2998-cd60-4b1f-b003-966af54e313a, refs: jake hero + quan-table stool)",
+   "mouth": {
+    "cx": 472,
+    "cy": 378,
+    "w": 100,
+    "erase": {
+     "rx": 58,
+     "ry": 18
+    }
+   },
+   "eyes": [
+    {
+     "cx": 408,
+     "cy": 270,
+     "rx": 32,
+     "ry": 25
+    },
+    {
+     "cx": 530,
+     "cy": 270,
+     "rx": 28,
+     "ry": 25
+    }
+   ],
+   "stool": {
+    "note": "stool spans roughly x 200-700, bottom = image bottom"
+   },
+   "height_rel": 1,
+   "skin": [
+    252,
+    194,
+    158
+   ],
+   "img": "characters/jake/seated/hero-nomouth.png",
+   "width": 982,
+   "height": 2162
+  },
+  "tin": {
+   "character": "tin",
+   "image": "hero-nomouth.png",
+   "source": "hero-cut.png",
+   "coords": "pixels in hero-cut.png",
+   "mouth": {
+    "cx": 390,
+    "cy": 368,
+    "w": 120,
+    "erase": {
+     "rx": 72,
+     "ry": 34
+    }
+   },
+   "eyes": [
+    {
+     "cx": 320,
+     "cy": 258,
+     "rx": 36,
+     "ry": 26
+    },
+    {
+     "cx": 440,
+     "cy": 258,
+     "rx": 30,
+     "ry": 26
+    }
+   ],
+   "height_rel": 1,
+   "note": "Tín 21, mặc định cười",
+   "skin": [
+    253,
+    200,
+    160
+   ],
+   "pose": "stand",
+   "img": "characters/tin/hero-nomouth.png",
+   "width": 631,
+   "height": 2172
+  },
+  "tony": {
+   "character": "tony",
+   "image": "hero-nomouth.png",
+   "source": "hero-cut.png",
+   "coords": "pixels in hero-cut.png",
+   "mouth": {
+    "cx": 470,
+    "cy": 410,
+    "w": 130,
+    "erase": {
+     "rx": 76,
+     "ry": 42
+    }
+   },
+   "eyes": [
+    {
+     "cx": 418,
+     "cy": 300,
+     "rx": 34,
+     "ry": 26
+    },
+    {
+     "cx": 532,
+     "cy": 300,
+     "rx": 30,
+     "ry": 26
+    }
+   ],
+   "height_rel": 1.02,
+   "note": "Tony cười toe mặc định",
+   "skin": [
+    240,
+    172,
+    123
+   ],
+   "pose": "stand",
+   "img": "characters/tony/hero-nomouth.png",
+   "width": 726,
+   "height": 2216
+  },
+  "muop": {
+   "character": "muop",
+   "image": "hero-cut.png",
+   "source": "hero-cut.png",
+   "coords": "pixels in hero-cut.png",
+   "note": "Mướp không nói: không có miệng/mắt rig — chỉ hiển thị ảnh.",
+   "mouth": null,
+   "eyes": [],
+   "skin": [
+    180,
+    170,
+    160
+   ],
+   "height_rel": 0.4,
+   "pose": "stand",
+   "img": "characters/muop/hero-cut.png",
+   "width": 1254,
+   "height": 1900
+  }
+ },
+ "shots": [
+  {
+   "id": "S01",
+   "kind": "puppet",
+   "dur": 8.830000000000002,
+   "bg": "locations/quan-co-ba/counter.png",
+   "location": "quan-counter",
+   "positions": {
+    "jake": "left",
+    "co-ba": "right"
+   },
+   "cast": [
+    {
+     "id": "jake",
+     "slot": "left",
+     "rig": "jake",
+     "poses": []
+    },
+    {
+     "id": "co-ba",
+     "slot": "right",
+     "rig": "co-ba",
+     "poses": [
+      {
+       "from": 3.06,
+       "rig": "co-ba@newspaper"
+      }
+     ]
+    }
+   ],
+   "lines": [
+    {
+     "id": "L01",
+     "speaker": "jake",
+     "lang": "vi",
+     "start": 0.5,
+     "dur": 2.31,
+     "audio": "episodes/an-uong-th01-A1/audio/L01.mp3",
+     "mouth": [
+      {
+       "start": 0,
+       "end": 0.05,
+       "value": "X"
+      },
+      {
+       "start": 0.05,
+       "end": 0.13,
+       "value": "F"
+      },
+      {
+       "start": 0.13,
+       "end": 0.21,
+       "value": "A"
+      },
+      {
+       "start": 0.21,
+       "end": 0.47,
+       "value": "C"
+      },
+      {
+       "start": 0.47,
+       "end": 0.61,
+       "value": "E"
+      },
+      {
+       "start": 0.61,
+       "end": 0.68,
+       "value": "F"
+      },
+      {
+       "start": 0.68,
+       "end": 1.1,
+       "value": "B"
+      },
+      {
+       "start": 1.1,
+       "end": 1.18,
+       "value": "A"
+      },
+      {
+       "start": 1.18,
+       "end": 1.35,
+       "value": "E"
+      },
+      {
+       "start": 1.35,
+       "end": 1.37,
+       "value": "A"
+      },
+      {
+       "start": 1.37,
+       "end": 1.43,
+       "value": "C"
+      },
+      {
+       "start": 1.43,
+       "end": 1.49,
+       "value": "A"
+      },
+      {
+       "start": 1.49,
+       "end": 1.66,
+       "value": "E"
+      },
+      {
+       "start": 1.66,
+       "end": 1.73,
+       "value": "F"
+      },
+      {
+       "start": 1.73,
+       "end": 1.8,
+       "value": "G"
+      },
+      {
+       "start": 1.8,
+       "end": 1.94,
+       "value": "D"
+      },
+      {
+       "start": 1.94,
+       "end": 2.08,
+       "value": "E"
+      },
+      {
+       "start": 2.08,
+       "end": 2.15,
+       "value": "F"
+      },
+      {
+       "start": 2.15,
+       "end": 2.16,
+       "value": "X"
+      }
+     ],
+     "text": "Cô Ba ơi... cho tôi một tờ phở!",
+     "vi": null,
+     "highlight": [],
+     "gesture": null,
+     "emotion": "proud",
+     "role": null,
+     "phrase": null,
+     "q": null,
+     "to": null
+    },
+    {
+     "id": "L02",
+     "speaker": "co-ba",
+     "lang": "vi",
+     "start": 3.16,
+     "dur": 2.87,
+     "audio": "episodes/an-uong-th01-A1/audio/L02.mp3",
+     "mouth": [
+      {
+       "start": 0,
+       "end": 0.01,
+       "value": "X"
+      },
+      {
+       "start": 0.01,
+       "end": 0.09,
+       "value": "B"
+      },
+      {
+       "start": 0.09,
+       "end": 0.16,
+       "value": "A"
+      },
+      {
+       "start": 0.16,
+       "end": 0.21,
+       "value": "E"
+      },
+      {
+       "start": 0.21,
+       "end": 0.25,
+       "value": "F"
+      },
+      {
+       "start": 0.25,
+       "end": 0.32,
+       "value": "H"
+      },
+      {
+       "start": 0.32,
+       "end": 0.6,
+       "value": "C"
+      },
+      {
+       "start": 0.6,
+       "end": 0.71,
+       "value": "A"
+      },
+      {
+       "start": 0.71,
+       "end": 0.77,
+       "value": "B"
+      },
+      {
+       "start": 0.77,
+       "end": 0.89,
+       "value": "C"
+      },
+      {
+       "start": 0.89,
+       "end": 1,
+       "value": "A"
+      },
+      {
+       "start": 1,
+       "end": 1.09,
+       "value": "C"
+      },
+      {
+       "start": 1.09,
+       "end": 1.16,
+       "value": "E"
+      },
+      {
+       "start": 1.16,
+       "end": 1.23,
+       "value": "F"
+      },
+      {
+       "start": 1.23,
+       "end": 1.72,
+       "value": "B"
+      },
+      {
+       "start": 1.72,
+       "end": 1.78,
+       "value": "F"
+      },
+      {
+       "start": 1.78,
+       "end": 1.86,
+       "value": "A"
+      },
+      {
+       "start": 1.86,
+       "end": 2.13,
+       "value": "F"
+      },
+      {
+       "start": 2.13,
+       "end": 2.18,
+       "value": "E"
+      },
+      {
+       "start": 2.18,
+       "end": 2.34,
+       "value": "C"
+      },
+      {
+       "start": 2.34,
+       "end": 2.39,
+       "value": "E"
+      },
+      {
+       "start": 2.39,
+       "end": 2.57,
+       "value": "F"
+      },
+      {
+       "start": 2.57,
+       "end": 2.71,
+       "value": "B"
+      },
+      {
+       "start": 2.71,
+       "end": 2.72,
+       "value": "X"
+      }
+     ],
+     "text": "Một tờ? Tờ gì? Tờ báo hả con?",
+     "vi": null,
+     "highlight": [],
+     "gesture": "hold_newspaper",
+     "emotion": "confused",
+     "role": null,
+     "phrase": null,
+     "q": null,
+     "to": null
+    }
+   ],
+   "sfx": [
+    {
+     "src": "audio/sfx/comedic-boing.mp3",
+     "at": 6.13,
+     "volume": 0.8
+    },
+    {
+     "src": "audio/sfx/cat-meow-curious.mp3",
+     "at": 6.83,
+     "volume": 0.8
+    }
+   ],
+   "camera": {
+    "move": "snap_zoom_to:newspaper",
+    "at_line": "L02",
+    "at": 3.66
+   },
+   "ambience": null,
+   "start": 0
+  },
+  {
+   "id": "S02",
+   "kind": "title",
+   "dur": 14.290000000000001,
+   "bg": "locations/quan-co-ba/wide.png",
+   "blur": 12,
+   "host": {
+    "rig": "tin@wave",
+    "id": "tin"
+   },
+   "title": "Gọi phở ở quán Cô Ba",
+   "badge": "A1",
+   "lines": [
+    {
+     "id": "L03",
+     "speaker": "tin",
+     "lang": "vi",
+     "start": 1.6,
+     "dur": 4.390000000000001,
+     "audio": "episodes/an-uong-th01-A1/audio/L03.mp3",
+     "mouth": [
+      {
+       "start": 0,
+       "end": 0.02,
+       "value": "X"
+      },
+      {
+       "start": 0.02,
+       "end": 0.17,
+       "value": "B"
+      },
+      {
+       "start": 0.17,
+       "end": 0.52,
+       "value": "C"
+      },
+      {
+       "start": 0.52,
+       "end": 0.66,
+       "value": "E"
+      },
+      {
+       "start": 0.66,
+       "end": 0.75,
+       "value": "A"
+      },
+      {
+       "start": 0.75,
+       "end": 0.87,
+       "value": "C"
+      },
+      {
+       "start": 0.87,
+       "end": 0.95,
+       "value": "A"
+      },
+      {
+       "start": 0.95,
+       "end": 1.17,
+       "value": "C"
+      },
+      {
+       "start": 1.17,
+       "end": 1.31,
+       "value": "B"
+      },
+      {
+       "start": 1.31,
+       "end": 1.78,
+       "value": "X"
+      },
+      {
+       "start": 1.78,
+       "end": 1.92,
+       "value": "B"
+      },
+      {
+       "start": 1.92,
+       "end": 2.2,
+       "value": "C"
+      },
+      {
+       "start": 2.2,
+       "end": 2.34,
+       "value": "B"
+      },
+      {
+       "start": 2.34,
+       "end": 2.41,
+       "value": "F"
+      },
+      {
+       "start": 2.41,
+       "end": 2.62,
+       "value": "B"
+      },
+      {
+       "start": 2.62,
+       "end": 2.71,
+       "value": "A"
+      },
+      {
+       "start": 2.71,
+       "end": 2.79,
+       "value": "F"
+      },
+      {
+       "start": 2.79,
+       "end": 2.83,
+       "value": "E"
+      },
+      {
+       "start": 2.83,
+       "end": 3.04,
+       "value": "H"
+      },
+      {
+       "start": 3.04,
+       "end": 3.11,
+       "value": "C"
+      },
+      {
+       "start": 3.11,
+       "end": 3.18,
+       "value": "E"
+      },
+      {
+       "start": 3.18,
+       "end": 3.32,
+       "value": "B"
+      },
+      {
+       "start": 3.32,
+       "end": 3.39,
+       "value": "C"
+      },
+      {
+       "start": 3.39,
+       "end": 3.6,
+       "value": "B"
+      },
+      {
+       "start": 3.6,
+       "end": 3.88,
+       "value": "C"
+      },
+      {
+       "start": 3.88,
+       "end": 3.95,
+       "value": "G"
+      },
+      {
+       "start": 3.95,
+       "end": 4.23,
+       "value": "D"
+      },
+      {
+       "start": 4.23,
+       "end": 4.24,
+       "value": "X"
+      }
+     ],
+     "text": "Xin chào, mình là Tín! Sáng nay quán nhà mình có anh Jake ghé ăn phở.",
+     "vi": null,
+     "highlight": [],
+     "gesture": null,
+     "emotion": "cheerful",
+     "role": null,
+     "phrase": null,
+     "q": null,
+     "to": null
+    },
+    {
+     "id": "L04",
+     "speaker": "tin",
+     "lang": "vi",
+     "start": 6.34,
+     "dur": 6.95,
+     "audio": "episodes/an-uong-th01-A1/audio/L04.mp3",
+     "mouth": [
+      {
+       "start": 0,
+       "end": 0.08,
+       "value": "X"
+      },
+      {
+       "start": 0.08,
+       "end": 0.21,
+       "value": "E"
+      },
+      {
+       "start": 0.21,
+       "end": 0.42,
+       "value": "B"
+      },
+      {
+       "start": 0.42,
+       "end": 0.56,
+       "value": "C"
+      },
+      {
+       "start": 0.56,
+       "end": 0.63,
+       "value": "B"
+      },
+      {
+       "start": 0.63,
+       "end": 0.7,
+       "value": "C"
+      },
+      {
+       "start": 0.7,
+       "end": 0.98,
+       "value": "B"
+      },
+      {
+       "start": 0.98,
+       "end": 1.05,
+       "value": "E"
+      },
+      {
+       "start": 1.05,
+       "end": 1.12,
+       "value": "C"
+      },
+      {
+       "start": 1.12,
+       "end": 1.26,
+       "value": "D"
+      },
+      {
+       "start": 1.26,
+       "end": 1.4,
+       "value": "B"
+      },
+      {
+       "start": 1.4,
+       "end": 1.54,
+       "value": "C"
+      },
+      {
+       "start": 1.54,
+       "end": 1.61,
+       "value": "F"
+      },
+      {
+       "start": 1.61,
+       "end": 1.68,
+       "value": "B"
+      },
+      {
+       "start": 1.68,
+       "end": 1.82,
+       "value": "E"
+      },
+      {
+       "start": 1.82,
+       "end": 2.24,
+       "value": "B"
+      },
+      {
+       "start": 2.24,
+       "end": 2.71,
+       "value": "X"
+      },
+      {
+       "start": 2.71,
+       "end": 2.77,
+       "value": "B"
+      },
+      {
+       "start": 2.77,
+       "end": 2.83,
+       "value": "H"
+      },
+      {
+       "start": 2.83,
+       "end": 3.04,
+       "value": "C"
+      },
+      {
+       "start": 3.04,
+       "end": 3.11,
+       "value": "B"
+      },
+      {
+       "start": 3.11,
+       "end": 3.19,
+       "value": "A"
+      },
+      {
+       "start": 3.19,
+       "end": 3.23,
+       "value": "F"
+      },
+      {
+       "start": 3.23,
+       "end": 3.41,
+       "value": "C"
+      },
+      {
+       "start": 3.41,
+       "end": 3.48,
+       "value": "E"
+      },
+      {
+       "start": 3.48,
+       "end": 3.62,
+       "value": "B"
+      },
+      {
+       "start": 3.62,
+       "end": 3.69,
+       "value": "C"
+      },
+      {
+       "start": 3.69,
+       "end": 3.76,
+       "value": "H"
+      },
+      {
+       "start": 3.76,
+       "end": 3.97,
+       "value": "C"
+      },
+      {
+       "start": 3.97,
+       "end": 4.04,
+       "value": "E"
+      },
+      {
+       "start": 4.04,
+       "end": 4.18,
+       "value": "C"
+      },
+      {
+       "start": 4.18,
+       "end": 4.25,
+       "value": "D"
+      },
+      {
+       "start": 4.25,
+       "end": 4.32,
+       "value": "C"
+      },
+      {
+       "start": 4.32,
+       "end": 4.43,
+       "value": "A"
+      },
+      {
+       "start": 4.43,
+       "end": 4.49,
+       "value": "D"
+      },
+      {
+       "start": 4.49,
+       "end": 4.57,
+       "value": "A"
+      },
+      {
+       "start": 4.57,
+       "end": 4.79,
+       "value": "F"
+      },
+      {
+       "start": 4.79,
+       "end": 4.86,
+       "value": "B"
+      },
+      {
+       "start": 4.86,
+       "end": 5.07,
+       "value": "C"
+      },
+      {
+       "start": 5.07,
+       "end": 5.21,
+       "value": "B"
+      },
+      {
+       "start": 5.21,
+       "end": 5.76,
+       "value": "X"
+      },
+      {
+       "start": 5.76,
+       "end": 5.98,
+       "value": "B"
+      },
+      {
+       "start": 5.98,
+       "end": 6.05,
+       "value": "G"
+      },
+      {
+       "start": 6.05,
+       "end": 6.12,
+       "value": "B"
+      },
+      {
+       "start": 6.12,
+       "end": 6.19,
+       "value": "A"
+      },
+      {
+       "start": 6.19,
+       "end": 6.37,
+       "value": "B"
+      },
+      {
+       "start": 6.37,
+       "end": 6.44,
+       "value": "E"
+      },
+      {
+       "start": 6.44,
+       "end": 6.72,
+       "value": "C"
+      },
+      {
+       "start": 6.72,
+       "end": 6.79,
+       "value": "E"
+      },
+      {
+       "start": 6.79,
+       "end": 6.8,
+       "value": "X"
+      }
+     ],
+     "text": "Thôi, anh Jake cứ gọi bằng tiếng Anh cho dễ. Hôm nay mình học 6 câu gọi món siêu dễ. Xem phim trước nhé!",
+     "vi": null,
+     "highlight": [],
+     "gesture": null,
+     "emotion": "cheerful",
+     "role": null,
+     "phrase": null,
+     "q": null,
+     "to": null
+    }
+   ],
+   "sfx": [
+    {
+     "src": "audio/music/jingle-yolo7.mp3",
+     "at": 0,
+     "volume": 0.7
+    }
+   ],
+   "start": 8.830000000000002
+  },
+  {
+   "id": "SH03",
+   "kind": "video",
+   "dur": 5,
+   "src": "episodes/an-uong-th01-A1/v-a.mp4",
+   "insert": "V-A",
+   "sfx": [
+    {
+     "src": "audio/sfx/iron-gate-slide.mp3",
+     "at": 0.3,
+     "volume": 0.8
+    }
+   ],
+   "ambience": "audio/sfx/morning-street-ambience.mp3",
+   "start": 23.120000000000005
+  },
+  {
+   "id": "SH04",
+   "kind": "puppet",
+   "dur": 19.15,
+   "bg": "locations/quan-co-ba/table.png",
+   "location": "quan-table",
+   "positions": {
+    "jake": "left-seated",
+    "tin": "right"
+   },
+   "cast": [
+    {
+     "id": "jake",
+     "slot": "left-seated",
+     "rig": "jake@seated",
+     "poses": [
+      {
+       "from": 2.0999999999999996,
+       "rig": "jake"
+      }
+     ]
+    },
+    {
+     "id": "tin",
+     "slot": "right",
+     "rig": "tin",
+     "poses": []
+    }
+   ],
+   "lines": [
+    {
+     "id": "L05",
+     "speaker": "tin",
+     "lang": "en",
+     "start": 0.5,
+     "dur": 1.3499999999999999,
+     "audio": "episodes/an-uong-th01-A1/audio/L05.mp3",
+     "mouth": [
+      {
+       "start": 0,
+       "end": 0.12,
+       "value": "F"
+      },
+      {
+       "start": 0.12,
+       "end": 0.19,
+       "value": "B"
+      },
+      {
+       "start": 0.19,
+       "end": 0.27,
+       "value": "A"
+      },
+      {
+       "start": 0.27,
+       "end": 0.39,
+       "value": "E"
+      },
+      {
+       "start": 0.39,
+       "end": 0.74,
+       "value": "B"
+      },
+      {
+       "start": 0.74,
+       "end": 0.95,
+       "value": "C"
+      },
+      {
+       "start": 0.95,
+       "end": 1.16,
+       "value": "B"
+      },
+      {
+       "start": 1.16,
+       "end": 1.2,
+       "value": "X"
+      }
+     ],
+     "text": "Good morning, Jake!",
+     "vi": "Chào buổi sáng, anh Jake!",
+     "highlight": [],
+     "gesture": null,
+     "emotion": "friendly",
+     "role": null,
+     "phrase": null,
+     "q": null,
+     "to": null
+    },
+    {
+     "id": "L06",
+     "speaker": "jake",
+     "lang": "en",
+     "start": 2.1999999999999997,
+     "dur": 1.43,
+     "audio": "episodes/an-uong-th01-A1/audio/L06.mp3",
+     "mouth": [
+      {
+       "start": 0,
+       "end": 0.09,
+       "value": "X"
+      },
+      {
+       "start": 0.09,
+       "end": 0.16,
+       "value": "C"
+      },
+      {
+       "start": 0.16,
+       "end": 0.72,
+       "value": "B"
+      },
+      {
+       "start": 0.72,
+       "end": 0.8,
+       "value": "A"
+      },
+      {
+       "start": 0.8,
+       "end": 0.89,
+       "value": "E"
+      },
+      {
+       "start": 0.89,
+       "end": 1.24,
+       "value": "B"
+      },
+      {
+       "start": 1.24,
+       "end": 1.28,
+       "value": "X"
+      }
+     ],
+     "text": "Hi, Tín! Good morning!",
+     "vi": "Chào Tín! Chào buổi sáng!",
+     "highlight": [],
+     "gesture": "wave",
+     "emotion": "happy",
+     "role": null,
+     "phrase": null,
+     "q": null,
+     "to": null
+    },
+    {
+     "id": "L07",
+     "speaker": "tin",
+     "lang": "en",
+     "start": 3.9799999999999995,
+     "dur": 1.27,
+     "audio": "episodes/an-uong-th01-A1/audio/L07.mp3",
+     "mouth": [
+      {
+       "start": 0,
+       "end": 0.03,
+       "value": "X"
+      },
+      {
+       "start": 0.03,
+       "end": 0.48,
+       "value": "F"
+      },
+      {
+       "start": 0.48,
+       "end": 0.56,
+       "value": "E"
+      },
+      {
+       "start": 0.56,
+       "end": 0.63,
+       "value": "H"
+      },
+      {
+       "start": 0.63,
+       "end": 0.84,
+       "value": "C"
+      },
+      {
+       "start": 0.84,
+       "end": 1.12,
+       "value": "B"
+      }
+     ],
+     "text": "What would you like?",
+     "vi": "Anh muốn ăn gì?",
+     "highlight": [
+      "What would you like?"
+     ],
+     "gesture": null,
+     "emotion": "friendly",
+     "role": null,
+     "phrase": null,
+     "q": null,
+     "to": null
+    },
+    {
+     "id": "L08",
+     "speaker": "jake",
+     "lang": "en",
+     "start": 5.6,
+     "dur": 1.43,
+     "audio": "episodes/an-uong-th01-A1/audio/L08.mp3",
+     "mouth": [
+      {
+       "start": 0,
+       "end": 0.01,
+       "value": "X"
+      },
+      {
+       "start": 0.01,
+       "end": 0.08,
+       "value": "A"
+      },
+      {
+       "start": 0.08,
+       "end": 0.21,
+       "value": "B"
+      },
+      {
+       "start": 0.21,
+       "end": 0.35,
+       "value": "G"
+      },
+      {
+       "start": 0.35,
+       "end": 0.49,
+       "value": "E"
+      },
+      {
+       "start": 0.49,
+       "end": 0.59,
+       "value": "A"
+      },
+      {
+       "start": 0.59,
+       "end": 1.11,
+       "value": "B"
+      },
+      {
+       "start": 1.11,
+       "end": 1.28,
+       "value": "X"
+      }
+     ],
+     "text": "Beef pho, please.",
+     "vi": "Cho anh phở bò.",
+     "highlight": [
+      "Beef pho, please."
+     ],
+     "gesture": null,
+     "emotion": "happy",
+     "role": null,
+     "phrase": null,
+     "q": null,
+     "to": null
+    },
+    {
+     "id": "L09",
+     "speaker": "tin",
+     "lang": "en",
+     "start": 7.379999999999999,
+     "dur": 1.43,
+     "audio": "episodes/an-uong-th01-A1/audio/L09.mp3",
+     "mouth": [
+      {
+       "start": 0,
+       "end": 0.03,
+       "value": "X"
+      },
+      {
+       "start": 0.03,
+       "end": 0.12,
+       "value": "B"
+      },
+      {
+       "start": 0.12,
+       "end": 0.21,
+       "value": "A"
+      },
+      {
+       "start": 0.21,
+       "end": 0.66,
+       "value": "E"
+      },
+      {
+       "start": 0.66,
+       "end": 0.73,
+       "value": "H"
+      },
+      {
+       "start": 0.73,
+       "end": 0.92,
+       "value": "D"
+      },
+      {
+       "start": 0.92,
+       "end": 0.97,
+       "value": "C"
+      },
+      {
+       "start": 0.97,
+       "end": 1.22,
+       "value": "B"
+      },
+      {
+       "start": 1.22,
+       "end": 1.28,
+       "value": "X"
+      }
+     ],
+     "text": "Small or large?",
+     "vi": "Tô nhỏ hay tô lớn?",
+     "highlight": [
+      "Small or large?"
+     ],
+     "gesture": null,
+     "emotion": "friendly",
+     "role": null,
+     "phrase": null,
+     "q": null,
+     "to": null
+    },
+    {
+     "id": "L10",
+     "speaker": "jake",
+     "lang": "en",
+     "start": 9.159999999999998,
+     "dur": 2.4699999999999998,
+     "audio": "episodes/an-uong-th01-A1/audio/L10.mp3",
+     "mouth": [
+      {
+       "start": 0,
+       "end": 0.13,
+       "value": "X"
+      },
+      {
+       "start": 0.13,
+       "end": 0.19,
+       "value": "H"
+      },
+      {
+       "start": 0.19,
+       "end": 0.31,
+       "value": "D"
+      },
+      {
+       "start": 0.31,
+       "end": 0.38,
+       "value": "B"
+      },
+      {
+       "start": 0.38,
+       "end": 0.46,
+       "value": "A"
+      },
+      {
+       "start": 0.46,
+       "end": 1.04,
+       "value": "B"
+      },
+      {
+       "start": 1.04,
+       "end": 1.12,
+       "value": "C"
+      },
+      {
+       "start": 1.12,
+       "end": 1.19,
+       "value": "B"
+      },
+      {
+       "start": 1.19,
+       "end": 1.29,
+       "value": "A"
+      },
+      {
+       "start": 1.29,
+       "end": 1.51,
+       "value": "G"
+      },
+      {
+       "start": 1.51,
+       "end": 1.58,
+       "value": "C"
+      },
+      {
+       "start": 1.58,
+       "end": 1.79,
+       "value": "B"
+      },
+      {
+       "start": 1.79,
+       "end": 1.93,
+       "value": "C"
+      },
+      {
+       "start": 1.93,
+       "end": 2.28,
+       "value": "B"
+      },
+      {
+       "start": 2.28,
+       "end": 2.32,
+       "value": "X"
+      }
+     ],
+     "text": "Large, please. I'm very hungry!",
+     "vi": "Tô lớn nhé. Anh đói lắm!",
+     "highlight": [],
+     "gesture": "rub_belly",
+     "emotion": "happy",
+     "role": null,
+     "phrase": null,
+     "q": null,
+     "to": null
+    },
+    {
+     "id": "L11",
+     "speaker": "tin",
+     "lang": "en",
+     "start": 11.979999999999999,
+     "dur": 1.1099999999999999,
+     "audio": "episodes/an-uong-th01-A1/audio/L11.mp3",
+     "mouth": [
+      {
+       "start": 0,
+       "end": 0.09,
+       "value": "X"
+      },
+      {
+       "start": 0.09,
+       "end": 0.14,
+       "value": "E"
+      },
+      {
+       "start": 0.14,
+       "end": 0.19,
+       "value": "H"
+      },
+      {
+       "start": 0.19,
+       "end": 0.54,
+       "value": "C"
+      },
+      {
+       "start": 0.54,
+       "end": 0.75,
+       "value": "B"
+      },
+      {
+       "start": 0.75,
+       "end": 0.96,
+       "value": "X"
+      }
+     ],
+     "text": "Onions?",
+     "vi": "Có hành không?",
+     "highlight": [],
+     "gesture": null,
+     "emotion": "neutral",
+     "role": null,
+     "phrase": null,
+     "q": null,
+     "to": null
+    },
+    {
+     "id": "L12",
+     "speaker": "jake",
+     "lang": "en",
+     "start": 13.439999999999998,
+     "dur": 1.27,
+     "audio": "episodes/an-uong-th01-A1/audio/L12.mp3",
+     "mouth": [
+      {
+       "start": 0,
+       "end": 0.04,
+       "value": "X"
+      },
+      {
+       "start": 0.04,
+       "end": 0.11,
+       "value": "C"
+      },
+      {
+       "start": 0.11,
+       "end": 0.18,
+       "value": "E"
+      },
+      {
+       "start": 0.18,
+       "end": 0.25,
+       "value": "F"
+      },
+      {
+       "start": 0.25,
+       "end": 0.39,
+       "value": "C"
+      },
+      {
+       "start": 0.39,
+       "end": 0.53,
+       "value": "B"
+      },
+      {
+       "start": 0.53,
+       "end": 0.61,
+       "value": "A"
+      },
+      {
+       "start": 0.61,
+       "end": 1.08,
+       "value": "B"
+      },
+      {
+       "start": 1.08,
+       "end": 1.12,
+       "value": "X"
+      }
+     ],
+     "text": "No onions, please.",
+     "vi": "Không hành nhé.",
+     "highlight": [
+      "No onions, please."
+     ],
+     "gesture": "raise_hand",
+     "emotion": "neutral",
+     "role": null,
+     "phrase": null,
+     "q": null,
+     "to": null
+    },
+    {
+     "id": "L13",
+     "speaker": "tin",
+     "lang": "en",
+     "start": 15.059999999999999,
+     "dur": 1.67,
+     "audio": "episodes/an-uong-th01-A1/audio/L13.mp3",
+     "mouth": [
+      {
+       "start": 0,
+       "end": 0.07,
+       "value": "X"
+      },
+      {
+       "start": 0.07,
+       "end": 0.19,
+       "value": "E"
+      },
+      {
+       "start": 0.19,
+       "end": 0.54,
+       "value": "C"
+      },
+      {
+       "start": 0.54,
+       "end": 0.71,
+       "value": "B"
+      },
+      {
+       "start": 0.71,
+       "end": 0.85,
+       "value": "C"
+      },
+      {
+       "start": 0.85,
+       "end": 0.99,
+       "value": "F"
+      },
+      {
+       "start": 0.99,
+       "end": 1.48,
+       "value": "B"
+      },
+      {
+       "start": 1.48,
+       "end": 1.52,
+       "value": "X"
+      }
+     ],
+     "text": "OK. And to drink?",
+     "vi": "Dạ. Còn uống gì ạ?",
+     "highlight": [],
+     "gesture": null,
+     "emotion": "friendly",
+     "role": null,
+     "phrase": null,
+     "q": null,
+     "to": null
+    },
+    {
+     "id": "L14",
+     "speaker": "jake",
+     "lang": "en",
+     "start": 17.08,
+     "dur": 1.27,
+     "audio": "episodes/an-uong-th01-A1/audio/L14.mp3",
+     "mouth": [
+      {
+       "start": 0,
+       "end": 0.08,
+       "value": "X"
+      },
+      {
+       "start": 0.08,
+       "end": 0.15,
+       "value": "C"
+      },
+      {
+       "start": 0.15,
+       "end": 0.42,
+       "value": "B"
+      },
+      {
+       "start": 0.42,
+       "end": 0.5,
+       "value": "A"
+      },
+      {
+       "start": 0.5,
+       "end": 1.12,
+       "value": "B"
+      }
+     ],
+     "text": "Iced tea, please.",
+     "vi": "Trà đá nhé.",
+     "highlight": [],
+     "gesture": null,
+     "emotion": "happy",
+     "role": null,
+     "phrase": null,
+     "q": null,
+     "to": null
+    }
+   ],
+   "sfx": [],
+   "camera": null,
+   "ambience": "audio/sfx/morning-street-ambience.mp3",
+   "start": 28.120000000000005
+  },
+  {
+   "id": "SH05",
+   "kind": "video",
+   "dur": 5,
+   "src": "episodes/an-uong-th01-A1/v-b.mp4",
+   "insert": "V-B",
+   "sfx": [
+    {
+     "src": "audio/sfx/bowl-set-down.mp3",
+     "at": 0.6,
+     "volume": 0.8
+    }
+   ],
+   "ambience": "audio/sfx/morning-street-ambience.mp3",
+   "start": 47.27
+  },
+  {
+   "id": "SH06",
+   "kind": "puppet",
+   "dur": 22.529999999999998,
+   "bg": "locations/quan-co-ba/table.png",
+   "location": "quan-table",
+   "positions": {
+    "jake": "left-seated",
+    "tin": "center",
+    "tony": "right"
+   },
+   "cast": [
+    {
+     "id": "jake",
+     "slot": "left-seated",
+     "rig": "jake@seated",
+     "poses": []
+    },
+    {
+     "id": "tin",
+     "slot": "center",
+     "rig": "tin",
+     "poses": []
+    },
+    {
+     "id": "tony",
+     "slot": "right",
+     "rig": "tony",
+     "poses": []
+    }
+   ],
+   "lines": [
+    {
+     "id": "L15",
+     "speaker": "tin",
+     "lang": "en",
+     "start": 0.5,
+     "dur": 0.9500000000000001,
+     "audio": "episodes/an-uong-th01-A1/audio/L15.mp3",
+     "mouth": [
+      {
+       "start": 0,
+       "end": 0.04,
+       "value": "X"
+      },
+      {
+       "start": 0.04,
+       "end": 0.21,
+       "value": "B"
+      },
+      {
+       "start": 0.21,
+       "end": 0.42,
+       "value": "F"
+      },
+      {
+       "start": 0.42,
+       "end": 0.63,
+       "value": "D"
+      },
+      {
+       "start": 0.63,
+       "end": 0.64,
+       "value": "X"
+      }
+     ],
+     "text": "Here you are.",
+     "vi": "Của anh đây ạ.",
+     "highlight": [
+      "Here you are."
+     ],
+     "gesture": null,
+     "emotion": "friendly",
+     "role": null,
+     "phrase": null,
+     "q": null,
+     "to": null
+    },
+    {
+     "id": "L16",
+     "speaker": "jake",
+     "lang": "en",
+     "start": 1.8,
+     "dur": 2.4699999999999998,
+     "audio": "episodes/an-uong-th01-A1/audio/L16.mp3",
+     "mouth": [
+      {
+       "start": 0,
+       "end": 0.06,
+       "value": "X"
+      },
+      {
+       "start": 0.06,
+       "end": 0.11,
+       "value": "B"
+      },
+      {
+       "start": 0.11,
+       "end": 0.22,
+       "value": "C"
+      },
+      {
+       "start": 0.22,
+       "end": 0.64,
+       "value": "F"
+      },
+      {
+       "start": 0.64,
+       "end": 0.98,
+       "value": "B"
+      },
+      {
+       "start": 0.98,
+       "end": 1.11,
+       "value": "C"
+      },
+      {
+       "start": 1.11,
+       "end": 1.58,
+       "value": "A"
+      },
+      {
+       "start": 1.58,
+       "end": 1.83,
+       "value": "B"
+      },
+      {
+       "start": 1.83,
+       "end": 1.91,
+       "value": "A"
+      },
+      {
+       "start": 1.91,
+       "end": 2.07,
+       "value": "C"
+      },
+      {
+       "start": 2.07,
+       "end": 2.28,
+       "value": "B"
+      },
+      {
+       "start": 2.28,
+       "end": 2.32,
+       "value": "X"
+      }
+     ],
+     "text": "Thank you! Hmm... Is it spicy?",
+     "vi": "Cảm ơn! Ừm... Có cay không?",
+     "highlight": [
+      "Is it spicy?"
+     ],
+     "gesture": null,
+     "emotion": "curious",
+     "role": null,
+     "phrase": null,
+     "q": null,
+     "to": null
+    },
+    {
+     "id": "L17",
+     "speaker": "tin",
+     "lang": "en",
+     "start": 4.62,
+     "dur": 2.79,
+     "audio": "episodes/an-uong-th01-A1/audio/L17.mp3",
+     "mouth": [
+      {
+       "start": 0,
+       "end": 0.03,
+       "value": "X"
+      },
+      {
+       "start": 0.03,
+       "end": 0.11,
+       "value": "C"
+      },
+      {
+       "start": 0.11,
+       "end": 0.32,
+       "value": "E"
+      },
+      {
+       "start": 0.32,
+       "end": 0.49,
+       "value": "F"
+      },
+      {
+       "start": 0.49,
+       "end": 0.84,
+       "value": "B"
+      },
+      {
+       "start": 0.84,
+       "end": 0.98,
+       "value": "C"
+      },
+      {
+       "start": 0.98,
+       "end": 1.3,
+       "value": "B"
+      },
+      {
+       "start": 1.3,
+       "end": 1.37,
+       "value": "C"
+      },
+      {
+       "start": 1.37,
+       "end": 1.65,
+       "value": "B"
+      },
+      {
+       "start": 1.65,
+       "end": 1.72,
+       "value": "H"
+      },
+      {
+       "start": 1.72,
+       "end": 1.86,
+       "value": "C"
+      },
+      {
+       "start": 1.86,
+       "end": 2.42,
+       "value": "B"
+      },
+      {
+       "start": 2.42,
+       "end": 2.64,
+       "value": "X"
+      }
+     ],
+     "text": "No, it isn't. The chili is here.",
+     "vi": "Không cay đâu. Ớt ở đây nè.",
+     "highlight": [],
+     "gesture": "point",
+     "emotion": "friendly",
+     "role": null,
+     "phrase": null,
+     "q": null,
+     "to": null
+    },
+    {
+     "id": "L18",
+     "speaker": "jake",
+     "lang": "en",
+     "start": 7.76,
+     "dur": 1.75,
+     "audio": "episodes/an-uong-th01-A1/audio/L18.mp3",
+     "mouth": [
+      {
+       "start": 0,
+       "end": 0.06,
+       "value": "X"
+      },
+      {
+       "start": 0.06,
+       "end": 0.36,
+       "value": "C"
+      },
+      {
+       "start": 0.36,
+       "end": 1.35,
+       "value": "B"
+      },
+      {
+       "start": 1.35,
+       "end": 1.49,
+       "value": "C"
+      },
+      {
+       "start": 1.49,
+       "end": 1.56,
+       "value": "B"
+      },
+      {
+       "start": 1.56,
+       "end": 1.6,
+       "value": "X"
+      }
+     ],
+     "text": "Mmm! It's delicious!",
+     "vi": "Ngon quá!",
+     "highlight": [],
+     "gesture": null,
+     "emotion": "happy",
+     "role": null,
+     "phrase": null,
+     "q": null,
+     "to": null
+    },
+    {
+     "id": "L19",
+     "speaker": "tony",
+     "lang": "en",
+     "start": 9.86,
+     "dur": 3.75,
+     "audio": "episodes/an-uong-th01-A1/audio/L19.mp3",
+     "mouth": [
+      {
+       "start": 0,
+       "end": 0.13,
+       "value": "X"
+      },
+      {
+       "start": 0.13,
+       "end": 0.41,
+       "value": "B"
+      },
+      {
+       "start": 0.41,
+       "end": 0.57,
+       "value": "X"
+      },
+      {
+       "start": 0.57,
+       "end": 0.63,
+       "value": "B"
+      },
+      {
+       "start": 0.63,
+       "end": 1.17,
+       "value": "F"
+      },
+      {
+       "start": 1.17,
+       "end": 1.37,
+       "value": "B"
+      },
+      {
+       "start": 1.37,
+       "end": 1.43,
+       "value": "F"
+      },
+      {
+       "start": 1.43,
+       "end": 1.62,
+       "value": "C"
+      },
+      {
+       "start": 1.62,
+       "end": 1.69,
+       "value": "G"
+      },
+      {
+       "start": 1.69,
+       "end": 1.83,
+       "value": "E"
+      },
+      {
+       "start": 1.83,
+       "end": 1.94,
+       "value": "F"
+      },
+      {
+       "start": 1.94,
+       "end": 2.06,
+       "value": "C"
+      },
+      {
+       "start": 2.06,
+       "end": 2.13,
+       "value": "E"
+      },
+      {
+       "start": 2.13,
+       "end": 2.2,
+       "value": "F"
+      },
+      {
+       "start": 2.2,
+       "end": 2.74,
+       "value": "C"
+      },
+      {
+       "start": 2.74,
+       "end": 2.82,
+       "value": "A"
+      },
+      {
+       "start": 2.82,
+       "end": 2.92,
+       "value": "C"
+      },
+      {
+       "start": 2.92,
+       "end": 2.99,
+       "value": "B"
+      },
+      {
+       "start": 2.99,
+       "end": 3.07,
+       "value": "A"
+      },
+      {
+       "start": 3.07,
+       "end": 3.3,
+       "value": "B"
+      },
+      {
+       "start": 3.3,
+       "end": 3.51,
+       "value": "G"
+      },
+      {
+       "start": 3.51,
+       "end": 3.6,
+       "value": "X"
+      }
+     ],
+     "text": "Tín! Me too! One pho, no onion, many beef!",
+     "vi": "Tín! Anh nữa! Một phở, không hành, \"nhiều bò\"!",
+     "highlight": [],
+     "gesture": "thumbs_up",
+     "emotion": "proud",
+     "role": null,
+     "phrase": null,
+     "q": null,
+     "to": null
+    },
+    {
+     "id": "L20",
+     "speaker": "tin",
+     "lang": "en",
+     "start": 13.959999999999999,
+     "dur": 4.23,
+     "audio": "episodes/an-uong-th01-A1/audio/L20.mp3",
+     "mouth": [
+      {
+       "start": 0,
+       "end": 0.04,
+       "value": "X"
+      },
+      {
+       "start": 0.04,
+       "end": 0.41,
+       "value": "D"
+      },
+      {
+       "start": 0.41,
+       "end": 0.49,
+       "value": "C"
+      },
+      {
+       "start": 0.49,
+       "end": 0.99,
+       "value": "B"
+      },
+      {
+       "start": 0.99,
+       "end": 1.12,
+       "value": "E"
+      },
+      {
+       "start": 1.12,
+       "end": 1.68,
+       "value": "B"
+      },
+      {
+       "start": 1.68,
+       "end": 2.93,
+       "value": "X"
+      },
+      {
+       "start": 2.93,
+       "end": 3.07,
+       "value": "A"
+      },
+      {
+       "start": 3.07,
+       "end": 3.11,
+       "value": "E"
+      },
+      {
+       "start": 3.11,
+       "end": 3.19,
+       "value": "A"
+      },
+      {
+       "start": 3.19,
+       "end": 3.43,
+       "value": "B"
+      },
+      {
+       "start": 3.43,
+       "end": 3.5,
+       "value": "G"
+      },
+      {
+       "start": 3.5,
+       "end": 3.58,
+       "value": "A"
+      },
+      {
+       "start": 3.58,
+       "end": 4.03,
+       "value": "B"
+      },
+      {
+       "start": 4.03,
+       "end": 4.08,
+       "value": "X"
+      }
+     ],
+     "text": "Tony... \"More beef, please.\"",
+     "vi": "Anh Tony... phải nói \"More beef, please.\"",
+     "highlight": [
+      "More beef, please."
+     ],
+     "gesture": null,
+     "emotion": "annoyed",
+     "role": null,
+     "phrase": null,
+     "q": null,
+     "to": null
+    },
+    {
+     "id": "L21",
+     "speaker": "tony",
+     "lang": "en",
+     "start": 18.54,
+     "dur": 3.19,
+     "audio": "episodes/an-uong-th01-A1/audio/L21.mp3",
+     "mouth": [
+      {
+       "start": 0,
+       "end": 0.17,
+       "value": "X"
+      },
+      {
+       "start": 0.17,
+       "end": 0.24,
+       "value": "B"
+      },
+      {
+       "start": 0.24,
+       "end": 0.3,
+       "value": "C"
+      },
+      {
+       "start": 0.3,
+       "end": 0.37,
+       "value": "G"
+      },
+      {
+       "start": 0.37,
+       "end": 0.44,
+       "value": "C"
+      },
+      {
+       "start": 0.44,
+       "end": 0.58,
+       "value": "B"
+      },
+      {
+       "start": 0.58,
+       "end": 0.65,
+       "value": "G"
+      },
+      {
+       "start": 0.65,
+       "end": 0.72,
+       "value": "C"
+      },
+      {
+       "start": 0.72,
+       "end": 0.79,
+       "value": "H"
+      },
+      {
+       "start": 0.79,
+       "end": 0.99,
+       "value": "X"
+      },
+      {
+       "start": 0.99,
+       "end": 1.11,
+       "value": "B"
+      },
+      {
+       "start": 1.11,
+       "end": 1.39,
+       "value": "C"
+      },
+      {
+       "start": 1.39,
+       "end": 1.87,
+       "value": "B"
+      },
+      {
+       "start": 1.87,
+       "end": 1.95,
+       "value": "A"
+      },
+      {
+       "start": 1.95,
+       "end": 2.08,
+       "value": "E"
+      },
+      {
+       "start": 2.08,
+       "end": 2.16,
+       "value": "A"
+      },
+      {
+       "start": 2.16,
+       "end": 2.39,
+       "value": "B"
+      },
+      {
+       "start": 2.39,
+       "end": 2.47,
+       "value": "G"
+      },
+      {
+       "start": 2.47,
+       "end": 2.54,
+       "value": "A"
+      },
+      {
+       "start": 2.54,
+       "end": 3,
+       "value": "B"
+      },
+      {
+       "start": 3,
+       "end": 3.04,
+       "value": "X"
+      }
+     ],
+     "text": "Yes! More beef, please!",
+     "vi": "Đúng rồi! Thêm bò nhé!",
+     "highlight": [],
+     "gesture": "scratch_head",
+     "emotion": "laughing",
+     "role": null,
+     "phrase": null,
+     "q": null,
+     "to": null
+    }
+   ],
+   "sfx": [],
+   "camera": null,
+   "ambience": "audio/sfx/morning-street-ambience.mp3",
+   "start": 52.27
+  },
+  {
+   "id": "SH07",
+   "kind": "video",
+   "dur": 4,
+   "src": "episodes/an-uong-th01-A1/v-c.mp4",
+   "insert": "V-C",
+   "sfx": [
+    {
+     "src": "audio/sfx/cat-sniff.mp3",
+     "at": 0.6,
+     "volume": 0.8
+    }
+   ],
+   "ambience": "audio/sfx/morning-street-ambience.mp3",
+   "start": 74.8
+  },
+  {
+   "id": "SH08",
+   "kind": "puppet",
+   "dur": 14.17,
+   "bg": "locations/quan-co-ba/counter.png",
+   "location": "quan-counter",
+   "positions": {
+    "jake": "left",
+    "tin": "center",
+    "co-ba": "right"
+   },
+   "cast": [
+    {
+     "id": "jake",
+     "slot": "left",
+     "rig": "jake",
+     "poses": []
+    },
+    {
+     "id": "tin",
+     "slot": "center",
+     "rig": "tin",
+     "poses": [
+      {
+       "from": 6.220000000000001,
+       "rig": "tin@wave"
+      }
+     ]
+    },
+    {
+     "id": "co-ba",
+     "slot": "right",
+     "rig": "co-ba",
+     "poses": []
+    }
+   ],
+   "lines": [
+    {
+     "id": "L22",
+     "speaker": "jake",
+     "lang": "en",
+     "start": 0.5,
+     "dur": 1.27,
+     "audio": "episodes/an-uong-th01-A1/audio/L22.mp3",
+     "mouth": [
+      {
+       "start": 0,
+       "end": 0.05,
+       "value": "X"
+      },
+      {
+       "start": 0.05,
+       "end": 0.36,
+       "value": "B"
+      },
+      {
+       "start": 0.36,
+       "end": 0.57,
+       "value": "C"
+      },
+      {
+       "start": 0.57,
+       "end": 0.65,
+       "value": "A"
+      },
+      {
+       "start": 0.65,
+       "end": 0.73,
+       "value": "C"
+      },
+      {
+       "start": 0.73,
+       "end": 1.08,
+       "value": "B"
+      },
+      {
+       "start": 1.08,
+       "end": 1.12,
+       "value": "X"
+      }
+     ],
+     "text": "Tín, how much is it?",
+     "vi": "Tín ơi, bao nhiêu tiền?",
+     "highlight": [
+      "how much is it?"
+     ],
+     "gesture": null,
+     "emotion": "neutral",
+     "role": null,
+     "phrase": null,
+     "q": null,
+     "to": null
+    },
+    {
+     "id": "L23",
+     "speaker": "tin",
+     "lang": "en",
+     "start": 2.12,
+     "dur": 1.5899999999999999,
+     "audio": "episodes/an-uong-th01-A1/audio/L23.mp3",
+     "mouth": [
+      {
+       "start": 0,
+       "end": 0.03,
+       "value": "X"
+      },
+      {
+       "start": 0.03,
+       "end": 0.54,
+       "value": "B"
+      },
+      {
+       "start": 0.54,
+       "end": 0.68,
+       "value": "C"
+      },
+      {
+       "start": 0.68,
+       "end": 0.75,
+       "value": "E"
+      },
+      {
+       "start": 0.75,
+       "end": 0.82,
+       "value": "B"
+      },
+      {
+       "start": 0.82,
+       "end": 0.89,
+       "value": "C"
+      },
+      {
+       "start": 0.89,
+       "end": 0.96,
+       "value": "B"
+      },
+      {
+       "start": 0.96,
+       "end": 1.38,
+       "value": "E"
+      },
+      {
+       "start": 1.38,
+       "end": 1.44,
+       "value": "X"
+      }
+     ],
+     "text": "Sixty thousand dong.",
+     "vi": "Sáu mươi nghìn đồng ạ.",
+     "highlight": [],
+     "gesture": null,
+     "emotion": "friendly",
+     "role": null,
+     "phrase": null,
+     "q": null,
+     "to": null
+    },
+    {
+     "id": "L24",
+     "speaker": "jake",
+     "lang": "en",
+     "start": 4.0600000000000005,
+     "dur": 1.91,
+     "audio": "episodes/an-uong-th01-A1/audio/L24.mp3",
+     "mouth": [
+      {
+       "start": 0,
+       "end": 0.13,
+       "value": "X"
+      },
+      {
+       "start": 0.13,
+       "end": 0.25,
+       "value": "B"
+      },
+      {
+       "start": 0.25,
+       "end": 0.53,
+       "value": "F"
+      },
+      {
+       "start": 0.53,
+       "end": 0.67,
+       "value": "D"
+      },
+      {
+       "start": 0.67,
+       "end": 0.88,
+       "value": "B"
+      },
+      {
+       "start": 0.88,
+       "end": 1.1,
+       "value": "X"
+      },
+      {
+       "start": 1.1,
+       "end": 1.22,
+       "value": "B"
+      },
+      {
+       "start": 1.22,
+       "end": 1.29,
+       "value": "C"
+      },
+      {
+       "start": 1.29,
+       "end": 1.36,
+       "value": "B"
+      },
+      {
+       "start": 1.36,
+       "end": 1.71,
+       "value": "F"
+      },
+      {
+       "start": 1.71,
+       "end": 1.76,
+       "value": "X"
+      }
+     ],
+     "text": "Here you are. Thank you!",
+     "vi": "Gửi em. Cảm ơn nhé!",
+     "highlight": [],
+     "gesture": "hand_over",
+     "emotion": "happy",
+     "role": null,
+     "phrase": null,
+     "q": null,
+     "to": null
+    },
+    {
+     "id": "L25",
+     "speaker": "tin",
+     "lang": "en",
+     "start": 6.32,
+     "dur": 1.8299999999999998,
+     "audio": "episodes/an-uong-th01-A1/audio/L25.mp3",
+     "mouth": [
+      {
+       "start": 0,
+       "end": 0.03,
+       "value": "X"
+      },
+      {
+       "start": 0.03,
+       "end": 0.11,
+       "value": "B"
+      },
+      {
+       "start": 0.11,
+       "end": 0.25,
+       "value": "C"
+      },
+      {
+       "start": 0.25,
+       "end": 0.6,
+       "value": "F"
+      },
+      {
+       "start": 0.6,
+       "end": 0.75,
+       "value": "X"
+      },
+      {
+       "start": 0.75,
+       "end": 1.2,
+       "value": "B"
+      },
+      {
+       "start": 1.2,
+       "end": 1.28,
+       "value": "A"
+      },
+      {
+       "start": 1.28,
+       "end": 1.43,
+       "value": "D"
+      },
+      {
+       "start": 1.43,
+       "end": 1.57,
+       "value": "E"
+      },
+      {
+       "start": 1.57,
+       "end": 1.64,
+       "value": "F"
+      },
+      {
+       "start": 1.64,
+       "end": 1.68,
+       "value": "X"
+      }
+     ],
+     "text": "Thank you! See you tomorrow!",
+     "vi": "Cảm ơn anh! Hẹn gặp lại ngày mai nha!",
+     "highlight": [],
+     "gesture": "wave",
+     "emotion": "happy",
+     "role": null,
+     "phrase": null,
+     "q": null,
+     "to": null
+    },
+    {
+     "id": "L26",
+     "speaker": "co-ba",
+     "lang": "vi",
+     "start": 8.5,
+     "dur": 4.87,
+     "audio": "episodes/an-uong-th01-A1/audio/L26.mp3",
+     "mouth": [
+      {
+       "start": 0,
+       "end": 0.14,
+       "value": "B"
+      },
+      {
+       "start": 0.14,
+       "end": 0.3,
+       "value": "A"
+      },
+      {
+       "start": 0.3,
+       "end": 0.55,
+       "value": "C"
+      },
+      {
+       "start": 0.55,
+       "end": 0.62,
+       "value": "B"
+      },
+      {
+       "start": 0.62,
+       "end": 0.69,
+       "value": "C"
+      },
+      {
+       "start": 0.69,
+       "end": 0.77,
+       "value": "A"
+      },
+      {
+       "start": 0.77,
+       "end": 1.02,
+       "value": "B"
+      },
+      {
+       "start": 1.02,
+       "end": 1.23,
+       "value": "H"
+      },
+      {
+       "start": 1.23,
+       "end": 1.57,
+       "value": "X"
+      },
+      {
+       "start": 1.57,
+       "end": 1.62,
+       "value": "B"
+      },
+      {
+       "start": 1.62,
+       "end": 1.73,
+       "value": "C"
+      },
+      {
+       "start": 1.73,
+       "end": 1.87,
+       "value": "B"
+      },
+      {
+       "start": 1.87,
+       "end": 2.01,
+       "value": "D"
+      },
+      {
+       "start": 2.01,
+       "end": 2.08,
+       "value": "C"
+      },
+      {
+       "start": 2.08,
+       "end": 2.19,
+       "value": "A"
+      },
+      {
+       "start": 2.19,
+       "end": 2.44,
+       "value": "B"
+      },
+      {
+       "start": 2.44,
+       "end": 2.58,
+       "value": "D"
+      },
+      {
+       "start": 2.58,
+       "end": 2.72,
+       "value": "B"
+      },
+      {
+       "start": 2.72,
+       "end": 2.92,
+       "value": "X"
+      },
+      {
+       "start": 2.92,
+       "end": 2.97,
+       "value": "B"
+      },
+      {
+       "start": 2.97,
+       "end": 3.02,
+       "value": "C"
+      },
+      {
+       "start": 3.02,
+       "end": 3.09,
+       "value": "B"
+      },
+      {
+       "start": 3.09,
+       "end": 3.3,
+       "value": "D"
+      },
+      {
+       "start": 3.3,
+       "end": 3.37,
+       "value": "E"
+      },
+      {
+       "start": 3.37,
+       "end": 3.44,
+       "value": "B"
+      },
+      {
+       "start": 3.44,
+       "end": 3.6,
+       "value": "A"
+      },
+      {
+       "start": 3.6,
+       "end": 3.69,
+       "value": "B"
+      },
+      {
+       "start": 3.69,
+       "end": 3.9,
+       "value": "F"
+      },
+      {
+       "start": 3.9,
+       "end": 3.97,
+       "value": "E"
+      },
+      {
+       "start": 3.97,
+       "end": 4.04,
+       "value": "F"
+      },
+      {
+       "start": 4.04,
+       "end": 4.32,
+       "value": "E"
+      },
+      {
+       "start": 4.32,
+       "end": 4.53,
+       "value": "B"
+      },
+      {
+       "start": 4.53,
+       "end": 4.72,
+       "value": "X"
+      }
+     ],
+     "text": "Ô kê, sank kiu! Tín, con thấy chưa, má nói tiếng Anh cũng được nè!",
+     "vi": null,
+     "highlight": [],
+     "gesture": "fan",
+     "emotion": "proud",
+     "role": null,
+     "phrase": null,
+     "q": null,
+     "to": null
+    }
+   ],
+   "sfx": [],
+   "camera": null,
+   "ambience": "audio/sfx/morning-street-ambience.mp3",
+   "start": 78.8
+  },
+  {
+   "id": "S04",
+   "kind": "learn",
+   "dur": 110.69000000000003,
+   "bg": "locations/quan-co-ba/wide.png",
+   "blur": 16,
+   "host": {
+    "rig": "tin",
+    "id": "tin"
+   },
+   "blocks": [
+    {
+     "id": "P1",
+     "kind": "phrase",
+     "start": 0.6,
+     "items": [],
+     "dur": 16.67,
+     "lines": [
+      {
+       "id": "N01",
+       "speaker": "tin",
+       "lang": "vi",
+       "start": 0.4,
+       "dur": 1.1099999999999999,
+       "audio": "episodes/an-uong-th01-A1/audio/N01.mp3",
+       "mouth": [
+        {
+         "start": 0,
+         "end": 0.01,
+         "value": "X"
+        },
+        {
+         "start": 0.01,
+         "end": 0.07,
+         "value": "B"
+        },
+        {
+         "start": 0.07,
+         "end": 0.13,
+         "value": "A"
+        },
+        {
+         "start": 0.13,
+         "end": 0.19,
+         "value": "C"
+        },
+        {
+         "start": 0.19,
+         "end": 0.46,
+         "value": "E"
+        },
+        {
+         "start": 0.46,
+         "end": 0.53,
+         "value": "F"
+        },
+        {
+         "start": 0.53,
+         "end": 0.6,
+         "value": "B"
+        },
+        {
+         "start": 0.6,
+         "end": 0.67,
+         "value": "C"
+        },
+        {
+         "start": 0.67,
+         "end": 0.74,
+         "value": "G"
+        },
+        {
+         "start": 0.74,
+         "end": 0.81,
+         "value": "D"
+        },
+        {
+         "start": 0.81,
+         "end": 0.95,
+         "value": "H"
+        },
+        {
+         "start": 0.95,
+         "end": 0.96,
+         "value": "X"
+        }
+       ],
+       "text": "Mẫu câu số một.",
+       "vi": null,
+       "highlight": [],
+       "gesture": null,
+       "emotion": null,
+       "role": "title",
+       "phrase": "P1",
+       "q": null,
+       "to": null
+      },
+      {
+       "id": "L07",
+       "speaker": "tin",
+       "lang": "en",
+       "start": 1.96,
+       "dur": 1.27,
+       "audio": "episodes/an-uong-th01-A1/audio/L07.mp3",
+       "mouth": [
+        {
+         "start": 0,
+         "end": 0.03,
+         "value": "X"
+        },
+        {
+         "start": 0.03,
+         "end": 0.48,
+         "value": "F"
+        },
+        {
+         "start": 0.48,
+         "end": 0.56,
+         "value": "E"
+        },
+        {
+         "start": 0.56,
+         "end": 0.63,
+         "value": "H"
+        },
+        {
+         "start": 0.63,
+         "end": 0.84,
+         "value": "C"
+        },
+        {
+         "start": 0.84,
+         "end": 1.12,
+         "value": "B"
+        }
+       ],
+       "text": "What would you like?",
+       "vi": "Anh muốn ăn gì?",
+       "highlight": [
+        "What would you like?"
+       ],
+       "gesture": null,
+       "emotion": "friendly",
+       "role": null,
+       "phrase": null,
+       "q": null,
+       "to": null
+      },
+      {
+       "id": "N02",
+       "speaker": "tin",
+       "lang": "en",
+       "start": 3.6799999999999997,
+       "dur": 3.27,
+       "audio": "episodes/an-uong-th01-A1/audio/N02.mp3",
+       "mouth": [
+        {
+         "start": 0,
+         "end": 0.08,
+         "value": "X"
+        },
+        {
+         "start": 0.08,
+         "end": 0.27,
+         "value": "F"
+        },
+        {
+         "start": 0.27,
+         "end": 0.48,
+         "value": "B"
+        },
+        {
+         "start": 0.48,
+         "end": 0.68,
+         "value": "F"
+        },
+        {
+         "start": 0.68,
+         "end": 0.76,
+         "value": "E"
+        },
+        {
+         "start": 0.76,
+         "end": 0.83,
+         "value": "H"
+        },
+        {
+         "start": 0.83,
+         "end": 0.97,
+         "value": "C"
+        },
+        {
+         "start": 0.97,
+         "end": 1.25,
+         "value": "B"
+        },
+        {
+         "start": 1.25,
+         "end": 1.76,
+         "value": "X"
+        },
+        {
+         "start": 1.76,
+         "end": 1.89,
+         "value": "A"
+        },
+        {
+         "start": 1.89,
+         "end": 2.09,
+         "value": "B"
+        },
+        {
+         "start": 2.09,
+         "end": 2.3,
+         "value": "G"
+        },
+        {
+         "start": 2.3,
+         "end": 2.44,
+         "value": "E"
+        },
+        {
+         "start": 2.44,
+         "end": 2.52,
+         "value": "A"
+        },
+        {
+         "start": 2.52,
+         "end": 3.08,
+         "value": "B"
+        },
+        {
+         "start": 3.08,
+         "end": 3.12,
+         "value": "X"
+        }
+       ],
+       "text": "What would you like? ... Beef pho, please.",
+       "vi": null,
+       "highlight": [],
+       "gesture": null,
+       "emotion": null,
+       "role": "phrase_slow",
+       "phrase": "P1",
+       "q": null,
+       "to": null
+      },
+      {
+       "id": "N03",
+       "speaker": "tin",
+       "lang": "vi",
+       "start": 7.4,
+       "dur": 5.91,
+       "audio": "episodes/an-uong-th01-A1/audio/N03.mp3",
+       "mouth": [
+        {
+         "start": 0,
+         "end": 0.01,
+         "value": "X"
+        },
+        {
+         "start": 0.01,
+         "end": 0.06,
+         "value": "B"
+        },
+        {
+         "start": 0.06,
+         "end": 0.11,
+         "value": "C"
+        },
+        {
+         "start": 0.11,
+         "end": 0.19,
+         "value": "A"
+        },
+        {
+         "start": 0.19,
+         "end": 0.33,
+         "value": "C"
+        },
+        {
+         "start": 0.33,
+         "end": 0.54,
+         "value": "D"
+        },
+        {
+         "start": 0.54,
+         "end": 0.61,
+         "value": "B"
+        },
+        {
+         "start": 0.61,
+         "end": 0.68,
+         "value": "C"
+        },
+        {
+         "start": 0.68,
+         "end": 0.75,
+         "value": "B"
+        },
+        {
+         "start": 0.75,
+         "end": 1.19,
+         "value": "X"
+        },
+        {
+         "start": 1.19,
+         "end": 1.26,
+         "value": "B"
+        },
+        {
+         "start": 1.26,
+         "end": 1.32,
+         "value": "C"
+        },
+        {
+         "start": 1.32,
+         "end": 1.39,
+         "value": "B"
+        },
+        {
+         "start": 1.39,
+         "end": 1.46,
+         "value": "E"
+        },
+        {
+         "start": 1.46,
+         "end": 1.88,
+         "value": "B"
+        },
+        {
+         "start": 1.88,
+         "end": 2.32,
+         "value": "X"
+        },
+        {
+         "start": 2.32,
+         "end": 2.5,
+         "value": "C"
+        },
+        {
+         "start": 2.5,
+         "end": 2.57,
+         "value": "H"
+        },
+        {
+         "start": 2.57,
+         "end": 2.71,
+         "value": "D"
+        },
+        {
+         "start": 2.71,
+         "end": 2.78,
+         "value": "F"
+        },
+        {
+         "start": 2.78,
+         "end": 2.85,
+         "value": "B"
+        },
+        {
+         "start": 2.85,
+         "end": 3.06,
+         "value": "E"
+        },
+        {
+         "start": 3.06,
+         "end": 3.48,
+         "value": "B"
+        },
+        {
+         "start": 3.48,
+         "end": 3.87,
+         "value": "X"
+        },
+        {
+         "start": 3.87,
+         "end": 3.93,
+         "value": "B"
+        },
+        {
+         "start": 3.93,
+         "end": 4.05,
+         "value": "C"
+        },
+        {
+         "start": 4.05,
+         "end": 4.12,
+         "value": "F"
+        },
+        {
+         "start": 4.12,
+         "end": 4.56,
+         "value": "E"
+        },
+        {
+         "start": 4.56,
+         "end": 4.9,
+         "value": "C"
+        },
+        {
+         "start": 4.9,
+         "end": 5.22,
+         "value": "X"
+        },
+        {
+         "start": 5.22,
+         "end": 5.28,
+         "value": "B"
+        },
+        {
+         "start": 5.28,
+         "end": 5.4,
+         "value": "C"
+        },
+        {
+         "start": 5.4,
+         "end": 5.75,
+         "value": "B"
+        },
+        {
+         "start": 5.75,
+         "end": 5.76,
+         "value": "X"
+        }
+       ],
+       "text": "Người bán hỏi \"Bạn muốn gì?\". Trả lời rất đơn giản: tên món cộng please.",
+       "vi": null,
+       "highlight": [],
+       "gesture": null,
+       "emotion": null,
+       "role": "explain",
+       "phrase": "P1",
+       "q": null,
+       "to": null
+      },
+      {
+       "id": "N04",
+       "speaker": "tin",
+       "lang": "en",
+       "start": 13.760000000000002,
+       "dur": 1.91,
+       "audio": "episodes/an-uong-th01-A1/audio/N04.mp3",
+       "mouth": [
+        {
+         "start": 0,
+         "end": 0.14,
+         "value": "X"
+        },
+        {
+         "start": 0.14,
+         "end": 0.29,
+         "value": "B"
+        },
+        {
+         "start": 0.29,
+         "end": 0.5,
+         "value": "C"
+        },
+        {
+         "start": 0.5,
+         "end": 0.57,
+         "value": "B"
+        },
+        {
+         "start": 0.57,
+         "end": 0.64,
+         "value": "C"
+        },
+        {
+         "start": 0.64,
+         "end": 0.78,
+         "value": "B"
+        },
+        {
+         "start": 0.78,
+         "end": 0.86,
+         "value": "A"
+        },
+        {
+         "start": 0.86,
+         "end": 1.43,
+         "value": "B"
+        },
+        {
+         "start": 1.43,
+         "end": 1.76,
+         "value": "X"
+        }
+       ],
+       "text": "Chicken rice, please.",
+       "vi": null,
+       "highlight": [],
+       "gesture": null,
+       "emotion": null,
+       "role": "example",
+       "phrase": "P1",
+       "q": null,
+       "to": null
+      }
+     ],
+     "phrase": "What would you like? — Beef pho, please.",
+     "vi": "Anh muốn ăn gì?",
+     "explain": "Người bán hỏi \"Bạn muốn gì?\". Trả lời rất đơn giản: tên món cộng please.",
+     "example": "Chicken rice, please.",
+     "wrong": null,
+     "right": null
+    },
+    {
+     "id": "P2",
+     "kind": "phrase",
+     "start": 17.270000000000003,
+     "items": [],
+     "dur": 14.43,
+     "lines": [
+      {
+       "id": "N05",
+       "speaker": "tin",
+       "lang": "vi",
+       "start": 0.4,
+       "dur": 1.19,
+       "audio": "episodes/an-uong-th01-A1/audio/N05.mp3",
+       "mouth": [
+        {
+         "start": 0,
+         "end": 0.01,
+         "value": "X"
+        },
+        {
+         "start": 0.01,
+         "end": 0.07,
+         "value": "B"
+        },
+        {
+         "start": 0.07,
+         "end": 0.12,
+         "value": "A"
+        },
+        {
+         "start": 0.12,
+         "end": 0.19,
+         "value": "D"
+        },
+        {
+         "start": 0.19,
+         "end": 0.4,
+         "value": "E"
+        },
+        {
+         "start": 0.4,
+         "end": 0.47,
+         "value": "F"
+        },
+        {
+         "start": 0.47,
+         "end": 0.61,
+         "value": "B"
+        },
+        {
+         "start": 0.61,
+         "end": 0.68,
+         "value": "E"
+        },
+        {
+         "start": 0.68,
+         "end": 0.96,
+         "value": "C"
+        },
+        {
+         "start": 0.96,
+         "end": 1.03,
+         "value": "B"
+        },
+        {
+         "start": 1.03,
+         "end": 1.04,
+         "value": "X"
+        }
+       ],
+       "text": "Mẫu câu số hai.",
+       "vi": null,
+       "highlight": [],
+       "gesture": null,
+       "emotion": null,
+       "role": "title",
+       "phrase": "P2",
+       "q": null,
+       "to": null
+      },
+      {
+       "id": "L09",
+       "speaker": "tin",
+       "lang": "en",
+       "start": 2.04,
+       "dur": 1.43,
+       "audio": "episodes/an-uong-th01-A1/audio/L09.mp3",
+       "mouth": [
+        {
+         "start": 0,
+         "end": 0.03,
+         "value": "X"
+        },
+        {
+         "start": 0.03,
+         "end": 0.12,
+         "value": "B"
+        },
+        {
+         "start": 0.12,
+         "end": 0.21,
+         "value": "A"
+        },
+        {
+         "start": 0.21,
+         "end": 0.66,
+         "value": "E"
+        },
+        {
+         "start": 0.66,
+         "end": 0.73,
+         "value": "H"
+        },
+        {
+         "start": 0.73,
+         "end": 0.92,
+         "value": "D"
+        },
+        {
+         "start": 0.92,
+         "end": 0.97,
+         "value": "C"
+        },
+        {
+         "start": 0.97,
+         "end": 1.22,
+         "value": "B"
+        },
+        {
+         "start": 1.22,
+         "end": 1.28,
+         "value": "X"
+        }
+       ],
+       "text": "Small or large?",
+       "vi": "Tô nhỏ hay tô lớn?",
+       "highlight": [
+        "Small or large?"
+       ],
+       "gesture": null,
+       "emotion": "friendly",
+       "role": null,
+       "phrase": null,
+       "q": null,
+       "to": null
+      },
+      {
+       "id": "N06",
+       "speaker": "tin",
+       "lang": "en",
+       "start": 3.92,
+       "dur": 3.59,
+       "audio": "episodes/an-uong-th01-A1/audio/N06.mp3",
+       "mouth": [
+        {
+         "start": 0,
+         "end": 0.06,
+         "value": "X"
+        },
+        {
+         "start": 0.06,
+         "end": 0.2,
+         "value": "B"
+        },
+        {
+         "start": 0.2,
+         "end": 0.31,
+         "value": "A"
+        },
+        {
+         "start": 0.31,
+         "end": 0.46,
+         "value": "E"
+        },
+        {
+         "start": 0.46,
+         "end": 0.67,
+         "value": "H"
+        },
+        {
+         "start": 0.67,
+         "end": 0.88,
+         "value": "E"
+        },
+        {
+         "start": 0.88,
+         "end": 0.95,
+         "value": "H"
+        },
+        {
+         "start": 0.95,
+         "end": 1.14,
+         "value": "D"
+        },
+        {
+         "start": 1.14,
+         "end": 1.19,
+         "value": "C"
+        },
+        {
+         "start": 1.19,
+         "end": 1.44,
+         "value": "B"
+        },
+        {
+         "start": 1.44,
+         "end": 2.18,
+         "value": "X"
+        },
+        {
+         "start": 2.18,
+         "end": 2.38,
+         "value": "H"
+        },
+        {
+         "start": 2.38,
+         "end": 2.57,
+         "value": "D"
+        },
+        {
+         "start": 2.57,
+         "end": 2.62,
+         "value": "C"
+        },
+        {
+         "start": 2.62,
+         "end": 2.8,
+         "value": "B"
+        },
+        {
+         "start": 2.8,
+         "end": 2.88,
+         "value": "A"
+        },
+        {
+         "start": 2.88,
+         "end": 3.4,
+         "value": "B"
+        },
+        {
+         "start": 3.4,
+         "end": 3.44,
+         "value": "X"
+        }
+       ],
+       "text": "Small or large? ... Large, please.",
+       "vi": null,
+       "highlight": [],
+       "gesture": null,
+       "emotion": null,
+       "role": "phrase_slow",
+       "phrase": "P2",
+       "q": null,
+       "to": null
+      },
+      {
+       "id": "N07",
+       "speaker": "tin",
+       "lang": "vi",
+       "start": 7.96,
+       "dur": 3.67,
+       "audio": "episodes/an-uong-th01-A1/audio/N07.mp3",
+       "mouth": [
+        {
+         "start": 0,
+         "end": 0.06,
+         "value": "X"
+        },
+        {
+         "start": 0.06,
+         "end": 0.1,
+         "value": "B"
+        },
+        {
+         "start": 0.1,
+         "end": 0.21,
+         "value": "D"
+        },
+        {
+         "start": 0.21,
+         "end": 0.28,
+         "value": "E"
+        },
+        {
+         "start": 0.28,
+         "end": 0.35,
+         "value": "C"
+        },
+        {
+         "start": 0.35,
+         "end": 0.56,
+         "value": "F"
+        },
+        {
+         "start": 0.56,
+         "end": 0.7,
+         "value": "B"
+        },
+        {
+         "start": 0.7,
+         "end": 0.98,
+         "value": "C"
+        },
+        {
+         "start": 0.98,
+         "end": 1.05,
+         "value": "B"
+        },
+        {
+         "start": 1.05,
+         "end": 1.12,
+         "value": "F"
+        },
+        {
+         "start": 1.12,
+         "end": 1.19,
+         "value": "E"
+        },
+        {
+         "start": 1.19,
+         "end": 1.26,
+         "value": "F"
+        },
+        {
+         "start": 1.26,
+         "end": 2.04,
+         "value": "B"
+        },
+        {
+         "start": 2.04,
+         "end": 2.11,
+         "value": "H"
+        },
+        {
+         "start": 2.11,
+         "end": 2.25,
+         "value": "E"
+        },
+        {
+         "start": 2.25,
+         "end": 2.32,
+         "value": "F"
+        },
+        {
+         "start": 2.32,
+         "end": 2.39,
+         "value": "B"
+        },
+        {
+         "start": 2.39,
+         "end": 2.58,
+         "value": "F"
+        },
+        {
+         "start": 2.58,
+         "end": 2.63,
+         "value": "E"
+        },
+        {
+         "start": 2.63,
+         "end": 2.88,
+         "value": "C"
+        },
+        {
+         "start": 2.88,
+         "end": 3.02,
+         "value": "E"
+        },
+        {
+         "start": 3.02,
+         "end": 3.51,
+         "value": "B"
+        },
+        {
+         "start": 3.51,
+         "end": 3.52,
+         "value": "X"
+        }
+       ],
+       "text": "Hỏi cỡ nhỏ hay lớn. Chỉ cần chọn một từ cộng please.",
+       "vi": null,
+       "highlight": [],
+       "gesture": null,
+       "emotion": null,
+       "role": "explain",
+       "phrase": "P2",
+       "q": null,
+       "to": null
+      },
+      {
+       "id": "N08",
+       "speaker": "tin",
+       "lang": "en",
+       "start": 12.08,
+       "dur": 1.3499999999999999,
+       "audio": "episodes/an-uong-th01-A1/audio/N08.mp3",
+       "mouth": [
+        {
+         "start": 0,
+         "end": 0.06,
+         "value": "X"
+        },
+        {
+         "start": 0.06,
+         "end": 0.2,
+         "value": "B"
+        },
+        {
+         "start": 0.2,
+         "end": 0.29,
+         "value": "A"
+        },
+        {
+         "start": 0.29,
+         "end": 0.41,
+         "value": "E"
+        },
+        {
+         "start": 0.41,
+         "end": 0.49,
+         "value": "A"
+        },
+        {
+         "start": 0.49,
+         "end": 0.95,
+         "value": "B"
+        },
+        {
+         "start": 0.95,
+         "end": 1.2,
+         "value": "X"
+        }
+       ],
+       "text": "Small, please.",
+       "vi": null,
+       "highlight": [],
+       "gesture": null,
+       "emotion": null,
+       "role": "example",
+       "phrase": "P2",
+       "q": null,
+       "to": null
+      }
+     ],
+     "phrase": "Small or large? — Large, please.",
+     "vi": "Tô nhỏ hay tô lớn?",
+     "explain": "Hỏi cỡ nhỏ hay lớn. Chỉ cần chọn một từ cộng please.",
+     "example": "Small, please.",
+     "wrong": null,
+     "right": null
+    },
+    {
+     "id": "P3",
+     "kind": "phrase",
+     "start": 31.700000000000003,
+     "items": [],
+     "dur": 15.63,
+     "lines": [
+      {
+       "id": "N09",
+       "speaker": "tin",
+       "lang": "vi",
+       "start": 0.4,
+       "dur": 1.1099999999999999,
+       "audio": "episodes/an-uong-th01-A1/audio/N09.mp3",
+       "mouth": [
+        {
+         "start": 0,
+         "end": 0.01,
+         "value": "X"
+        },
+        {
+         "start": 0.01,
+         "end": 0.05,
+         "value": "B"
+        },
+        {
+         "start": 0.05,
+         "end": 0.09,
+         "value": "A"
+        },
+        {
+         "start": 0.09,
+         "end": 0.38,
+         "value": "E"
+        },
+        {
+         "start": 0.38,
+         "end": 0.52,
+         "value": "B"
+        },
+        {
+         "start": 0.52,
+         "end": 0.6,
+         "value": "A"
+        },
+        {
+         "start": 0.6,
+         "end": 0.95,
+         "value": "C"
+        },
+        {
+         "start": 0.95,
+         "end": 0.96,
+         "value": "X"
+        }
+       ],
+       "text": "Mẫu câu số ba.",
+       "vi": null,
+       "highlight": [],
+       "gesture": null,
+       "emotion": null,
+       "role": "title",
+       "phrase": "P3",
+       "q": null,
+       "to": null
+      },
+      {
+       "id": "L12",
+       "speaker": "jake",
+       "lang": "en",
+       "start": 1.96,
+       "dur": 1.27,
+       "audio": "episodes/an-uong-th01-A1/audio/L12.mp3",
+       "mouth": [
+        {
+         "start": 0,
+         "end": 0.04,
+         "value": "X"
+        },
+        {
+         "start": 0.04,
+         "end": 0.11,
+         "value": "C"
+        },
+        {
+         "start": 0.11,
+         "end": 0.18,
+         "value": "E"
+        },
+        {
+         "start": 0.18,
+         "end": 0.25,
+         "value": "F"
+        },
+        {
+         "start": 0.25,
+         "end": 0.39,
+         "value": "C"
+        },
+        {
+         "start": 0.39,
+         "end": 0.53,
+         "value": "B"
+        },
+        {
+         "start": 0.53,
+         "end": 0.61,
+         "value": "A"
+        },
+        {
+         "start": 0.61,
+         "end": 1.08,
+         "value": "B"
+        },
+        {
+         "start": 1.08,
+         "end": 1.12,
+         "value": "X"
+        }
+       ],
+       "text": "No onions, please.",
+       "vi": "Không hành nhé.",
+       "highlight": [
+        "No onions, please."
+       ],
+       "gesture": "raise_hand",
+       "emotion": "neutral",
+       "role": null,
+       "phrase": null,
+       "q": null,
+       "to": null
+      },
+      {
+       "id": "N10",
+       "speaker": "tin",
+       "lang": "en",
+       "start": 3.6799999999999997,
+       "dur": 1.5899999999999999,
+       "audio": "episodes/an-uong-th01-A1/audio/N10.mp3",
+       "mouth": [
+        {
+         "start": 0,
+         "end": 0.1,
+         "value": "X"
+        },
+        {
+         "start": 0.1,
+         "end": 0.19,
+         "value": "C"
+        },
+        {
+         "start": 0.19,
+         "end": 0.33,
+         "value": "E"
+        },
+        {
+         "start": 0.33,
+         "end": 0.4,
+         "value": "F"
+        },
+        {
+         "start": 0.4,
+         "end": 0.54,
+         "value": "C"
+        },
+        {
+         "start": 0.54,
+         "end": 0.75,
+         "value": "B"
+        },
+        {
+         "start": 0.75,
+         "end": 0.83,
+         "value": "A"
+        },
+        {
+         "start": 0.83,
+         "end": 1.29,
+         "value": "B"
+        },
+        {
+         "start": 1.29,
+         "end": 1.44,
+         "value": "X"
+        }
+       ],
+       "text": "No onions, please.",
+       "vi": null,
+       "highlight": [],
+       "gesture": null,
+       "emotion": null,
+       "role": "phrase_slow",
+       "phrase": "P3",
+       "q": null,
+       "to": null
+      },
+      {
+       "id": "N11",
+       "speaker": "tin",
+       "lang": "vi",
+       "start": 5.72,
+       "dur": 6.630000000000001,
+       "audio": "episodes/an-uong-th01-A1/audio/N11.mp3",
+       "mouth": [
+        {
+         "start": 0,
+         "end": 0.05,
+         "value": "B"
+        },
+        {
+         "start": 0.05,
+         "end": 0.3,
+         "value": "E"
+        },
+        {
+         "start": 0.3,
+         "end": 0.44,
+         "value": "F"
+        },
+        {
+         "start": 0.44,
+         "end": 0.62,
+         "value": "B"
+        },
+        {
+         "start": 0.62,
+         "end": 0.96,
+         "value": "F"
+        },
+        {
+         "start": 0.96,
+         "end": 1.17,
+         "value": "B"
+        },
+        {
+         "start": 1.17,
+         "end": 1.31,
+         "value": "E"
+        },
+        {
+         "start": 1.31,
+         "end": 1.38,
+         "value": "F"
+        },
+        {
+         "start": 1.38,
+         "end": 1.66,
+         "value": "E"
+        },
+        {
+         "start": 1.66,
+         "end": 2.01,
+         "value": "B"
+        },
+        {
+         "start": 2.01,
+         "end": 2.24,
+         "value": "D"
+        },
+        {
+         "start": 2.24,
+         "end": 2.3,
+         "value": "C"
+        },
+        {
+         "start": 2.3,
+         "end": 3.04,
+         "value": "B"
+        },
+        {
+         "start": 3.04,
+         "end": 3.24,
+         "value": "X"
+        },
+        {
+         "start": 3.24,
+         "end": 3.67,
+         "value": "B"
+        },
+        {
+         "start": 3.67,
+         "end": 3.95,
+         "value": "D"
+        },
+        {
+         "start": 3.95,
+         "end": 4.16,
+         "value": "C"
+        },
+        {
+         "start": 4.16,
+         "end": 4.24,
+         "value": "A"
+        },
+        {
+         "start": 4.24,
+         "end": 4.31,
+         "value": "F"
+        },
+        {
+         "start": 4.31,
+         "end": 4.45,
+         "value": "B"
+        },
+        {
+         "start": 4.45,
+         "end": 4.59,
+         "value": "C"
+        },
+        {
+         "start": 4.59,
+         "end": 4.9,
+         "value": "B"
+        },
+        {
+         "start": 4.9,
+         "end": 5.16,
+         "value": "E"
+        },
+        {
+         "start": 5.16,
+         "end": 5.44,
+         "value": "B"
+        },
+        {
+         "start": 5.44,
+         "end": 5.72,
+         "value": "F"
+        },
+        {
+         "start": 5.72,
+         "end": 5.78,
+         "value": "B"
+        },
+        {
+         "start": 5.78,
+         "end": 5.91,
+         "value": "D"
+        },
+        {
+         "start": 5.91,
+         "end": 6.26,
+         "value": "C"
+        },
+        {
+         "start": 6.26,
+         "end": 6.47,
+         "value": "B"
+        },
+        {
+         "start": 6.47,
+         "end": 6.48,
+         "value": "X"
+        }
+       ],
+       "text": "No, cộng thứ bạn không muốn, cộng please. Nhớ đọc rõ âm z ở cuối chữ onions.",
+       "vi": null,
+       "highlight": [],
+       "gesture": null,
+       "emotion": null,
+       "role": "explain",
+       "phrase": "P3",
+       "q": null,
+       "to": null
+      },
+      {
+       "id": "N12",
+       "speaker": "tin",
+       "lang": "en",
+       "start": 12.8,
+       "dur": 1.8299999999999998,
+       "audio": "episodes/an-uong-th01-A1/audio/N12.mp3",
+       "mouth": [
+        {
+         "start": 0,
+         "end": 0.15,
+         "value": "X"
+        },
+        {
+         "start": 0.15,
+         "end": 0.31,
+         "value": "C"
+        },
+        {
+         "start": 0.31,
+         "end": 0.38,
+         "value": "E"
+        },
+        {
+         "start": 0.38,
+         "end": 0.45,
+         "value": "F"
+        },
+        {
+         "start": 0.45,
+         "end": 0.73,
+         "value": "B"
+        },
+        {
+         "start": 0.73,
+         "end": 0.81,
+         "value": "A"
+        },
+        {
+         "start": 0.81,
+         "end": 1.35,
+         "value": "B"
+        },
+        {
+         "start": 1.35,
+         "end": 1.68,
+         "value": "X"
+        }
+       ],
+       "text": "No chili, please.",
+       "vi": null,
+       "highlight": [],
+       "gesture": null,
+       "emotion": null,
+       "role": "example",
+       "phrase": "P3",
+       "q": null,
+       "to": null
+      }
+     ],
+     "phrase": "No onions, please.",
+     "vi": "Không hành nhé.",
+     "explain": "No, cộng thứ bạn không muốn, cộng please. Nhớ đọc rõ âm z ở cuối chữ onions.",
+     "example": "No chili, please.",
+     "wrong": null,
+     "right": null
+    },
+    {
+     "id": "P4",
+     "kind": "phrase",
+     "start": 47.330000000000005,
+     "items": [],
+     "dur": 16.990000000000002,
+     "lines": [
+      {
+       "id": "N13",
+       "speaker": "tin",
+       "lang": "vi",
+       "start": 0.4,
+       "dur": 1.27,
+       "audio": "episodes/an-uong-th01-A1/audio/N13.mp3",
+       "mouth": [
+        {
+         "start": 0,
+         "end": 0.01,
+         "value": "X"
+        },
+        {
+         "start": 0.01,
+         "end": 0.04,
+         "value": "B"
+        },
+        {
+         "start": 0.04,
+         "end": 0.06,
+         "value": "X"
+        },
+        {
+         "start": 0.06,
+         "end": 0.1,
+         "value": "A"
+        },
+        {
+         "start": 0.1,
+         "end": 0.16,
+         "value": "C"
+        },
+        {
+         "start": 0.16,
+         "end": 0.42,
+         "value": "E"
+        },
+        {
+         "start": 0.42,
+         "end": 0.49,
+         "value": "F"
+        },
+        {
+         "start": 0.49,
+         "end": 0.63,
+         "value": "B"
+        },
+        {
+         "start": 0.63,
+         "end": 0.71,
+         "value": "A"
+        },
+        {
+         "start": 0.71,
+         "end": 0.83,
+         "value": "F"
+        },
+        {
+         "start": 0.83,
+         "end": 0.9,
+         "value": "E"
+        },
+        {
+         "start": 0.9,
+         "end": 0.97,
+         "value": "F"
+        },
+        {
+         "start": 0.97,
+         "end": 1.11,
+         "value": "B"
+        },
+        {
+         "start": 1.11,
+         "end": 1.12,
+         "value": "X"
+        }
+       ],
+       "text": "Mẫu câu số bốn.",
+       "vi": null,
+       "highlight": [],
+       "gesture": null,
+       "emotion": null,
+       "role": "title",
+       "phrase": "P4",
+       "q": null,
+       "to": null
+      },
+      {
+       "id": "L16",
+       "speaker": "jake",
+       "lang": "en",
+       "start": 2.12,
+       "dur": 2.4699999999999998,
+       "audio": "episodes/an-uong-th01-A1/audio/L16.mp3",
+       "mouth": [
+        {
+         "start": 0,
+         "end": 0.06,
+         "value": "X"
+        },
+        {
+         "start": 0.06,
+         "end": 0.11,
+         "value": "B"
+        },
+        {
+         "start": 0.11,
+         "end": 0.22,
+         "value": "C"
+        },
+        {
+         "start": 0.22,
+         "end": 0.64,
+         "value": "F"
+        },
+        {
+         "start": 0.64,
+         "end": 0.98,
+         "value": "B"
+        },
+        {
+         "start": 0.98,
+         "end": 1.11,
+         "value": "C"
+        },
+        {
+         "start": 1.11,
+         "end": 1.58,
+         "value": "A"
+        },
+        {
+         "start": 1.58,
+         "end": 1.83,
+         "value": "B"
+        },
+        {
+         "start": 1.83,
+         "end": 1.91,
+         "value": "A"
+        },
+        {
+         "start": 1.91,
+         "end": 2.07,
+         "value": "C"
+        },
+        {
+         "start": 2.07,
+         "end": 2.28,
+         "value": "B"
+        },
+        {
+         "start": 2.28,
+         "end": 2.32,
+         "value": "X"
+        }
+       ],
+       "text": "Thank you! Hmm... Is it spicy?",
+       "vi": "Cảm ơn! Ừm... Có cay không?",
+       "highlight": [
+        "Is it spicy?"
+       ],
+       "gesture": null,
+       "emotion": "curious",
+       "role": null,
+       "phrase": null,
+       "q": null,
+       "to": null
+      },
+      {
+       "id": "N14",
+       "speaker": "tin",
+       "lang": "en",
+       "start": 5.04,
+       "dur": 2.15,
+       "audio": "episodes/an-uong-th01-A1/audio/N14.mp3",
+       "mouth": [
+        {
+         "start": 0,
+         "end": 0.14,
+         "value": "X"
+        },
+        {
+         "start": 0.14,
+         "end": 0.28,
+         "value": "D"
+        },
+        {
+         "start": 0.28,
+         "end": 0.42,
+         "value": "B"
+        },
+        {
+         "start": 0.42,
+         "end": 0.64,
+         "value": "X"
+        },
+        {
+         "start": 0.64,
+         "end": 1.03,
+         "value": "B"
+        },
+        {
+         "start": 1.03,
+         "end": 1.11,
+         "value": "A"
+        },
+        {
+         "start": 1.11,
+         "end": 1.32,
+         "value": "C"
+        },
+        {
+         "start": 1.32,
+         "end": 1.74,
+         "value": "B"
+        },
+        {
+         "start": 1.74,
+         "end": 2,
+         "value": "X"
+        }
+       ],
+       "text": "Is it spicy?",
+       "vi": null,
+       "highlight": [],
+       "gesture": null,
+       "emotion": null,
+       "role": "phrase_slow",
+       "phrase": "P4",
+       "q": null,
+       "to": null
+      },
+      {
+       "id": "N15",
+       "speaker": "tin",
+       "lang": "vi",
+       "start": 7.640000000000001,
+       "dur": 6.390000000000001,
+       "audio": "episodes/an-uong-th01-A1/audio/N15.mp3",
+       "mouth": [
+        {
+         "start": 0,
+         "end": 0.02,
+         "value": "X"
+        },
+        {
+         "start": 0.02,
+         "end": 0.15,
+         "value": "D"
+        },
+        {
+         "start": 0.15,
+         "end": 0.22,
+         "value": "C"
+        },
+        {
+         "start": 0.22,
+         "end": 0.6,
+         "value": "B"
+        },
+        {
+         "start": 0.6,
+         "end": 0.66,
+         "value": "A"
+        },
+        {
+         "start": 0.66,
+         "end": 0.73,
+         "value": "E"
+        },
+        {
+         "start": 0.73,
+         "end": 0.91,
+         "value": "F"
+        },
+        {
+         "start": 0.91,
+         "end": 0.96,
+         "value": "E"
+        },
+        {
+         "start": 0.96,
+         "end": 1.14,
+         "value": "C"
+        },
+        {
+         "start": 1.14,
+         "end": 1.21,
+         "value": "B"
+        },
+        {
+         "start": 1.21,
+         "end": 1.35,
+         "value": "E"
+        },
+        {
+         "start": 1.35,
+         "end": 1.42,
+         "value": "F"
+        },
+        {
+         "start": 1.42,
+         "end": 1.52,
+         "value": "A"
+        },
+        {
+         "start": 1.52,
+         "end": 1.6,
+         "value": "B"
+        },
+        {
+         "start": 1.6,
+         "end": 2.08,
+         "value": "X"
+        },
+        {
+         "start": 2.08,
+         "end": 2.15,
+         "value": "B"
+        },
+        {
+         "start": 2.15,
+         "end": 2.22,
+         "value": "C"
+        },
+        {
+         "start": 2.22,
+         "end": 2.29,
+         "value": "H"
+        },
+        {
+         "start": 2.29,
+         "end": 2.43,
+         "value": "D"
+        },
+        {
+         "start": 2.43,
+         "end": 2.64,
+         "value": "B"
+        },
+        {
+         "start": 2.64,
+         "end": 2.91,
+         "value": "X"
+        },
+        {
+         "start": 2.91,
+         "end": 2.97,
+         "value": "B"
+        },
+        {
+         "start": 2.97,
+         "end": 3.09,
+         "value": "C"
+        },
+        {
+         "start": 3.09,
+         "end": 3.51,
+         "value": "B"
+        },
+        {
+         "start": 3.51,
+         "end": 3.63,
+         "value": "F"
+        },
+        {
+         "start": 3.63,
+         "end": 3.7,
+         "value": "C"
+        },
+        {
+         "start": 3.7,
+         "end": 4.05,
+         "value": "B"
+        },
+        {
+         "start": 4.05,
+         "end": 4.41,
+         "value": "X"
+        },
+        {
+         "start": 4.41,
+         "end": 4.67,
+         "value": "B"
+        },
+        {
+         "start": 4.67,
+         "end": 4.93,
+         "value": "X"
+        },
+        {
+         "start": 4.93,
+         "end": 5.1,
+         "value": "B"
+        },
+        {
+         "start": 5.1,
+         "end": 5.24,
+         "value": "E"
+        },
+        {
+         "start": 5.24,
+         "end": 5.46,
+         "value": "F"
+        },
+        {
+         "start": 5.46,
+         "end": 5.88,
+         "value": "B"
+        },
+        {
+         "start": 5.88,
+         "end": 6.02,
+         "value": "C"
+        },
+        {
+         "start": 6.02,
+         "end": 6.23,
+         "value": "B"
+        },
+        {
+         "start": 6.23,
+         "end": 6.24,
+         "value": "X"
+        }
+       ],
+       "text": "Hỏi món có cay không. Trả lời: Yes, it is, hoặc No, it isn't.",
+       "vi": null,
+       "highlight": [],
+       "gesture": null,
+       "emotion": null,
+       "role": "explain",
+       "phrase": "P4",
+       "q": null,
+       "to": null
+      },
+      {
+       "id": "N16",
+       "speaker": "tin",
+       "lang": "en",
+       "start": 14.48,
+       "dur": 1.51,
+       "audio": "episodes/an-uong-th01-A1/audio/N16.mp3",
+       "mouth": [
+        {
+         "start": 0,
+         "end": 0.11,
+         "value": "X"
+        },
+        {
+         "start": 0.11,
+         "end": 0.44,
+         "value": "B"
+        },
+        {
+         "start": 0.44,
+         "end": 0.49,
+         "value": "X"
+        },
+        {
+         "start": 0.49,
+         "end": 0.75,
+         "value": "B"
+        },
+        {
+         "start": 0.75,
+         "end": 0.94,
+         "value": "D"
+        },
+        {
+         "start": 0.94,
+         "end": 0.99,
+         "value": "C"
+        },
+        {
+         "start": 0.99,
+         "end": 1.31,
+         "value": "B"
+        },
+        {
+         "start": 1.31,
+         "end": 1.36,
+         "value": "X"
+        }
+       ],
+       "text": "Is it hot?",
+       "vi": null,
+       "highlight": [],
+       "gesture": null,
+       "emotion": null,
+       "role": "example",
+       "phrase": "P4",
+       "q": null,
+       "to": null
+      }
+     ],
+     "phrase": "Is it spicy?",
+     "vi": "Cảm ơn! Ừm... Có cay không?",
+     "explain": "Hỏi món có cay không. Trả lời: Yes, it is, hoặc No, it isn't.",
+     "example": "Is it hot?",
+     "wrong": null,
+     "right": null
+    },
+    {
+     "id": "P5",
+     "kind": "phrase",
+     "start": 64.32000000000001,
+     "items": [],
+     "dur": 15.309999999999999,
+     "lines": [
+      {
+       "id": "N17",
+       "speaker": "tin",
+       "lang": "vi",
+       "start": 0.4,
+       "dur": 1.19,
+       "audio": "episodes/an-uong-th01-A1/audio/N17.mp3",
+       "mouth": [
+        {
+         "start": 0,
+         "end": 0.01,
+         "value": "X"
+        },
+        {
+         "start": 0.01,
+         "end": 0.07,
+         "value": "B"
+        },
+        {
+         "start": 0.07,
+         "end": 0.13,
+         "value": "A"
+        },
+        {
+         "start": 0.13,
+         "end": 0.21,
+         "value": "D"
+        },
+        {
+         "start": 0.21,
+         "end": 0.42,
+         "value": "E"
+        },
+        {
+         "start": 0.42,
+         "end": 0.7,
+         "value": "F"
+        },
+        {
+         "start": 0.7,
+         "end": 0.84,
+         "value": "C"
+        },
+        {
+         "start": 0.84,
+         "end": 1.03,
+         "value": "A"
+        },
+        {
+         "start": 1.03,
+         "end": 1.04,
+         "value": "X"
+        }
+       ],
+       "text": "Mẫu câu số năm.",
+       "vi": null,
+       "highlight": [],
+       "gesture": null,
+       "emotion": null,
+       "role": "title",
+       "phrase": "P5",
+       "q": null,
+       "to": null
+      },
+      {
+       "id": "L22",
+       "speaker": "jake",
+       "lang": "en",
+       "start": 2.04,
+       "dur": 1.27,
+       "audio": "episodes/an-uong-th01-A1/audio/L22.mp3",
+       "mouth": [
+        {
+         "start": 0,
+         "end": 0.05,
+         "value": "X"
+        },
+        {
+         "start": 0.05,
+         "end": 0.36,
+         "value": "B"
+        },
+        {
+         "start": 0.36,
+         "end": 0.57,
+         "value": "C"
+        },
+        {
+         "start": 0.57,
+         "end": 0.65,
+         "value": "A"
+        },
+        {
+         "start": 0.65,
+         "end": 0.73,
+         "value": "C"
+        },
+        {
+         "start": 0.73,
+         "end": 1.08,
+         "value": "B"
+        },
+        {
+         "start": 1.08,
+         "end": 1.12,
+         "value": "X"
+        }
+       ],
+       "text": "Tín, how much is it?",
+       "vi": "Tín ơi, bao nhiêu tiền?",
+       "highlight": [
+        "how much is it?"
+       ],
+       "gesture": null,
+       "emotion": "neutral",
+       "role": null,
+       "phrase": null,
+       "q": null,
+       "to": null
+      },
+      {
+       "id": "N18",
+       "speaker": "tin",
+       "lang": "en",
+       "start": 3.76,
+       "dur": 3.4299999999999997,
+       "audio": "episodes/an-uong-th01-A1/audio/N18.mp3",
+       "mouth": [
+        {
+         "start": 0,
+         "end": 0.04,
+         "value": "X"
+        },
+        {
+         "start": 0.04,
+         "end": 0.26,
+         "value": "C"
+        },
+        {
+         "start": 0.26,
+         "end": 0.33,
+         "value": "E"
+        },
+        {
+         "start": 0.33,
+         "end": 0.46,
+         "value": "A"
+        },
+        {
+         "start": 0.46,
+         "end": 0.59,
+         "value": "C"
+        },
+        {
+         "start": 0.59,
+         "end": 1.29,
+         "value": "B"
+        },
+        {
+         "start": 1.29,
+         "end": 1.59,
+         "value": "X"
+        },
+        {
+         "start": 1.59,
+         "end": 2.3,
+         "value": "B"
+        },
+        {
+         "start": 2.3,
+         "end": 2.44,
+         "value": "C"
+        },
+        {
+         "start": 2.44,
+         "end": 2.51,
+         "value": "E"
+        },
+        {
+         "start": 2.51,
+         "end": 2.58,
+         "value": "B"
+        },
+        {
+         "start": 2.58,
+         "end": 2.72,
+         "value": "C"
+        },
+        {
+         "start": 2.72,
+         "end": 2.79,
+         "value": "B"
+        },
+        {
+         "start": 2.79,
+         "end": 3.14,
+         "value": "E"
+        },
+        {
+         "start": 3.14,
+         "end": 3.21,
+         "value": "B"
+        },
+        {
+         "start": 3.21,
+         "end": 3.28,
+         "value": "X"
+        }
+       ],
+       "text": "How much is it? ... Sixty thousand dong.",
+       "vi": null,
+       "highlight": [],
+       "gesture": null,
+       "emotion": null,
+       "role": "phrase_slow",
+       "phrase": "P5",
+       "q": null,
+       "to": null
+      },
+      {
+       "id": "N19",
+       "speaker": "tin",
+       "lang": "vi",
+       "start": 7.64,
+       "dur": 3.9899999999999998,
+       "audio": "episodes/an-uong-th01-A1/audio/N19.mp3",
+       "mouth": [
+        {
+         "start": 0,
+         "end": 0.03,
+         "value": "X"
+        },
+        {
+         "start": 0.03,
+         "end": 0.07,
+         "value": "B"
+        },
+        {
+         "start": 0.07,
+         "end": 0.18,
+         "value": "D"
+        },
+        {
+         "start": 0.18,
+         "end": 0.32,
+         "value": "B"
+        },
+        {
+         "start": 0.32,
+         "end": 0.74,
+         "value": "C"
+        },
+        {
+         "start": 0.74,
+         "end": 0.95,
+         "value": "B"
+        },
+        {
+         "start": 0.95,
+         "end": 1.12,
+         "value": "F"
+        },
+        {
+         "start": 1.12,
+         "end": 1.26,
+         "value": "C"
+        },
+        {
+         "start": 1.26,
+         "end": 1.4,
+         "value": "E"
+        },
+        {
+         "start": 1.4,
+         "end": 1.61,
+         "value": "C"
+        },
+        {
+         "start": 1.61,
+         "end": 1.68,
+         "value": "E"
+        },
+        {
+         "start": 1.68,
+         "end": 1.76,
+         "value": "A"
+        },
+        {
+         "start": 1.76,
+         "end": 1.83,
+         "value": "C"
+        },
+        {
+         "start": 1.83,
+         "end": 1.97,
+         "value": "B"
+        },
+        {
+         "start": 1.97,
+         "end": 2.25,
+         "value": "C"
+        },
+        {
+         "start": 2.25,
+         "end": 2.53,
+         "value": "B"
+        },
+        {
+         "start": 2.53,
+         "end": 2.69,
+         "value": "X"
+        },
+        {
+         "start": 2.69,
+         "end": 2.85,
+         "value": "B"
+        },
+        {
+         "start": 2.85,
+         "end": 3.06,
+         "value": "C"
+        },
+        {
+         "start": 3.06,
+         "end": 3.2,
+         "value": "B"
+        },
+        {
+         "start": 3.2,
+         "end": 3.27,
+         "value": "C"
+        },
+        {
+         "start": 3.27,
+         "end": 3.48,
+         "value": "B"
+        },
+        {
+         "start": 3.48,
+         "end": 3.62,
+         "value": "C"
+        },
+        {
+         "start": 3.62,
+         "end": 3.83,
+         "value": "B"
+        },
+        {
+         "start": 3.83,
+         "end": 3.84,
+         "value": "X"
+        }
+       ],
+       "text": "Hỏi giá. Đừng nói How much this, vì thiếu chữ is.",
+       "vi": null,
+       "highlight": [],
+       "gesture": null,
+       "emotion": null,
+       "role": "explain",
+       "phrase": "P5",
+       "q": null,
+       "to": null
+      },
+      {
+       "id": "N20",
+       "speaker": "tin",
+       "lang": "en",
+       "start": 12.079999999999998,
+       "dur": 2.23,
+       "audio": "episodes/an-uong-th01-A1/audio/N20.mp3",
+       "mouth": [
+        {
+         "start": 0,
+         "end": 0.13,
+         "value": "X"
+        },
+        {
+         "start": 0.13,
+         "end": 0.26,
+         "value": "C"
+        },
+        {
+         "start": 0.26,
+         "end": 0.33,
+         "value": "E"
+        },
+        {
+         "start": 0.33,
+         "end": 0.43,
+         "value": "A"
+        },
+        {
+         "start": 0.43,
+         "end": 0.51,
+         "value": "C"
+        },
+        {
+         "start": 0.51,
+         "end": 0.93,
+         "value": "B"
+        },
+        {
+         "start": 0.93,
+         "end": 1.14,
+         "value": "C"
+        },
+        {
+         "start": 1.14,
+         "end": 1.63,
+         "value": "B"
+        },
+        {
+         "start": 1.63,
+         "end": 2.08,
+         "value": "X"
+        }
+       ],
+       "text": "How much is the iced tea?",
+       "vi": null,
+       "highlight": [],
+       "gesture": null,
+       "emotion": null,
+       "role": "example",
+       "phrase": "P5",
+       "q": null,
+       "to": null
+      }
+     ],
+     "phrase": "How much is it? — Sixty thousand dong.",
+     "vi": "Tín ơi, bao nhiêu tiền?",
+     "explain": "Hỏi giá. Đừng nói How much this, vì thiếu chữ is.",
+     "example": "How much is the iced tea?",
+     "wrong": null,
+     "right": null
+    },
+    {
+     "id": "P6",
+     "kind": "phrase",
+     "start": 79.63000000000001,
+     "items": [],
+     "dur": 9.670000000000002,
+     "lines": [
+      {
+       "id": "N21",
+       "speaker": "tin",
+       "lang": "vi",
+       "start": 0.4,
+       "dur": 1.27,
+       "audio": "episodes/an-uong-th01-A1/audio/N21.mp3",
+       "mouth": [
+        {
+         "start": 0,
+         "end": 0.03,
+         "value": "B"
+        },
+        {
+         "start": 0.03,
+         "end": 0.11,
+         "value": "A"
+        },
+        {
+         "start": 0.11,
+         "end": 0.15,
+         "value": "C"
+        },
+        {
+         "start": 0.15,
+         "end": 0.47,
+         "value": "E"
+        },
+        {
+         "start": 0.47,
+         "end": 0.68,
+         "value": "F"
+        },
+        {
+         "start": 0.68,
+         "end": 0.82,
+         "value": "B"
+        },
+        {
+         "start": 0.82,
+         "end": 0.89,
+         "value": "C"
+        },
+        {
+         "start": 0.89,
+         "end": 1.03,
+         "value": "E"
+        },
+        {
+         "start": 1.03,
+         "end": 1.11,
+         "value": "A"
+        },
+        {
+         "start": 1.11,
+         "end": 1.12,
+         "value": "X"
+        }
+       ],
+       "text": "Mẫu câu số sáu.",
+       "vi": null,
+       "highlight": [],
+       "gesture": null,
+       "emotion": null,
+       "role": "title",
+       "phrase": "P6",
+       "q": null,
+       "to": null
+      },
+      {
+       "id": "L15",
+       "speaker": "tin",
+       "lang": "en",
+       "start": 2.12,
+       "dur": 0.9500000000000001,
+       "audio": "episodes/an-uong-th01-A1/audio/L15.mp3",
+       "mouth": [
+        {
+         "start": 0,
+         "end": 0.04,
+         "value": "X"
+        },
+        {
+         "start": 0.04,
+         "end": 0.21,
+         "value": "B"
+        },
+        {
+         "start": 0.21,
+         "end": 0.42,
+         "value": "F"
+        },
+        {
+         "start": 0.42,
+         "end": 0.63,
+         "value": "D"
+        },
+        {
+         "start": 0.63,
+         "end": 0.64,
+         "value": "X"
+        }
+       ],
+       "text": "Here you are.",
+       "vi": "Của anh đây ạ.",
+       "highlight": [
+        "Here you are."
+       ],
+       "gesture": null,
+       "emotion": "friendly",
+       "role": null,
+       "phrase": null,
+       "q": null,
+       "to": null
+      },
+      {
+       "id": "N22",
+       "speaker": "tin",
+       "lang": "en",
+       "start": 3.5200000000000005,
+       "dur": 1.67,
+       "audio": "episodes/an-uong-th01-A1/audio/N22.mp3",
+       "mouth": [
+        {
+         "start": 0,
+         "end": 0.05,
+         "value": "X"
+        },
+        {
+         "start": 0.05,
+         "end": 0.32,
+         "value": "B"
+        },
+        {
+         "start": 0.32,
+         "end": 0.6,
+         "value": "F"
+        },
+        {
+         "start": 0.6,
+         "end": 0.79,
+         "value": "D"
+        },
+        {
+         "start": 0.79,
+         "end": 0.84,
+         "value": "C"
+        },
+        {
+         "start": 0.84,
+         "end": 1.02,
+         "value": "B"
+        },
+        {
+         "start": 1.02,
+         "end": 1.52,
+         "value": "X"
+        }
+       ],
+       "text": "Here you are.",
+       "vi": null,
+       "highlight": [],
+       "gesture": null,
+       "emotion": null,
+       "role": "phrase_slow",
+       "phrase": "P6",
+       "q": null,
+       "to": null
+      },
+      {
+       "id": "N23",
+       "speaker": "tin",
+       "lang": "vi",
+       "start": 5.640000000000001,
+       "dur": 3.03,
+       "audio": "episodes/an-uong-th01-A1/audio/N23.mp3",
+       "mouth": [
+        {
+         "start": 0,
+         "end": 0.06,
+         "value": "X"
+        },
+        {
+         "start": 0.06,
+         "end": 0.2,
+         "value": "E"
+        },
+        {
+         "start": 0.2,
+         "end": 0.27,
+         "value": "F"
+        },
+        {
+         "start": 0.27,
+         "end": 0.34,
+         "value": "B"
+        },
+        {
+         "start": 0.34,
+         "end": 0.55,
+         "value": "F"
+        },
+        {
+         "start": 0.55,
+         "end": 0.76,
+         "value": "B"
+        },
+        {
+         "start": 0.76,
+         "end": 0.97,
+         "value": "F"
+        },
+        {
+         "start": 0.97,
+         "end": 1.04,
+         "value": "B"
+        },
+        {
+         "start": 1.04,
+         "end": 1.32,
+         "value": "H"
+        },
+        {
+         "start": 1.32,
+         "end": 1.74,
+         "value": "B"
+        },
+        {
+         "start": 1.74,
+         "end": 1.81,
+         "value": "C"
+        },
+        {
+         "start": 1.81,
+         "end": 2.23,
+         "value": "B"
+        },
+        {
+         "start": 2.23,
+         "end": 2.3,
+         "value": "C"
+        },
+        {
+         "start": 2.3,
+         "end": 2.44,
+         "value": "D"
+        },
+        {
+         "start": 2.44,
+         "end": 2.51,
+         "value": "B"
+        },
+        {
+         "start": 2.51,
+         "end": 2.65,
+         "value": "E"
+        },
+        {
+         "start": 2.65,
+         "end": 2.75,
+         "value": "D"
+        },
+        {
+         "start": 2.75,
+         "end": 2.79,
+         "value": "C"
+        },
+        {
+         "start": 2.79,
+         "end": 2.87,
+         "value": "A"
+        },
+        {
+         "start": 2.87,
+         "end": 2.88,
+         "value": "X"
+        }
+       ],
+       "text": "Câu dùng khi đưa đồ hoặc đưa tiền cho ai đó.",
+       "vi": null,
+       "highlight": [],
+       "gesture": null,
+       "emotion": null,
+       "role": "explain",
+       "phrase": "P6",
+       "q": null,
+       "to": null
+      }
+     ],
+     "phrase": "Here you are.",
+     "vi": "Của anh đây ạ.",
+     "explain": "Câu dùng khi đưa đồ hoặc đưa tiền cho ai đó.",
+     "example": null,
+     "wrong": null,
+     "right": null
+    },
+    {
+     "id": "ERR",
+     "kind": "error",
+     "start": 89.30000000000001,
+     "items": [],
+     "dur": 20.990000000000002,
+     "lines": [
+      {
+       "id": "N24",
+       "speaker": "tin",
+       "lang": "vi",
+       "start": 0.4,
+       "dur": 3.03,
+       "audio": "episodes/an-uong-th01-A1/audio/N24.mp3",
+       "mouth": [
+        {
+         "start": 0,
+         "end": 0.26,
+         "value": "B"
+        },
+        {
+         "start": 0.26,
+         "end": 0.61,
+         "value": "C"
+        },
+        {
+         "start": 0.61,
+         "end": 0.68,
+         "value": "B"
+        },
+        {
+         "start": 0.68,
+         "end": 1.06,
+         "value": "X"
+        },
+        {
+         "start": 1.06,
+         "end": 1.11,
+         "value": "B"
+        },
+        {
+         "start": 1.11,
+         "end": 1.15,
+         "value": "C"
+        },
+        {
+         "start": 1.15,
+         "end": 1.36,
+         "value": "F"
+        },
+        {
+         "start": 1.36,
+         "end": 1.5,
+         "value": "B"
+        },
+        {
+         "start": 1.5,
+         "end": 1.71,
+         "value": "C"
+        },
+        {
+         "start": 1.71,
+         "end": 2.09,
+         "value": "B"
+        },
+        {
+         "start": 2.09,
+         "end": 2.16,
+         "value": "A"
+        },
+        {
+         "start": 2.16,
+         "end": 2.22,
+         "value": "C"
+        },
+        {
+         "start": 2.22,
+         "end": 2.35,
+         "value": "B"
+        },
+        {
+         "start": 2.35,
+         "end": 2.43,
+         "value": "A"
+        },
+        {
+         "start": 2.43,
+         "end": 2.87,
+         "value": "B"
+        },
+        {
+         "start": 2.87,
+         "end": 2.88,
+         "value": "X"
+        }
+       ],
+       "text": "Lỗi hay gặp! Anh Tony nói: many beef.",
+       "vi": null,
+       "highlight": [],
+       "gesture": null,
+       "emotion": null,
+       "role": "error_title",
+       "phrase": "ERR",
+       "q": null,
+       "to": null
+      },
+      {
+       "id": "L19",
+       "speaker": "tony",
+       "lang": "en",
+       "start": 3.88,
+       "dur": 3.75,
+       "audio": "episodes/an-uong-th01-A1/audio/L19.mp3",
+       "mouth": [
+        {
+         "start": 0,
+         "end": 0.13,
+         "value": "X"
+        },
+        {
+         "start": 0.13,
+         "end": 0.41,
+         "value": "B"
+        },
+        {
+         "start": 0.41,
+         "end": 0.57,
+         "value": "X"
+        },
+        {
+         "start": 0.57,
+         "end": 0.63,
+         "value": "B"
+        },
+        {
+         "start": 0.63,
+         "end": 1.17,
+         "value": "F"
+        },
+        {
+         "start": 1.17,
+         "end": 1.37,
+         "value": "B"
+        },
+        {
+         "start": 1.37,
+         "end": 1.43,
+         "value": "F"
+        },
+        {
+         "start": 1.43,
+         "end": 1.62,
+         "value": "C"
+        },
+        {
+         "start": 1.62,
+         "end": 1.69,
+         "value": "G"
+        },
+        {
+         "start": 1.69,
+         "end": 1.83,
+         "value": "E"
+        },
+        {
+         "start": 1.83,
+         "end": 1.94,
+         "value": "F"
+        },
+        {
+         "start": 1.94,
+         "end": 2.06,
+         "value": "C"
+        },
+        {
+         "start": 2.06,
+         "end": 2.13,
+         "value": "E"
+        },
+        {
+         "start": 2.13,
+         "end": 2.2,
+         "value": "F"
+        },
+        {
+         "start": 2.2,
+         "end": 2.74,
+         "value": "C"
+        },
+        {
+         "start": 2.74,
+         "end": 2.82,
+         "value": "A"
+        },
+        {
+         "start": 2.82,
+         "end": 2.92,
+         "value": "C"
+        },
+        {
+         "start": 2.92,
+         "end": 2.99,
+         "value": "B"
+        },
+        {
+         "start": 2.99,
+         "end": 3.07,
+         "value": "A"
+        },
+        {
+         "start": 3.07,
+         "end": 3.3,
+         "value": "B"
+        },
+        {
+         "start": 3.3,
+         "end": 3.51,
+         "value": "G"
+        },
+        {
+         "start": 3.51,
+         "end": 3.6,
+         "value": "X"
+        }
+       ],
+       "text": "Tín! Me too! One pho, no onion, many beef!",
+       "vi": "Tín! Anh nữa! Một phở, không hành, \"nhiều bò\"!",
+       "highlight": [],
+       "gesture": "thumbs_up",
+       "emotion": "proud",
+       "role": null,
+       "phrase": null,
+       "q": null,
+       "to": null
+      },
+      {
+       "id": "N26",
+       "speaker": "tin",
+       "lang": "en",
+       "start": 8.08,
+       "dur": 3.11,
+       "audio": "episodes/an-uong-th01-A1/audio/N26.mp3",
+       "mouth": [
+        {
+         "start": 0,
+         "end": 0.08,
+         "value": "X"
+        },
+        {
+         "start": 0.08,
+         "end": 0.72,
+         "value": "B"
+        },
+        {
+         "start": 0.72,
+         "end": 1.28,
+         "value": "X"
+        },
+        {
+         "start": 1.28,
+         "end": 1.4,
+         "value": "A"
+        },
+        {
+         "start": 1.4,
+         "end": 1.56,
+         "value": "E"
+        },
+        {
+         "start": 1.56,
+         "end": 1.64,
+         "value": "A"
+        },
+        {
+         "start": 1.64,
+         "end": 1.92,
+         "value": "B"
+        },
+        {
+         "start": 1.92,
+         "end": 1.99,
+         "value": "G"
+        },
+        {
+         "start": 1.99,
+         "end": 2.07,
+         "value": "A"
+        },
+        {
+         "start": 2.07,
+         "end": 2.76,
+         "value": "B"
+        },
+        {
+         "start": 2.76,
+         "end": 2.96,
+         "value": "X"
+        }
+       ],
+       "text": "More beef, please.",
+       "vi": null,
+       "highlight": [],
+       "gesture": null,
+       "emotion": null,
+       "role": "phrase_slow",
+       "phrase": "ERR",
+       "q": null,
+       "to": null
+      },
+      {
+       "id": "N25",
+       "speaker": "tin",
+       "lang": "vi",
+       "start": 11.64,
+       "dur": 5.3500000000000005,
+       "audio": "episodes/an-uong-th01-A1/audio/N25.mp3",
+       "mouth": [
+        {
+         "start": 0,
+         "end": 0.02,
+         "value": "X"
+        },
+        {
+         "start": 0.02,
+         "end": 0.07,
+         "value": "B"
+        },
+        {
+         "start": 0.07,
+         "end": 0.18,
+         "value": "C"
+        },
+        {
+         "start": 0.18,
+         "end": 0.32,
+         "value": "B"
+        },
+        {
+         "start": 0.32,
+         "end": 0.49,
+         "value": "X"
+        },
+        {
+         "start": 0.49,
+         "end": 0.55,
+         "value": "B"
+        },
+        {
+         "start": 0.55,
+         "end": 0.61,
+         "value": "C"
+        },
+        {
+         "start": 0.61,
+         "end": 0.75,
+         "value": "B"
+        },
+        {
+         "start": 0.75,
+         "end": 1.03,
+         "value": "C"
+        },
+        {
+         "start": 1.03,
+         "end": 1.17,
+         "value": "D"
+        },
+        {
+         "start": 1.17,
+         "end": 1.24,
+         "value": "C"
+        },
+        {
+         "start": 1.24,
+         "end": 1.32,
+         "value": "A"
+        },
+        {
+         "start": 1.32,
+         "end": 1.37,
+         "value": "C"
+        },
+        {
+         "start": 1.37,
+         "end": 1.62,
+         "value": "B"
+        },
+        {
+         "start": 1.62,
+         "end": 1.69,
+         "value": "F"
+        },
+        {
+         "start": 1.69,
+         "end": 1.76,
+         "value": "B"
+        },
+        {
+         "start": 1.76,
+         "end": 1.88,
+         "value": "X"
+        },
+        {
+         "start": 1.88,
+         "end": 2.21,
+         "value": "B"
+        },
+        {
+         "start": 2.21,
+         "end": 2.56,
+         "value": "C"
+        },
+        {
+         "start": 2.56,
+         "end": 2.73,
+         "value": "B"
+        },
+        {
+         "start": 2.73,
+         "end": 2.8,
+         "value": "A"
+        },
+        {
+         "start": 2.8,
+         "end": 2.91,
+         "value": "C"
+        },
+        {
+         "start": 2.91,
+         "end": 3.26,
+         "value": "B"
+        },
+        {
+         "start": 3.26,
+         "end": 3.55,
+         "value": "X"
+        },
+        {
+         "start": 3.55,
+         "end": 3.6,
+         "value": "B"
+        },
+        {
+         "start": 3.6,
+         "end": 3.64,
+         "value": "E"
+        },
+        {
+         "start": 3.64,
+         "end": 3.71,
+         "value": "H"
+        },
+        {
+         "start": 3.71,
+         "end": 3.92,
+         "value": "C"
+        },
+        {
+         "start": 3.92,
+         "end": 4,
+         "value": "A"
+        },
+        {
+         "start": 4,
+         "end": 4.27,
+         "value": "B"
+        },
+        {
+         "start": 4.27,
+         "end": 4.41,
+         "value": "C"
+        },
+        {
+         "start": 4.41,
+         "end": 4.77,
+         "value": "B"
+        },
+        {
+         "start": 4.77,
+         "end": 4.91,
+         "value": "E"
+        },
+        {
+         "start": 4.91,
+         "end": 5.19,
+         "value": "F"
+        },
+        {
+         "start": 5.19,
+         "end": 5.2,
+         "value": "X"
+        }
+       ],
+       "text": "Beef là danh từ không đếm được nên không dùng many. Muốn thêm thì nói more.",
+       "vi": null,
+       "highlight": [],
+       "gesture": null,
+       "emotion": null,
+       "role": "explain",
+       "phrase": "ERR",
+       "q": null,
+       "to": null
+      },
+      {
+       "id": "N27",
+       "speaker": "tin",
+       "lang": "en",
+       "start": 17.44,
+       "dur": 2.55,
+       "audio": "episodes/an-uong-th01-A1/audio/N27.mp3",
+       "mouth": [
+        {
+         "start": 0,
+         "end": 0.12,
+         "value": "X"
+        },
+        {
+         "start": 0.12,
+         "end": 0.45,
+         "value": "C"
+        },
+        {
+         "start": 0.45,
+         "end": 0.67,
+         "value": "A"
+        },
+        {
+         "start": 0.67,
+         "end": 0.82,
+         "value": "X"
+        },
+        {
+         "start": 0.82,
+         "end": 0.93,
+         "value": "A"
+        },
+        {
+         "start": 0.93,
+         "end": 1.04,
+         "value": "E"
+        },
+        {
+         "start": 1.04,
+         "end": 1.25,
+         "value": "F"
+        },
+        {
+         "start": 1.25,
+         "end": 1.39,
+         "value": "C"
+        },
+        {
+         "start": 1.39,
+         "end": 1.46,
+         "value": "H"
+        },
+        {
+         "start": 1.46,
+         "end": 1.54,
+         "value": "A"
+        },
+        {
+         "start": 1.54,
+         "end": 2.03,
+         "value": "B"
+        },
+        {
+         "start": 2.03,
+         "end": 2.4,
+         "value": "X"
+        }
+       ],
+       "text": "More noodles, please.",
+       "vi": null,
+       "highlight": [],
+       "gesture": null,
+       "emotion": null,
+       "role": "example",
+       "phrase": "ERR",
+       "q": null,
+       "to": null
+      }
+     ],
+     "phrase": null,
+     "vi": "Tín! Anh nữa! Một phở, không hành, \"nhiều bò\"!",
+     "explain": "Beef là danh từ không đếm được nên không dùng many. Muốn thêm thì nói more.",
+     "example": "More noodles, please.",
+     "wrong": "many beef",
+     "right": "more beef, please"
+    }
+   ],
+   "sfx": [
+    {
+     "src": "audio/sfx/pop.mp3",
+     "at": 0.6,
+     "volume": 0.6
+    },
+    {
+     "src": "audio/sfx/pop.mp3",
+     "at": 17.270000000000003,
+     "volume": 0.6
+    },
+    {
+     "src": "audio/sfx/pop.mp3",
+     "at": 31.700000000000003,
+     "volume": 0.6
+    },
+    {
+     "src": "audio/sfx/pop.mp3",
+     "at": 47.330000000000005,
+     "volume": 0.6
+    },
+    {
+     "src": "audio/sfx/pop.mp3",
+     "at": 64.32000000000001,
+     "volume": 0.6
+    },
+    {
+     "src": "audio/sfx/pop.mp3",
+     "at": 79.63000000000001,
+     "volume": 0.6
+    },
+    {
+     "src": "audio/sfx/pop.mp3",
+     "at": 89.30000000000001,
+     "volume": 0.6
+    }
+   ],
+   "music": "audio/music/bg-cozy-ukulele.mp3",
+   "start": 92.97
+  },
+  {
+   "id": "S05",
+   "kind": "quiz",
+   "dur": 26.450000000000003,
+   "bg": "locations/quan-co-ba/wide.png",
+   "blur": 16,
+   "host": {
+    "rig": "tin",
+    "id": "tin"
+   },
+   "intro": {
+    "id": "L27",
+    "speaker": "tin",
+    "lang": "vi",
+    "start": 0.4,
+    "dur": 2.9499999999999997,
+    "audio": "episodes/an-uong-th01-A1/audio/L27.mp3",
+    "mouth": [
+     {
+      "start": 0,
+      "end": 0.01,
+      "value": "X"
+     },
+     {
+      "start": 0.01,
+      "end": 0.07,
+      "value": "B"
+     },
+     {
+      "start": 0.07,
+      "end": 0.13,
+      "value": "E"
+     },
+     {
+      "start": 0.13,
+      "end": 0.2,
+      "value": "F"
+     },
+     {
+      "start": 0.2,
+      "end": 0.27,
+      "value": "G"
+     },
+     {
+      "start": 0.27,
+      "end": 0.48,
+      "value": "B"
+     },
+     {
+      "start": 0.48,
+      "end": 0.55,
+      "value": "C"
+     },
+     {
+      "start": 0.55,
+      "end": 0.62,
+      "value": "B"
+     },
+     {
+      "start": 0.62,
+      "end": 0.69,
+      "value": "C"
+     },
+     {
+      "start": 0.69,
+      "end": 0.83,
+      "value": "B"
+     },
+     {
+      "start": 0.83,
+      "end": 0.96,
+      "value": "X"
+     },
+     {
+      "start": 0.96,
+      "end": 1.11,
+      "value": "B"
+     },
+     {
+      "start": 1.11,
+      "end": 1.19,
+      "value": "A"
+     },
+     {
+      "start": 1.19,
+      "end": 1.44,
+      "value": "B"
+     },
+     {
+      "start": 1.44,
+      "end": 1.58,
+      "value": "H"
+     },
+     {
+      "start": 1.58,
+      "end": 1.68,
+      "value": "A"
+     },
+     {
+      "start": 1.68,
+      "end": 1.81,
+      "value": "C"
+     },
+     {
+      "start": 1.81,
+      "end": 1.88,
+      "value": "B"
+     },
+     {
+      "start": 1.88,
+      "end": 2.09,
+      "value": "D"
+     },
+     {
+      "start": 2.09,
+      "end": 2.16,
+      "value": "C"
+     },
+     {
+      "start": 2.16,
+      "end": 2.24,
+      "value": "A"
+     },
+     {
+      "start": 2.24,
+      "end": 2.41,
+      "value": "C"
+     },
+     {
+      "start": 2.41,
+      "end": 2.49,
+      "value": "A"
+     },
+     {
+      "start": 2.49,
+      "end": 2.65,
+      "value": "C"
+     },
+     {
+      "start": 2.65,
+      "end": 2.79,
+      "value": "B"
+     },
+     {
+      "start": 2.79,
+      "end": 2.8,
+      "value": "X"
+     }
+    ],
+    "text": "Đố vui nè! Dừng video và chọn đáp án nhé.",
+    "vi": null,
+    "highlight": [],
+    "gesture": null,
+    "emotion": "cheerful",
+    "role": null,
+    "phrase": null,
+    "q": null,
+    "to": null
+   },
+   "questions": [
+    {
+     "q": "Bạn không ăn hành. Bạn nói:",
+     "options": [
+      "No onion me",
+      "No onions, please",
+      "Onion no"
+     ],
+     "answer": 1,
+     "start": 3.9499999999999997,
+     "qLine": {
+      "id": "N28",
+      "speaker": "tin",
+      "lang": "vi",
+      "start": 3.9499999999999997,
+      "dur": 2.87,
+      "audio": "episodes/an-uong-th01-A1/audio/N28.mp3",
+      "mouth": [
+       {
+        "start": 0,
+        "end": 0.06,
+        "value": "X"
+       },
+       {
+        "start": 0.06,
+        "end": 0.18,
+        "value": "E"
+       },
+       {
+        "start": 0.18,
+        "end": 0.32,
+        "value": "C"
+       },
+       {
+        "start": 0.32,
+        "end": 0.39,
+        "value": "E"
+       },
+       {
+        "start": 0.39,
+        "end": 0.46,
+        "value": "F"
+       },
+       {
+        "start": 0.46,
+        "end": 0.53,
+        "value": "B"
+       },
+       {
+        "start": 0.53,
+        "end": 0.7,
+        "value": "X"
+       },
+       {
+        "start": 0.7,
+        "end": 0.76,
+        "value": "B"
+       },
+       {
+        "start": 0.76,
+        "end": 0.81,
+        "value": "C"
+       },
+       {
+        "start": 0.81,
+        "end": 0.88,
+        "value": "B"
+       },
+       {
+        "start": 0.88,
+        "end": 1.09,
+        "value": "E"
+       },
+       {
+        "start": 1.09,
+        "end": 1.23,
+        "value": "H"
+       },
+       {
+        "start": 1.23,
+        "end": 1.3,
+        "value": "B"
+       },
+       {
+        "start": 1.3,
+        "end": 1.65,
+        "value": "C"
+       },
+       {
+        "start": 1.65,
+        "end": 1.8,
+        "value": "X"
+       },
+       {
+        "start": 1.8,
+        "end": 2.43,
+        "value": "B"
+       },
+       {
+        "start": 2.43,
+        "end": 2.64,
+        "value": "C"
+       },
+       {
+        "start": 2.64,
+        "end": 2.71,
+        "value": "E"
+       },
+       {
+        "start": 2.71,
+        "end": 2.72,
+        "value": "X"
+       }
+      ],
+      "text": "Câu một. Bạn không ăn hành. Bạn nói thế nào?",
+      "vi": null,
+      "highlight": [],
+      "gesture": null,
+      "emotion": null,
+      "role": "quiz_q",
+      "phrase": null,
+      "q": 0,
+      "to": null
+     },
+     "cdStart": 7.12,
+     "reveal": 12.120000000000001,
+     "aLine": {
+      "id": "N29",
+      "speaker": "tin",
+      "lang": "en",
+      "start": 12.620000000000001,
+      "dur": 1.43,
+      "audio": "episodes/an-uong-th01-A1/audio/N29.mp3",
+      "mouth": [
+       {
+        "start": 0,
+        "end": 0.04,
+        "value": "X"
+       },
+       {
+        "start": 0.04,
+        "end": 0.12,
+        "value": "C"
+       },
+       {
+        "start": 0.12,
+        "end": 0.19,
+        "value": "E"
+       },
+       {
+        "start": 0.19,
+        "end": 0.26,
+        "value": "F"
+       },
+       {
+        "start": 0.26,
+        "end": 0.54,
+        "value": "C"
+       },
+       {
+        "start": 0.54,
+        "end": 0.68,
+        "value": "B"
+       },
+       {
+        "start": 0.68,
+        "end": 0.76,
+        "value": "A"
+       },
+       {
+        "start": 0.76,
+        "end": 1.21,
+        "value": "B"
+       },
+       {
+        "start": 1.21,
+        "end": 1.28,
+        "value": "X"
+       }
+      ],
+      "text": "No onions, please!",
+      "vi": null,
+      "highlight": [],
+      "gesture": null,
+      "emotion": null,
+      "role": "quiz_a",
+      "phrase": null,
+      "q": 0,
+      "to": null
+     },
+     "end": 15.05
+    },
+    {
+     "q": "\"How much is it?\" nghĩa là:",
+     "options": [
+      "Có cay không?",
+      "Bao nhiêu tiền?",
+      "Tô lớn hay nhỏ?"
+     ],
+     "answer": 1,
+     "start": 15.25,
+     "qLine": {
+      "id": "N30",
+      "speaker": "tin",
+      "lang": "vi",
+      "start": 15.25,
+      "dur": 2.39,
+      "audio": "episodes/an-uong-th01-A1/audio/N30.mp3",
+      "mouth": [
+       {
+        "start": 0,
+        "end": 0.01,
+        "value": "X"
+       },
+       {
+        "start": 0.01,
+        "end": 0.06,
+        "value": "B"
+       },
+       {
+        "start": 0.06,
+        "end": 0.11,
+        "value": "E"
+       },
+       {
+        "start": 0.11,
+        "end": 0.25,
+        "value": "H"
+       },
+       {
+        "start": 0.25,
+        "end": 0.32,
+        "value": "C"
+       },
+       {
+        "start": 0.32,
+        "end": 1.04,
+        "value": "B"
+       },
+       {
+        "start": 1.04,
+        "end": 1.11,
+        "value": "H"
+       },
+       {
+        "start": 1.11,
+        "end": 1.18,
+        "value": "C"
+       },
+       {
+        "start": 1.18,
+        "end": 1.32,
+        "value": "E"
+       },
+       {
+        "start": 1.32,
+        "end": 1.39,
+        "value": "B"
+       },
+       {
+        "start": 1.39,
+        "end": 1.46,
+        "value": "C"
+       },
+       {
+        "start": 1.46,
+        "end": 1.74,
+        "value": "B"
+       },
+       {
+        "start": 1.74,
+        "end": 1.88,
+        "value": "C"
+       },
+       {
+        "start": 1.88,
+        "end": 2.23,
+        "value": "B"
+       },
+       {
+        "start": 2.23,
+        "end": 2.24,
+        "value": "X"
+       }
+      ],
+      "text": "Câu hai. Câu tiếng Anh này nghĩa là gì?",
+      "vi": null,
+      "highlight": [],
+      "gesture": null,
+      "emotion": null,
+      "role": "quiz_q",
+      "phrase": null,
+      "q": 1,
+      "to": null
+     },
+     "cdStart": 17.94,
+     "reveal": 22.94,
+     "aLine": {
+      "id": "N31",
+      "speaker": "tin",
+      "lang": "vi",
+      "start": 23.44,
+      "dur": 1.51,
+      "audio": "episodes/an-uong-th01-A1/audio/N31.mp3",
+      "mouth": [
+       {
+        "start": 0,
+        "end": 0.08,
+        "value": "X"
+       },
+       {
+        "start": 0.08,
+        "end": 0.19,
+        "value": "B"
+       },
+       {
+        "start": 0.19,
+        "end": 0.47,
+        "value": "C"
+       },
+       {
+        "start": 0.47,
+        "end": 0.7,
+        "value": "A"
+       },
+       {
+        "start": 0.7,
+        "end": 0.75,
+        "value": "B"
+       },
+       {
+        "start": 0.75,
+        "end": 0.79,
+        "value": "C"
+       },
+       {
+        "start": 0.79,
+        "end": 0.93,
+        "value": "E"
+       },
+       {
+        "start": 0.93,
+        "end": 1,
+        "value": "C"
+       },
+       {
+        "start": 1,
+        "end": 1.35,
+        "value": "B"
+       },
+       {
+        "start": 1.35,
+        "end": 1.36,
+        "value": "X"
+       }
+      ],
+      "text": "Đáp án: Bao nhiêu tiền?",
+      "vi": null,
+      "highlight": [],
+      "gesture": null,
+      "emotion": null,
+      "role": "quiz_a",
+      "phrase": null,
+      "q": 1,
+      "to": null
+     },
+     "end": 25.950000000000003
+    }
+   ],
+   "countdown": 5,
+   "sfx": [
+    {
+     "src": "audio/sfx/whoosh.mp3",
+     "at": 0,
+     "volume": 0.6
+    },
+    {
+     "src": "audio/sfx/clock-tick.mp3",
+     "at": 7.12,
+     "volume": 0.5
+    },
+    {
+     "src": "audio/sfx/correct-ding.mp3",
+     "at": 12.120000000000001,
+     "volume": 0.8
+    },
+    {
+     "src": "audio/sfx/clock-tick.mp3",
+     "at": 17.94,
+     "volume": 0.5
+    },
+    {
+     "src": "audio/sfx/correct-ding.mp3",
+     "at": 22.94,
+     "volume": 0.8
+    }
+   ],
+   "music": "audio/music/bg-cozy-ukulele.mp3",
+   "start": 203.66000000000003
+  },
+  {
+   "id": "S06",
+   "kind": "outro",
+   "dur": 31.7,
+   "endScreenAt": 16.7,
+   "bg": "locations/hem-99/wide.png",
+   "host": {
+    "rig": "tin@wave",
+    "id": "tin"
+   },
+   "cat": "muop",
+   "teaserRig": "tony",
+   "lines": [
+    {
+     "id": "L28",
+     "speaker": "tin",
+     "lang": "vi",
+     "start": 0.6,
+     "dur": 8.31,
+     "audio": "episodes/an-uong-th01-A1/audio/L28.mp3",
+     "mouth": [
+      {
+       "start": 0,
+       "end": 0.02,
+       "value": "X"
+      },
+      {
+       "start": 0.02,
+       "end": 0.07,
+       "value": "B"
+      },
+      {
+       "start": 0.07,
+       "end": 0.39,
+       "value": "C"
+      },
+      {
+       "start": 0.39,
+       "end": 0.56,
+       "value": "A"
+      },
+      {
+       "start": 0.56,
+       "end": 0.99,
+       "value": "X"
+      },
+      {
+       "start": 0.99,
+       "end": 1.03,
+       "value": "B"
+      },
+      {
+       "start": 1.03,
+       "end": 1.14,
+       "value": "E"
+      },
+      {
+       "start": 1.14,
+       "end": 1.33,
+       "value": "F"
+      },
+      {
+       "start": 1.33,
+       "end": 1.38,
+       "value": "E"
+      },
+      {
+       "start": 1.38,
+       "end": 1.56,
+       "value": "C"
+      },
+      {
+       "start": 1.56,
+       "end": 1.63,
+       "value": "B"
+      },
+      {
+       "start": 1.63,
+       "end": 1.71,
+       "value": "A"
+      },
+      {
+       "start": 1.71,
+       "end": 1.97,
+       "value": "B"
+      },
+      {
+       "start": 1.97,
+       "end": 2.04,
+       "value": "C"
+      },
+      {
+       "start": 2.04,
+       "end": 2.11,
+       "value": "E"
+      },
+      {
+       "start": 2.11,
+       "end": 2.18,
+       "value": "B"
+      },
+      {
+       "start": 2.18,
+       "end": 2.25,
+       "value": "C"
+      },
+      {
+       "start": 2.25,
+       "end": 2.32,
+       "value": "B"
+      },
+      {
+       "start": 2.32,
+       "end": 2.46,
+       "value": "D"
+      },
+      {
+       "start": 2.46,
+       "end": 2.8,
+       "value": "B"
+      },
+      {
+       "start": 2.8,
+       "end": 2.87,
+       "value": "C"
+      },
+      {
+       "start": 2.87,
+       "end": 2.95,
+       "value": "A"
+      },
+      {
+       "start": 2.95,
+       "end": 3.26,
+       "value": "B"
+      },
+      {
+       "start": 3.26,
+       "end": 3.4,
+       "value": "E"
+      },
+      {
+       "start": 3.4,
+       "end": 3.54,
+       "value": "F"
+      },
+      {
+       "start": 3.54,
+       "end": 3.72,
+       "value": "X"
+      },
+      {
+       "start": 3.72,
+       "end": 3.79,
+       "value": "B"
+      },
+      {
+       "start": 3.79,
+       "end": 3.86,
+       "value": "F"
+      },
+      {
+       "start": 3.86,
+       "end": 4.07,
+       "value": "C"
+      },
+      {
+       "start": 4.07,
+       "end": 4.14,
+       "value": "B"
+      },
+      {
+       "start": 4.14,
+       "end": 4.22,
+       "value": "A"
+      },
+      {
+       "start": 4.22,
+       "end": 4.31,
+       "value": "C"
+      },
+      {
+       "start": 4.31,
+       "end": 4.52,
+       "value": "B"
+      },
+      {
+       "start": 4.52,
+       "end": 4.66,
+       "value": "C"
+      },
+      {
+       "start": 4.66,
+       "end": 4.8,
+       "value": "B"
+      },
+      {
+       "start": 4.8,
+       "end": 5.08,
+       "value": "X"
+      },
+      {
+       "start": 5.08,
+       "end": 5.13,
+       "value": "B"
+      },
+      {
+       "start": 5.13,
+       "end": 5.18,
+       "value": "E"
+      },
+      {
+       "start": 5.18,
+       "end": 5.25,
+       "value": "B"
+      },
+      {
+       "start": 5.25,
+       "end": 5.46,
+       "value": "E"
+      },
+      {
+       "start": 5.46,
+       "end": 5.54,
+       "value": "A"
+      },
+      {
+       "start": 5.54,
+       "end": 5.63,
+       "value": "C"
+      },
+      {
+       "start": 5.63,
+       "end": 5.84,
+       "value": "B"
+      },
+      {
+       "start": 5.84,
+       "end": 6.05,
+       "value": "C"
+      },
+      {
+       "start": 6.05,
+       "end": 6.26,
+       "value": "B"
+      },
+      {
+       "start": 6.26,
+       "end": 6.33,
+       "value": "C"
+      },
+      {
+       "start": 6.33,
+       "end": 6.47,
+       "value": "E"
+      },
+      {
+       "start": 6.47,
+       "end": 6.54,
+       "value": "B"
+      },
+      {
+       "start": 6.54,
+       "end": 6.68,
+       "value": "C"
+      },
+      {
+       "start": 6.68,
+       "end": 7.1,
+       "value": "B"
+      },
+      {
+       "start": 7.1,
+       "end": 7.22,
+       "value": "X"
+      },
+      {
+       "start": 7.22,
+       "end": 7.55,
+       "value": "B"
+      },
+      {
+       "start": 7.55,
+       "end": 7.69,
+       "value": "C"
+      },
+      {
+       "start": 7.69,
+       "end": 7.76,
+       "value": "B"
+      },
+      {
+       "start": 7.76,
+       "end": 7.84,
+       "value": "A"
+      },
+      {
+       "start": 7.84,
+       "end": 7.89,
+       "value": "B"
+      },
+      {
+       "start": 7.89,
+       "end": 8.08,
+       "value": "C"
+      },
+      {
+       "start": 8.08,
+       "end": 8.15,
+       "value": "B"
+      },
+      {
+       "start": 8.15,
+       "end": 8.16,
+       "value": "X"
+      }
+     ],
+     "text": "Giỏi lắm! Muốn hiểu kỹ vì sao nói vậy? Xem video Phân tích và giải thích — rồi thử bài thi phản xạ 7 giây nhé. Link ở góc màn hình!",
+     "vi": null,
+     "highlight": [],
+     "gesture": null,
+     "emotion": "cheerful",
+     "role": null,
+     "phrase": null,
+     "q": null,
+     "to": null
+    },
+    {
+     "id": "L29",
+     "speaker": "tin",
+     "lang": "vi",
+     "start": 9.51,
+     "dur": 6.390000000000001,
+     "audio": "episodes/an-uong-th01-A1/audio/L29.mp3",
+     "mouth": [
+      {
+       "start": 0,
+       "end": 0.04,
+       "value": "A"
+      },
+      {
+       "start": 0.04,
+       "end": 0.18,
+       "value": "D"
+      },
+      {
+       "start": 0.18,
+       "end": 0.74,
+       "value": "C"
+      },
+      {
+       "start": 0.74,
+       "end": 0.88,
+       "value": "B"
+      },
+      {
+       "start": 0.88,
+       "end": 1.17,
+       "value": "X"
+      },
+      {
+       "start": 1.17,
+       "end": 1.23,
+       "value": "B"
+      },
+      {
+       "start": 1.23,
+       "end": 1.29,
+       "value": "C"
+      },
+      {
+       "start": 1.29,
+       "end": 1.36,
+       "value": "B"
+      },
+      {
+       "start": 1.36,
+       "end": 1.5,
+       "value": "C"
+      },
+      {
+       "start": 1.5,
+       "end": 1.64,
+       "value": "B"
+      },
+      {
+       "start": 1.64,
+       "end": 1.85,
+       "value": "C"
+      },
+      {
+       "start": 1.85,
+       "end": 1.99,
+       "value": "B"
+      },
+      {
+       "start": 1.99,
+       "end": 2.06,
+       "value": "A"
+      },
+      {
+       "start": 2.06,
+       "end": 2.3,
+       "value": "B"
+      },
+      {
+       "start": 2.3,
+       "end": 2.37,
+       "value": "C"
+      },
+      {
+       "start": 2.37,
+       "end": 2.44,
+       "value": "A"
+      },
+      {
+       "start": 2.44,
+       "end": 2.65,
+       "value": "B"
+      },
+      {
+       "start": 2.65,
+       "end": 2.79,
+       "value": "F"
+      },
+      {
+       "start": 2.79,
+       "end": 3,
+       "value": "C"
+      },
+      {
+       "start": 3,
+       "end": 3.07,
+       "value": "E"
+      },
+      {
+       "start": 3.07,
+       "end": 3.19,
+       "value": "B"
+      },
+      {
+       "start": 3.19,
+       "end": 3.3,
+       "value": "C"
+      },
+      {
+       "start": 3.3,
+       "end": 3.37,
+       "value": "B"
+      },
+      {
+       "start": 3.37,
+       "end": 3.45,
+       "value": "A"
+      },
+      {
+       "start": 3.45,
+       "end": 3.53,
+       "value": "D"
+      },
+      {
+       "start": 3.53,
+       "end": 3.74,
+       "value": "F"
+      },
+      {
+       "start": 3.74,
+       "end": 3.81,
+       "value": "B"
+      },
+      {
+       "start": 3.81,
+       "end": 3.88,
+       "value": "C"
+      },
+      {
+       "start": 3.88,
+       "end": 4.16,
+       "value": "E"
+      },
+      {
+       "start": 4.16,
+       "end": 4.7,
+       "value": "B"
+      },
+      {
+       "start": 4.7,
+       "end": 4.78,
+       "value": "A"
+      },
+      {
+       "start": 4.78,
+       "end": 4.93,
+       "value": "C"
+      },
+      {
+       "start": 4.93,
+       "end": 4.97,
+       "value": "E"
+      },
+      {
+       "start": 4.97,
+       "end": 5.16,
+       "value": "F"
+      },
+      {
+       "start": 5.16,
+       "end": 5.51,
+       "value": "B"
+      },
+      {
+       "start": 5.51,
+       "end": 5.6,
+       "value": "A"
+      },
+      {
+       "start": 5.6,
+       "end": 5.66,
+       "value": "F"
+      },
+      {
+       "start": 5.66,
+       "end": 5.86,
+       "value": "B"
+      },
+      {
+       "start": 5.86,
+       "end": 5.99,
+       "value": "A"
+      },
+      {
+       "start": 5.99,
+       "end": 6.08,
+       "value": "D"
+      },
+      {
+       "start": 6.08,
+       "end": 6.15,
+       "value": "G"
+      },
+      {
+       "start": 6.15,
+       "end": 6.23,
+       "value": "A"
+      },
+      {
+       "start": 6.23,
+       "end": 6.24,
+       "value": "X"
+      }
+     ],
+     "text": "Bản A2: anh Jake dẫn thêm chị Linh tới quán, gọi món phức tạp hơn... và anh Tony bưng nhầm món!",
+     "vi": null,
+     "highlight": [],
+     "gesture": null,
+     "emotion": "playful",
+     "role": null,
+     "phrase": null,
+     "q": null,
+     "to": null
+    }
+   ],
+   "cards": [
+    "an-uong-th01-A1-analysis",
+    "an-uong-th01-A1-reflex"
+   ],
+   "sfx": [
+    {
+     "src": "audio/sfx/cat-meow-happy.mp3",
+     "at": 0.3,
+     "volume": 0.7
+    },
+    {
+     "src": "audio/music/jingle-yolo7.mp3",
+     "at": 16.7,
+     "volume": 0.8
+    }
+   ],
+   "music": "audio/music/bg-cozy-ukulele.mp3",
+   "start": 230.11
+  }
+ ],
+ "subtitleMode": "dual_burn_in",
+ "title": "Gọi phở bằng tiếng Anh ở quán Việt | A1 – Người mới bắt đầu | YOLO7 English"
+}

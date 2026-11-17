@@ -1,0 +1,15 @@
+{
+  "metadata": {
+    "soundFile": "c:\\2026\\yt\\pipeline\\episodes\\an-uong-th01-A1\\audio\\L06.wav",
+    "duration": 1.28
+  },
+  "mouthCues": [
+    { "start": 0.00, "end": 0.09, "value": "X" },
+    { "start": 0.09, "end": 0.16, "value": "C" },
+    { "start": 0.16, "end": 0.72, "value": "B" },
+    { "start": 0.72, "end": 0.80, "value": "A" },
+    { "start": 0.80, "end": 0.89, "value": "E" },
+    { "start": 0.89, "end": 1.24, "value": "B" },
+    { "start": 1.24, "end": 1.28, "value": "X" }
+  ]
+}

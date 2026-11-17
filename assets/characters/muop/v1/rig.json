@@ -1,0 +1,15 @@
+{
+  "character": "muop",
+  "image": "hero-cut.png",
+  "source": "hero-cut.png",
+  "coords": "pixels in hero-cut.png",
+  "note": "Mướp không nói: không có miệng/mắt rig — chỉ hiển thị ảnh.",
+  "mouth": null,
+  "eyes": [],
+  "skin": [
+    180,
+    170,
+    160
+  ],
+  "height_rel": 0.4
+}

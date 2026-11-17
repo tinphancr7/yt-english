@@ -1,0 +1,36 @@
+{
+  "character": "co-ba",
+  "image": "hero-nomouth.png",
+  "source": "hero-cut.png",
+  "coords": "pixels in hero-cut.png",
+  "mouth": {
+    "cx": 520,
+    "cy": 492,
+    "w": 120,
+    "erase": {
+      "rx": 70,
+      "ry": 22
+    }
+  },
+  "eyes": [
+    {
+      "cx": 436,
+      "cy": 368,
+      "rx": 38,
+      "ry": 30
+    },
+    {
+      "cx": 598,
+      "cy": 368,
+      "rx": 34,
+      "ry": 30
+    }
+  ],
+  "height_rel": 0.86,
+  "note": "Cô Ba thấp, tròn",
+  "skin": [
+    252,
+    195,
+    150
+  ]
+}

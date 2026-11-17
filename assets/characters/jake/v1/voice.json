@@ -1,0 +1,19 @@
+{
+  "character": "jake",
+  "en": {
+    "voice_id": "LBAT755ljzWjtlG9sT4Q",
+    "name": "YOLO7 Jake",
+    "created": "2026-11-17",
+    "source": "Voice Design (eleven_ttv_v3), preview 3",
+    "description": "A 29-year-old American man, friendly and curious, with a warm, relaxed, natural General American accent. Slightly enthusiastic, easy-going traveller living in Saigon. Clean studio recording.",
+    "tts_model": "eleven_v3",
+    "settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.8,
+      "style": 0.2,
+      "use_speaker_boost": true
+    },
+    "sample_file": "voice-sample-en.mp3",
+    "sample_text": "Hey! Wow, this place smells amazing. Can I get a large beef pho, please? No onions. Oh, and is it spicy? I love Vietnamese food, but honestly, I'm still learning how to order like a local."
+  }
+}

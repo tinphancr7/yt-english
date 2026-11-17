@@ -1,0 +1,23 @@
+{
+  "_note": "Voice Design briefs (from docs/03-nhan-vat.md). Sample text is what the previews read; keep 100-1000 chars.",
+  "tin-en": {
+    "description": "A friendly 21-year-old Vietnamese young man speaking clear, natural standard American English. Warm, patient and encouraging, like a kind older brother teaching. Medium pitch, moderate pace, clean studio recording.",
+    "text": "Hi everyone, I'm Tín. Welcome to YOLO7 English! Today we're at my mom's pho shop in Hẻm ninety-nine. Listen carefully: What would you like? Small or large? No onions, please. Now let's practice together. You've got seven seconds!"
+  },
+  "tin-vi": {
+    "description": "A warm 21-year-old young Vietnamese man from Saigon speaking Vietnamese with a natural Southern Vietnamese accent. Gentle, friendly and encouraging, like an older brother explaining a lesson. Medium pitch, clear diction, clean studio recording.",
+    "text": "Chào cả nhà, mình là Tín. Hôm nay mình học cách gọi phở bằng tiếng Anh ngay tại quán của mẹ mình. Các bạn nghe kỹ nha: No onions, please, nghĩa là không hành nha. Giờ mình cùng luyện phản xạ bảy giây nhé!"
+  },
+  "jake": {
+    "description": "A 29-year-old American man, friendly and curious, with a warm, relaxed, natural General American accent. Slightly enthusiastic, easy-going traveller living in Saigon. Clean studio recording.",
+    "text": "Hey! Wow, this place smells amazing. Can I get a large beef pho, please? No onions. Oh, and is it spicy? I love Vietnamese food, but honestly, I'm still learning how to order like a local."
+  },
+  "co-ba": {
+    "description": "A 52-year-old Vietnamese woman from Saigon speaking Vietnamese with a strong Southern accent. Loud, cheerful, talkative street-food shop owner, warm and motherly, slightly raspy. Clean studio recording.",
+    "text": "Trời ơi, khách Tây tới quán mình nè! Tín ơi, ra đây coi ổng nói gì nè con. Phở bò tái nạm, sáu chục ngàn một tô, ăn ngon thì ghé hoài nha. Mướp, đi chỗ khác chơi, đừng có leo lên bàn!"
+  },
+  "tony": {
+    "description": "A 24-year-old Vietnamese young man speaking English with a noticeable Vietnamese accent. Cheerful, energetic and over-confident, talks fast, playful and funny. Clean studio recording.",
+    "text": "Yo, Tín! I'm here, I'm here! Don't worry, I speak English very good. Hello sir, you want pho? Pho number one in Saigon! I bring for you now, easy game! Oh wait, small or big? Sorry, sorry, I change now!"
+  }
+}

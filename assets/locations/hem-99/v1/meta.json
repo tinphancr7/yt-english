@@ -1,0 +1,17 @@
+{
+  "location": "hem-99",
+  "version": "v1",
+  "wide": {
+    "file": "wide.png",
+    "storyboard_id": "hem-99",
+    "source": "explore/wide-01.png",
+    "date": "2026-11-17",
+    "tool": "Higgsfield via ChatGPT plugin (free-trial unlimited, 0 credits)",
+    "model": "nano_banana_flash (Nano Banana 2)",
+    "aspect_ratio": "16:9",
+    "resolution": "2k (2752x1536)",
+    "higgsfield_job_id": "d5c8a10e-dd6e-47a9-811a-50e4aaa3b982",
+    "prompt_source": "storyboard hem-99",
+    "review": "Đạt. Biển số xanh để trống — thêm \"99\" bằng Remotion."
+  }
+}

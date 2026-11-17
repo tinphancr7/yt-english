@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-17",
+  "model": "eleven_ttv_v3",
+  "description": "A friendly 21-year-old Vietnamese young man speaking clear, natural standard American English. Warm, patient and encouraging, like a kind older brother teaching. Medium pitch, moderate pace, clean studio recording.",
+  "text": "Hi everyone, I'm Tín. Welcome to YOLO7 English! Today we're at my mom's pho shop in Hẻm ninety-nine. Listen carefully: What would you like? Small or large? No onions, please. Now let's practice together. You've got seven seconds!",
+  "previews": [
+    {
+      "file": "preview-1.mp3",
+      "generated_voice_id": "sdeSbuvzGgSxfJNIjV4i",
+      "duration_secs": 22.2068125,
+      "language": "en"
+    },
+    {
+      "file": "preview-2.mp3",
+      "generated_voice_id": "ygQC3D3EQ0TOSCJE0CdR",
+      "duration_secs": 18.915375,
+      "language": "en"
+    },
+    {
+      "file": "preview-3.mp3",
+      "generated_voice_id": "RCx8mr9ml80UTGvN16Ps",
+      "duration_secs": 22.52025,
+      "language": "en"
+    }
+  ]
+}

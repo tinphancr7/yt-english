@@ -1,0 +1,72 @@
+{
+  "kf-a.png": {
+    "date": "2026-11-17",
+    "tool": "Higgsfield via ChatGPT plugin (free-trial unlimited, 0 credits)",
+    "model": "nano_banana_flash",
+    "job": "5f2db22f-21d5-473b-a82a-46650ac2c51a",
+    "refs": [
+      "quan-co-ba wide",
+      "tin hero",
+      "muop hero"
+    ],
+    "storyboard": "V-A keyframe (shot 03)",
+    "review": "Đạt. Biển số \"28\" — che bằng biển \"99\" trong Remotion (camera tĩnh)."
+  },
+  "kf-b.png": {
+    "date": "2026-11-17",
+    "tool": "Higgsfield via ChatGPT plugin (free-trial unlimited, 0 credits)",
+    "model": "nano_banana_flash",
+    "job": "bf745417-b09e-42ef-ab32-d8cc2526fad2",
+    "refs": [
+      "quan-co-ba table"
+    ],
+    "storyboard": "V-B keyframe (shot 05)",
+    "review": "Đạt: phở không hành, rổ rau, tương ớt, trà đá."
+  },
+  "kf-c.png": {
+    "date": "2026-11-17",
+    "tool": "Higgsfield via ChatGPT plugin (free-trial unlimited, 0 credits)",
+    "model": "nano_banana_flash",
+    "job": "01c9bf68-2baa-4574-be20-75ce69c3e2ff",
+    "refs": [
+      "quan-co-ba table",
+      "muop hero"
+    ],
+    "storyboard": "V-C keyframe (shot 07)",
+    "review": "Dùng được; Mướp hơi nhỏ trong khung; AI thêm biển số \"3\" — che trong Remotion."
+  },
+  "v-a.mp4": {
+    "date": "2026-11-17",
+    "tool": "Higgsfield via ChatGPT plugin (free-trial unlimited, 0 credits)",
+    "model": "seedance_2_5 omni_reference, start_image=kf-a, 5s, 720p, no audio",
+    "job": "f8019482-2e26-48ca-8d10-e8ac3eb23e38",
+    "review": "Đạt: cửa sắt mở, Tín bước ra, Mướp cựa mình; giữ phong cách."
+  },
+  "v-b.mp4": {
+    "date": "2026-11-17",
+    "tool": "Higgsfield via ChatGPT plugin (free-trial unlimited, 0 credits)",
+    "model": "seedance_2_5 omni_reference, start_image=kf-b, 5s, 720p, no audio",
+    "job": "8672a871-6ade-44a9-8468-063d000919c7",
+    "review": "Đạt: tay đặt tô rồi rút ra, khói bốc."
+  },
+  "v-c.mp4": {
+    "date": "2026-11-17",
+    "tool": "Higgsfield via ChatGPT plugin (free-trial unlimited, 0 credits)",
+    "model": "seedance_2_5 omni_reference, start_image=kf-c, 5s, 720p, no audio",
+    "job": "93ef4527-43f4-49e5-8b05-371f30ab40a6",
+    "review": "Đạt: Mướp ngửi, đuôi vẫy."
+  },
+  "thumb-bg.png": {
+    "date": "2026-11-17",
+    "tool": "Higgsfield via ChatGPT plugin (free-trial unlimited, 0 credits)",
+    "model": "nano_banana_flash",
+    "job": "63241489-8c42-42ac-97a2-55998641abe0",
+    "refs": [
+      "quan-co-ba wide",
+      "jake hero",
+      "co-ba hero",
+      "muop hero"
+    ],
+    "review": "Đạt: Jake cầm đũa cười, Cô Ba ngơ ngác cầm báo, Mướp nhìn camera. Chữ tiêu đề thêm bằng code ở góc phải trên."
+  }
+}

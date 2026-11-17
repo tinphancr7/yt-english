@@ -1,0 +1,36 @@
+{
+  "character": "jake",
+  "image": "hero-nomouth.png",
+  "source": "hero-cut.png",
+  "coords": "pixels in hero-cut.png",
+  "mouth": {
+    "cx": 395,
+    "cy": 378,
+    "w": 110,
+    "erase": {
+      "rx": 62,
+      "ry": 20
+    }
+  },
+  "eyes": [
+    {
+      "cx": 320,
+      "cy": 272,
+      "rx": 36,
+      "ry": 26
+    },
+    {
+      "cx": 434,
+      "cy": 272,
+      "rx": 30,
+      "ry": 26
+    }
+  ],
+  "height_rel": 1.06,
+  "note": "Jake cao nhất; miệng nằm trong râu — chỉ xóa hẹp",
+  "skin": [
+    251,
+    193,
+    154
+  ]
+}

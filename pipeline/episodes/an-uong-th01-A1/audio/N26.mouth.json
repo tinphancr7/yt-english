@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "soundFile": "c:\\2026\\yt\\pipeline\\episodes\\an-uong-th01-A1\\audio\\N26.wav",
+    "duration": 2.96
+  },
+  "mouthCues": [
+    { "start": 0.00, "end": 0.08, "value": "X" },
+    { "start": 0.08, "end": 0.72, "value": "B" },
+    { "start": 0.72, "end": 1.28, "value": "X" },
+    { "start": 1.28, "end": 1.40, "value": "A" },
+    { "start": 1.40, "end": 1.56, "value": "E" },
+    { "start": 1.56, "end": 1.64, "value": "A" },
+    { "start": 1.64, "end": 1.92, "value": "B" },
+    { "start": 1.92, "end": 1.99, "value": "G" },
+    { "start": 1.99, "end": 2.07, "value": "A" },
+    { "start": 2.07, "end": 2.76, "value": "B" },
+    { "start": 2.76, "end": 2.96, "value": "X" }
+  ]
+}

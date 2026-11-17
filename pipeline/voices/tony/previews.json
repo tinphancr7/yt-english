@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-17",
+  "model": "eleven_ttv_v3",
+  "description": "A 24-year-old Vietnamese young man speaking English with a noticeable Vietnamese accent. Cheerful, energetic and over-confident, talks fast, playful and funny. Clean studio recording.",
+  "text": "Yo, Tín! I'm here, I'm here! Don't worry, I speak English very good. Hello sir, you want pho? Pho number one in Saigon! I bring for you now, easy game! Oh wait, small or big? Sorry, sorry, I change now!",
+  "previews": [
+    {
+      "file": "preview-1.mp3",
+      "generated_voice_id": "SkTEpAE1ic6sU16T7KsO",
+      "duration_secs": 16.6688125,
+      "language": "en"
+    },
+    {
+      "file": "preview-2.mp3",
+      "generated_voice_id": "10wGqAKtoWkaKMZ3JOvA",
+      "duration_secs": 15.7284375,
+      "language": "en"
+    },
+    {
+      "file": "preview-3.mp3",
+      "generated_voice_id": "2zRBrmTiMHULheuJ5cDl",
+      "duration_secs": 16.5905,
+      "language": "en"
+    }
+  ]
+}

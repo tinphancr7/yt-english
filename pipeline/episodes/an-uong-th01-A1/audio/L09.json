@@ -1,0 +1,63 @@
+{
+ "id": "L09",
+ "speaker": "tin",
+ "lang": "en",
+ "text": "Small or large?",
+ "sent_text": "Small or large?",
+ "model": "eleven_v3",
+ "voice_id": "ygQC3D3EQ0TOSCJE0CdR",
+ "hash": "e9fbc041b308",
+ "alignment": {
+  "characters": [
+   "S",
+   "m",
+   "a",
+   "l",
+   "l",
+   " ",
+   "o",
+   "r",
+   " ",
+   "l",
+   "a",
+   "r",
+   "g",
+   "e",
+   "?"
+  ],
+  "character_start_times_seconds": [
+   0,
+   0.08,
+   0.16,
+   0.24,
+   0.32,
+   0.4,
+   0.453,
+   0.507,
+   0.56,
+   0.653,
+   0.747,
+   0.84,
+   0.933,
+   1.027,
+   1.12
+  ],
+  "character_end_times_seconds": [
+   0.08,
+   0.16,
+   0.24,
+   0.32,
+   0.4,
+   0.453,
+   0.507,
+   0.56,
+   0.653,
+   0.747,
+   0.84,
+   0.933,
+   1.027,
+   1.12,
+   1.28
+  ]
+ }
+}

@@ -1,0 +1,13 @@
+{
+  "metadata": {
+    "soundFile": "c:\\2026\\yt\\pipeline\\episodes\\an-uong-th01-A1\\audio\\L15.wav",
+    "duration": 0.64
+  },
+  "mouthCues": [
+    { "start": 0.00, "end": 0.04, "value": "X" },
+    { "start": 0.04, "end": 0.21, "value": "B" },
+    { "start": 0.21, "end": 0.42, "value": "F" },
+    { "start": 0.42, "end": 0.63, "value": "D" },
+    { "start": 0.63, "end": 0.64, "value": "X" }
+  ]
+}

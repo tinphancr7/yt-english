@@ -1,0 +1,19 @@
+{
+  "character": "tony",
+  "en": {
+    "voice_id": "SkTEpAE1ic6sU16T7KsO",
+    "name": "YOLO7 Tony",
+    "created": "2026-11-17",
+    "source": "Voice Design (eleven_ttv_v3), preview 1",
+    "description": "A 24-year-old Vietnamese young man speaking English with a noticeable Vietnamese accent. Cheerful, energetic and over-confident, talks fast, playful and funny. Clean studio recording.",
+    "tts_model": "eleven_v3",
+    "settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.8,
+      "style": 0.2,
+      "use_speaker_boost": true
+    },
+    "sample_file": "voice-sample-en.mp3",
+    "sample_text": "Yo, Tín! I'm here, I'm here! Don't worry, I speak English very good. Hello sir, you want pho? Pho number one in Saigon! I bring for you now, easy game! Oh wait, small or big? Sorry, sorry, I change now!"
+  }
+}

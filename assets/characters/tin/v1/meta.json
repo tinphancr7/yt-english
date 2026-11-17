@@ -1,0 +1,66 @@
+{
+  "character": "tin",
+  "version": "v1",
+  "chosen_on": "2026-11-17",
+  "hero": {
+    "file": "hero.png",
+    "source": "explore/tin-hero-09.png",
+    "date": "2026-11-17",
+    "tool": "Higgsfield via ChatGPT plugin (free-trial unlimited, 0 credits)",
+    "model": "nano_banana_flash (Nano Banana 2)",
+    "aspect_ratio": "3:4",
+    "resolution": "2k (1792x2400)",
+    "prompt_source": "prompts/character-sheet.md — Bước 1 (TÍN, bản 3: young adult, dimple strokes, white sneakers, #FAF6EF bg)",
+    "higgsfield_job_id": "e50ec22d-8c2a-444d-83a6-48d928f368ea",
+    "review": "Người lớn, dễ thương; có thêm bóng đổ dưới chân (không yêu cầu)",
+    "note": "Chosen by the user. Ignore the ground shadow when deriving sheets."
+  },
+  "sheet": {
+    "file": "sheet.png",
+    "source": "explore/tin-turnaround-01.png",
+    "date": "2026-11-17",
+    "tool": "Higgsfield via ChatGPT plugin (free-trial unlimited, 0 credits)",
+    "model": "nano_banana_flash (Nano Banana 2)",
+    "aspect_ratio": "16:9",
+    "resolution": "2k (2752x1536)",
+    "reference_job": "e50ec22d-8c2a-444d-83a6-48d928f368ea (hero)",
+    "higgsfield_job_id": "9c911582-355b-43c9-8652-05c833bc7635",
+    "prompt_source": "prompts/character-sheet.md — Bước 2 turnaround",
+    "review": "Nhất quán với hero. Hai góc 3/4 gần giống nhau, góc nghiêng quay phải (không phải trái) — lật ngang khi cần hướng trái."
+  },
+  "expressions": {
+    "file": "expressions.png",
+    "source": "explore/tin-expressions-01.png",
+    "date": "2026-11-17",
+    "tool": "Higgsfield via ChatGPT plugin (free-trial unlimited, 0 credits)",
+    "model": "nano_banana_flash (Nano Banana 2)",
+    "aspect_ratio": "16:9",
+    "resolution": "2k (2752x1536)",
+    "reference_job": "e50ec22d-8c2a-444d-83a6-48d928f368ea (hero)",
+    "higgsfield_job_id": "560beb69-819f-4f49-8de9-6e443ba8c233",
+    "prompt_source": "prompts/character-sheet.md — Bước 3 expression sheet",
+    "order": [
+      "neutral",
+      "happy",
+      "laughing",
+      "surprised",
+      "confused",
+      "embarrassed",
+      "annoyed",
+      "sad"
+    ],
+    "review": "Đủ 8 biểu cảm, mặt nhất quán; đổ bóng da hơi đậm hơn hero."
+  },
+  "mouths": {
+    "file": "mouths-reference.png",
+    "source": "explore/tin-mouths-01.png",
+    "date": "2026-11-17",
+    "model": "nano_banana_flash (Nano Banana 2)",
+    "aspect_ratio": "1:1",
+    "resolution": "2k",
+    "reference_job": "e50ec22d-8c2a-444d-83a6-48d928f368ea (hero)",
+    "higgsfield_job_id": "0e79e560-81f1-41ae-b0e2-73d2ef65cc68",
+    "prompt_source": "prompts/character-sheet.md — Bước 4 mouth chart",
+    "review": "Tham chiếu tốt cho 9 khẩu hình Rhubarb (A–H, X), có nhãn chữ dù prompt yêu cầu không. F/V vẽ thành nhe răng (chưa đúng răng trên chạm môi dưới), L thè lưỡi quá mức. Cần cắt và chỉnh tay thành 9 PNG nền trong suốt cùng canvas trước khi rig."
+  }
+}

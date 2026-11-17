@@ -1,0 +1,14 @@
+{
+  "_note": "ElevenLabs sound-generation briefs. Generated files: <key>.mp3. Used by pipeline/src (episode sfx ids).",
+  "comedic-boing": { "text": "Cartoon comedic boing spring sound, bouncy and playful, single hit, clean", "duration": 1.0 },
+  "cat-meow-curious": { "text": "A single short curious cute cat meow, close mic, clean, no background", "duration": 1.2 },
+  "cat-meow-happy": { "text": "A short happy content cat meow followed by a soft purr, cute, clean", "duration": 1.6 },
+  "cat-sniff": { "text": "A small cat sniffing quickly several times, cute, close mic, clean", "duration": 1.5 },
+  "iron-gate-slide": { "text": "Old metal folding accordion iron gate of a small shop being slid open, rattling metal, 2 seconds", "duration": 2.5 },
+  "bowl-set-down": { "text": "Ceramic soup bowl gently set down on a stainless steel table, soft clink, chopsticks rattle lightly", "duration": 1.2 },
+  "correct-ding": { "text": "Bright cheerful correct answer ding chime, game show, short", "duration": 1.2 },
+  "clock-tick": { "text": "Light clock ticking, steady one tick per second, clean", "duration": 5.0 },
+  "whoosh": { "text": "Soft cartoon whoosh transition swish, short, clean", "duration": 0.8 },
+  "pop": { "text": "Small cute pop sound for a text card appearing, clean", "duration": 0.5 },
+  "morning-street-ambience": { "text": "Calm morning ambience in a narrow Saigon alley: distant scooters passing, birds chirping, faint chatter, soft and quiet", "duration": 10.0, "loop": true }
+}

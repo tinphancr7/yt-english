@@ -1,0 +1,54 @@
+{
+  "character": "co-ba",
+  "version": "v1",
+  "chosen_on": "2026-11-17",
+  "hero": {
+    "file": "hero.png",
+    "source": "explore/coba-hero-03.png",
+    "date": "2026-11-17",
+    "tool": "Higgsfield via ChatGPT plugin (free-trial unlimited, 0 credits)",
+    "model": "nano_banana_flash (Nano Banana 2)",
+    "aspect_ratio": "3:4",
+    "resolution": "2k",
+    "style_reference_job": "e50ec22d-8c2a-444d-83a6-48d928f368ea (Tín hero)",
+    "higgsfield_job_id": "267dfd83-b0ca-434e-9ec9-19d561437dab",
+    "review": "Mặt tròn, dáng tròn trịa — đúng mô tả \"round face\", nét riêng rõ nhất; đề xuất",
+    "note": "Chosen by the user. Ignore the ground shadow when deriving sheets."
+  },
+  "sheet": {
+    "file": "sheet.png",
+    "source": "explore/coba-turnaround-01.png",
+    "date": "2026-11-17",
+    "tool": "Higgsfield via ChatGPT plugin (free-trial unlimited, 0 credits)",
+    "model": "nano_banana_flash (Nano Banana 2)",
+    "aspect_ratio": "16:9",
+    "resolution": "2k",
+    "reference_job": "267dfd83-b0ca-434e-9ec9-19d561437dab (hero)",
+    "higgsfield_job_id": "711f8c46-7a17-4174-9052-fb5aad887c8a",
+    "prompt_source": "prompts/character-sheet.md — Bước 2",
+    "review": "Nhất quán với hero, đủ quạt, đồng hồ, kẹp tóc ở mọi góc."
+  },
+  "expressions": {
+    "file": "expressions.png",
+    "source": "explore/coba-expressions-01.png",
+    "order": [
+      "neutral",
+      "happy",
+      "laughing",
+      "surprised",
+      "confused",
+      "embarrassed",
+      "annoyed",
+      "sad"
+    ],
+    "date": "2026-11-17",
+    "tool": "Higgsfield via ChatGPT plugin (free-trial unlimited, 0 credits)",
+    "model": "nano_banana_flash (Nano Banana 2)",
+    "aspect_ratio": "16:9",
+    "resolution": "2k",
+    "reference_job": "267dfd83-b0ca-434e-9ec9-19d561437dab (hero)",
+    "higgsfield_job_id": "2a68535f-a51a-4640-bc7b-efc877f9d588",
+    "prompt_source": "prompts/character-sheet.md — Bước 3",
+    "review": "Đủ 8 biểu cảm, mặt tròn nhất quán."
+  }
+}

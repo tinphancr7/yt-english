@@ -1,0 +1,156 @@
+{
+  "$schema_note": "Nguồn sự thật duy nhất cho pipeline. Mọi bước (TTS, lip-sync, phụ đề, render, upload) đọc file này. Line id khớp số dòng trong script.md (L01 = dòng 1).",
+  "id": "an-uong-th01-A1",
+  "topic": "an-uong",
+  "situation": { "id": "an-uong-th01", "name": "Gọi phở ở quán Cô Ba", "level": "A1", "prev": null, "next": "an-uong-th01-A2" },
+  "title": "Gọi phở bằng tiếng Anh ở quán Việt | A1 – Người mới bắt đầu | YOLO7 English",
+  "target_duration_sec": 240,
+  "budget_usd": 12,
+  "subtitle_mode": "dual_burn_in",
+  "subtitle_tracks": ["en", "vi"],
+
+  "cast": {
+    "tin":   { "asset": "characters/tin/v1",   "voices": { "en": { "provider": "elevenlabs", "model": "eleven_v3", "voice_id": "TODO_TIN_EN", "speed": 0.85 }, "vi": { "provider": "TBD_after_listening_test", "voice_id": "TODO_TIN_VI", "speed": 1.0 } }, "subtitle_color": "#D7263D" },
+    "jake":  { "asset": "characters/jake/v1",  "voices": { "en": { "provider": "elevenlabs", "model": "eleven_v3", "voice_id": "TODO_JAKE", "speed": 0.85 }, "vi": { "same_as": "en", "note": "Giọng tiếng Anh đọc chữ tiếng Việt → tự nhiên có accent Mỹ" } }, "subtitle_color": "#2B6CB0" },
+    "co-ba": { "asset": "characters/co-ba/v1", "voices": { "vi": { "provider": "TBD_after_listening_test", "voice_id": "TODO_COBA_VI", "speed": 1.0 } }, "subtitle_color": "#8E5BB5" },
+    "tony":  { "asset": "characters/tony/v1",  "voices": { "en": { "provider": "elevenlabs", "model": "eleven_v3", "voice_id": "TODO_TONY_EN", "speed": 0.9 } }, "subtitle_color": "#2E7D5B" },
+    "muop":  { "asset": "characters/muop/v1",  "voices": null }
+  },
+
+  "locations": {
+    "quan-wide":    "locations/quan-co-ba/v1/quan-wide.png",
+    "quan-table":   "locations/quan-co-ba/v1/quan-table.png",
+    "quan-counter": "locations/quan-co-ba/v1/quan-counter.png",
+    "hem-99":       "locations/hem-99/v1/hem-99.png"
+  },
+
+  "scenes": [
+    {
+      "id": "S01", "type": "cold_open", "location": "quan-counter",
+      "positions": { "jake": "left", "co-ba": "right" },
+      "lines": [
+        { "id": "L01", "speaker": "jake",  "lang": "vi", "emotion": "proud",    "audio_tags": ["proud"], "text": "Cô Ba ơi... cho tôi một tờ phở!", "sub_note": "Jake nói \"tờ\" thay vì \"tô\"" },
+        { "id": "L02", "speaker": "co-ba", "lang": "vi", "emotion": "confused", "gesture": "hold_newspaper", "text": "Một tờ? Tờ gì? Tờ báo hả con?" }
+      ],
+      "camera": { "move": "snap_zoom_to:newspaper", "at_line": "L02" },
+      "sfx": [{ "id": "comedic-boing", "after_line": "L02" }, { "id": "cat-meow-curious", "after_line": "L02" }]
+    },
+    {
+      "id": "S02", "type": "title", "template": "TitleCard",
+      "background": { "location": "quan-wide", "blur": 12 },
+      "host": { "character": "tin", "pose": "wave", "position": "center" },
+      "title_text": "Gọi phở ở quán Cô Ba", "badge": "A1",
+      "lines": [
+        { "id": "L03", "speaker": "tin", "lang": "vi", "emotion": "cheerful", "text": "Xin chào, mình là Tín! Sáng nay quán nhà mình có anh Jake ghé ăn phở." },
+        { "id": "L04", "speaker": "tin", "lang": "vi", "emotion": "cheerful", "text": "Thôi, anh Jake cứ gọi bằng tiếng Anh cho dễ. Hôm nay mình học 6 câu gọi món siêu dễ. Xem phim trước nhé!" }
+      ]
+    },
+    {
+      "id": "S03", "type": "dialogue", "template": "DialogueScene",
+      "shots": [
+        { "id": "SH03", "kind": "ai_video", "insert": "V-A", "duration_sec": 5, "sfx": ["iron-gate-slide", "morning-street-ambience"] },
+        {
+          "id": "SH04", "kind": "puppet", "location": "quan-table",
+          "positions": { "jake": "left-seated", "tin": "right" },
+          "props": [{ "id": "notepad", "holder": "tin" }],
+          "lines": [
+            { "id": "L05", "speaker": "tin",  "lang": "en", "emotion": "friendly", "text": "Good morning, Jake!", "vi": "Chào buổi sáng, anh Jake!" },
+            { "id": "L06", "speaker": "jake", "lang": "en", "emotion": "happy", "gesture": "wave", "text": "Hi, Tín! Good morning!", "vi": "Chào Tín! Chào buổi sáng!" },
+            { "id": "L07", "speaker": "tin",  "lang": "en", "emotion": "friendly", "text": "What would you like?", "vi": "Anh muốn ăn gì?", "highlight": ["What would you like?"] },
+            { "id": "L08", "speaker": "jake", "lang": "en", "emotion": "happy", "text": "Beef pho, please.", "vi": "Cho anh phở bò.", "highlight": ["Beef pho, please."] },
+            { "id": "L09", "speaker": "tin",  "lang": "en", "emotion": "friendly", "text": "Small or large?", "vi": "Tô nhỏ hay tô lớn?", "highlight": ["Small or large?"] },
+            { "id": "L10", "speaker": "jake", "lang": "en", "emotion": "happy", "gesture": "rub_belly", "text": "Large, please. I'm very hungry!", "vi": "Tô lớn nhé. Anh đói lắm!" },
+            { "id": "L11", "speaker": "tin",  "lang": "en", "emotion": "neutral", "text": "Onions?", "vi": "Có hành không?" },
+            { "id": "L12", "speaker": "jake", "lang": "en", "emotion": "neutral", "gesture": "raise_hand", "text": "No onions, please.", "vi": "Không hành nhé.", "highlight": ["No onions, please."] },
+            { "id": "L13", "speaker": "tin",  "lang": "en", "emotion": "friendly", "text": "OK. And to drink?", "vi": "Dạ. Còn uống gì ạ?" },
+            { "id": "L14", "speaker": "jake", "lang": "en", "emotion": "happy", "text": "Iced tea, please.", "vi": "Trà đá nhé." }
+          ]
+        },
+        { "id": "SH05", "kind": "ai_video", "insert": "V-B", "duration_sec": 5, "sfx": ["bowl-set-down"] },
+        {
+          "id": "SH06", "kind": "puppet", "location": "quan-table",
+          "positions": { "jake": "left-seated", "tin": "center", "tony": "right" },
+          "props": [{ "id": "pho-bowl", "on": "table" }, { "id": "chopsticks", "holder": "jake" }, { "id": "helmet-orange", "holder": "tony" }],
+          "lines": [
+            { "id": "L15", "speaker": "tin",  "lang": "en", "emotion": "friendly", "text": "Here you are.", "vi": "Của anh đây ạ.", "highlight": ["Here you are."] },
+            { "id": "L16", "speaker": "jake", "lang": "en", "emotion": "curious", "text": "Thank you! Hmm... Is it spicy?", "vi": "Cảm ơn! Ừm... Có cay không?", "highlight": ["Is it spicy?"] },
+            { "id": "L17", "speaker": "tin",  "lang": "en", "emotion": "friendly", "gesture": "point", "text": "No, it isn't. The chili is here.", "vi": "Không cay đâu. Ớt ở đây nè." },
+            { "id": "L18", "speaker": "jake", "lang": "en", "emotion": "happy", "audio_tags": ["happy"], "text": "Mmm! It's delicious!", "vi": "Ngon quá!" },
+            { "id": "L19", "speaker": "tony", "lang": "en", "emotion": "proud", "audio_tags": ["loud", "confident"], "gesture": "thumbs_up", "text": "Tín! Me too! One pho, no onion, many beef!", "vi": "Tín! Anh nữa! Một phở, không hành, \"nhiều bò\"!", "error_demo": true },
+            { "id": "L20", "speaker": "tin",  "lang": "en", "emotion": "annoyed", "audio_tags": ["sighs"], "text": "Tony... \"More beef, please.\"", "vi": "Anh Tony... phải nói \"More beef, please.\"", "highlight": ["More beef, please."] },
+            { "id": "L21", "speaker": "tony", "lang": "en", "emotion": "laughing", "audio_tags": ["laughs"], "gesture": "scratch_head", "text": "Yes! More beef, please!", "vi": "Đúng rồi! Thêm bò nhé!" }
+          ]
+        },
+        { "id": "SH07", "kind": "ai_video", "insert": "V-C", "duration_sec": 4, "sfx": ["cat-sniff"] },
+        {
+          "id": "SH08", "kind": "puppet", "location": "quan-counter",
+          "positions": { "jake": "left", "tin": "center", "co-ba": "right" },
+          "props": [{ "id": "cash-60k", "holder": "jake" }],
+          "lines": [
+            { "id": "L22", "speaker": "jake",  "lang": "en", "emotion": "neutral", "text": "Tín, how much is it?", "vi": "Tín ơi, bao nhiêu tiền?", "highlight": ["how much is it?"] },
+            { "id": "L23", "speaker": "tin",   "lang": "en", "emotion": "friendly", "text": "Sixty thousand dong.", "vi": "Sáu mươi nghìn đồng ạ." },
+            { "id": "L24", "speaker": "jake",  "lang": "en", "emotion": "happy", "gesture": "hand_over", "text": "Here you are. Thank you!", "vi": "Gửi em. Cảm ơn nhé!" },
+            { "id": "L25", "speaker": "tin",   "lang": "en", "emotion": "happy", "gesture": "wave", "text": "Thank you! See you tomorrow!", "vi": "Cảm ơn anh! Hẹn gặp lại ngày mai nha!" },
+            { "id": "L26", "speaker": "co-ba", "lang": "vi", "emotion": "proud", "gesture": "fan", "text": "Ô kê, sank kiu! Tín, con thấy chưa, má nói tiếng Anh cũng được nè!" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S04", "type": "learn", "template": "PhraseCard",
+      "background": { "location": "quan-wide", "blur": 16 },
+      "narrator": "tin", "narration_lang": "vi",
+      "phrases": [
+        { "id": "P1", "phrase": "What would you like? — Beef pho, please.", "source_line": "L07", "explain_vi": "Người bán hỏi \"Bạn muốn gì?\". Trả lời rất đơn giản: tên món cộng please.", "example": "Chicken rice, please." },
+        { "id": "P2", "phrase": "Small or large? — Large, please.",        "source_line": "L09", "explain_vi": "Hỏi cỡ nhỏ hay lớn. Chỉ cần chọn một từ cộng please.", "example": "Small, please." },
+        { "id": "P3", "phrase": "No onions, please.",                      "source_line": "L12", "explain_vi": "No, cộng thứ bạn không muốn, cộng please. Nhớ đọc rõ âm z ở cuối chữ onions.", "example": "No chili, please." },
+        { "id": "P4", "phrase": "Is it spicy?",                            "source_line": "L16", "explain_vi": "Hỏi món có cay không. Trả lời: Yes, it is, hoặc No, it isn't.", "example": "Is it hot?" },
+        { "id": "P5", "phrase": "How much is it? — Sixty thousand dong.",  "source_line": "L22", "explain_vi": "Hỏi giá. Đừng nói How much this, vì thiếu chữ is.", "example": "How much is the iced tea?" },
+        { "id": "P6", "phrase": "Here you are.",                           "source_line": "L15", "explain_vi": "Câu dùng khi đưa đồ hoặc đưa tiền cho ai đó.", "example": null }
+      ],
+      "error_fix": { "wrong": "many beef", "right": "more beef, please", "source_line": "L19", "explain_vi": "Beef là danh từ không đếm được nên không dùng many. Muốn thêm thì nói more.", "example": "More noodles, please." }
+    },
+    {
+      "id": "S05", "type": "quiz", "template": "Quiz",
+      "intro_line": { "id": "L27", "speaker": "tin", "lang": "vi", "emotion": "cheerful", "text": "Đố vui nè! Dừng video và chọn đáp án nhé." },
+      "countdown_sec": 5,
+      "questions": [
+        { "q": "Bạn không ăn hành. Bạn nói:", "options": ["No onion me", "No onions, please", "Onion no"], "answer": 1 },
+        { "q": "\"How much is it?\" nghĩa là:", "options": ["Có cay không?", "Bao nhiêu tiền?", "Tô lớn hay nhỏ?"], "answer": 1 }
+      ]
+    },
+    {
+      "id": "S06", "type": "outro", "template": "Outro",
+      "background": { "location": "hem-99" },
+      "teaser": { "next": "an-uong-th01-A2", "image": "teaser-a2-tony-mix-up.png" },
+      "card_links": ["an-uong-th01-A1-analysis", "an-uong-th01-A1-reflex"],
+      "end_screen_sec": 15,
+      "lines": [
+        { "id": "L28", "speaker": "tin", "lang": "vi", "emotion": "cheerful", "text": "Giỏi lắm! Muốn hiểu kỹ vì sao nói vậy? Xem video Phân tích và giải thích — rồi thử bài thi phản xạ 7 giây nhé. Link ở góc màn hình!" },
+        { "id": "L29", "speaker": "tin", "lang": "vi", "emotion": "playful", "text": "Bản A2: anh Jake dẫn thêm chị Linh tới quán, gọi món phức tạp hơn... và anh Tony bưng nhầm món!" }
+      ],
+      "sfx": ["cat-meow-happy", "jingle"]
+    }
+  ],
+
+  "ai_inserts": {
+    "V-A": { "keyframe_prompt_ref": "storyboard.md#v-a--hẻm-99-buổi-sáng-shot-03", "refs": ["tin", "muop", "quan-wide"], "provider": "kling-3.0", "resolution": "720p", "duration_sec": 5, "variants": 2, "native_audio": false },
+    "V-B": { "keyframe_prompt_ref": "storyboard.md#v-b--tô-phở-shot-05", "refs": ["quan-table"], "provider": "kling-3.0", "resolution": "720p", "duration_sec": 5, "variants": 2, "native_audio": false },
+    "V-C": { "keyframe_prompt_ref": "storyboard.md#v-c--mướp-thèm-phở-shot-07", "refs": ["muop", "quan-table"], "provider": "kling-3.0", "resolution": "720p", "duration_sec": 5, "variants": 2, "native_audio": false }
+  },
+
+  "situation_phrases": {
+    "new": ["What would you like?", "___, please.", "Small or large?", "No ___, please.", "Is it spicy?", "How much is it?", "Here you are.", "More ___, please."],
+    "recycled_from_prev": []
+  },
+
+  "publish": {
+    "privacy": "private",
+    "playlists": ["Gọi phở ở quán Cô Ba: A1 → B2", "Ăn uống – A1", "Lộ trình A1"],
+    "shorts": [
+      { "from": "S01", "title": "Khi Tây gọi \"một TỜ phở\" 😂" },
+      { "from": "S04", "phrases": ["P1", "P3", "P5"], "title": "3 câu gọi món tiếng Anh ai cũng cần" },
+      { "from": "S04", "error_fix": true, "title": "\"Many beef\" sai ở đâu?" }
+    ]
+  }
+}

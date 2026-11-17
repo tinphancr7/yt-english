@@ -1,0 +1,54 @@
+{
+  "character": "tony",
+  "version": "v1",
+  "chosen_on": "2026-11-17",
+  "hero": {
+    "file": "hero.png",
+    "source": "explore/tony-hero-01.png",
+    "date": "2026-11-17",
+    "tool": "Higgsfield via ChatGPT plugin (free-trial unlimited, 0 credits)",
+    "model": "nano_banana_flash (Nano Banana 2)",
+    "aspect_ratio": "3:4",
+    "resolution": "2k",
+    "style_reference_job": "e50ec22d-8c2a-444d-83a6-48d928f368ea (Tín hero)",
+    "higgsfield_job_id": "12aecbb7-f2c6-4f5e-9273-26f5024aae64",
+    "review": "Đúng mô tả, cười toe tự tin; đề xuất",
+    "note": "Chosen by the user. Ignore the ground shadow when deriving sheets."
+  },
+  "sheet": {
+    "file": "sheet.png",
+    "source": "explore/tony-turnaround-01.png",
+    "date": "2026-11-17",
+    "tool": "Higgsfield via ChatGPT plugin (free-trial unlimited, 0 credits)",
+    "model": "nano_banana_flash (Nano Banana 2)",
+    "aspect_ratio": "16:9",
+    "resolution": "2k",
+    "reference_job": "12aecbb7-f2c6-4f5e-9273-26f5024aae64 (hero)",
+    "higgsfield_job_id": "5a390e6d-7153-4fd4-bfd7-c4aa395dc043",
+    "prompt_source": "prompts/character-sheet.md — Bước 2",
+    "review": "Nhất quán với hero; mũ bảo hiểm cam kẹp nách ở mọi góc."
+  },
+  "expressions": {
+    "file": "expressions.png",
+    "source": "explore/tony-expressions-02.png",
+    "order": [
+      "neutral",
+      "happy",
+      "laughing",
+      "surprised",
+      "confused",
+      "embarrassed",
+      "annoyed",
+      "sad"
+    ],
+    "date": "2026-11-17",
+    "tool": "Higgsfield via ChatGPT plugin (free-trial unlimited, 0 credits)",
+    "model": "nano_banana_flash (Nano Banana 2)",
+    "aspect_ratio": "16:9",
+    "resolution": "2k",
+    "reference_job": "12aecbb7-f2c6-4f5e-9273-26f5024aae64 (hero)",
+    "higgsfield_job_id": "7f77682e-10f6-4674-87ee-b18b6a8e310e",
+    "prompt_source": "prompts/character-sheet.md — Bước 3 + \"NOT wearing the helmet\"",
+    "review": "Bản 01 (ee77af71-…) bị loại vì AI đội mũ bảo hiểm che tóc ở cả 8 ô; bản 02 ghi rõ không đội mũ — đạt."
+  }
+}

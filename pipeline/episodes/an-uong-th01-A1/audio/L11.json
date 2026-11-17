@@ -1,0 +1,39 @@
+{
+ "id": "L11",
+ "speaker": "tin",
+ "lang": "en",
+ "text": "Onions?",
+ "sent_text": "Onions?",
+ "model": "eleven_v3",
+ "voice_id": "ygQC3D3EQ0TOSCJE0CdR",
+ "hash": "15e34396fda1",
+ "alignment": {
+  "characters": [
+   "O",
+   "n",
+   "i",
+   "o",
+   "n",
+   "s",
+   "?"
+  ],
+  "character_start_times_seconds": [
+   0,
+   0.12,
+   0.24,
+   0.34,
+   0.44,
+   0.54,
+   0.64
+  ],
+  "character_end_times_seconds": [
+   0.12,
+   0.24,
+   0.34,
+   0.44,
+   0.54,
+   0.64,
+   0.96
+  ]
+ }
+}

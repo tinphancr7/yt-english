@@ -1,0 +1,64 @@
+{
+  "location": "quan-co-ba",
+  "version": "v1",
+  "used_in": [
+    "an-uong/th01 A1–B2",
+    "quán cà phê (dự kiến)"
+  ],
+  "wide": {
+    "file": "wide.png",
+    "storyboard_id": "quan-wide",
+    "source": "explore/wide-01.png",
+    "date": "2026-11-17",
+    "tool": "Higgsfield via ChatGPT plugin (free-trial unlimited, 0 credits)",
+    "model": "nano_banana_flash (Nano Banana 2)",
+    "aspect_ratio": "16:9",
+    "resolution": "2k (2752x1536)",
+    "higgsfield_job_id": "715832fe-255b-441b-bf0f-ef8448d08290",
+    "prompt_source": "video-mau/chu-de-an-uong/th01-goi-pho-quan-co-ba/A1/storyboard.md — quan-wide",
+    "review": "Đạt. Biển số nhà AI vẽ chữ \"28\" — che bằng biển \"99\" trong Remotion."
+  },
+  "table": {
+    "file": "table.png",
+    "storyboard_id": "quan-table",
+    "source": "explore/table-nostool-01.png",
+    "date": "2026-11-17",
+    "tool": "Higgsfield via ChatGPT plugin (free-trial unlimited, 0 credits)",
+    "model": "nano_banana_flash (Nano Banana 2)",
+    "aspect_ratio": "16:9",
+    "resolution": "2k (2752x1536)",
+    "higgsfield_job_id": "7f64319b-3ecc-4001-88a9-f440b83dbe13",
+    "reference_job": "715832fe-… (wide, chỉ lấy phong cách)",
+    "prompt_source": "storyboard quan-table, viết lại thành MEDIUM SHOT",
+    "review": "Bản sửa: xóa ghế đỏ để nhân vật mang ghế riêng (dáng ngồi) không bị hai ghế chồng nhau. Bàn, đồ vật giữ nguyên vị trí.",
+    "edit_of": "45cd5e96-310f-48d6-b5d0-5cb1aad0eda7"
+  },
+  "counter": {
+    "file": "counter.png",
+    "storyboard_id": "quan-counter",
+    "source": "explore/counter-01.png",
+    "date": "2026-11-17",
+    "tool": "Higgsfield via ChatGPT plugin (free-trial unlimited, 0 credits)",
+    "model": "nano_banana_flash (Nano Banana 2)",
+    "aspect_ratio": "16:9",
+    "resolution": "2k (2752x1536)",
+    "higgsfield_job_id": "68a6a086-1e4e-47e9-881f-2f8224f7a274",
+    "reference_job": "715832fe-… (wide)",
+    "prompt_source": "storyboard quan-counter",
+    "review": "Đạt: tủ kính, nồi phở, hộp tiền, bàn thờ, lịch trống, biển số trống."
+  },
+  "table-with-stool": {
+    "file": "table-with-stool.png",
+    "storyboard_id": "quan-table",
+    "source": "explore/table-02.png",
+    "date": "2026-11-17",
+    "tool": "Higgsfield via ChatGPT plugin (free-trial unlimited, 0 credits)",
+    "model": "nano_banana_flash (Nano Banana 2)",
+    "aspect_ratio": "16:9",
+    "resolution": "2k (2752x1536)",
+    "higgsfield_job_id": "45cd5e96-310f-48d6-b5d0-5cb1aad0eda7",
+    "reference_job": "715832fe-… (wide, chỉ lấy phong cách)",
+    "prompt_source": "storyboard quan-table, viết lại thành MEDIUM SHOT",
+    "review": "Bản gốc có ghế đỏ — giữ dự phòng."
+  }
+}

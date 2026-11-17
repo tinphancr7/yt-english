@@ -1,0 +1,304 @@
+{
+ "id": "an-uong-th01-A1-narration",
+ "scenes": [
+  {
+   "id": "N",
+   "lines": [
+    {
+     "id": "N01",
+     "speaker": "tin",
+     "lang": "vi",
+     "text": "Mẫu câu số một.",
+     "role": "title",
+     "phrase": "P1"
+    },
+    {
+     "id": "N02",
+     "speaker": "tin",
+     "lang": "en",
+     "text": "What would you like? ... Beef pho, please.",
+     "role": "phrase_slow",
+     "phrase": "P1",
+     "audio_tags": [
+      "slowly",
+      "clearly"
+     ]
+    },
+    {
+     "id": "N03",
+     "speaker": "tin",
+     "lang": "vi",
+     "text": "Người bán hỏi \"Bạn muốn gì?\". Trả lời rất đơn giản: tên món cộng please.",
+     "role": "explain",
+     "phrase": "P1"
+    },
+    {
+     "id": "N04",
+     "speaker": "tin",
+     "lang": "en",
+     "text": "Chicken rice, please.",
+     "role": "example",
+     "phrase": "P1",
+     "audio_tags": [
+      "clearly"
+     ]
+    },
+    {
+     "id": "N05",
+     "speaker": "tin",
+     "lang": "vi",
+     "text": "Mẫu câu số hai.",
+     "role": "title",
+     "phrase": "P2"
+    },
+    {
+     "id": "N06",
+     "speaker": "tin",
+     "lang": "en",
+     "text": "Small or large? ... Large, please.",
+     "role": "phrase_slow",
+     "phrase": "P2",
+     "audio_tags": [
+      "slowly",
+      "clearly"
+     ]
+    },
+    {
+     "id": "N07",
+     "speaker": "tin",
+     "lang": "vi",
+     "text": "Hỏi cỡ nhỏ hay lớn. Chỉ cần chọn một từ cộng please.",
+     "role": "explain",
+     "phrase": "P2"
+    },
+    {
+     "id": "N08",
+     "speaker": "tin",
+     "lang": "en",
+     "text": "Small, please.",
+     "role": "example",
+     "phrase": "P2",
+     "audio_tags": [
+      "clearly"
+     ]
+    },
+    {
+     "id": "N09",
+     "speaker": "tin",
+     "lang": "vi",
+     "text": "Mẫu câu số ba.",
+     "role": "title",
+     "phrase": "P3"
+    },
+    {
+     "id": "N10",
+     "speaker": "tin",
+     "lang": "en",
+     "text": "No onions, please.",
+     "role": "phrase_slow",
+     "phrase": "P3",
+     "audio_tags": [
+      "slowly",
+      "clearly"
+     ]
+    },
+    {
+     "id": "N11",
+     "speaker": "tin",
+     "lang": "vi",
+     "text": "No, cộng thứ bạn không muốn, cộng please. Nhớ đọc rõ âm z ở cuối chữ onions.",
+     "role": "explain",
+     "phrase": "P3"
+    },
+    {
+     "id": "N12",
+     "speaker": "tin",
+     "lang": "en",
+     "text": "No chili, please.",
+     "role": "example",
+     "phrase": "P3",
+     "audio_tags": [
+      "clearly"
+     ]
+    },
+    {
+     "id": "N13",
+     "speaker": "tin",
+     "lang": "vi",
+     "text": "Mẫu câu số bốn.",
+     "role": "title",
+     "phrase": "P4"
+    },
+    {
+     "id": "N14",
+     "speaker": "tin",
+     "lang": "en",
+     "text": "Is it spicy?",
+     "role": "phrase_slow",
+     "phrase": "P4",
+     "audio_tags": [
+      "slowly",
+      "clearly"
+     ]
+    },
+    {
+     "id": "N15",
+     "speaker": "tin",
+     "lang": "vi",
+     "text": "Hỏi món có cay không. Trả lời: Yes, it is, hoặc No, it isn't.",
+     "role": "explain",
+     "phrase": "P4"
+    },
+    {
+     "id": "N16",
+     "speaker": "tin",
+     "lang": "en",
+     "text": "Is it hot?",
+     "role": "example",
+     "phrase": "P4",
+     "audio_tags": [
+      "clearly"
+     ]
+    },
+    {
+     "id": "N17",
+     "speaker": "tin",
+     "lang": "vi",
+     "text": "Mẫu câu số năm.",
+     "role": "title",
+     "phrase": "P5"
+    },
+    {
+     "id": "N18",
+     "speaker": "tin",
+     "lang": "en",
+     "text": "How much is it? ... Sixty thousand dong.",
+     "role": "phrase_slow",
+     "phrase": "P5",
+     "audio_tags": [
+      "slowly",
+      "clearly"
+     ]
+    },
+    {
+     "id": "N19",
+     "speaker": "tin",
+     "lang": "vi",
+     "text": "Hỏi giá. Đừng nói How much this, vì thiếu chữ is.",
+     "role": "explain",
+     "phrase": "P5"
+    },
+    {
+     "id": "N20",
+     "speaker": "tin",
+     "lang": "en",
+     "text": "How much is the iced tea?",
+     "role": "example",
+     "phrase": "P5",
+     "audio_tags": [
+      "clearly"
+     ]
+    },
+    {
+     "id": "N21",
+     "speaker": "tin",
+     "lang": "vi",
+     "text": "Mẫu câu số sáu.",
+     "role": "title",
+     "phrase": "P6"
+    },
+    {
+     "id": "N22",
+     "speaker": "tin",
+     "lang": "en",
+     "text": "Here you are.",
+     "role": "phrase_slow",
+     "phrase": "P6",
+     "audio_tags": [
+      "slowly",
+      "clearly"
+     ]
+    },
+    {
+     "id": "N23",
+     "speaker": "tin",
+     "lang": "vi",
+     "text": "Câu dùng khi đưa đồ hoặc đưa tiền cho ai đó.",
+     "role": "explain",
+     "phrase": "P6"
+    },
+    {
+     "id": "N24",
+     "speaker": "tin",
+     "lang": "vi",
+     "text": "Lỗi hay gặp! Anh Tony nói: many beef.",
+     "role": "error_title",
+     "phrase": "ERR"
+    },
+    {
+     "id": "N25",
+     "speaker": "tin",
+     "lang": "vi",
+     "text": "Beef là danh từ không đếm được nên không dùng many. Muốn thêm thì nói more.",
+     "role": "explain",
+     "phrase": "ERR"
+    },
+    {
+     "id": "N26",
+     "speaker": "tin",
+     "lang": "en",
+     "text": "More beef, please.",
+     "role": "phrase_slow",
+     "phrase": "ERR",
+     "audio_tags": [
+      "slowly",
+      "clearly"
+     ]
+    },
+    {
+     "id": "N27",
+     "speaker": "tin",
+     "lang": "en",
+     "text": "More noodles, please.",
+     "role": "example",
+     "phrase": "ERR",
+     "audio_tags": [
+      "clearly"
+     ]
+    },
+    {
+     "id": "N28",
+     "speaker": "tin",
+     "lang": "vi",
+     "text": "Câu một. Bạn không ăn hành. Bạn nói thế nào?",
+     "role": "quiz_q",
+     "q": 0
+    },
+    {
+     "id": "N29",
+     "speaker": "tin",
+     "lang": "en",
+     "text": "No onions, please!",
+     "role": "quiz_a",
+     "q": 0
+    },
+    {
+     "id": "N30",
+     "speaker": "tin",
+     "lang": "vi",
+     "text": "Câu hai. Câu tiếng Anh này nghĩa là gì?",
+     "role": "quiz_q",
+     "q": 1
+    },
+    {
+     "id": "N31",
+     "speaker": "tin",
+     "lang": "vi",
+     "text": "Đáp án: Bao nhiêu tiền?",
+     "role": "quiz_a",
+     "q": 1
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,92 @@
+{
+  "tin-hero-01.png": {
+    "date": "2026-11-17",
+    "tool": "Higgsfield via ChatGPT plugin (free-trial unlimited, 0 credits)",
+    "model": "nano_banana_flash (Nano Banana 2)",
+    "aspect_ratio": "3:4",
+    "resolution": "2k (1792x2400)",
+    "higgsfield_job_id": "038351dc-2cfb-4aa6-87d4-625ce10048b1",
+    "prompt_source": "prompts/character-sheet.md — Bước 1 hero image (TÍN) with STYLE LOCK — YOLO7 English",
+    "review": "Đạt: phong cách 2D phẳng, viền nâu, tóc mái, bút đỏ ở tai phải, áo trắng in phin, jeans xanh nhạt, giày trắng. Cần cải thiện: lúm đồng tiền trông như nốt ruồi; bút đỏ cài hơi lệch ra sau tai; nét mặt hơi 'trung bình', chưa đủ dễ thương/đặc trưng."
+  },
+  "tin-hero-02.png": {
+    "date": "2026-11-17",
+    "tool": "Higgsfield via ChatGPT plugin (free-trial unlimited, 0 credits)",
+    "model": "nano_banana_flash (Nano Banana 2)",
+    "aspect_ratio": "3:4",
+    "resolution": "2k (1792x2400)",
+    "prompt_source": "prompts/character-sheet.md — Bước 1 (TÍN, bản 2: mặt tròn, cười rộng, lúm đồng tiền, không bút, áo trơn)",
+    "higgsfield_job_id": "af801547-a881-498f-991d-fdc33533ad27",
+    "review": "Dễ thương, tóc rối nhẹ; trông như trẻ con, lúm đồng tiền vẫn giống vết"
+  },
+  "tin-hero-03.png": {
+    "date": "2026-11-17",
+    "tool": "Higgsfield via ChatGPT plugin (free-trial unlimited, 0 credits)",
+    "model": "nano_banana_flash (Nano Banana 2)",
+    "aspect_ratio": "3:4",
+    "resolution": "2k (1792x2400)",
+    "prompt_source": "prompts/character-sheet.md — Bước 1 (TÍN, bản 2: mặt tròn, cười rộng, lúm đồng tiền, không bút, áo trơn)",
+    "higgsfield_job_id": "765c4210-e115-4fc8-af0d-6b702bbe57af",
+    "review": "Nền vàng (không phải off-white); trông như trẻ con"
+  },
+  "tin-hero-04.png": {
+    "date": "2026-11-17",
+    "tool": "Higgsfield via ChatGPT plugin (free-trial unlimited, 0 credits)",
+    "model": "nano_banana_flash (Nano Banana 2)",
+    "aspect_ratio": "3:4",
+    "resolution": "2k (1792x2400)",
+    "prompt_source": "prompts/character-sheet.md — Bước 1 (TÍN, bản 2: mặt tròn, cười rộng, lúm đồng tiền, không bút, áo trơn)",
+    "higgsfield_job_id": "fc0541f3-d3fa-4ae7-8a9d-17d99d8559f9",
+    "review": "Gần mô tả nhất, vẫn trông nhỏ tuổi"
+  },
+  "tin-hero-05.png": {
+    "date": "2026-11-17",
+    "tool": "Higgsfield via ChatGPT plugin (free-trial unlimited, 0 credits)",
+    "model": "nano_banana_flash (Nano Banana 2)",
+    "aspect_ratio": "3:4",
+    "resolution": "2k (1792x2400)",
+    "prompt_source": "prompts/character-sheet.md — Bước 1 (TÍN, bản 2: mặt tròn, cười rộng, lúm đồng tiền, không bút, áo trơn)",
+    "higgsfield_job_id": "37db8506-8110-4a73-9e21-abd3b6528a02",
+    "review": "Giày xanh (sai mô tả); trông như trẻ con"
+  },
+  "tin-hero-06.png": {
+    "date": "2026-11-17",
+    "tool": "Higgsfield via ChatGPT plugin (free-trial unlimited, 0 credits)",
+    "model": "nano_banana_flash (Nano Banana 2)",
+    "aspect_ratio": "3:4",
+    "resolution": "2k (1792x2400)",
+    "prompt_source": "prompts/character-sheet.md — Bước 1 (TÍN, bản 3: young adult, dimple strokes, white sneakers, #FAF6EF bg)",
+    "higgsfield_job_id": "f19a1c95-43f7-4dc7-ad11-48edcf1406fe",
+    "review": "Vẫn hơi giống thiếu niên (đầu to, mặt tròn); miệng cười mở rộng"
+  },
+  "tin-hero-07.png": {
+    "date": "2026-11-17",
+    "tool": "Higgsfield via ChatGPT plugin (free-trial unlimited, 0 credits)",
+    "model": "nano_banana_flash (Nano Banana 2)",
+    "aspect_ratio": "3:4",
+    "resolution": "2k (1792x2400)",
+    "prompt_source": "prompts/character-sheet.md — Bước 1 (TÍN, bản 3: young adult, dimple strokes, white sneakers, #FAF6EF bg)",
+    "higgsfield_job_id": "e69ebb85-131c-4539-b6c3-eb468040bf1a",
+    "review": "Rõ là người lớn, cười ấm, tự nhiên nhất; hơi hiền/ít nét riêng"
+  },
+  "tin-hero-08.png": {
+    "date": "2026-11-17",
+    "tool": "Higgsfield via ChatGPT plugin (free-trial unlimited, 0 credits)",
+    "model": "nano_banana_flash (Nano Banana 2)",
+    "aspect_ratio": "3:4",
+    "resolution": "2k (1792x2400)",
+    "prompt_source": "prompts/character-sheet.md — Bước 1 (TÍN, bản 3: young adult, dimple strokes, white sneakers, #FAF6EF bg)",
+    "higgsfield_job_id": "ac8e5d82-e85c-4f50-873d-900ac6f56ce8",
+    "review": "Người lớn, cười rộng nhất, nét lúm đồng tiền rõ — đề xuất làm hero"
+  },
+  "tin-hero-09.png": {
+    "date": "2026-11-17",
+    "tool": "Higgsfield via ChatGPT plugin (free-trial unlimited, 0 credits)",
+    "model": "nano_banana_flash (Nano Banana 2)",
+    "aspect_ratio": "3:4",
+    "resolution": "2k (1792x2400)",
+    "prompt_source": "prompts/character-sheet.md — Bước 1 (TÍN, bản 3: young adult, dimple strokes, white sneakers, #FAF6EF bg)",
+    "higgsfield_job_id": "e50ec22d-8c2a-444d-83a6-48d928f368ea",
+    "review": "Người lớn, dễ thương; có thêm bóng đổ dưới chân (không yêu cầu)"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "character": "jake",
+  "pose": "seated",
+  "image": "hero-nomouth.png",
+  "source": "hero-cut.png",
+  "coords": "pixels in hero-cut.png",
+  "origin": "seated-01.png (Higgsfield job f24a2998-cd60-4b1f-b003-966af54e313a, refs: jake hero + quan-table stool)",
+  "mouth": {
+    "cx": 472,
+    "cy": 378,
+    "w": 100,
+    "erase": {
+      "rx": 58,
+      "ry": 18
+    }
+  },
+  "eyes": [
+    {
+      "cx": 408,
+      "cy": 270,
+      "rx": 32,
+      "ry": 25
+    },
+    {
+      "cx": 530,
+      "cy": 270,
+      "rx": 28,
+      "ry": 25
+    }
+  ],
+  "stool": {
+    "note": "stool spans roughly x 200-700, bottom = image bottom"
+  },
+  "height_rel": 1,
+  "skin": [
+    252,
+    194,
+    158
+  ]
+}

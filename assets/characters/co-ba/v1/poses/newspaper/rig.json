@@ -1,0 +1,37 @@
+{
+  "image": "hero-nomouth.png",
+  "source": "hero-cut.png",
+  "coords": "pixels in hero-cut.png",
+  "height_rel": 0.86,
+  "character": "co-ba",
+  "pose": "newspaper",
+  "origin": "newspaper-01.png (job 93b82d26-36e9-46a4-9d53-b658f664b0c5)",
+  "mouth": {
+    "cx": 482,
+    "cy": 497,
+    "w": 96,
+    "erase": {
+      "rx": 56,
+      "ry": 20
+    }
+  },
+  "eyes": [
+    {
+      "cx": 392,
+      "cy": 372,
+      "rx": 40,
+      "ry": 32
+    },
+    {
+      "cx": 552,
+      "cy": 372,
+      "rx": 36,
+      "ry": 32
+    }
+  ],
+  "skin": [
+    253,
+    193,
+    152
+  ]
+}

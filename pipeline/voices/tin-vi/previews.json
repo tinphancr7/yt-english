@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-17",
+  "model": "eleven_ttv_v3",
+  "description": "A warm 21-year-old young Vietnamese man from Saigon speaking Vietnamese with a natural Southern Vietnamese accent. Gentle, friendly and encouraging, like an older brother explaining a lesson. Medium pitch, clear diction, clean studio recording.",
+  "text": "Chào cả nhà, mình là Tín. Hôm nay mình học cách gọi phở bằng tiếng Anh ngay tại quán của mẹ mình. Các bạn nghe kỹ nha: No onions, please, nghĩa là không hành nha. Giờ mình cùng luyện phản xạ bảy giây nhé!",
+  "previews": [
+    {
+      "file": "preview-1.mp3",
+      "generated_voice_id": "cQ2W4ckra8YvQY18vkmE",
+      "duration_secs": 14.4484375,
+      "language": "vi"
+    },
+    {
+      "file": "preview-2.mp3",
+      "generated_voice_id": "KRPsr2JAtUNKNva0PiT8",
+      "duration_secs": 13.638625,
+      "language": "vi"
+    },
+    {
+      "file": "preview-3.mp3",
+      "generated_voice_id": "kMoGuBmlHvpMJLdvNF9m",
+      "duration_secs": 14.84025,
+      "language": "vi"
+    }
+  ]
+}

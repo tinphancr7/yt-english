@@ -1,0 +1,36 @@
+{
+  "character": "tin",
+  "image": "hero-nomouth.png",
+  "source": "hero-cut.png",
+  "coords": "pixels in hero-cut.png",
+  "mouth": {
+    "cx": 390,
+    "cy": 368,
+    "w": 120,
+    "erase": {
+      "rx": 72,
+      "ry": 34
+    }
+  },
+  "eyes": [
+    {
+      "cx": 320,
+      "cy": 258,
+      "rx": 36,
+      "ry": 26
+    },
+    {
+      "cx": 440,
+      "cy": 258,
+      "rx": 30,
+      "ry": 26
+    }
+  ],
+  "height_rel": 1,
+  "note": "Tín 21, mặc định cười",
+  "skin": [
+    253,
+    200,
+    160
+  ]
+}
