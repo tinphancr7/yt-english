@@ -1,0 +1,57 @@
+{
+ "id": "R11",
+ "speaker": "tin",
+ "lang": "vi",
+ "text": "Có cay không?",
+ "sent_text": "Có cay không?",
+ "model": "eleven_v4",
+ "voice_id": "cQ2W4ckra8YvQY18vkmE",
+ "hash": "b1570693a98e",
+ "alignment": {
+  "characters": [
+   "C",
+   "ó",
+   " ",
+   "c",
+   "a",
+   "y",
+   " ",
+   "k",
+   "h",
+   "ô",
+   "n",
+   "g",
+   "?"
+  ],
+  "character_start_times_seconds": [
+   0,
+   0.08,
+   0.12,
+   0.16,
+   0.24,
+   0.32,
+   0.4,
+   0.48,
+   0.52,
+   0.56,
+   0.613,
+   0.667,
+   0.72
+  ],
+  "character_end_times_seconds": [
+   0.08,
+   0.12,
+   0.16,
+   0.24,
+   0.32,
+   0.4,
+   0.48,
+   0.52,
+   0.56,
+   0.613,
+   0.667,
+   0.72,
+   0.96
+  ]
+ }
+}

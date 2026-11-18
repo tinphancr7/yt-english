@@ -1,0 +1,54 @@
+{
+ "id": "R06",
+ "speaker": "tin",
+ "lang": "vi",
+ "text": "Tôi đói lắm!",
+ "sent_text": "Tôi đói lắm!",
+ "model": "eleven_v4",
+ "voice_id": "cQ2W4ckra8YvQY18vkmE",
+ "hash": "53d1b4187218",
+ "alignment": {
+  "characters": [
+   "T",
+   "ô",
+   "i",
+   " ",
+   "đ",
+   "ó",
+   "i",
+   " ",
+   "l",
+   "ắ",
+   "m",
+   "!"
+  ],
+  "character_start_times_seconds": [
+   0,
+   0.16,
+   0.2,
+   0.24,
+   0.32,
+   0.4,
+   0.48,
+   0.56,
+   0.64,
+   0.8,
+   0.88,
+   0.96
+  ],
+  "character_end_times_seconds": [
+   0.16,
+   0.2,
+   0.24,
+   0.32,
+   0.4,
+   0.48,
+   0.56,
+   0.64,
+   0.8,
+   0.88,
+   0.96,
+   1.36
+  ]
+ }
+}

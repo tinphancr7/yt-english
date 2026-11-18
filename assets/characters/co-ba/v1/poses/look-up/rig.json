@@ -1,0 +1,49 @@
+{
+  "character": "co-ba",
+  "pose": "look-up",
+  "image": "hero-nomouth.png",
+  "source": "hero-cut.png",
+  "coords": "pixels in hero-cut.png",
+  "origin": "look-up-01.png (Higgsfield job 71b96c79-a06f-41ad-a6a1-6454c76e0ca5, edit of hero)",
+  "mouth": {
+    "cx": 524.0,
+    "cy": 500,
+    "w": 110.0,
+    "erase": {
+      "rx": 66,
+      "ry": 28
+    }
+  },
+  "eyes": [
+    {
+      "cx": 452.0,
+      "cy": 360.0,
+      "rx": 34.0,
+      "ry": 28.0
+    },
+    {
+      "cx": 598.0,
+      "cy": 360.0,
+      "rx": 30.0,
+      "ry": 28.0
+    }
+  ],
+  "height_rel": 0.86,
+  "anchor_x": 439.5,
+  "skin": [
+    253,
+    194,
+    152
+  ],
+  "staging": {
+    "posture": "stand",
+    "gestures": [
+      "fan"
+    ],
+    "holds": [
+      "fan"
+    ],
+    "look": "up",
+    "facing": "3q"
+  }
+}

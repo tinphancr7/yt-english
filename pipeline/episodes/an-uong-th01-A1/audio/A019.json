@@ -1,0 +1,63 @@
+{
+ "id": "A019",
+ "speaker": "tin",
+ "lang": "vi",
+ "text": "Mẫu câu thứ ba.",
+ "sent_text": "Mẫu câu thứ ba.",
+ "model": "eleven_v4",
+ "voice_id": "cQ2W4ckra8YvQY18vkmE",
+ "hash": "681ee93b0385",
+ "alignment": {
+  "characters": [
+   "M",
+   "ẫ",
+   "u",
+   " ",
+   "c",
+   "â",
+   "u",
+   " ",
+   "t",
+   "h",
+   "ứ",
+   " ",
+   "b",
+   "a",
+   "."
+  ],
+  "character_start_times_seconds": [
+   0,
+   0.08,
+   0.12,
+   0.16,
+   0.24,
+   0.32,
+   0.36,
+   0.4,
+   0.48,
+   0.52,
+   0.56,
+   0.64,
+   0.76,
+   0.82,
+   0.88
+  ],
+  "character_end_times_seconds": [
+   0.08,
+   0.12,
+   0.16,
+   0.24,
+   0.32,
+   0.36,
+   0.4,
+   0.48,
+   0.52,
+   0.56,
+   0.64,
+   0.76,
+   0.82,
+   0.88,
+   1.12
+  ]
+ }
+}

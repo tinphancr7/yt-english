@@ -32,5 +32,11 @@
     253,
     200,
     160
-  ]
+  ],
+  "staging": {
+    "posture": "stand",
+    "gestures": [],
+    "holds": [],
+    "facing": "3q"
+  }
 }

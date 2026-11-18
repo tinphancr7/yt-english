@@ -1,0 +1,63 @@
+{
+ "id": "R03",
+ "speaker": "tin",
+ "lang": "vi",
+ "text": "Cho tôi phở bò.",
+ "sent_text": "Cho tôi phở bò.",
+ "model": "eleven_v4",
+ "voice_id": "cQ2W4ckra8YvQY18vkmE",
+ "hash": "a18e54fb3455",
+ "alignment": {
+  "characters": [
+   "C",
+   "h",
+   "o",
+   " ",
+   "t",
+   "ô",
+   "i",
+   " ",
+   "p",
+   "h",
+   "ở",
+   " ",
+   "b",
+   "ò",
+   "."
+  ],
+  "character_start_times_seconds": [
+   0,
+   0.107,
+   0.133,
+   0.16,
+   0.2,
+   0.24,
+   0.32,
+   0.4,
+   0.48,
+   0.52,
+   0.56,
+   0.64,
+   0.72,
+   0.8,
+   0.96
+  ],
+  "character_end_times_seconds": [
+   0.107,
+   0.133,
+   0.16,
+   0.2,
+   0.24,
+   0.32,
+   0.4,
+   0.48,
+   0.52,
+   0.56,
+   0.64,
+   0.72,
+   0.8,
+   0.96,
+   1.36
+  ]
+ }
+}

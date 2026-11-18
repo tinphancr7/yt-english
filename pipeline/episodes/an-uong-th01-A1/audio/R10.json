@@ -1,0 +1,60 @@
+{
+ "id": "R10",
+ "speaker": "tin",
+ "lang": "vi",
+ "text": "Của anh đây ạ.",
+ "sent_text": "Của anh đây ạ.",
+ "model": "eleven_v4",
+ "voice_id": "cQ2W4ckra8YvQY18vkmE",
+ "hash": "d54a0d15d4d8",
+ "alignment": {
+  "characters": [
+   "C",
+   "ủ",
+   "a",
+   " ",
+   "a",
+   "n",
+   "h",
+   " ",
+   "đ",
+   "â",
+   "y",
+   " ",
+   "ạ",
+   "."
+  ],
+  "character_start_times_seconds": [
+   0,
+   0.08,
+   0.12,
+   0.16,
+   0.24,
+   0.293,
+   0.347,
+   0.4,
+   0.44,
+   0.48,
+   0.52,
+   0.56,
+   0.64,
+   0.8
+  ],
+  "character_end_times_seconds": [
+   0.08,
+   0.12,
+   0.16,
+   0.24,
+   0.293,
+   0.347,
+   0.4,
+   0.44,
+   0.48,
+   0.52,
+   0.56,
+   0.64,
+   0.8,
+   1.12
+  ]
+ }
+}

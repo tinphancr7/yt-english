@@ -32,5 +32,13 @@
     251,
     193,
     154
-  ]
+  ],
+  "staging": {
+    "posture": "stand",
+    "gestures": [],
+    "holds": [
+      "shoulder-bag"
+    ],
+    "facing": "3q"
+  }
 }

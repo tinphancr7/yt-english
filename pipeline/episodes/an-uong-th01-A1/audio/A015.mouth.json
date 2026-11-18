@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "soundFile": "C:\\2026\\yt\\pipeline\\episodes\\an-uong-th01-A1\\audio\\A015.wav",
+    "duration": 3.76
+  },
+  "mouthCues": [
+    { "start": 0.00, "end": 0.05, "value": "B" },
+    { "start": 0.05, "end": 0.23, "value": "C" },
+    { "start": 0.23, "end": 0.30, "value": "E" },
+    { "start": 0.30, "end": 0.37, "value": "F" },
+    { "start": 0.37, "end": 0.58, "value": "B" },
+    { "start": 0.58, "end": 0.78, "value": "X" },
+    { "start": 0.78, "end": 1.15, "value": "B" },
+    { "start": 1.15, "end": 1.36, "value": "C" },
+    { "start": 1.36, "end": 1.43, "value": "E" },
+    { "start": 1.43, "end": 1.52, "value": "A" },
+    { "start": 1.52, "end": 1.62, "value": "E" },
+    { "start": 1.62, "end": 1.70, "value": "A" },
+    { "start": 1.70, "end": 1.84, "value": "E" },
+    { "start": 1.84, "end": 1.91, "value": "F" },
+    { "start": 1.91, "end": 2.05, "value": "E" },
+    { "start": 2.05, "end": 2.37, "value": "B" },
+    { "start": 2.37, "end": 2.52, "value": "C" },
+    { "start": 2.52, "end": 2.73, "value": "E" },
+    { "start": 2.73, "end": 2.96, "value": "C" },
+    { "start": 2.96, "end": 3.63, "value": "B" },
+    { "start": 3.63, "end": 3.76, "value": "X" }
+  ]
+}

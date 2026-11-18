@@ -1,0 +1,40 @@
+{
+  "character": "tin",
+  "pose": "turn",
+  "image": "hero-nomouth.png",
+  "source": "hero-cut.png",
+  "coords": "pixels in hero-cut.png",
+  "origin": "turn-03.png (Higgsfield job eb66ea0f-c2b1-4c45-9e70-60b98d3b8996: edit of 9e9dbb65 + sheet 9c911582, cả thân xoay nghiêng). Loại: turn-01 (7efb58da) vẫn 3/4; turn-02 (9e9dbb65) đầu nghiêng nhưng thân 3/4 = vặn cổ.",
+  "mouth": {
+    "cx": 346,
+    "cy": 376,
+    "w": 72,
+    "sx": 0.6,
+    "erase": {
+      "rx": 34,
+      "ry": 12
+    }
+  },
+  "eyes": [
+    {
+      "cx": 300,
+      "cy": 268,
+      "rx": 26,
+      "ry": 26
+    }
+  ],
+  "height_rel": 1,
+  "skin": [
+    254,
+    199,
+    163
+  ],
+  "staging": {
+    "posture": "stand",
+    "gestures": [],
+    "holds": [],
+    "look": "level",
+    "facing": "profile",
+    "note": "xoay nghiêng hẳn về người nghe (dùng khi người nghe ở phía sau, vd. khách đang ngồi)"
+  }
+}

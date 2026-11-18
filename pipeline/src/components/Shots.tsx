@@ -1,6 +1,6 @@
 import React from 'react';
 import { AbsoluteFill, Audio, Img, Sequence, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig } from 'remotion';
-import { COLORS } from '../brand';
+import { COLORS, SPEAKER } from '../brand';
 import type { Line, Rig, Shot, Sfx, Timeline } from '../types';
 import { Character } from './Character';
 import { Subtitle } from './Subtitle';
@@ -36,7 +36,7 @@ const Bg: React.FC<{ src: string; blur?: number; dim?: number }> = ({ src, blur 
   </AbsoluteFill>
 );
 
-const Card: React.FC<{ style?: React.CSSProperties; children: React.ReactNode }> = ({ style, children }) => (
+export const Card: React.FC<{ style?: React.CSSProperties; children: React.ReactNode }> = ({ style, children }) => (
   <div style={{ background: COLORS.cream, border: `6px solid ${COLORS.outline}`, borderRadius: 32, boxShadow: '0 10px 0 rgba(61,44,41,0.35)', fontFamily: FONT, color: COLORS.outline, ...style }}>{children}</div>
 );
 
@@ -103,6 +103,22 @@ export const LearnShot: React.FC<{ shot: Extract<Shot, { kind: 'learn' }>; tl: T
   const isErr = b.kind === 'error';
   const idx = shot.blocks.filter((x) => x.kind === 'phrase').indexOf(b) + 1;
   const parts = (b.phrase ?? '').split(' — ');
+  // replayed film lines: highlight the half being spoken, and show THAT speaker in the bubble (not a silent Tín)
+  const srcs = b.lines.filter((l) => l.role === 'source');
+  const srcNow = srcs.findIndex((l) => lt >= l.start && lt < l.start + l.dur);
+  // a half is highlighted only while a film line that actually CONTAINS it is playing ("Onions?" ≠ "No onions, please.")
+  const norm = (x: string) => x.toLowerCase().replace(/[^a-z0-9 ]/g, '').replace(/\s+/g, ' ').trim();
+  const slow = b.lines.find((l) => l.role === 'phrase_slow' && lt >= l.start && lt < l.start + l.dur);
+  const slowPart = (i: number) => {
+    const ps = slow?.parts; if (!slow) return false; if (!ps || ps.some((x) => x == null)) return true;
+    const k = lt - slow.start; return k >= (i === 0 ? 0 : ps[i]! - 0.05) && (i === ps.length - 1 || k < ps[i + 1]! - 0.05);
+  };
+  // each film line lights ONE half: the longest half it contains ("No onions, please." contains "Onions?" too → only the answer)
+  const srcHalf = srcNow < 0 ? -1 : parts.reduce((best, h, i) => (norm(srcs[srcNow].text).includes(norm(h)) && (best < 0 || norm(h).length > norm(parts[best]).length) ? i : best), -1);
+  const lit = (i: number) => slowPart(i) || srcHalf === i;
+  const cur = allLines.find((l) => t >= l.start - 0.05 && t < l.start + l.dur + 0.3);
+  const who = cur && cur.speaker !== 'tin' && tl.characters[cur.speaker] ? cur.speaker : 'tin';
+  const bubbleRig = who === 'tin' ? host : tl.characters[who];
   return (
     <AbsoluteFill>
       <Bg src={shot.bg} blur={shot.blur} dim={0.35} />
@@ -112,41 +128,46 @@ export const LearnShot: React.FC<{ shot: Extract<Shot, { kind: 'learn' }>; tl: T
           <div key={x.id} style={{ width: 26, height: 26, borderRadius: 13, border: `4px solid ${COLORS.outline}`, background: x === b ? (x.kind === 'error' ? COLORS.stoolRed : COLORS.wallYellow) : t > x.start ? COLORS.doorGreen : COLORS.cream }} />
         ))}
       </div>
-      <div style={{ position: 'absolute', left: 150, top: 120, width: 1300, transform: `scale(${0.85 + 0.15 * p})`, opacity: p, transformOrigin: '50% 30%' }}>
+      <div style={{ position: 'absolute', left: 120, top: 110, width: 1360, transform: `scale(${0.85 + 0.15 * p})`, opacity: p, transformOrigin: '50% 30%' }}>
         <Card style={{ padding: '40px 56px 46px' }}>
           <div style={{ fontSize: 34, fontWeight: 800, color: isErr ? COLORS.stoolRed : COLORS.doorGreen, marginBottom: 14 }}>
             {isErr ? 'LỖI HAY GẶP' : `MẪU CÂU ${idx}`}
           </div>
           {isErr ? (
             <div style={{ fontSize: 64, fontWeight: 800, lineHeight: 1.25 }}>
-              <span style={{ textDecoration: 'line-through', textDecorationThickness: 8, textDecorationColor: COLORS.stoolRed, color: '#9b7f78' }}>many beef</span>
+              <span style={{ textDecoration: 'line-through', textDecorationThickness: 8, textDecorationColor: COLORS.stoolRed, color: '#9b7f78', background: srcNow >= 0 && norm(srcs[srcNow].text).includes(norm(b.wrong ?? 'many beef')) ? '#F6C9C4' : 'transparent', borderRadius: 12, padding: '0 10px' }}>{b.wrong ?? 'many beef'}</span>
               <span style={{ margin: '0 24px' }}>→</span>
-              <span style={{ background: seen('phrase_slow') ? COLORS.highlight : 'transparent', borderRadius: 12, padding: '0 12px' }}>More beef, please.</span>
+              <span style={{ background: speaking('phrase_slow') || (srcNow >= 0 && norm(srcs[srcNow].text).includes(norm(b.right ?? 'More beef, please.'))) ? COLORS.highlight : 'transparent', borderRadius: 12, padding: '0 12px' }}>{b.right ?? 'More beef, please.'}</span>
             </div>
           ) : (
             <div style={{ fontSize: 66, fontWeight: 800, lineHeight: 1.22 }}>
               {parts.map((x, i) => (
                 <div key={i} style={{ color: i === 0 ? COLORS.outline : COLORS.plateBlue }}>
-                  <span style={{ background: speaking('phrase_slow') ? COLORS.highlight : 'transparent', borderRadius: 12, padding: '0 10px' }}>{x}</span>
+                  <span style={{ background: lit(i) ? COLORS.highlight : 'transparent', borderRadius: 12, padding: '0 10px' }}>{x}</span>
                 </div>
               ))}
             </div>
           )}
-          {!isErr && b.vi && <div style={{ fontSize: 38, fontWeight: 500, color: COLORS.viText, marginTop: 12 }}>{b.vi}</div>}
+          {!isErr && b.vi && <div style={{ fontSize: 44, fontWeight: 500, color: COLORS.viText, marginTop: 12 }}>{b.vi}</div>}
           {seen('explain') && (
-            <div style={{ marginTop: 28, padding: '20px 26px', background: 'white', border: `4px dashed ${COLORS.outline}`, borderRadius: 20, fontSize: 36, fontWeight: 500, lineHeight: 1.4 }}>
+            <div style={{ marginTop: 28, padding: '20px 26px', background: 'white', border: `4px dashed ${COLORS.outline}`, borderRadius: 20, fontSize: 44, fontWeight: 500, lineHeight: 1.35 }}>
               💡 {b.explain}
             </div>
           )}
           {b.example && seen('example') && (
-            <div style={{ marginTop: 22, fontSize: 40, fontWeight: 700 }}>
+            <div style={{ marginTop: 22, fontSize: 50, fontWeight: 700 }}>
               <span style={{ color: COLORS.doorGreen }}>Ví dụ: </span>
               <span style={{ background: speaking('example') ? COLORS.highlight : 'transparent', borderRadius: 10, padding: '0 8px' }}>{b.example}</span>
             </div>
           )}
         </Card>
       </div>
-      <HostBubble rig={host} t={t} lines={allLines.filter((l) => l.speaker === 'tin')} size={330} x={1530} y={690} />
+      <HostBubble rig={bubbleRig} t={t} lines={allLines.filter((l) => l.speaker === who)} size={330} x={1530} y={690} />
+      {who !== 'tin' && (
+        <div style={{ position: 'absolute', left: 1530, width: 330, top: 985, textAlign: 'center', zIndex: 41, fontFamily: 'Be Vietnam Pro' }}>
+          <span style={{ background: 'white', border: `4px solid ${COLORS.outline}`, borderRadius: 14, padding: '2px 18px', fontSize: 32, fontWeight: 800, color: (SPEAKER as Record<string, { name: string; color: string }>)[who]?.color ?? COLORS.outline }}>{(SPEAKER as Record<string, { name: string; color: string }>)[who]?.name ?? who}</span>
+        </div>
+      )}
       <LineAudio lines={allLines} fps={fps} />
       <SfxTrack sfx={shot.sfx} fps={fps} />
       <Audio src={staticFile(shot.music)} volume={0.06} loop />
@@ -203,7 +224,8 @@ export const QuizShot: React.FC<{ shot: Extract<Shot, { kind: 'quiz' }>; tl: Tim
       <HostBubble rig={host} t={t} lines={lines} size={330} x={1530} y={690} />
       <LineAudio lines={lines} fps={fps} />
       <SfxTrack sfx={shot.sfx} fps={fps} />
-      <Audio src={staticFile(shot.music)} volume={0.05} loop />
+      {/* music swells under the countdown (no voice there) so the thinking time is not near-silent (A1 P5: −30 LUFS) */}
+      <Audio src={staticFile(shot.music)} loop volume={(f) => { const x = f / fps; return shot.questions.some((qq) => x >= qq.cdStart + 0.3 && x < qq.reveal - 0.2) ? 0.3 : 0.05; }} />
     </AbsoluteFill>
   );
 };
@@ -218,7 +240,6 @@ export const OutroShot: React.FC<{ shot: Extract<Shot, { kind: 'outro' }>; tl: T
   const tony = tl.characters[shot.teaserRig];
   const inEnd = t >= shot.endScreenAt;
   const l28 = shot.lines[0], l29 = shot.lines[1];
-  const showCards = !inEnd && t >= l28.start + 2.5;
   const showTeaser = !inEnd && t >= l29.start;
   const pe = popIn(frame - Math.round(shot.endScreenAt * fps), fps);
   const hostH = 1500;
@@ -227,13 +248,7 @@ export const OutroShot: React.FC<{ shot: Extract<Shot, { kind: 'outro' }>; tl: T
       <Bg src={shot.bg} blur={inEnd ? 10 : 0} dim={inEnd ? 0.3 : 0} />
       {!inEnd && <Character rig={host} t={t} lines={shot.lines} place={{ x: 470, topY: H - 0.72 * hostH, height: hostH, flip: false, z: 10 }} />}
       {!inEnd && <Character rig={cat} t={t} lines={[]} place={{ x: 820, topY: H - 360, height: 360, flip: false, z: 11 }} />}
-      {showCards && (
-        <div style={{ position: 'absolute', right: 70, top: 80, display: 'flex', flexDirection: 'column', gap: 18, transform: `scale(${popIn(frame - Math.round((l28.start + 2.5) * fps), fps)})`, transformOrigin: '100% 0%' }}>
-          {[['📖', 'Phân tích & giải thích'], ['⚡', 'Phản xạ 7 giây']].map(([i, s]) => (
-            <Card key={s} style={{ padding: '18px 30px', fontSize: 38, fontWeight: 800 }}>{i} {s} <span style={{ color: COLORS.stoolRed }}>→</span></Card>
-          ))}
-        </div>
-      )}
+      {/* links to the companion videos = real YouTube Cards (Studio), not drawn: drawn ones look clickable but are not */}
       {showTeaser && (
         <div style={{ position: 'absolute', right: 90, top: 300, width: 760, transform: `scale(${popIn(frame - Math.round(l29.start * fps), fps)})` }}>
           <Card style={{ padding: '26px 34px', display: 'flex', alignItems: 'center', gap: 26, overflow: 'hidden' }}>
@@ -251,21 +266,13 @@ export const OutroShot: React.FC<{ shot: Extract<Shot, { kind: 'outro' }>; tl: T
       {inEnd && (
         <AbsoluteFill style={{ fontFamily: FONT }}>
           <div style={{ position: 'absolute', top: 70, left: 0, right: 0, textAlign: 'center', fontSize: 64, fontWeight: 800, color: COLORS.outline, transform: `scale(${pe})` }}>Học tiếp nhé! 👇</div>
-          {/* YouTube end-screen element slots (videos added in YouTube Studio) */}
-          {[150, 990].map((x, i) => (
-            <div key={x} style={{ position: 'absolute', left: x, top: 230, width: 780, height: 439, border: `6px dashed ${COLORS.outline}`, borderRadius: 24, background: 'rgba(255,244,224,0.55)', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 40, fontWeight: 700, color: COLORS.viText, transform: `scale(${pe})` }}>
-              {i === 0 ? 'Phân tích & giải thích' : 'Phản xạ 7 giây'}
-            </div>
-          ))}
-          <div style={{ position: 'absolute', left: 810, top: 760, width: 300, height: 300, borderRadius: 150, border: `6px dashed ${COLORS.outline}`, background: 'rgba(255,244,224,0.55)', display: 'flex', alignItems: 'center', justifyContent: 'center', textAlign: 'center', fontSize: 34, fontWeight: 800, color: COLORS.stoolRed, transform: `scale(${pe})` }}>
-            ĐĂNG KÝ<br />YOLO7 English
-          </div>
+          {/* YouTube end-screen elements (2 videos + subscribe) are added in Studio over this clean area — nothing drawn here */}
         </AbsoluteFill>
       )}
       <LineAudio lines={shot.lines} fps={fps} />
       {shot.lines.map((l) => (t >= l.start - 0.05 && t < l.start + l.dur + 0.45 ? <Subtitle key={l.id} line={l} t={t} /> : null))}
       <SfxTrack sfx={shot.sfx} fps={fps} />
-      <Audio src={staticFile(shot.music)} volume={(f) => interpolate(f / fps, [0, shot.endScreenAt - 0.5, shot.endScreenAt, shot.dur - 2, shot.dur], [0.06, 0.06, 0.25, 0.25, 0], { extrapolateRight: 'clamp' })} loop />
+      <Audio src={staticFile(shot.music)} volume={(f) => interpolate(f / fps, [0, shot.endScreenAt - 0.5, shot.endScreenAt, shot.dur - 2, shot.dur], [0.06, 0.06, 0.5, 0.5, 0], { extrapolateRight: 'clamp' })} loop />
     </AbsoluteFill>
   );
 };

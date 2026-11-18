@@ -1,0 +1,1989 @@
+{
+ "id": "an-uong-th01-A1-reflex",
+ "fps": 30,
+ "width": 1920,
+ "height": 1080,
+ "durationInFrames": 18870,
+ "duration": 628.9959620000002,
+ "title": "BÀI THI PHẢN XẠ 7 GIÂY — GỌI PHỞ Ở QUÁN CÔ BA — A1",
+ "characters": {},
+ "bg": "locations/quan-co-ba/wide.png",
+ "music": "audio/music/bg-cozy-ukulele.mp3",
+ "sfx": {
+  "tick": "audio/sfx/clock-tick.mp3",
+  "ding": "audio/sfx/correct-ding.mp3",
+  "whoosh": "audio/sfx/whoosh.mp3"
+ },
+ "countdown": 7,
+ "shots": [
+  {
+   "id": "RI",
+   "kind": "reflex",
+   "phase": "intro",
+   "dur": 10.04,
+   "voice": {
+    "audio": "episodes/an-uong-th01-A1/audio/R00.mp3",
+    "dur": 7.84,
+    "start": 1,
+    "text": "Bài thi phản xạ bảy giây! Phần một: mình đọc một câu tiếng Việt, bạn có bảy giây để nói to câu tiếng Anh. Bắt đầu nhé!"
+   },
+   "points": [
+    {
+     "t": 4.92,
+     "tag": "intro",
+     "text": "Bài thi phản xạ bảy giây! Phần một: mình đọc một câu tiếng Việt, bạn có bảy giây để nói to câu tiếng Anh. Bắt đầu nhé!"
+    }
+   ],
+   "part": 1,
+   "start": 0
+  },
+  {
+   "id": "A01",
+   "kind": "reflex",
+   "phase": "item",
+   "part": 1,
+   "order": 1,
+   "n": 1,
+   "dur": 11.000000000000002,
+   "prompt": {
+    "audio": "episodes/an-uong-th01-A1/audio/R01.mp3",
+    "dur": 0.96,
+    "text": "Chào buổi sáng!",
+    "lang": "vi",
+    "start": 0.35
+   },
+   "answer": {
+    "audio": "episodes/an-uong-th01-A1/audio/C01.mp3",
+    "dur": 0.74,
+    "text": "Good morning!",
+    "lang": "en",
+    "start": 8.96
+   },
+   "cdStart": 1.71,
+   "reveal": 8.71,
+   "points": [
+    {
+     "t": 3.71,
+     "tag": "P1 câu 1",
+     "text": "đề: Chào buổi sáng!"
+    },
+    {
+     "t": 9.33,
+     "tag": "P1 câu 1 đáp án",
+     "text": "Good morning!"
+    }
+   ],
+   "start": 10.04
+  },
+  {
+   "id": "A02",
+   "kind": "reflex",
+   "phase": "item",
+   "part": 1,
+   "order": 2,
+   "n": 2,
+   "dur": 11.46,
+   "prompt": {
+    "audio": "episodes/an-uong-th01-A1/audio/R02.mp3",
+    "dur": 1.04,
+    "text": "Anh muốn ăn gì?",
+    "lang": "vi",
+    "start": 0.35
+   },
+   "answer": {
+    "audio": "episodes/an-uong-th01-A1/audio/C02.mp3",
+    "dur": 1.12,
+    "text": "What would you like?",
+    "lang": "en",
+    "start": 9.04
+   },
+   "cdStart": 1.79,
+   "reveal": 8.79,
+   "points": [
+    {
+     "t": 3.79,
+     "tag": "P1 câu 2",
+     "text": "đề: Anh muốn ăn gì?"
+    },
+    {
+     "t": 9.6,
+     "tag": "P1 câu 2 đáp án",
+     "text": "What would you like?"
+    }
+   ],
+   "start": 21.04
+  },
+  {
+   "id": "A03",
+   "kind": "reflex",
+   "phase": "item",
+   "part": 1,
+   "order": 3,
+   "n": 3,
+   "dur": 11.8,
+   "prompt": {
+    "audio": "episodes/an-uong-th01-A1/audio/R03.mp3",
+    "dur": 1.36,
+    "text": "Cho tôi phở bò.",
+    "lang": "vi",
+    "start": 0.35
+   },
+   "answer": {
+    "audio": "episodes/an-uong-th01-A1/audio/C03.mp3",
+    "dur": 1.14,
+    "text": "Beef pho, please.",
+    "lang": "en",
+    "start": 9.36
+   },
+   "cdStart": 2.11,
+   "reveal": 9.11,
+   "points": [
+    {
+     "t": 4.109999999999999,
+     "tag": "P1 câu 3",
+     "text": "đề: Cho tôi phở bò."
+    },
+    {
+     "t": 9.93,
+     "tag": "P1 câu 3 đáp án",
+     "text": "Beef pho, please."
+    }
+   ],
+   "start": 32.5
+  },
+  {
+   "id": "A04",
+   "kind": "reflex",
+   "phase": "item",
+   "part": 1,
+   "order": 4,
+   "n": 4,
+   "dur": 12.42,
+   "prompt": {
+    "audio": "episodes/an-uong-th01-A1/audio/R04.mp3",
+    "dur": 1.84,
+    "text": "Tô nhỏ hay tô lớn?",
+    "lang": "vi",
+    "start": 0.35
+   },
+   "answer": {
+    "audio": "episodes/an-uong-th01-A1/audio/C04.mp3",
+    "dur": 1.28,
+    "text": "Small or large?",
+    "lang": "en",
+    "start": 9.84
+   },
+   "cdStart": 2.59,
+   "reveal": 9.59,
+   "points": [
+    {
+     "t": 4.59,
+     "tag": "P1 câu 4",
+     "text": "đề: Tô nhỏ hay tô lớn?"
+    },
+    {
+     "t": 10.48,
+     "tag": "P1 câu 4 đáp án",
+     "text": "Small or large?"
+    }
+   ],
+   "start": 44.3
+  },
+  {
+   "id": "A05",
+   "kind": "reflex",
+   "phase": "item",
+   "part": 1,
+   "order": 5,
+   "n": 5,
+   "dur": 11.19,
+   "prompt": {
+    "audio": "episodes/an-uong-th01-A1/audio/R05.mp3",
+    "dur": 0.88,
+    "text": "Tô lớn nhé.",
+    "lang": "vi",
+    "start": 0.35
+   },
+   "answer": {
+    "audio": "episodes/an-uong-th01-A1/audio/C05.mp3",
+    "dur": 1.01,
+    "text": "Large, please.",
+    "lang": "en",
+    "start": 8.879999999999999
+   },
+   "cdStart": 1.63,
+   "reveal": 8.629999999999999,
+   "points": [
+    {
+     "t": 3.63,
+     "tag": "P1 câu 5",
+     "text": "đề: Tô lớn nhé."
+    },
+    {
+     "t": 9.385,
+     "tag": "P1 câu 5 đáp án",
+     "text": "Large, please."
+    }
+   ],
+   "start": 56.72
+  },
+  {
+   "id": "A06",
+   "kind": "reflex",
+   "phase": "item",
+   "part": 1,
+   "order": 6,
+   "n": 6,
+   "dur": 12,
+   "prompt": {
+    "audio": "episodes/an-uong-th01-A1/audio/R06.mp3",
+    "dur": 1.36,
+    "text": "Tôi đói lắm!",
+    "lang": "vi",
+    "start": 0.35
+   },
+   "answer": {
+    "audio": "episodes/an-uong-th01-A1/audio/C06.mp3",
+    "dur": 1.34,
+    "text": "I'm very hungry!",
+    "lang": "en",
+    "start": 9.36
+   },
+   "cdStart": 2.11,
+   "reveal": 9.11,
+   "points": [
+    {
+     "t": 4.109999999999999,
+     "tag": "P1 câu 6",
+     "text": "đề: Tôi đói lắm!"
+    },
+    {
+     "t": 10.03,
+     "tag": "P1 câu 6 đáp án",
+     "text": "I'm very hungry!"
+    }
+   ],
+   "start": 67.91
+  },
+  {
+   "id": "A07",
+   "kind": "reflex",
+   "phase": "item",
+   "part": 1,
+   "order": 7,
+   "n": 7,
+   "dur": 11.380000000000003,
+   "prompt": {
+    "audio": "episodes/an-uong-th01-A1/audio/R07.mp3",
+    "dur": 0.96,
+    "text": "Không hành nhé.",
+    "lang": "vi",
+    "start": 0.35
+   },
+   "answer": {
+    "audio": "episodes/an-uong-th01-A1/audio/C07.mp3",
+    "dur": 1.12,
+    "text": "No onions, please.",
+    "lang": "en",
+    "start": 8.96
+   },
+   "cdStart": 1.71,
+   "reveal": 8.71,
+   "points": [
+    {
+     "t": 3.71,
+     "tag": "P1 câu 7",
+     "text": "đề: Không hành nhé."
+    },
+    {
+     "t": 9.520000000000001,
+     "tag": "P1 câu 7 đáp án",
+     "text": "No onions, please."
+    }
+   ],
+   "start": 79.91
+  },
+  {
+   "id": "A08",
+   "kind": "reflex",
+   "phase": "item",
+   "part": 1,
+   "order": 8,
+   "n": 8,
+   "dur": 11.620000000000001,
+   "prompt": {
+    "audio": "episodes/an-uong-th01-A1/audio/R08.mp3",
+    "dur": 1.36,
+    "text": "Còn uống gì ạ?",
+    "lang": "vi",
+    "start": 0.35
+   },
+   "answer": {
+    "audio": "episodes/an-uong-th01-A1/audio/C08.mp3",
+    "dur": 0.96,
+    "text": "And to drink?",
+    "lang": "en",
+    "start": 9.36
+   },
+   "cdStart": 2.11,
+   "reveal": 9.11,
+   "points": [
+    {
+     "t": 4.109999999999999,
+     "tag": "P1 câu 8",
+     "text": "đề: Còn uống gì ạ?"
+    },
+    {
+     "t": 9.84,
+     "tag": "P1 câu 8 đáp án",
+     "text": "And to drink?"
+    }
+   ],
+   "start": 91.28999999999999
+  },
+  {
+   "id": "A09",
+   "kind": "reflex",
+   "phase": "item",
+   "part": 1,
+   "order": 9,
+   "n": 9,
+   "dur": 11.32,
+   "prompt": {
+    "audio": "episodes/an-uong-th01-A1/audio/R09.mp3",
+    "dur": 1.04,
+    "text": "Trà đá nhé.",
+    "lang": "vi",
+    "start": 0.35
+   },
+   "answer": {
+    "audio": "episodes/an-uong-th01-A1/audio/C09.mp3",
+    "dur": 0.98,
+    "text": "Iced tea, please.",
+    "lang": "en",
+    "start": 9.04
+   },
+   "cdStart": 1.79,
+   "reveal": 8.79,
+   "points": [
+    {
+     "t": 3.79,
+     "tag": "P1 câu 9",
+     "text": "đề: Trà đá nhé."
+    },
+    {
+     "t": 9.53,
+     "tag": "P1 câu 9 đáp án",
+     "text": "Iced tea, please."
+    }
+   ],
+   "start": 102.91
+  },
+  {
+   "id": "A10",
+   "kind": "reflex",
+   "phase": "item",
+   "part": 1,
+   "order": 10,
+   "n": 10,
+   "dur": 11.060000000000002,
+   "prompt": {
+    "audio": "episodes/an-uong-th01-A1/audio/R10.mp3",
+    "dur": 1.12,
+    "text": "Của anh đây ạ.",
+    "lang": "vi",
+    "start": 0.35
+   },
+   "answer": {
+    "audio": "episodes/an-uong-th01-A1/audio/C10.mp3",
+    "dur": 0.64,
+    "text": "Here you are.",
+    "lang": "en",
+    "start": 9.120000000000001
+   },
+   "cdStart": 1.87,
+   "reveal": 8.870000000000001,
+   "points": [
+    {
+     "t": 3.87,
+     "tag": "P1 câu 10",
+     "text": "đề: Của anh đây ạ."
+    },
+    {
+     "t": 9.440000000000001,
+     "tag": "P1 câu 10 đáp án",
+     "text": "Here you are."
+    }
+   ],
+   "start": 114.22999999999999
+  },
+  {
+   "id": "A11",
+   "kind": "reflex",
+   "phase": "item",
+   "part": 1,
+   "order": 11,
+   "n": 11,
+   "dur": 11.012993,
+   "prompt": {
+    "audio": "episodes/an-uong-th01-A1/audio/R11.mp3",
+    "dur": 0.88,
+    "text": "Có cay không?",
+    "lang": "vi",
+    "start": 0.35
+   },
+   "answer": {
+    "audio": "episodes/an-uong-th01-A1/audio/C11.mp3",
+    "dur": 0.832993,
+    "text": "Is it spicy?",
+    "lang": "en",
+    "start": 8.879999999999999
+   },
+   "cdStart": 1.63,
+   "reveal": 8.629999999999999,
+   "points": [
+    {
+     "t": 3.63,
+     "tag": "P1 câu 11",
+     "text": "đề: Có cay không?"
+    },
+    {
+     "t": 9.296496499999998,
+     "tag": "P1 câu 11 đáp án",
+     "text": "Is it spicy?"
+    }
+   ],
+   "start": 125.28999999999999
+  },
+  {
+   "id": "A12",
+   "kind": "reflex",
+   "phase": "item",
+   "part": 1,
+   "order": 12,
+   "n": 12,
+   "dur": 12.06,
+   "prompt": {
+    "audio": "episodes/an-uong-th01-A1/audio/R12.mp3",
+    "dur": 1.6,
+    "text": "Không, không cay.",
+    "lang": "vi",
+    "start": 0.35
+   },
+   "answer": {
+    "audio": "episodes/an-uong-th01-A1/audio/C12.mp3",
+    "dur": 1.16,
+    "text": "No, it isn't.",
+    "lang": "en",
+    "start": 9.6
+   },
+   "cdStart": 2.35,
+   "reveal": 9.35,
+   "points": [
+    {
+     "t": 4.35,
+     "tag": "P1 câu 12",
+     "text": "đề: Không, không cay."
+    },
+    {
+     "t": 10.18,
+     "tag": "P1 câu 12 đáp án",
+     "text": "No, it isn't."
+    }
+   ],
+   "start": 136.302993
+  },
+  {
+   "id": "A13",
+   "kind": "reflex",
+   "phase": "item",
+   "part": 1,
+   "order": 13,
+   "n": 13,
+   "dur": 11.55,
+   "prompt": {
+    "audio": "episodes/an-uong-th01-A1/audio/R13.mp3",
+    "dur": 0.88,
+    "text": "Ớt ở đây.",
+    "lang": "vi",
+    "start": 0.35
+   },
+   "answer": {
+    "audio": "episodes/an-uong-th01-A1/audio/C13.mp3",
+    "dur": 1.37,
+    "text": "The chili is here.",
+    "lang": "en",
+    "start": 8.879999999999999
+   },
+   "cdStart": 1.63,
+   "reveal": 8.629999999999999,
+   "points": [
+    {
+     "t": 3.63,
+     "tag": "P1 câu 13",
+     "text": "đề: Ớt ở đây."
+    },
+    {
+     "t": 9.565,
+     "tag": "P1 câu 13 đáp án",
+     "text": "The chili is here."
+    }
+   ],
+   "start": 148.362993
+  },
+  {
+   "id": "A14",
+   "kind": "reflex",
+   "phase": "item",
+   "part": 1,
+   "order": 14,
+   "n": 14,
+   "dur": 11.732993,
+   "prompt": {
+    "audio": "episodes/an-uong-th01-A1/audio/R14.mp3",
+    "dur": 1.28,
+    "text": "Ngon quá!",
+    "lang": "vi",
+    "start": 0.35
+   },
+   "answer": {
+    "audio": "episodes/an-uong-th01-A1/audio/C14.mp3",
+    "dur": 1.152993,
+    "text": "It's delicious!",
+    "lang": "en",
+    "start": 9.28
+   },
+   "cdStart": 2.03,
+   "reveal": 9.03,
+   "points": [
+    {
+     "t": 4.029999999999999,
+     "tag": "P1 câu 14",
+     "text": "đề: Ngon quá!"
+    },
+    {
+     "t": 9.856496499999999,
+     "tag": "P1 câu 14 đáp án",
+     "text": "It's delicious!"
+    }
+   ],
+   "start": 159.912993
+  },
+  {
+   "id": "A15",
+   "kind": "reflex",
+   "phase": "item",
+   "part": 1,
+   "order": 15,
+   "n": 15,
+   "dur": 11.551995000000002,
+   "prompt": {
+    "audio": "episodes/an-uong-th01-A1/audio/R15.mp3",
+    "dur": 0.96,
+    "text": "Thêm bò nhé.",
+    "lang": "vi",
+    "start": 0.35
+   },
+   "answer": {
+    "audio": "episodes/an-uong-th01-A1/audio/C15.mp3",
+    "dur": 1.291995,
+    "text": "More beef, please.",
+    "lang": "en",
+    "start": 8.96
+   },
+   "cdStart": 1.71,
+   "reveal": 8.71,
+   "points": [
+    {
+     "t": 3.71,
+     "tag": "P1 câu 15",
+     "text": "đề: Thêm bò nhé."
+    },
+    {
+     "t": 9.6059975,
+     "tag": "P1 câu 15 đáp án",
+     "text": "More beef, please."
+    }
+   ],
+   "start": 171.645986
+  },
+  {
+   "id": "A16",
+   "kind": "reflex",
+   "phase": "item",
+   "part": 1,
+   "order": 16,
+   "n": 16,
+   "dur": 10.840000000000002,
+   "prompt": {
+    "audio": "episodes/an-uong-th01-A1/audio/R16.mp3",
+    "dur": 0.8,
+    "text": "Bao nhiêu tiền?",
+    "lang": "vi",
+    "start": 0.35
+   },
+   "answer": {
+    "audio": "episodes/an-uong-th01-A1/audio/C16.mp3",
+    "dur": 0.74,
+    "text": "How much is it?",
+    "lang": "en",
+    "start": 8.8
+   },
+   "cdStart": 1.5499999999999998,
+   "reveal": 8.55,
+   "points": [
+    {
+     "t": 3.55,
+     "tag": "P1 câu 16",
+     "text": "đề: Bao nhiêu tiền?"
+    },
+    {
+     "t": 9.17,
+     "tag": "P1 câu 16 đáp án",
+     "text": "How much is it?"
+    }
+   ],
+   "start": 183.197981
+  },
+  {
+   "id": "A17",
+   "kind": "reflex",
+   "phase": "item",
+   "part": 1,
+   "order": 17,
+   "n": 17,
+   "dur": 11.94,
+   "prompt": {
+    "audio": "episodes/an-uong-th01-A1/audio/R17.mp3",
+    "dur": 1.2,
+    "text": "Sáu mươi nghìn đồng.",
+    "lang": "vi",
+    "start": 0.35
+   },
+   "answer": {
+    "audio": "episodes/an-uong-th01-A1/audio/C17.mp3",
+    "dur": 1.44,
+    "text": "Sixty thousand dong.",
+    "lang": "en",
+    "start": 9.2
+   },
+   "cdStart": 1.9499999999999997,
+   "reveal": 8.95,
+   "points": [
+    {
+     "t": 3.9499999999999997,
+     "tag": "P1 câu 17",
+     "text": "đề: Sáu mươi nghìn đồng."
+    },
+    {
+     "t": 9.92,
+     "tag": "P1 câu 17 đáp án",
+     "text": "Sixty thousand dong."
+    }
+   ],
+   "start": 194.037981
+  },
+  {
+   "id": "A18",
+   "kind": "reflex",
+   "phase": "item",
+   "part": 1,
+   "order": 18,
+   "n": 18,
+   "dur": 12.98,
+   "prompt": {
+    "audio": "episodes/an-uong-th01-A1/audio/R18.mp3",
+    "dur": 2,
+    "text": "Cảm ơn! Hẹn gặp lại ngày mai!",
+    "lang": "vi",
+    "start": 0.35
+   },
+   "answer": {
+    "audio": "episodes/an-uong-th01-A1/audio/C18.mp3",
+    "dur": 1.68,
+    "text": "Thank you! See you tomorrow!",
+    "lang": "en",
+    "start": 10
+   },
+   "cdStart": 2.75,
+   "reveal": 9.75,
+   "points": [
+    {
+     "t": 4.75,
+     "tag": "P1 câu 18",
+     "text": "đề: Cảm ơn! Hẹn gặp lại ngày mai!"
+    },
+    {
+     "t": 10.84,
+     "tag": "P1 câu 18 đáp án",
+     "text": "Thank you! See you tomorrow!"
+    }
+   ],
+   "start": 205.977981
+  },
+  {
+   "id": "A19",
+   "kind": "reflex",
+   "phase": "item",
+   "part": 1,
+   "order": 19,
+   "n": 19,
+   "dur": 11.86,
+   "prompt": {
+    "audio": "episodes/an-uong-th01-A1/audio/R19.mp3",
+    "dur": 1.28,
+    "text": "Cho tôi cơm gà.",
+    "lang": "vi",
+    "start": 0.35
+   },
+   "answer": {
+    "audio": "episodes/an-uong-th01-A1/audio/R49.mp3",
+    "dur": 1.28,
+    "text": "Chicken rice, please.",
+    "lang": "en",
+    "start": 9.28
+   },
+   "cdStart": 2.03,
+   "reveal": 9.03,
+   "points": [
+    {
+     "t": 4.029999999999999,
+     "tag": "P1 câu 19",
+     "text": "đề: Cho tôi cơm gà."
+    },
+    {
+     "t": 9.92,
+     "tag": "P1 câu 19 đáp án",
+     "text": "Chicken rice, please."
+    }
+   ],
+   "start": 218.957981
+  },
+  {
+   "id": "A20",
+   "kind": "reflex",
+   "phase": "item",
+   "part": 1,
+   "order": 20,
+   "n": 20,
+   "dur": 11.780000000000001,
+   "prompt": {
+    "audio": "episodes/an-uong-th01-A1/audio/R20.mp3",
+    "dur": 1.44,
+    "text": "Cho tôi một ly cà phê.",
+    "lang": "vi",
+    "start": 0.35
+   },
+   "answer": {
+    "audio": "episodes/an-uong-th01-A1/audio/R50.mp3",
+    "dur": 1.04,
+    "text": "A coffee, please.",
+    "lang": "en",
+    "start": 9.44
+   },
+   "cdStart": 2.19,
+   "reveal": 9.19,
+   "points": [
+    {
+     "t": 4.1899999999999995,
+     "tag": "P1 câu 20",
+     "text": "đề: Cho tôi một ly cà phê."
+    },
+    {
+     "t": 9.959999999999999,
+     "tag": "P1 câu 20 đáp án",
+     "text": "A coffee, please."
+    }
+   ],
+   "start": 230.81798099999997
+  },
+  {
+   "id": "A21",
+   "kind": "reflex",
+   "phase": "item",
+   "part": 1,
+   "order": 21,
+   "n": 21,
+   "dur": 11.140000000000002,
+   "prompt": {
+    "audio": "episodes/an-uong-th01-A1/audio/R21.mp3",
+    "dur": 0.96,
+    "text": "Tô nhỏ nhé.",
+    "lang": "vi",
+    "start": 0.35
+   },
+   "answer": {
+    "audio": "episodes/an-uong-th01-A1/audio/R51.mp3",
+    "dur": 0.88,
+    "text": "Small, please.",
+    "lang": "en",
+    "start": 8.96
+   },
+   "cdStart": 1.71,
+   "reveal": 8.71,
+   "points": [
+    {
+     "t": 3.71,
+     "tag": "P1 câu 21",
+     "text": "đề: Tô nhỏ nhé."
+    },
+    {
+     "t": 9.4,
+     "tag": "P1 câu 21 đáp án",
+     "text": "Small, please."
+    }
+   ],
+   "start": 242.59798099999998
+  },
+  {
+   "id": "A22",
+   "kind": "reflex",
+   "phase": "item",
+   "part": 1,
+   "order": 22,
+   "n": 22,
+   "dur": 11.54,
+   "prompt": {
+    "audio": "episodes/an-uong-th01-A1/audio/R22.mp3",
+    "dur": 1.04,
+    "text": "Không đá nhé.",
+    "lang": "vi",
+    "start": 0.35
+   },
+   "answer": {
+    "audio": "episodes/an-uong-th01-A1/audio/R52.mp3",
+    "dur": 1.2,
+    "text": "No ice, please.",
+    "lang": "en",
+    "start": 9.04
+   },
+   "cdStart": 1.79,
+   "reveal": 8.79,
+   "points": [
+    {
+     "t": 3.79,
+     "tag": "P1 câu 22",
+     "text": "đề: Không đá nhé."
+    },
+    {
+     "t": 9.639999999999999,
+     "tag": "P1 câu 22 đáp án",
+     "text": "No ice, please."
+    }
+   ],
+   "start": 253.737981
+  },
+  {
+   "id": "A23",
+   "kind": "reflex",
+   "phase": "item",
+   "part": 1,
+   "order": 23,
+   "n": 23,
+   "dur": 11.540000000000001,
+   "prompt": {
+    "audio": "episodes/an-uong-th01-A1/audio/R23.mp3",
+    "dur": 0.96,
+    "text": "Không ớt nhé.",
+    "lang": "vi",
+    "start": 0.35
+   },
+   "answer": {
+    "audio": "episodes/an-uong-th01-A1/audio/R53.mp3",
+    "dur": 1.28,
+    "text": "No chili, please.",
+    "lang": "en",
+    "start": 8.96
+   },
+   "cdStart": 1.71,
+   "reveal": 8.71,
+   "points": [
+    {
+     "t": 3.71,
+     "tag": "P1 câu 23",
+     "text": "đề: Không ớt nhé."
+    },
+    {
+     "t": 9.600000000000001,
+     "tag": "P1 câu 23 đáp án",
+     "text": "No chili, please."
+    }
+   ],
+   "start": 265.277981
+  },
+  {
+   "id": "A24",
+   "kind": "reflex",
+   "phase": "item",
+   "part": 1,
+   "order": 24,
+   "n": 24,
+   "dur": 10.82,
+   "prompt": {
+    "audio": "episodes/an-uong-th01-A1/audio/R24.mp3",
+    "dur": 0.88,
+    "text": "Có nóng không?",
+    "lang": "vi",
+    "start": 0.35
+   },
+   "answer": {
+    "audio": "episodes/an-uong-th01-A1/audio/R54.mp3",
+    "dur": 0.64,
+    "text": "Is it hot?",
+    "lang": "en",
+    "start": 8.879999999999999
+   },
+   "cdStart": 1.63,
+   "reveal": 8.629999999999999,
+   "points": [
+    {
+     "t": 3.63,
+     "tag": "P1 câu 24",
+     "text": "đề: Có nóng không?"
+    },
+    {
+     "t": 9.2,
+     "tag": "P1 câu 24 đáp án",
+     "text": "Is it hot?"
+    }
+   ],
+   "start": 276.81798100000003
+  },
+  {
+   "id": "A25",
+   "kind": "reflex",
+   "phase": "item",
+   "part": 1,
+   "order": 25,
+   "n": 25,
+   "dur": 12.1,
+   "prompt": {
+    "audio": "episodes/an-uong-th01-A1/audio/R25.mp3",
+    "dur": 1.6,
+    "text": "Trà đá bao nhiêu tiền?",
+    "lang": "vi",
+    "start": 0.35
+   },
+   "answer": {
+    "audio": "episodes/an-uong-th01-A1/audio/R55.mp3",
+    "dur": 1.2,
+    "text": "How much is the iced tea?",
+    "lang": "en",
+    "start": 9.6
+   },
+   "cdStart": 2.35,
+   "reveal": 9.35,
+   "points": [
+    {
+     "t": 4.35,
+     "tag": "P1 câu 25",
+     "text": "đề: Trà đá bao nhiêu tiền?"
+    },
+    {
+     "t": 10.2,
+     "tag": "P1 câu 25 đáp án",
+     "text": "How much is the iced tea?"
+    }
+   ],
+   "start": 287.637981
+  },
+  {
+   "id": "RT",
+   "kind": "reflex",
+   "phase": "transition",
+   "dur": 9.559999999999999,
+   "voice": {
+    "audio": "episodes/an-uong-th01-A1/audio/R80.mp3",
+    "dur": 7.36,
+    "start": 1,
+    "text": "Phần một bạn được mấy câu? Giờ đổi chiều! Phần hai: nghe câu tiếng Anh, nói nghĩa tiếng Việt trong bảy giây."
+   },
+   "points": [
+    {
+     "t": 4.68,
+     "tag": "transition",
+     "text": "Phần một bạn được mấy câu? Giờ đổi chiều! Phần hai: nghe câu tiếng Anh, nói nghĩa tiếng Việt trong bảy giây."
+    }
+   ],
+   "part": 2,
+   "start": 299.73798100000005
+  },
+  {
+   "id": "B01",
+   "kind": "reflex",
+   "phase": "item",
+   "part": 2,
+   "order": 1,
+   "n": 11,
+   "dur": 11.012993000000002,
+   "prompt": {
+    "audio": "episodes/an-uong-th01-A1/audio/C11.mp3",
+    "dur": 0.832993,
+    "text": "Is it spicy?",
+    "lang": "en",
+    "start": 0.35
+   },
+   "answer": {
+    "audio": "episodes/an-uong-th01-A1/audio/R11.mp3",
+    "dur": 0.88,
+    "text": "Có cay không?",
+    "lang": "vi",
+    "start": 8.832993
+   },
+   "cdStart": 1.582993,
+   "reveal": 8.582993,
+   "points": [
+    {
+     "t": 3.582993,
+     "tag": "P2 câu 11",
+     "text": "đề: Is it spicy?"
+    },
+    {
+     "t": 9.272993,
+     "tag": "P2 câu 11 đáp án",
+     "text": "Có cay không?"
+    }
+   ],
+   "start": 309.29798100000005
+  },
+  {
+   "id": "B02",
+   "kind": "reflex",
+   "phase": "item",
+   "part": 2,
+   "order": 2,
+   "n": 3,
+   "dur": 11.8,
+   "prompt": {
+    "audio": "episodes/an-uong-th01-A1/audio/C03.mp3",
+    "dur": 1.14,
+    "text": "Beef pho, please.",
+    "lang": "en",
+    "start": 0.35
+   },
+   "answer": {
+    "audio": "episodes/an-uong-th01-A1/audio/R03.mp3",
+    "dur": 1.36,
+    "text": "Cho tôi phở bò.",
+    "lang": "vi",
+    "start": 9.14
+   },
+   "cdStart": 1.8899999999999997,
+   "reveal": 8.89,
+   "points": [
+    {
+     "t": 3.8899999999999997,
+     "tag": "P2 câu 3",
+     "text": "đề: Beef pho, please."
+    },
+    {
+     "t": 9.82,
+     "tag": "P2 câu 3 đáp án",
+     "text": "Cho tôi phở bò."
+    }
+   ],
+   "start": 320.31097400000004
+  },
+  {
+   "id": "B03",
+   "kind": "reflex",
+   "phase": "item",
+   "part": 2,
+   "order": 3,
+   "n": 22,
+   "dur": 11.54,
+   "prompt": {
+    "audio": "episodes/an-uong-th01-A1/audio/R52.mp3",
+    "dur": 1.2,
+    "text": "No ice, please.",
+    "lang": "en",
+    "start": 0.35
+   },
+   "answer": {
+    "audio": "episodes/an-uong-th01-A1/audio/R22.mp3",
+    "dur": 1.04,
+    "text": "Không đá nhé.",
+    "lang": "vi",
+    "start": 9.2
+   },
+   "cdStart": 1.9499999999999997,
+   "reveal": 8.95,
+   "points": [
+    {
+     "t": 3.9499999999999997,
+     "tag": "P2 câu 22",
+     "text": "đề: No ice, please."
+    },
+    {
+     "t": 9.719999999999999,
+     "tag": "P2 câu 22 đáp án",
+     "text": "Không đá nhé."
+    }
+   ],
+   "start": 332.11097400000006
+  },
+  {
+   "id": "B04",
+   "kind": "reflex",
+   "phase": "item",
+   "part": 2,
+   "order": 4,
+   "n": 16,
+   "dur": 10.840000000000002,
+   "prompt": {
+    "audio": "episodes/an-uong-th01-A1/audio/C16.mp3",
+    "dur": 0.74,
+    "text": "How much is it?",
+    "lang": "en",
+    "start": 0.35
+   },
+   "answer": {
+    "audio": "episodes/an-uong-th01-A1/audio/R16.mp3",
+    "dur": 0.8,
+    "text": "Bao nhiêu tiền?",
+    "lang": "vi",
+    "start": 8.74
+   },
+   "cdStart": 1.4899999999999998,
+   "reveal": 8.49,
+   "points": [
+    {
+     "t": 3.4899999999999998,
+     "tag": "P2 câu 16",
+     "text": "đề: How much is it?"
+    },
+    {
+     "t": 9.14,
+     "tag": "P2 câu 16 đáp án",
+     "text": "Bao nhiêu tiền?"
+    }
+   ],
+   "start": 343.6509740000001
+  },
+  {
+   "id": "B05",
+   "kind": "reflex",
+   "phase": "item",
+   "part": 2,
+   "order": 5,
+   "n": 8,
+   "dur": 11.620000000000001,
+   "prompt": {
+    "audio": "episodes/an-uong-th01-A1/audio/C08.mp3",
+    "dur": 0.96,
+    "text": "And to drink?",
+    "lang": "en",
+    "start": 0.35
+   },
+   "answer": {
+    "audio": "episodes/an-uong-th01-A1/audio/R08.mp3",
+    "dur": 1.36,
+    "text": "Còn uống gì ạ?",
+    "lang": "vi",
+    "start": 8.96
+   },
+   "cdStart": 1.71,
+   "reveal": 8.71,
+   "points": [
+    {
+     "t": 3.71,
+     "tag": "P2 câu 8",
+     "text": "đề: And to drink?"
+    },
+    {
+     "t": 9.64,
+     "tag": "P2 câu 8 đáp án",
+     "text": "Còn uống gì ạ?"
+    }
+   ],
+   "start": 354.49097400000005
+  },
+  {
+   "id": "B06",
+   "kind": "reflex",
+   "phase": "item",
+   "part": 2,
+   "order": 6,
+   "n": 19,
+   "dur": 11.86,
+   "prompt": {
+    "audio": "episodes/an-uong-th01-A1/audio/R49.mp3",
+    "dur": 1.28,
+    "text": "Chicken rice, please.",
+    "lang": "en",
+    "start": 0.35
+   },
+   "answer": {
+    "audio": "episodes/an-uong-th01-A1/audio/R19.mp3",
+    "dur": 1.28,
+    "text": "Cho tôi cơm gà.",
+    "lang": "vi",
+    "start": 9.28
+   },
+   "cdStart": 2.03,
+   "reveal": 9.03,
+   "points": [
+    {
+     "t": 4.029999999999999,
+     "tag": "P2 câu 19",
+     "text": "đề: Chicken rice, please."
+    },
+    {
+     "t": 9.92,
+     "tag": "P2 câu 19 đáp án",
+     "text": "Cho tôi cơm gà."
+    }
+   ],
+   "start": 366.11097400000006
+  },
+  {
+   "id": "B07",
+   "kind": "reflex",
+   "phase": "item",
+   "part": 2,
+   "order": 7,
+   "n": 1,
+   "dur": 11,
+   "prompt": {
+    "audio": "episodes/an-uong-th01-A1/audio/C01.mp3",
+    "dur": 0.74,
+    "text": "Good morning!",
+    "lang": "en",
+    "start": 0.35
+   },
+   "answer": {
+    "audio": "episodes/an-uong-th01-A1/audio/R01.mp3",
+    "dur": 0.96,
+    "text": "Chào buổi sáng!",
+    "lang": "vi",
+    "start": 8.74
+   },
+   "cdStart": 1.4899999999999998,
+   "reveal": 8.49,
+   "points": [
+    {
+     "t": 3.4899999999999998,
+     "tag": "P2 câu 1",
+     "text": "đề: Good morning!"
+    },
+    {
+     "t": 9.22,
+     "tag": "P2 câu 1 đáp án",
+     "text": "Chào buổi sáng!"
+    }
+   ],
+   "start": 377.97097400000007
+  },
+  {
+   "id": "B08",
+   "kind": "reflex",
+   "phase": "item",
+   "part": 2,
+   "order": 8,
+   "n": 14,
+   "dur": 11.732993,
+   "prompt": {
+    "audio": "episodes/an-uong-th01-A1/audio/C14.mp3",
+    "dur": 1.152993,
+    "text": "It's delicious!",
+    "lang": "en",
+    "start": 0.35
+   },
+   "answer": {
+    "audio": "episodes/an-uong-th01-A1/audio/R14.mp3",
+    "dur": 1.28,
+    "text": "Ngon quá!",
+    "lang": "vi",
+    "start": 9.152993
+   },
+   "cdStart": 1.902993,
+   "reveal": 8.902993,
+   "points": [
+    {
+     "t": 3.902993,
+     "tag": "P2 câu 14",
+     "text": "đề: It's delicious!"
+    },
+    {
+     "t": 9.792993000000001,
+     "tag": "P2 câu 14 đáp án",
+     "text": "Ngon quá!"
+    }
+   ],
+   "start": 388.97097400000007
+  },
+  {
+   "id": "B09",
+   "kind": "reflex",
+   "phase": "item",
+   "part": 2,
+   "order": 9,
+   "n": 4,
+   "dur": 12.42,
+   "prompt": {
+    "audio": "episodes/an-uong-th01-A1/audio/C04.mp3",
+    "dur": 1.28,
+    "text": "Small or large?",
+    "lang": "en",
+    "start": 0.35
+   },
+   "answer": {
+    "audio": "episodes/an-uong-th01-A1/audio/R04.mp3",
+    "dur": 1.84,
+    "text": "Tô nhỏ hay tô lớn?",
+    "lang": "vi",
+    "start": 9.28
+   },
+   "cdStart": 2.03,
+   "reveal": 9.03,
+   "points": [
+    {
+     "t": 4.029999999999999,
+     "tag": "P2 câu 4",
+     "text": "đề: Small or large?"
+    },
+    {
+     "t": 10.2,
+     "tag": "P2 câu 4 đáp án",
+     "text": "Tô nhỏ hay tô lớn?"
+    }
+   ],
+   "start": 400.7039670000001
+  },
+  {
+   "id": "B10",
+   "kind": "reflex",
+   "phase": "item",
+   "part": 2,
+   "order": 10,
+   "n": 25,
+   "dur": 12.1,
+   "prompt": {
+    "audio": "episodes/an-uong-th01-A1/audio/R55.mp3",
+    "dur": 1.2,
+    "text": "How much is the iced tea?",
+    "lang": "en",
+    "start": 0.35
+   },
+   "answer": {
+    "audio": "episodes/an-uong-th01-A1/audio/R25.mp3",
+    "dur": 1.6,
+    "text": "Trà đá bao nhiêu tiền?",
+    "lang": "vi",
+    "start": 9.2
+   },
+   "cdStart": 1.9499999999999997,
+   "reveal": 8.95,
+   "points": [
+    {
+     "t": 3.9499999999999997,
+     "tag": "P2 câu 25",
+     "text": "đề: How much is the iced tea?"
+    },
+    {
+     "t": 10,
+     "tag": "P2 câu 25 đáp án",
+     "text": "Trà đá bao nhiêu tiền?"
+    }
+   ],
+   "start": 413.1239670000001
+  },
+  {
+   "id": "B11",
+   "kind": "reflex",
+   "phase": "item",
+   "part": 2,
+   "order": 11,
+   "n": 7,
+   "dur": 11.380000000000003,
+   "prompt": {
+    "audio": "episodes/an-uong-th01-A1/audio/C07.mp3",
+    "dur": 1.12,
+    "text": "No onions, please.",
+    "lang": "en",
+    "start": 0.35
+   },
+   "answer": {
+    "audio": "episodes/an-uong-th01-A1/audio/R07.mp3",
+    "dur": 0.96,
+    "text": "Không hành nhé.",
+    "lang": "vi",
+    "start": 9.120000000000001
+   },
+   "cdStart": 1.87,
+   "reveal": 8.870000000000001,
+   "points": [
+    {
+     "t": 3.87,
+     "tag": "P2 câu 7",
+     "text": "đề: No onions, please."
+    },
+    {
+     "t": 9.600000000000001,
+     "tag": "P2 câu 7 đáp án",
+     "text": "Không hành nhé."
+    }
+   ],
+   "start": 425.22396700000013
+  },
+  {
+   "id": "B12",
+   "kind": "reflex",
+   "phase": "item",
+   "part": 2,
+   "order": 12,
+   "n": 17,
+   "dur": 11.94,
+   "prompt": {
+    "audio": "episodes/an-uong-th01-A1/audio/C17.mp3",
+    "dur": 1.44,
+    "text": "Sixty thousand dong.",
+    "lang": "en",
+    "start": 0.35
+   },
+   "answer": {
+    "audio": "episodes/an-uong-th01-A1/audio/R17.mp3",
+    "dur": 1.2,
+    "text": "Sáu mươi nghìn đồng.",
+    "lang": "vi",
+    "start": 9.44
+   },
+   "cdStart": 2.19,
+   "reveal": 9.19,
+   "points": [
+    {
+     "t": 4.1899999999999995,
+     "tag": "P2 câu 17",
+     "text": "đề: Sixty thousand dong."
+    },
+    {
+     "t": 10.04,
+     "tag": "P2 câu 17 đáp án",
+     "text": "Sáu mươi nghìn đồng."
+    }
+   ],
+   "start": 436.6039670000001
+  },
+  {
+   "id": "B13",
+   "kind": "reflex",
+   "phase": "item",
+   "part": 2,
+   "order": 13,
+   "n": 2,
+   "dur": 11.46,
+   "prompt": {
+    "audio": "episodes/an-uong-th01-A1/audio/C02.mp3",
+    "dur": 1.12,
+    "text": "What would you like?",
+    "lang": "en",
+    "start": 0.35
+   },
+   "answer": {
+    "audio": "episodes/an-uong-th01-A1/audio/R02.mp3",
+    "dur": 1.04,
+    "text": "Anh muốn ăn gì?",
+    "lang": "vi",
+    "start": 9.120000000000001
+   },
+   "cdStart": 1.87,
+   "reveal": 8.870000000000001,
+   "points": [
+    {
+     "t": 3.87,
+     "tag": "P2 câu 2",
+     "text": "đề: What would you like?"
+    },
+    {
+     "t": 9.64,
+     "tag": "P2 câu 2 đáp án",
+     "text": "Anh muốn ăn gì?"
+    }
+   ],
+   "start": 448.5439670000001
+  },
+  {
+   "id": "B14",
+   "kind": "reflex",
+   "phase": "item",
+   "part": 2,
+   "order": 14,
+   "n": 23,
+   "dur": 11.54,
+   "prompt": {
+    "audio": "episodes/an-uong-th01-A1/audio/R53.mp3",
+    "dur": 1.28,
+    "text": "No chili, please.",
+    "lang": "en",
+    "start": 0.35
+   },
+   "answer": {
+    "audio": "episodes/an-uong-th01-A1/audio/R23.mp3",
+    "dur": 0.96,
+    "text": "Không ớt nhé.",
+    "lang": "vi",
+    "start": 9.28
+   },
+   "cdStart": 2.03,
+   "reveal": 9.03,
+   "points": [
+    {
+     "t": 4.029999999999999,
+     "tag": "P2 câu 23",
+     "text": "đề: No chili, please."
+    },
+    {
+     "t": 9.76,
+     "tag": "P2 câu 23 đáp án",
+     "text": "Không ớt nhé."
+    }
+   ],
+   "start": 460.0039670000001
+  },
+  {
+   "id": "B15",
+   "kind": "reflex",
+   "phase": "item",
+   "part": 2,
+   "order": 15,
+   "n": 10,
+   "dur": 11.060000000000002,
+   "prompt": {
+    "audio": "episodes/an-uong-th01-A1/audio/C10.mp3",
+    "dur": 0.64,
+    "text": "Here you are.",
+    "lang": "en",
+    "start": 0.35
+   },
+   "answer": {
+    "audio": "episodes/an-uong-th01-A1/audio/R10.mp3",
+    "dur": 1.12,
+    "text": "Của anh đây ạ.",
+    "lang": "vi",
+    "start": 8.64
+   },
+   "cdStart": 1.3900000000000001,
+   "reveal": 8.39,
+   "points": [
+    {
+     "t": 3.39,
+     "tag": "P2 câu 10",
+     "text": "đề: Here you are."
+    },
+    {
+     "t": 9.200000000000001,
+     "tag": "P2 câu 10 đáp án",
+     "text": "Của anh đây ạ."
+    }
+   ],
+   "start": 471.5439670000001
+  },
+  {
+   "id": "B16",
+   "kind": "reflex",
+   "phase": "item",
+   "part": 2,
+   "order": 16,
+   "n": 6,
+   "dur": 12,
+   "prompt": {
+    "audio": "episodes/an-uong-th01-A1/audio/C06.mp3",
+    "dur": 1.34,
+    "text": "I'm very hungry!",
+    "lang": "en",
+    "start": 0.35
+   },
+   "answer": {
+    "audio": "episodes/an-uong-th01-A1/audio/R06.mp3",
+    "dur": 1.36,
+    "text": "Tôi đói lắm!",
+    "lang": "vi",
+    "start": 9.34
+   },
+   "cdStart": 2.09,
+   "reveal": 9.09,
+   "points": [
+    {
+     "t": 4.09,
+     "tag": "P2 câu 6",
+     "text": "đề: I'm very hungry!"
+    },
+    {
+     "t": 10.02,
+     "tag": "P2 câu 6 đáp án",
+     "text": "Tôi đói lắm!"
+    }
+   ],
+   "start": 482.6039670000001
+  },
+  {
+   "id": "B17",
+   "kind": "reflex",
+   "phase": "item",
+   "part": 2,
+   "order": 17,
+   "n": 20,
+   "dur": 11.78,
+   "prompt": {
+    "audio": "episodes/an-uong-th01-A1/audio/R50.mp3",
+    "dur": 1.04,
+    "text": "A coffee, please.",
+    "lang": "en",
+    "start": 0.35
+   },
+   "answer": {
+    "audio": "episodes/an-uong-th01-A1/audio/R20.mp3",
+    "dur": 1.44,
+    "text": "Cho tôi một ly cà phê.",
+    "lang": "vi",
+    "start": 9.04
+   },
+   "cdStart": 1.79,
+   "reveal": 8.79,
+   "points": [
+    {
+     "t": 3.79,
+     "tag": "P2 câu 20",
+     "text": "đề: A coffee, please."
+    },
+    {
+     "t": 9.76,
+     "tag": "P2 câu 20 đáp án",
+     "text": "Cho tôi một ly cà phê."
+    }
+   ],
+   "start": 494.6039670000001
+  },
+  {
+   "id": "B18",
+   "kind": "reflex",
+   "phase": "item",
+   "part": 2,
+   "order": 18,
+   "n": 13,
+   "dur": 11.550000000000002,
+   "prompt": {
+    "audio": "episodes/an-uong-th01-A1/audio/C13.mp3",
+    "dur": 1.37,
+    "text": "The chili is here.",
+    "lang": "en",
+    "start": 0.35
+   },
+   "answer": {
+    "audio": "episodes/an-uong-th01-A1/audio/R13.mp3",
+    "dur": 0.88,
+    "text": "Ớt ở đây.",
+    "lang": "vi",
+    "start": 9.370000000000001
+   },
+   "cdStart": 2.12,
+   "reveal": 9.120000000000001,
+   "points": [
+    {
+     "t": 4.12,
+     "tag": "P2 câu 13",
+     "text": "đề: The chili is here."
+    },
+    {
+     "t": 9.81,
+     "tag": "P2 câu 13 đáp án",
+     "text": "Ớt ở đây."
+    }
+   ],
+   "start": 506.3839670000001
+  },
+  {
+   "id": "B19",
+   "kind": "reflex",
+   "phase": "item",
+   "part": 2,
+   "order": 19,
+   "n": 15,
+   "dur": 11.551995000000002,
+   "prompt": {
+    "audio": "episodes/an-uong-th01-A1/audio/C15.mp3",
+    "dur": 1.291995,
+    "text": "More beef, please.",
+    "lang": "en",
+    "start": 0.35
+   },
+   "answer": {
+    "audio": "episodes/an-uong-th01-A1/audio/R15.mp3",
+    "dur": 0.96,
+    "text": "Thêm bò nhé.",
+    "lang": "vi",
+    "start": 9.291995
+   },
+   "cdStart": 2.041995,
+   "reveal": 9.041995,
+   "points": [
+    {
+     "t": 4.041995,
+     "tag": "P2 câu 15",
+     "text": "đề: More beef, please."
+    },
+    {
+     "t": 9.771995,
+     "tag": "P2 câu 15 đáp án",
+     "text": "Thêm bò nhé."
+    }
+   ],
+   "start": 517.933967
+  },
+  {
+   "id": "B20",
+   "kind": "reflex",
+   "phase": "item",
+   "part": 2,
+   "order": 20,
+   "n": 24,
+   "dur": 10.820000000000002,
+   "prompt": {
+    "audio": "episodes/an-uong-th01-A1/audio/R54.mp3",
+    "dur": 0.64,
+    "text": "Is it hot?",
+    "lang": "en",
+    "start": 0.35
+   },
+   "answer": {
+    "audio": "episodes/an-uong-th01-A1/audio/R24.mp3",
+    "dur": 0.88,
+    "text": "Có nóng không?",
+    "lang": "vi",
+    "start": 8.64
+   },
+   "cdStart": 1.3900000000000001,
+   "reveal": 8.39,
+   "points": [
+    {
+     "t": 3.39,
+     "tag": "P2 câu 24",
+     "text": "đề: Is it hot?"
+    },
+    {
+     "t": 9.08,
+     "tag": "P2 câu 24 đáp án",
+     "text": "Có nóng không?"
+    }
+   ],
+   "start": 529.4859620000001
+  },
+  {
+   "id": "B21",
+   "kind": "reflex",
+   "phase": "item",
+   "part": 2,
+   "order": 21,
+   "n": 5,
+   "dur": 11.190000000000001,
+   "prompt": {
+    "audio": "episodes/an-uong-th01-A1/audio/C05.mp3",
+    "dur": 1.01,
+    "text": "Large, please.",
+    "lang": "en",
+    "start": 0.35
+   },
+   "answer": {
+    "audio": "episodes/an-uong-th01-A1/audio/R05.mp3",
+    "dur": 0.88,
+    "text": "Tô lớn nhé.",
+    "lang": "vi",
+    "start": 9.01
+   },
+   "cdStart": 1.7599999999999998,
+   "reveal": 8.76,
+   "points": [
+    {
+     "t": 3.76,
+     "tag": "P2 câu 5",
+     "text": "đề: Large, please."
+    },
+    {
+     "t": 9.45,
+     "tag": "P2 câu 5 đáp án",
+     "text": "Tô lớn nhé."
+    }
+   ],
+   "start": 540.3059620000001
+  },
+  {
+   "id": "B22",
+   "kind": "reflex",
+   "phase": "item",
+   "part": 2,
+   "order": 22,
+   "n": 12,
+   "dur": 12.06,
+   "prompt": {
+    "audio": "episodes/an-uong-th01-A1/audio/C12.mp3",
+    "dur": 1.16,
+    "text": "No, it isn't.",
+    "lang": "en",
+    "start": 0.35
+   },
+   "answer": {
+    "audio": "episodes/an-uong-th01-A1/audio/R12.mp3",
+    "dur": 1.6,
+    "text": "Không, không cay.",
+    "lang": "vi",
+    "start": 9.16
+   },
+   "cdStart": 1.9099999999999997,
+   "reveal": 8.91,
+   "points": [
+    {
+     "t": 3.9099999999999997,
+     "tag": "P2 câu 12",
+     "text": "đề: No, it isn't."
+    },
+    {
+     "t": 9.96,
+     "tag": "P2 câu 12 đáp án",
+     "text": "Không, không cay."
+    }
+   ],
+   "start": 551.4959620000002
+  },
+  {
+   "id": "B23",
+   "kind": "reflex",
+   "phase": "item",
+   "part": 2,
+   "order": 23,
+   "n": 9,
+   "dur": 11.32,
+   "prompt": {
+    "audio": "episodes/an-uong-th01-A1/audio/C09.mp3",
+    "dur": 0.98,
+    "text": "Iced tea, please.",
+    "lang": "en",
+    "start": 0.35
+   },
+   "answer": {
+    "audio": "episodes/an-uong-th01-A1/audio/R09.mp3",
+    "dur": 1.04,
+    "text": "Trà đá nhé.",
+    "lang": "vi",
+    "start": 8.98
+   },
+   "cdStart": 1.73,
+   "reveal": 8.73,
+   "points": [
+    {
+     "t": 3.73,
+     "tag": "P2 câu 9",
+     "text": "đề: Iced tea, please."
+    },
+    {
+     "t": 9.5,
+     "tag": "P2 câu 9 đáp án",
+     "text": "Trà đá nhé."
+    }
+   ],
+   "start": 563.5559620000001
+  },
+  {
+   "id": "B24",
+   "kind": "reflex",
+   "phase": "item",
+   "part": 2,
+   "order": 24,
+   "n": 21,
+   "dur": 11.14,
+   "prompt": {
+    "audio": "episodes/an-uong-th01-A1/audio/R51.mp3",
+    "dur": 0.88,
+    "text": "Small, please.",
+    "lang": "en",
+    "start": 0.35
+   },
+   "answer": {
+    "audio": "episodes/an-uong-th01-A1/audio/R21.mp3",
+    "dur": 0.96,
+    "text": "Tô nhỏ nhé.",
+    "lang": "vi",
+    "start": 8.879999999999999
+   },
+   "cdStart": 1.63,
+   "reveal": 8.629999999999999,
+   "points": [
+    {
+     "t": 3.63,
+     "tag": "P2 câu 21",
+     "text": "đề: Small, please."
+    },
+    {
+     "t": 9.36,
+     "tag": "P2 câu 21 đáp án",
+     "text": "Tô nhỏ nhé."
+    }
+   ],
+   "start": 574.8759620000002
+  },
+  {
+   "id": "B25",
+   "kind": "reflex",
+   "phase": "item",
+   "part": 2,
+   "order": 25,
+   "n": 18,
+   "dur": 12.98,
+   "prompt": {
+    "audio": "episodes/an-uong-th01-A1/audio/C18.mp3",
+    "dur": 1.68,
+    "text": "Thank you! See you tomorrow!",
+    "lang": "en",
+    "start": 0.35
+   },
+   "answer": {
+    "audio": "episodes/an-uong-th01-A1/audio/R18.mp3",
+    "dur": 2,
+    "text": "Cảm ơn! Hẹn gặp lại ngày mai!",
+    "lang": "vi",
+    "start": 9.68
+   },
+   "cdStart": 2.4299999999999997,
+   "reveal": 9.43,
+   "points": [
+    {
+     "t": 4.43,
+     "tag": "P2 câu 18",
+     "text": "đề: Thank you! See you tomorrow!"
+    },
+    {
+     "t": 10.68,
+     "tag": "P2 câu 18 đáp án",
+     "text": "Cảm ơn! Hẹn gặp lại ngày mai!"
+    }
+   ],
+   "start": 586.0159620000002
+  },
+  {
+   "id": "RO",
+   "kind": "reflex",
+   "phase": "outro",
+   "part": 2,
+   "dur": 30,
+   "endScreenAt": 15,
+   "voice": {
+    "audio": "episodes/an-uong-th01-A1/audio/R90.mp3",
+    "dur": 12.8,
+    "start": 1,
+    "text": "Phần một bạn được mấy câu, phần hai được mấy câu? Bình luận điểm của bạn nhé. Chưa đạt hai mươi lăm trên hai mươi lăm thì thi lại nha. Câu nào chưa hiểu, xem lại video Phân tích nhé. Hẹn gặp ở bản A2!"
+   },
+   "points": [
+    {
+     "t": 7.4,
+     "tag": "outro",
+     "text": "Phần một bạn được mấy câu, phần hai được mấy câu? Bình luận điểm của bạn nhé. Chưa đạt hai mươi lăm trên hai mươi lăm thì thi lại nha. Câu nào chưa hiểu, xem lại video Phân tích nhé. Hẹn gặp ở bản A2!"
+    },
+    {
+     "t": 18,
+     "tag": "END",
+     "text": "màn hình cuối"
+    }
+   ],
+   "start": 598.9959620000002
+  }
+ ]
+}

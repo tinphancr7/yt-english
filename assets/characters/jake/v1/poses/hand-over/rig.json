@@ -1,0 +1,56 @@
+{
+  "character": "jake",
+  "pose": "hand-over",
+  "image": "hero-nomouth.png",
+  "source": "hero-cut.png",
+  "coords": "pixels in hero-cut.png",
+  "origin": "hand-over-01.png (Higgsfield job df7d936d-e8bc-48be-8dbd-4fef212ba877, edit of hero)",
+  "mouth": {
+    "cx": 380.0,
+    "cy": 383.0,
+    "w": 100.0,
+    "erase": {
+      "rx": 56.0,
+      "ry": 17.0
+    }
+  },
+  "eyes": [
+    {
+      "cx": 322.0,
+      "cy": 275.0,
+      "rx": 30.0,
+      "ry": 26.0
+    },
+    {
+      "cx": 440.0,
+      "cy": 272.0,
+      "rx": 26.0,
+      "ry": 25.0
+    }
+  ],
+  "height_rel": 1.06,
+  "anchor_x": 320.0,
+  "skin": [
+    250,
+    192,
+    158
+  ],
+  "staging": {
+    "posture": "stand",
+    "gestures": [
+      "hand_over"
+    ],
+    "holds": [
+      "shoulder-bag",
+      "cash-60k"
+    ],
+    "look": "level",
+    "facing": "3q",
+    "front": true,
+    "note": "tờ tiền ở (903,832) ảnh gốc; tay đưa vẽ đè lên tay người nhận",
+    "hand": [
+      903,
+      832
+    ]
+  }
+}

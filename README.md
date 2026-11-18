@@ -42,6 +42,7 @@ Cập nhật: 17/11/2026 · Giá công cụ AI kiểm tra cùng ngày (xem [docs
 | 9 | [video-mau/chu-de-an-uong/](video-mau/chu-de-an-uong/README.md) | **Chủ đề mẫu Ăn uống › Tình huống 1 "Gọi phở ở quán Cô Ba"** A1 → B2: bản A1 đủ bộ sản xuất + video phân tích + video phản xạ; A2, B1, B2 có kịch bản; bảng mở rộng cảnh qua 4 bản; video tổng hợp |
 | 10 | [docs/10-lo-trinh-30-ngay.md](docs/10-lo-trinh-30-ngay.md) | Kế hoạch 4 tuần, tiêu chí chất lượng, ngân sách thử nghiệm, rủi ro |
 | 11 | [docs/11-video-luyen-tap.md](docs/11-video-luyen-tap.md) | **Video đi kèm** mỗi bản: Phân tích & giải thích (ngữ pháp, từ vựng, cách dùng) và Phản xạ 7 giây (bài thi 2 chiều); phân tích 2 kênh tham khảo; mẫu cho Gọi phở A1 |
+| 13 | [docs/13-quy-trinh-qc.md](docs/13-quy-trinh-qc.md) | **Quy trình có kiểm soát chất lượng**: luồng 6 bước, 4 cổng duyệt, 3 lớp tự kiểm tra, checklist "hợp lý ngoài đời" và sổ lỗi |
 | 12 | [docs/12-du-phong-rui-ro.md](docs/12-du-phong-rui-ro.md) | Bài học từ video "Sức Mạnh Của Claude?" và **9 điểm cần dự phòng** (AI bịa thông tin ngữ pháp, render quá tải, giọng nhân vật, font tiếng Việt, Shorts dọc…) |
 | — | [docs/99-nguon-va-han-che-ai.md](docs/99-nguon-va-han-che-ai.md) | Hạn chế hiện tại của AI video, nguồn tham khảo |
 | — | [prompts/](prompts/) | Prompt viết kịch bản (writer/editor, quy tắc thang cấp độ), prompt character sheet |

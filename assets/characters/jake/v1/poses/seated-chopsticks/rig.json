@@ -1,0 +1,48 @@
+{
+  "character": "jake",
+  "pose": "seated-chopsticks",
+  "image": "hero-nomouth.png",
+  "source": "hero-cut.png",
+  "coords": "pixels in hero-cut.png",
+  "origin": "seated-chopsticks-01.png (Higgsfield job d075ed35-a755-4553-92a1-330dc54bdb92, edit of seated)",
+  "mouth": {
+    "cx": 470.0,
+    "cy": 381.0,
+    "w": 100.0,
+    "erase": {
+      "rx": 58.0,
+      "ry": 18.0
+    }
+  },
+  "eyes": [
+    {
+      "cx": 423.0,
+      "cy": 275.0,
+      "rx": 32.0,
+      "ry": 25.0
+    },
+    {
+      "cx": 533.0,
+      "cy": 275.0,
+      "rx": 28.0,
+      "ry": 25.0
+    }
+  ],
+  "height_rel": 1,
+  "anchor_x": 500.0,
+  "skin": [
+    253,
+    192,
+    159
+  ],
+  "staging": {
+    "posture": "seated",
+    "gestures": [],
+    "holds": [
+      "shoulder-bag",
+      "chopsticks"
+    ],
+    "look": "level",
+    "facing": "3q"
+  }
+}

@@ -1,0 +1,60 @@
+{
+ "id": "R51",
+ "speaker": "jake",
+ "lang": "en",
+ "text": "Small, please.",
+ "sent_text": "Small, please.",
+ "model": "eleven_v3",
+ "voice_id": "LBAT755ljzWjtlG9sT4Q",
+ "hash": "3607a7706551",
+ "alignment": {
+  "characters": [
+   "S",
+   "m",
+   "a",
+   "l",
+   "l",
+   ",",
+   " ",
+   "p",
+   "l",
+   "e",
+   "a",
+   "s",
+   "e",
+   "."
+  ],
+  "character_start_times_seconds": [
+   0,
+   0.064,
+   0.128,
+   0.192,
+   0.256,
+   0.32,
+   0.52,
+   0.549,
+   0.577,
+   0.606,
+   0.634,
+   0.663,
+   0.691,
+   0.72
+  ],
+  "character_end_times_seconds": [
+   0.064,
+   0.128,
+   0.192,
+   0.256,
+   0.32,
+   0.52,
+   0.549,
+   0.577,
+   0.606,
+   0.634,
+   0.663,
+   0.691,
+   0.72,
+   0.88
+  ]
+ }
+}

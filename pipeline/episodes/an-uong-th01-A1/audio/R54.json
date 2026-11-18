@@ -1,0 +1,48 @@
+{
+ "id": "R54",
+ "speaker": "jake",
+ "lang": "en",
+ "text": "Is it hot?",
+ "sent_text": "Is it hot?",
+ "model": "eleven_v3",
+ "voice_id": "LBAT755ljzWjtlG9sT4Q",
+ "hash": "b14e48d3f063",
+ "alignment": {
+  "characters": [
+   "I",
+   "s",
+   " ",
+   "i",
+   "t",
+   " ",
+   "h",
+   "o",
+   "t",
+   "?"
+  ],
+  "character_start_times_seconds": [
+   0,
+   0.08,
+   0.16,
+   0.187,
+   0.213,
+   0.24,
+   0.32,
+   0.4,
+   0.48,
+   0.56
+  ],
+  "character_end_times_seconds": [
+   0.08,
+   0.16,
+   0.187,
+   0.213,
+   0.24,
+   0.32,
+   0.4,
+   0.48,
+   0.56,
+   0.8
+  ]
+ }
+}

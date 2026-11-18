@@ -1,0 +1,25 @@
+{
+  "_note": "Dàn dựng cho từng ảnh nền: ảnh chứa gì (contains) để kiểm tra đạo cụ/trùng vật, vùng không được đứng (no_stand: [x0,x1] tỉ lệ khung) để không ai đứng chắn bàn/khách, chỗ ngồi (seat, px khung 1920×1080; depth = tỉ lệ so với người đứng tiền cảnh, 0.65 = ngồi lùi phía sau). Ảnh nền chỗ ngồi KHÔNG có ghế — dáng ngồi mang ghế theo.",
+  "plates": {
+    "quan-table": {
+      "file": "table.png",
+      "contains": ["table", "chili-jar", "soy-sauce", "chopstick-holder", "tissue-box", "plant"],
+      "no_stand": [[0.06, 0.52]],
+      "seat": { "x": 400, "bottom": 1080, "height": 1010, "for": "left-seated", "depth": 0.65 }
+    },
+    "quan-table-served": {
+      "file": "table-served.png",
+      "edit_of": "quan-table",
+      "contains": ["table", "chili-jar", "soy-sauce", "chopstick-holder", "tissue-box", "plant", "pho-bowl", "iced-tea", "herbs"],
+      "no_stand": [[0.06, 0.52]],
+      "seat": { "x": 400, "bottom": 1080, "height": 1010, "for": "left-seated", "depth": 0.65 },
+      "brief": "Sửa từ table.png (job 7f64319b): thêm 1 tô phở bò bốc khói + đũa + muỗng, 1 ly trà đá, 1 rổ rau thơm, đặt ở nửa trái mặt bàn (trước chỗ khách ngồi bên trái). Mọi thứ khác giữ nguyên vị trí."
+    },
+    "quan-counter": {
+      "file": "counter.png",
+      "contains": ["display-case", "pho-pot", "altar-shelf", "calendar"],
+      "no_stand": []
+    },
+    "quan-wide": { "file": "wide.png", "contains": ["storefront", "tables", "stools"], "no_stand": [] }
+  }
+}

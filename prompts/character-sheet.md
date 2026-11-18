@@ -104,6 +104,18 @@ Plain flat off-white background (#FAF6EF), no table, no other objects, no ground
 
 Lưu vào `assets/characters/<name>/v1/poses/seated/` (+ `rig.json` riêng). Trong `episode.json`, vị trí `*-seated` tự dùng dáng này; pipeline đặt ghế của ảnh đè đúng lên ghế trong ảnh nền.
 
+### Dáng xoay người / nghiêng (khi nói với người ở phía sau)
+
+Bài học từ A1 (2026-11-18): AI hay chỉ xoay **đầu**, còn thân giữ nguyên 3/4 như ảnh tham chiếu, trông như vặn cổ.
+
+- Luôn đính kèm **2 tham chiếu**: hero của nhân vật (mặt, trang phục) và `sheet.png` (bảng xoay), ghi rõ "copy EXACTLY its THIRD figure (the full SIDE PROFILE view)".
+- Prompt phải tả **cả thân**: "rotate his WHOLE BODY to a TRUE SIDE PROFILE… shoulders and chest seen from the side, only one arm visible, both feet pointing the same way as the face". Đừng chỉ viết "head turned".
+- Miệng khép (`mouth CLOSED`) để gắn khẩu hình; với dáng nghiêng, khẩu hình được thu hẹp bằng `mouth.sx` ≈ 0,6 trong `rig.json`.
+- Mỗi dáng ghi `staging` trong `rig.json`: `posture` (stand/seated), `facing` (3q/profile), `look` (level/down/up), `gestures`, `holds`. Bộ kiểm tra dàn dựng dùng các trường này để chọn dáng.
+- Dáng có cử chỉ/đạo cụ: **sửa từ ảnh dáng gốc** của đúng tư thế (vd. dáng ngồi `f24a2998`, dáng nghiêng `eb66ea0f`) để giữ mặt, ghế, góc xoay; chỉ mô tả phần thay đổi (tay, đồ cầm). Ghi `anchor_x` (đường giữa thân) trong `rig.json` để đổi dáng không làm nhân vật trượt ngang.
+- Gửi qua ChatGPT: xóa sạch ô nhập trước khi dán prompt; sau khi xong, đối chiếu `params.prompt` của job Higgsfield với yêu cầu (ChatGPT có thể dùng nhầm prompt cũ).
+- Duyệt bằng checklist ảnh AI trong [docs/13](../docs/13-quy-trinh-qc.md#checklist-ảnh-ai-bước-3-trước-khi-chọn-hoặc-tạo-video): đầu và thân cùng hướng, đúng nhân vật, không thừa tay chân.
+
 ## Checklist duyệt nhân vật
 
 - [ ] Màu trang phục khớp mã hex trong character bible (dùng color picker)

@@ -4,6 +4,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { loadRegistry, needsByLine, plateIdOf, resolvePose } from './lib/staging.mjs';
 const root = fileURLToPath(new URL('..', import.meta.url));
 const proj = path.join(root, '..');
 const [epDir, sceneArg, outName] = process.argv.slice(2);
@@ -18,7 +19,7 @@ function pngSize(f) { const b = fs.readFileSync(f); return { width: b.readUInt32
 const FPS = 30, LEAD = 0.5, GAP = 0.35, TAIL = 0.8;
 const PLATES = { 'quan-table': ['quan-co-ba', 'table.png'], 'quan-counter': ['quan-co-ba', 'counter.png'], 'quan-wide': ['quan-co-ba', 'wide.png'], 'hem-99': ['hem-99', 'wide.png'] };
 const INSERTS = { 'V-A': 'v-a.mp4', 'V-B': 'v-b.mp4', 'V-C': 'v-c.mp4' };
-const GESTURE_POSE = { hold_newspaper: 'newspaper', wave: 'wave' };
+const REG = loadRegistry(path.join(fileURLToPath(new URL('..', import.meta.url)), '..'));
 const plate = (loc) => { const [l, f] = PLATES[loc]; return copy(path.join(proj, 'assets', 'locations', l, 'v1', f), `locations/${l}/${f}`); };
 const sfx = (id) => copy(path.join(proj, 'assets', 'audio', 'sfx', `${id}.mp3`), `audio/sfx/${id}.mp3`);
 const music = (id) => copy(path.join(proj, 'assets', 'audio', 'music', `${id}.mp3`), `audio/music/${id}.mp3`);
@@ -33,10 +34,9 @@ const rigFor = (c, pose) => {
   const rig = JSON.parse(fs.readFileSync(path.join(d, 'rig.json'), 'utf8'));
   const img = copy(path.join(d, rig.image), `characters/${key.replace('@', '/')}/${rig.image}`);
   const { width, height } = pngSize(path.join(d, rig.image));
-  chars[key] = { ...rig, pose: d === base ? 'stand' : pose, img, width, height };
+  chars[key] = { ...rig, pose: d === base ? 'stand' : pose, posture: rig.staging?.posture ?? 'stand', img, width, height };
   return key;
 };
-const poseOfSlot = (slot) => (slot.includes('-') ? slot.split('-').pop() : null);
 
 // ---- audio lines --------------------------------------------------------------------------
 const audioLine = (l, start) => {
@@ -44,7 +44,7 @@ const audioLine = (l, start) => {
   const mouth = JSON.parse(fs.readFileSync(path.join(audioDir, `${l.id}.mouth.json`), 'utf8')).mouthCues;
   const dur = meta.alignment.character_end_times_seconds.at(-1) + 0.15;
   const audio = copy(path.join(audioDir, `${l.id}.mp3`), `episodes/${epKey}/audio/${l.id}.mp3`);
-  return { id: l.id, speaker: l.speaker, lang: l.lang, start, dur, audio, mouth, text: l.text, vi: l.vi || null, highlight: l.highlight || [], gesture: l.gesture || null, emotion: l.emotion || null, role: l.role || null, phrase: l.phrase || null, q: l.q ?? null, to: l.to || null };
+  return { id: l.id, speaker: l.speaker, lang: l.lang, start, dur, audio, mouth, text: l.text, vi: l.vi || null, highlight: l.highlight || [], gesture: l.gesture || null, emotion: l.emotion || null, role: l.role || null, phrase: l.phrase || null, q: l.q ?? null, to: l.to || null, react: l.react || null };
 };
 const allLines = {};
 for (const s of ep.scenes) { const walk = (o) => { if (Array.isArray(o)) return o.forEach(walk); if (o && typeof o === 'object') { if (o.id && /^L\d+$/.test(o.id)) allLines[o.id] = o; Object.values(o).forEach(walk); } }; walk(s); }
@@ -58,25 +58,40 @@ const shots = [];
 let T = 0;
 const push = (s) => { shots.push({ ...s, start: T }); T += s.dur; };
 
-const puppet = (id, location, positions, lineDefs, opts = {}) => {
-  const { lines, end } = runLines(lineDefs);
+const WARNED = new Set();
+// sh: { id, location, plate?, positions, lines, props?, enter?, exit? }
+const puppet = (sh, opts = {}) => {
+  const { id, location, positions } = sh;
+  const { lines, end } = runLines(sh.lines);
+  // plate variant (e.g. table with the pho served); missing file → fall back to the base plate, loudly
+  let pid = plateIdOf(sh);
+  if (!REG.plates[pid]?.exists) { console.warn(`  ⚠ ${id}: ảnh nền "${pid}" chưa có → tạm dùng "${location}"`); pid = location; }
+  const pl = REG.plates[pid];
+  const bg = pl ? copy(pl.path, `locations/${pl.loc}/${pl.file}`) : plate(location);
+  const at = (lid, lead) => { const l = lines.find((x) => x.id === lid); return l ? Math.max(0, l.start - lead) : null; };
   const cast = Object.entries(positions).map(([c, slot]) => {
-    const rig = rigFor(c, poseOfSlot(slot));
-    // per-line pose switches from gestures (e.g. hold_newspaper → newspaper pose)
-    const poses = lines.filter((l) => l.speaker === c && GESTURE_POSE[l.gesture]).map((l) => ({ from: l.start - 0.1, rig: rigFor(c, GESTURE_POSE[l.gesture]) }));
-    return { id: c, slot, rig, poses };
+    // pose per line from posture (slot) + gesture + props held; a missing pose keeps the closest one and warns
+    const timed = needsByLine({ ...sh, lines }, c, REG, pl).map((need, i) => {
+      const r = resolvePose(REG, c, need);
+      const w = `  ⚠ ${id}: ${c} thiếu dáng (${r.missing.join(', ')}) từ ${need.line} → dùng dáng gần nhất`;
+      if (!r.exact && !WARNED.has(w.replace(/ từ L\d+/, ''))) { WARNED.add(w.replace(/ từ L\d+/, '')); console.warn(w); }
+      return { from: i === 0 ? 0 : lines[i].start - 0.1, rig: rigFor(c, r.pose) };
+    });
+    const rig = timed[0]?.rig ?? rigFor(c, null);
+    const poses = timed.filter((p, i) => i > 0 && p.rig !== timed[i - 1].rig);
+    return { id: c, slot, rig, poses, from: sh.enter?.[c] ? at(sh.enter[c], 0.6) : null, until: sh.exit?.[c] ? at(sh.exit[c], 0) : null };
   });
   const extra = opts.hold ?? 0;
   const sfxs = (opts.sfx || []).map((s) => { const after = lines.find((l) => l.id === s.after_line); return { src: sfx(s.id), at: after ? after.start + after.dur + (s.delay ?? 0.05) : (s.at ?? 0), volume: s.volume ?? 0.8 }; });
   let camera = null;
   if (opts.camera) { const l = lines.find((x) => x.id === opts.camera.at_line); camera = { ...opts.camera, at: l ? l.start + 0.5 : 0 }; }
-  push({ id, kind: 'puppet', dur: end + TAIL + extra, bg: plate(location), location, positions, cast, lines, sfx: sfxs, camera, ambience: opts.ambience ? sfx(opts.ambience) : null });
+  push({ id, kind: 'puppet', dur: end + TAIL + extra, bg, seat: pl?.seat ?? null, location, positions, cast, lines, sfx: sfxs, camera, ambience: opts.ambience ? sfx(opts.ambience) : null });
 };
 
 const want = (s) => sceneArg === 'all' || sceneArg.split(',').includes(s.id);
 for (const sc of ep.scenes.filter(want)) {
   if (sc.type === 'cold_open') {
-    puppet(sc.id, sc.location, sc.positions, sc.lines, { sfx: (sc.sfx || []).map((x, i) => ({ ...x, delay: 0.1 + i * 0.7 })), camera: sc.camera, hold: 2.0 });
+    puppet(sc, { sfx: (sc.sfx || []).map((x, i) => ({ ...x, delay: 0.1 + i * 0.7 })), camera: sc.camera, hold: 2.0 });
   } else if (sc.type === 'title') {
     const host = rigFor(sc.host.character, sc.host.pose);
     const { lines, end } = runLines(sc.lines, 1.6);
@@ -87,7 +102,7 @@ for (const sc of ep.scenes.filter(want)) {
         const src = copy(path.join(epDir, 'assets', INSERTS[sh.insert]), `episodes/${epKey}/${INSERTS[sh.insert]}`);
         const fx = (sh.sfx || []).filter((x) => x !== 'morning-street-ambience').map((x) => ({ src: sfx(x), at: x === 'iron-gate-slide' ? 0.3 : 0.6, volume: 0.8 }));
         push({ id: sh.id, kind: 'video', dur: sh.duration_sec, src, insert: sh.insert, sfx: fx, ambience: sfx('morning-street-ambience') });
-      } else if (sh.kind === 'puppet') puppet(sh.id, sh.location, sh.positions, sh.lines, { ambience: 'morning-street-ambience' });
+      } else if (sh.kind === 'puppet') puppet(sh, { ambience: 'morning-street-ambience' });
     }
   } else if (sc.type === 'learn') {
     const blocks = [];
@@ -100,11 +115,29 @@ for (const sc of ep.scenes.filter(want)) {
       const title = ns.find((l) => l.role === 'title' || l.role === 'error_title');
       const seq = [];
       if (title) seq.push(title);
-      if (p.source_line && allLines[p.source_line]) seq.push(allLines[p.source_line]); // original dialogue line
+      // original dialogue from the film: the whole question–answer pair when the phrase is a pair (A1 P3 review)
+      for (const id of p.source_lines ?? (p.source_line ? [p.source_line] : [])) if (allLines[id]) seq.push({ ...allLines[id], role: 'source' });
+      else console.warn(`  ⚠ ${p.id}: không thấy câu gốc ${id}`);
       seq.push(...ns.filter((l) => l.role === 'phrase_slow'), ...ns.filter((l) => l.role === 'explain'), ...ns.filter((l) => l.role === 'example'));
       const { lines, end } = runLines(seq, 0.4, 0.45);
+      // when Tín reads a Q–A pair slowly, highlight only the half being spoken: find each half in the TTS character timings
+      const halves = (p.phrase ?? '').split(' — ');
+      for (const l of lines) {
+        if (l.role !== 'phrase_slow' || halves.length < 2) continue;
+        const al = JSON.parse(fs.readFileSync(path.join(audioDir, `${l.id}.json`), 'utf8')).alignment;
+        const chars = al.characters.join('').toLowerCase();
+        let from = 0;
+        l.parts = halves.map((h) => {
+          const k = chars.indexOf(h.toLowerCase().replace(/[.?!]+$/, ''), from);
+          if (k < 0) { console.warn(`  ⚠ ${p.id} ${l.id}: không tìm thấy "${h}" trong lời đọc`); return null; }
+          from = k + 1;
+          return al.character_start_times_seconds[k];
+        });
+      }
       const src = allLines[p.source_line];
-      Object.assign(b, { dur: end + 1.0, lines, phrase: p.phrase || null, vi: src?.vi || null, explain: p.explain_vi, example: p.example || null, wrong: p.wrong || null, right: p.right || null });
+      // Card translation must match the phrase itself, not the whole source line ("Cảm ơn! Ừm... Có cay không?" ≠ "Is it spicy?").
+      if (p.phrase && !p.vi) console.warn(`  ⚠ ${p.id}: thiếu "vi" riêng cho mẫu câu → tạm dùng bản dịch cả câu ${p.source_line}`);
+      Object.assign(b, { dur: end + 1.0, lines, phrase: p.phrase || null, vi: p.vi || src?.vi || null, explain: p.explain_vi, example: p.example || null, wrong: p.wrong || null, right: p.right || null });
       blocks.push(b);
       t += b.dur;
     }

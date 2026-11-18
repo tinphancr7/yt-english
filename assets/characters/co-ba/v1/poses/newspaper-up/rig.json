@@ -1,0 +1,49 @@
+{
+  "character": "co-ba",
+  "pose": "newspaper-up",
+  "image": "hero-nomouth.png",
+  "source": "hero-cut.png",
+  "coords": "pixels in hero-cut.png",
+  "origin": "newspaper-up-01.png (Higgsfield job 2bb893e3-4609-44aa-abae-4ffabdccd856, edit of newspaper)",
+  "mouth": {
+    "cx": 488.0,
+    "cy": 497.0,
+    "w": 110.0,
+    "erase": {
+      "rx": 64.0,
+      "ry": 28.0
+    }
+  },
+  "eyes": [
+    {
+      "cx": 405.0,
+      "cy": 362.0,
+      "rx": 36.0,
+      "ry": 28.0
+    },
+    {
+      "cx": 556.0,
+      "cy": 356.0,
+      "rx": 32.0,
+      "ry": 28.0
+    }
+  ],
+  "height_rel": 0.86,
+  "anchor_x": 498.0,
+  "skin": [
+    253,
+    191,
+    153
+  ],
+  "staging": {
+    "posture": "stand",
+    "gestures": [
+      "hold_newspaper"
+    ],
+    "holds": [
+      "newspaper"
+    ],
+    "look": "up",
+    "facing": "3q"
+  }
+}

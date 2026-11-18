@@ -1,0 +1,49 @@
+{
+  "character": "jake",
+  "pose": "seated-wave",
+  "image": "hero-nomouth.png",
+  "source": "hero-cut.png",
+  "coords": "pixels in hero-cut.png",
+  "origin": "seated-wave-01.png (Higgsfield job de4c4474-a9fb-43f6-bcd8-5d87599e842f, edit of seated)",
+  "mouth": {
+    "cx": 472.0,
+    "cy": 380.0,
+    "w": 100.0,
+    "erase": {
+      "rx": 58.0,
+      "ry": 18.0
+    }
+  },
+  "eyes": [
+    {
+      "cx": 425.0,
+      "cy": 272.0,
+      "rx": 32.0,
+      "ry": 25.0
+    },
+    {
+      "cx": 535.0,
+      "cy": 272.0,
+      "rx": 28.0,
+      "ry": 25.0
+    }
+  ],
+  "height_rel": 1,
+  "anchor_x": 502.0,
+  "skin": [
+    251,
+    191,
+    157
+  ],
+  "staging": {
+    "posture": "seated",
+    "gestures": [
+      "wave"
+    ],
+    "holds": [
+      "shoulder-bag"
+    ],
+    "look": "level",
+    "facing": "3q"
+  }
+}

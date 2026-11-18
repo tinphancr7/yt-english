@@ -94,7 +94,7 @@
      "id": "N10",
      "speaker": "tin",
      "lang": "en",
-     "text": "No onions, please.",
+     "text": "Onions? ... No onions, please.",
      "role": "phrase_slow",
      "phrase": "P3",
      "audio_tags": [
@@ -133,7 +133,7 @@
      "id": "N14",
      "speaker": "tin",
      "lang": "en",
-     "text": "Is it spicy?",
+     "text": "Is it spicy? ... No, it isn't.",
      "role": "phrase_slow",
      "phrase": "P4",
      "audio_tags": [

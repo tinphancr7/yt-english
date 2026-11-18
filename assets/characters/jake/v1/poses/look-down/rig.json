@@ -1,0 +1,47 @@
+{
+  "character": "jake",
+  "pose": "look-down",
+  "image": "hero-nomouth.png",
+  "source": "hero-cut.png",
+  "coords": "pixels in hero-cut.png",
+  "origin": "look-down-01.png (Higgsfield job 397f8036-3105-45dc-bfb3-a6a36411b8e1, edit of hero)",
+  "mouth": {
+    "cx": 382.0,
+    "cy": 384.0,
+    "w": 100.0,
+    "erase": {
+      "rx": 56.0,
+      "ry": 17.0
+    }
+  },
+  "eyes": [
+    {
+      "cx": 330.0,
+      "cy": 280.0,
+      "rx": 30.0,
+      "ry": 24.0
+    },
+    {
+      "cx": 446.0,
+      "cy": 286.0,
+      "rx": 26.0,
+      "ry": 23.0
+    }
+  ],
+  "height_rel": 1.06,
+  "anchor_x": 327.0,
+  "skin": [
+    248,
+    191,
+    156
+  ],
+  "staging": {
+    "posture": "stand",
+    "gestures": [],
+    "holds": [
+      "shoulder-bag"
+    ],
+    "look": "down",
+    "facing": "3q"
+  }
+}

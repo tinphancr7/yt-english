@@ -1,0 +1,45 @@
+{
+  "character": "tin",
+  "pose": "look-down",
+  "image": "hero-nomouth.png",
+  "source": "hero-cut.png",
+  "coords": "pixels in hero-cut.png",
+  "origin": "look-down-01.png (Higgsfield job 086ed604-2f90-4fc6-b8dc-a10fce91335d, ref: tin hero e50ec22d)",
+  "mouth": {
+    "cx": 422,
+    "cy": 378,
+    "w": 95,
+    "erase": {
+      "rx": 50,
+      "ry": 15
+    }
+  },
+  "eyes": [
+    {
+      "cx": 378,
+      "cy": 268,
+      "rx": 32,
+      "ry": 24
+    },
+    {
+      "cx": 497,
+      "cy": 280,
+      "rx": 26,
+      "ry": 23
+    }
+  ],
+  "height_rel": 1,
+  "skin": [
+    253,
+    199,
+    160
+  ],
+  "staging": {
+    "posture": "stand",
+    "gestures": [],
+    "holds": [],
+    "look": "down",
+    "note": "đứng nói với người đang ngồi: cúi đầu, mắt nhìn xuống",
+    "facing": "3q"
+  }
+}

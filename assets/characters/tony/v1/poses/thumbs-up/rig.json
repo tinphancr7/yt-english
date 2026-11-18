@@ -1,0 +1,49 @@
+{
+  "character": "tony",
+  "pose": "thumbs-up",
+  "image": "hero-nomouth.png",
+  "source": "hero-cut.png",
+  "coords": "pixels in hero-cut.png",
+  "origin": "thumbs-up-01.png (Higgsfield job 180676dd-979e-4dd4-850d-3175446b3354, edit of hero)",
+  "mouth": {
+    "cx": 468.0,
+    "cy": 412.0,
+    "w": 130.0,
+    "erase": {
+      "rx": 74.0,
+      "ry": 28.0
+    }
+  },
+  "eyes": [
+    {
+      "cx": 422.0,
+      "cy": 305.0,
+      "rx": 32.0,
+      "ry": 26.0
+    },
+    {
+      "cx": 532.0,
+      "cy": 305.0,
+      "rx": 28.0,
+      "ry": 26.0
+    }
+  ],
+  "height_rel": 1.02,
+  "anchor_x": 365.0,
+  "skin": [
+    241,
+    170,
+    125
+  ],
+  "staging": {
+    "posture": "stand",
+    "gestures": [
+      "thumbs_up"
+    ],
+    "holds": [
+      "helmet-orange"
+    ],
+    "look": "level",
+    "facing": "3q"
+  }
+}
