@@ -1,0 +1,60 @@
+{
+ "id": "R08",
+ "speaker": "tin",
+ "lang": "vi",
+ "text": "Còn uống gì ạ?",
+ "sent_text": "Còn uống gì ạ?",
+ "model": "eleven_v4",
+ "voice_id": "cQ2W4ckra8YvQY18vkmE",
+ "hash": "130f85a8b08a",
+ "alignment": {
+  "characters": [
+   "C",
+   "ò",
+   "n",
+   " ",
+   "u",
+   "ố",
+   "n",
+   "g",
+   " ",
+   "g",
+   "ì",
+   " ",
+   "ạ",
+   "?"
+  ],
+  "character_start_times_seconds": [
+   0,
+   0.08,
+   0.16,
+   0.24,
+   0.48,
+   0.56,
+   0.587,
+   0.613,
+   0.64,
+   0.72,
+   0.8,
+   0.84,
+   0.88,
+   1.04
+  ],
+  "character_end_times_seconds": [
+   0.08,
+   0.16,
+   0.24,
+   0.48,
+   0.56,
+   0.587,
+   0.613,
+   0.64,
+   0.72,
+   0.8,
+   0.84,
+   0.88,
+   1.04,
+   1.36
+  ]
+ }
+}

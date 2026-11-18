@@ -1,0 +1,46 @@
+{
+  "character": "tin",
+  "pose": "turn-notepad",
+  "image": "hero-nomouth.png",
+  "source": "hero-cut.png",
+  "coords": "pixels in hero-cut.png",
+  "origin": "turn-notepad-01.png (Higgsfield job b70a72f2-9f4c-440d-acba-33a5ee0a50ce, edit of turn eb66ea0f)",
+  "mouth": {
+    "cx": 350,
+    "cy": 380,
+    "w": 72,
+    "sx": 0.6,
+    "erase": {
+      "rx": 33,
+      "ry": 12
+    }
+  },
+  "eyes": [
+    {
+      "cx": 303,
+      "cy": 268,
+      "rx": 26,
+      "ry": 26
+    }
+  ],
+  "height_rel": 1,
+  "anchor_x": 222.5,
+  "skin": [
+    254,
+    195,
+    161
+  ],
+  "staging": {
+    "posture": "stand",
+    "gestures": [
+      "write"
+    ],
+    "holds": [
+      "notepad",
+      "pen"
+    ],
+    "look": "level",
+    "facing": "profile",
+    "note": "nghiêng, ghi món vào sổ"
+  }
+}

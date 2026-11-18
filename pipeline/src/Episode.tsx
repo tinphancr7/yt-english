@@ -6,12 +6,14 @@ import { Character, type Placement } from './components/Character';
 import { Subtitle } from './components/Subtitle';
 import { LearnShot, LineAudio, OutroShot, QuizShot, SfxTrack, TitleShot } from './components/Shots';
 import type { Line, Rig, Shot, Timeline } from './types';
+import slots from './slots.json';
 
 loadFont('normal', { weights: ['500', '800'], subsets: ['vietnamese', 'latin'] });
 
 const W = 1920, H = 1080;
+const ENTER_S = 0.45; // walk-in / walk-out duration
 const STAND_H = 1500; // body height (px) for a standing character in a medium shot
-const SLOT_X: Record<string, number> = { left: 0.22, 'left-seated': 0.195, 'behind-table': 0.195, center: 0.52, right: 0.8 };
+const SLOT_X = slots as unknown as Record<string, number>; // shared with stage-lint.mjs
 
 // Foreground occluders cut from the plate itself (frame coords, 1920×1080 cover-fit).
 // Used only for slot "behind-table": the table top is re-drawn above that character.
@@ -19,16 +21,14 @@ const FOREGROUND: Record<string, string> = {
   'quan-table': 'polygon(198px 472px, 210px 458px, 890px 456px, 1124px 508px, 1124px 548px, 683px 608px, 198px 503px)',
 };
 
-// Seated pose (image includes the red stool): put the drawn stool exactly over the plate's stool.
-const SEATED: Record<string, { x: number; bottom: number; height: number }> = {
-  'quan-table': { x: 400, bottom: 1080, height: 1010 },
-};
+type Seat = { x: number; bottom: number; height: number };
 
-const place = (slot: string, rig: Rig, location: string, z: number): Placement => {
+// Seated poses carry their own stool; the plate's "seat" (staging.json) says where it goes.
+const place = (slot: string, rig: Rig, location: string, z: number, seat?: Seat | null): Placement => {
   const x = SLOT_X[slot] * W;
   const flip = SLOT_X[slot] > 0.6; // characters on the right face left (towards the others)
-  if (rig.pose === 'seated' && SEATED[location]) {
-    const s = SEATED[location];
+  if (rig.posture === 'seated' && seat) {
+    const s = seat;
     return { x: s.x, height: s.height, topY: s.bottom - s.height, flip: false, z: 30 + z };
   }
   if (slot === 'behind-table' && location === 'quan-table') {
@@ -98,12 +98,18 @@ const ShotView: React.FC<{ shot: Shot; tl: Timeline; fps: number }> = ({ shot, t
       <AbsoluteFill style={{ transform: `scale(${zoom})`, transformOrigin: cam ? `${cam.x}px ${cam.y}px` : '50% 50%' }}>
         <Img src={staticFile(shot.bg)} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
         {(() => {
-          const ids = shot.cast.map((c) => c.id);
-          const placed = shot.cast.map((c, i) => { const rig = tl.characters[rigAt(c)]; return { c, rig, p: place(c.slot, rig, shot.location, i) }; });
+                    const here = (c: (typeof shot.cast)[number]) => (c.from == null || t >= c.from) && (c.until == null || t < c.until + ENTER_S);
+          const placed = shot.cast.filter(here).map((c, i) => { const rig = tl.characters[rigAt(c)]; return { c, rig, p: place(c.slot, rig, shot.location, i, shot.seat) }; });
           return placed.map(({ c, rig, p }) => {
-            const target = placed.find((o) => o.c.id === lookAt(c.id, shot.lines, t, ids));
+            const target = placed.find((o) => o.c.id === lookAt(c.id, shot.lines, t, placed.map((o) => o.c.id)));
             const flip = target ? target.p.x < p.x : p.flip;
-            return <Character key={c.id} rig={rig} place={{ ...p, flip }} t={t} lines={shot.lines} />;
+            // enter / exit: walk in from (out to) the nearest frame edge
+            const edge = p.x > W / 2 ? W + 400 : -400;
+            const k = c.from != null && t < c.from + ENTER_S ? 1 - Easing.out(Easing.cubic)((t - c.from) / ENTER_S)
+              : c.until != null && t >= c.until ? Easing.in(Easing.cubic)((t - c.until) / ENTER_S) : 0;
+            // a hand that gives something (staging.front) is drawn over the receiver's hand
+            const z = p.z + ((rig as Rig & { staging?: { front?: boolean } }).staging?.front ? 10 : 0);
+            return <Character key={c.id} rig={rig} place={{ ...p, x: p.x + (edge - p.x) * k, flip, z }} t={t} lines={shot.lines} />;
           });
         })()}
         {FOREGROUND[shot.location] && shot.cast.some((c) => c.slot === 'behind-table') && (

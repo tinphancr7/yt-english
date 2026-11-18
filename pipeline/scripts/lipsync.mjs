@@ -8,7 +8,7 @@ import { fileURLToPath } from 'node:url';
 const root = fileURLToPath(new URL('..', import.meta.url));
 const rhubarb = path.join(root, 'tools', 'Rhubarb-Lip-Sync-1.14.0-Windows', 'rhubarb.exe');
 const dir = process.argv[2];
-for (const f of fs.readdirSync(dir).filter((x) => /^[LN]\d+\.json$/.test(x))) {
+for (const f of fs.readdirSync(dir).filter((x) => /^[LNA]\d+\.json$/.test(x))) {
   const meta = JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8'));
   const id = meta.id, mp3 = path.join(dir, `${id}.mp3`), wav = path.join(dir, `${id}.wav`), out = path.join(dir, `${id}.mouth.json`);
   if (fs.existsSync(out) && fs.statSync(out).mtimeMs > fs.statSync(mp3).mtimeMs) { console.log(id, 'cached'); continue; }

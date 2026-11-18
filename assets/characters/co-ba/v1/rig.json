@@ -32,5 +32,16 @@
     252,
     195,
     150
-  ]
+  ],
+  "staging": {
+    "posture": "stand",
+    "gestures": [
+      "fan"
+    ],
+    "holds": [
+      "fan"
+    ],
+    "note": "cầm quạt sẵn (quạt không động)",
+    "facing": "3q"
+  }
 }

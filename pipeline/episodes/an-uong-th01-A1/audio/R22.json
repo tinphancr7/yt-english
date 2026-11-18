@@ -1,0 +1,57 @@
+{
+ "id": "R22",
+ "speaker": "tin",
+ "lang": "vi",
+ "text": "Không đá nhé.",
+ "sent_text": "Không đá nhé.",
+ "model": "eleven_v4",
+ "voice_id": "cQ2W4ckra8YvQY18vkmE",
+ "hash": "f5c2f93e35d2",
+ "alignment": {
+  "characters": [
+   "K",
+   "h",
+   "ô",
+   "n",
+   "g",
+   " ",
+   "đ",
+   "á",
+   " ",
+   "n",
+   "h",
+   "é",
+   "."
+  ],
+  "character_start_times_seconds": [
+   0,
+   0.144,
+   0.168,
+   0.192,
+   0.216,
+   0.24,
+   0.32,
+   0.4,
+   0.48,
+   0.56,
+   0.64,
+   0.72,
+   0.88
+  ],
+  "character_end_times_seconds": [
+   0.144,
+   0.168,
+   0.192,
+   0.216,
+   0.24,
+   0.32,
+   0.4,
+   0.48,
+   0.56,
+   0.64,
+   0.72,
+   0.88,
+   1.12
+  ]
+ }
+}

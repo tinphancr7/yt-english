@@ -1,0 +1,45 @@
+{
+ "id": "R14",
+ "speaker": "tin",
+ "lang": "vi",
+ "text": "Ngon quá!",
+ "sent_text": "Ngon quá!",
+ "model": "eleven_v4",
+ "voice_id": "cQ2W4ckra8YvQY18vkmE",
+ "hash": "d4062aec2c6b",
+ "alignment": {
+  "characters": [
+   "N",
+   "g",
+   "o",
+   "n",
+   " ",
+   "q",
+   "u",
+   "á",
+   "!"
+  ],
+  "character_start_times_seconds": [
+   0,
+   0.16,
+   0.24,
+   0.32,
+   0.4,
+   0.48,
+   0.56,
+   0.64,
+   0.88
+  ],
+  "character_end_times_seconds": [
+   0.16,
+   0.24,
+   0.32,
+   0.4,
+   0.48,
+   0.56,
+   0.64,
+   0.88,
+   1.12
+  ]
+ }
+}

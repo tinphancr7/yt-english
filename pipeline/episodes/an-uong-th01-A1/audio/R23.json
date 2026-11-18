@@ -1,0 +1,57 @@
+{
+ "id": "R23",
+ "speaker": "tin",
+ "lang": "vi",
+ "text": "Không ớt nhé.",
+ "sent_text": "Không ớt nhé.",
+ "model": "eleven_v4",
+ "voice_id": "cQ2W4ckra8YvQY18vkmE",
+ "hash": "e2f5b55231a1",
+ "alignment": {
+  "characters": [
+   "K",
+   "h",
+   "ô",
+   "n",
+   "g",
+   " ",
+   "ớ",
+   "t",
+   " ",
+   "n",
+   "h",
+   "é",
+   "."
+  ],
+  "character_start_times_seconds": [
+   0,
+   0.144,
+   0.168,
+   0.192,
+   0.216,
+   0.24,
+   0.32,
+   0.4,
+   0.48,
+   0.56,
+   0.6,
+   0.64,
+   0.8
+  ],
+  "character_end_times_seconds": [
+   0.144,
+   0.168,
+   0.192,
+   0.216,
+   0.24,
+   0.32,
+   0.4,
+   0.48,
+   0.56,
+   0.6,
+   0.64,
+   0.8,
+   1.04
+  ]
+ }
+}

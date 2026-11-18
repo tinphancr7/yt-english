@@ -23,7 +23,7 @@ if (learn.error_fix) {
   const e = learn.error_fix;
   add('vi', `Lỗi hay gặp! Anh Tony nói: many beef.`, { role: 'error_title', phrase: 'ERR' });
   add('vi', e.explain_vi, { role: 'explain', phrase: 'ERR' });
-  add('en', `${e.right.charAt(0).toUpperCase()}${e.right.slice(1)}.`, { role: 'phrase_slow', phrase: 'ERR', audio_tags: ['slowly', 'clearly'] });
+  add('en', `${e.right.charAt(0).toUpperCase()}${e.right.slice(1)}`.replace(/([^.!?])$/, '$1.'), { role: 'phrase_slow', phrase: 'ERR', audio_tags: ['slowly', 'clearly'] });
   if (e.example) add('en', e.example, { role: 'example', phrase: 'ERR', audio_tags: ['clearly'] });
 }
 quiz.questions.forEach((q, i) => {

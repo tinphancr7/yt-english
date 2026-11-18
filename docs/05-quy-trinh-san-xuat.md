@@ -107,15 +107,18 @@ Với pipeline code (Remotion), "dựng" = render từ `episode.json`:
 6. **Intro/outro:** jingle 3 giây + logo; outro 15–20 giây có end screen (2 video gợi ý + nút subscribe) — YouTube yêu cầu end screen trong 5–20 giây cuối.
 7. **CapCut / DaVinci Resolve** chỉ dùng cho tinh chỉnh thủ công khi cần (hoặc giai đoạn đầu trước khi có template code).
 
+**Kiểm soát chất lượng** trước khi đưa người duyệt (đo video, bảng ảnh từng câu, checklist "hợp lý ngoài đời", sổ lỗi): xem [13-quy-trinh-qc.md](13-quy-trinh-qc.md).
+
 ## Bước 7 — Xuất bản và tối ưu YouTube
 
 1. **Thumbnail:** Nano Banana Pro hoặc 2.1 tạo nền + nhân vật (từ reference), **chữ thêm bằng code/Canva** (không để AI vẽ chữ để tránh lỗi chính tả). 3 biến thể → dùng tính năng **Test & Compare** của YouTube Studio để A/B test.
 2. **Tiêu đề (tiếng Việt):** `[Tình huống] bằng tiếng Anh | [CEFR] | YOLO7 English`, ≤ 70 ký tự. Ví dụ: *"Gọi phở bằng tiếng Anh ở quán Việt | A1 – Người mới bắt đầu | YOLO7 English"*.
 3. **Mô tả:** 2 câu đầu chứa từ khóa tiếng Việt → danh sách mẫu câu → lỗi hay gặp → **link 4 bản A1–B2 của tình huống + video phân tích + video phản xạ + video tổng hợp** → chapters → playlist. 3–5 hashtag không dấu (#tienganhgiaotiep).
-4. **Phụ đề CC:** `vi.srt` + `en.srt` (chuẩn, không dùng ASR).
-5. **Playlist:** theo **tình huống** ("Gọi phở ở quán Cô Ba: A1 → B2", video tổng hợp ghim đầu), theo **chủ đề và trình độ** ("Ăn uống – A1"), theo **lộ trình** ("Lộ trình A1") và theo **loại video** (phản xạ, viết).
-6. **Shorts từ video dài** (3–5 Shorts/video): 1 khoảnh khắc hài (cold open — Jake nói tiếng Việt sai, Tony nói Vietglish), 1 "3 câu gọi món ai cũng cần", 1 "câu này sai ở đâu?". Định dạng 9:16 — Remotion render composition dọc từ cùng dữ liệu. Đăng lại lên TikTok/Facebook Reels (thị trường Việt dùng rất nhiều).
-7. **Theo dõi (YouTube Studio / YouTube Analytics API):**
+4. **Cards và End screen gắn trong YouTube Studio**, không vẽ vào video: lấy mốc thời gian và video đích từ `episode.json` → `publish.youtube_studio`.
+5. **Phụ đề CC:** `vi.srt` + `en.srt` (chuẩn, không dùng ASR).
+6. **Playlist:** theo **tình huống** ("Gọi phở ở quán Cô Ba: A1 → B2", video tổng hợp ghim đầu), theo **chủ đề và trình độ** ("Ăn uống – A1"), theo **lộ trình** ("Lộ trình A1") và theo **loại video** (phản xạ, viết).
+7. **Shorts từ video dài** (3–5 Shorts/video): 1 khoảnh khắc hài (cold open — Jake nói tiếng Việt sai, Tony nói Vietglish), 1 "3 câu gọi món ai cũng cần", 1 "câu này sai ở đâu?". Định dạng 9:16 — Remotion render composition dọc từ cùng dữ liệu. Đăng lại lên TikTok/Facebook Reels (thị trường Việt dùng rất nhiều).
+8. **Theo dõi (YouTube Studio / YouTube Analytics API):**
 
 | Chỉ số | Mục tiêu 3 tháng đầu | Nếu thấp |
 | --- | --- | --- |

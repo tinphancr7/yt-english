@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "soundFile": "C:\\2026\\yt\\pipeline\\episodes\\an-uong-th01-A1\\audio\\A033.wav",
+    "duration": 1.28
+  },
+  "mouthCues": [
+    { "start": 0.00, "end": 0.01, "value": "X" },
+    { "start": 0.01, "end": 0.04, "value": "B" },
+    { "start": 0.04, "end": 0.05, "value": "X" },
+    { "start": 0.05, "end": 0.09, "value": "A" },
+    { "start": 0.09, "end": 0.15, "value": "C" },
+    { "start": 0.15, "end": 0.35, "value": "E" },
+    { "start": 0.35, "end": 0.60, "value": "F" },
+    { "start": 0.60, "end": 0.67, "value": "E" },
+    { "start": 0.67, "end": 0.91, "value": "C" },
+    { "start": 0.91, "end": 0.98, "value": "B" },
+    { "start": 0.98, "end": 1.28, "value": "X" }
+  ]
+}

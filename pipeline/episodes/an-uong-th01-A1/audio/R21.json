@@ -1,0 +1,51 @@
+{
+ "id": "R21",
+ "speaker": "tin",
+ "lang": "vi",
+ "text": "Tô nhỏ nhé.",
+ "sent_text": "Tô nhỏ nhé.",
+ "model": "eleven_v4",
+ "voice_id": "cQ2W4ckra8YvQY18vkmE",
+ "hash": "825d617a8b4d",
+ "alignment": {
+  "characters": [
+   "T",
+   "ô",
+   " ",
+   "n",
+   "h",
+   "ỏ",
+   " ",
+   "n",
+   "h",
+   "é",
+   "."
+  ],
+  "character_start_times_seconds": [
+   0,
+   0.08,
+   0.16,
+   0.24,
+   0.28,
+   0.32,
+   0.4,
+   0.48,
+   0.56,
+   0.64,
+   0.8
+  ],
+  "character_end_times_seconds": [
+   0.08,
+   0.16,
+   0.24,
+   0.28,
+   0.32,
+   0.4,
+   0.48,
+   0.56,
+   0.64,
+   0.8,
+   1.04
+  ]
+ }
+}

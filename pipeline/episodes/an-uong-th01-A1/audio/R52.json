@@ -1,0 +1,63 @@
+{
+ "id": "R52",
+ "speaker": "jake",
+ "lang": "en",
+ "text": "No ice, please.",
+ "sent_text": "No ice, please.",
+ "model": "eleven_v3",
+ "voice_id": "LBAT755ljzWjtlG9sT4Q",
+ "hash": "55033c816001",
+ "alignment": {
+  "characters": [
+   "N",
+   "o",
+   " ",
+   "i",
+   "c",
+   "e",
+   ",",
+   " ",
+   "p",
+   "l",
+   "e",
+   "a",
+   "s",
+   "e",
+   "."
+  ],
+  "character_start_times_seconds": [
+   0,
+   0.12,
+   0.24,
+   0.32,
+   0.4,
+   0.48,
+   0.56,
+   0.8,
+   0.834,
+   0.869,
+   0.903,
+   0.937,
+   0.971,
+   1.006,
+   1.04
+  ],
+  "character_end_times_seconds": [
+   0.12,
+   0.24,
+   0.32,
+   0.4,
+   0.48,
+   0.56,
+   0.8,
+   0.834,
+   0.869,
+   0.903,
+   0.937,
+   0.971,
+   1.006,
+   1.04,
+   1.2
+  ]
+ }
+}

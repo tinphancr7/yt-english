@@ -1,0 +1,49 @@
+{
+  "character": "jake",
+  "pose": "seated-rub-belly",
+  "image": "hero-nomouth.png",
+  "source": "hero-cut.png",
+  "coords": "pixels in hero-cut.png",
+  "origin": "seated-rub-belly-01.png (Higgsfield job 57b8a214-3639-40ff-9a7a-51dcaa9f54bb, edit of seated)",
+  "mouth": {
+    "cx": 470.0,
+    "cy": 381.0,
+    "w": 100.0,
+    "erase": {
+      "rx": 58.0,
+      "ry": 18.0
+    }
+  },
+  "eyes": [
+    {
+      "cx": 423.0,
+      "cy": 275.0,
+      "rx": 32.0,
+      "ry": 25.0
+    },
+    {
+      "cx": 533.0,
+      "cy": 275.0,
+      "rx": 28.0,
+      "ry": 25.0
+    }
+  ],
+  "height_rel": 1,
+  "anchor_x": 500.0,
+  "skin": [
+    251,
+    192,
+    159
+  ],
+  "staging": {
+    "posture": "seated",
+    "gestures": [
+      "rub_belly"
+    ],
+    "holds": [
+      "shoulder-bag"
+    ],
+    "look": "level",
+    "facing": "3q"
+  }
+}

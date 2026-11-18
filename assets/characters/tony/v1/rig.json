@@ -32,5 +32,13 @@
     240,
     172,
     123
-  ]
+  ],
+  "staging": {
+    "posture": "stand",
+    "gestures": [],
+    "holds": [
+      "helmet-orange"
+    ],
+    "facing": "3q"
+  }
 }

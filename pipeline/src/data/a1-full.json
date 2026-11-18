@@ -3,128 +3,165 @@
  "fps": 30,
  "width": 1920,
  "height": 1080,
- "durationInFrames": 7855,
- "duration": 261.81,
+ "durationInFrames": 8404,
+ "duration": 280.13,
  "characters": {
-  "jake": {
+  "jake@look-down": {
    "character": "jake",
+   "pose": "look-down",
    "image": "hero-nomouth.png",
    "source": "hero-cut.png",
    "coords": "pixels in hero-cut.png",
+   "origin": "look-down-01.png (Higgsfield job 397f8036-3105-45dc-bfb3-a6a36411b8e1, edit of hero)",
    "mouth": {
-    "cx": 395,
-    "cy": 378,
-    "w": 110,
+    "cx": 382,
+    "cy": 384,
+    "w": 100,
     "erase": {
-     "rx": 62,
-     "ry": 20
+     "rx": 56,
+     "ry": 17
     }
    },
    "eyes": [
     {
-     "cx": 320,
-     "cy": 272,
-     "rx": 36,
-     "ry": 26
+     "cx": 330,
+     "cy": 280,
+     "rx": 30,
+     "ry": 24
     },
     {
-     "cx": 434,
-     "cy": 272,
-     "rx": 30,
-     "ry": 26
+     "cx": 446,
+     "cy": 286,
+     "rx": 26,
+     "ry": 23
     }
    ],
    "height_rel": 1.06,
-   "note": "Jake cao nhất; miệng nằm trong râu — chỉ xóa hẹp",
+   "anchor_x": 327,
    "skin": [
-    251,
-    193,
-    154
+    248,
+    191,
+    156
    ],
-   "pose": "stand",
-   "img": "characters/jake/hero-nomouth.png",
-   "width": 632,
-   "height": 2190
+   "staging": {
+    "posture": "stand",
+    "gestures": [],
+    "holds": [
+     "shoulder-bag"
+    ],
+    "look": "down",
+    "facing": "3q"
+   },
+   "posture": "stand",
+   "img": "characters/jake/look-down/hero-nomouth.png",
+   "width": 635,
+   "height": 2184
   },
-  "co-ba": {
+  "co-ba@look-up": {
    "character": "co-ba",
+   "pose": "look-up",
    "image": "hero-nomouth.png",
    "source": "hero-cut.png",
    "coords": "pixels in hero-cut.png",
+   "origin": "look-up-01.png (Higgsfield job 71b96c79-a06f-41ad-a6a1-6454c76e0ca5, edit of hero)",
    "mouth": {
-    "cx": 520,
-    "cy": 492,
-    "w": 120,
+    "cx": 524,
+    "cy": 500,
+    "w": 110,
     "erase": {
-     "rx": 70,
-     "ry": 22
+     "rx": 66,
+     "ry": 28
     }
    },
    "eyes": [
     {
-     "cx": 436,
-     "cy": 368,
-     "rx": 38,
-     "ry": 30
+     "cx": 452,
+     "cy": 360,
+     "rx": 34,
+     "ry": 28
     },
     {
      "cx": 598,
-     "cy": 368,
-     "rx": 34,
-     "ry": 30
+     "cy": 360,
+     "rx": 30,
+     "ry": 28
     }
    ],
    "height_rel": 0.86,
-   "note": "Cô Ba thấp, tròn",
+   "anchor_x": 439.5,
    "skin": [
-    252,
-    195,
-    150
+    253,
+    194,
+    152
    ],
-   "pose": "stand",
-   "img": "characters/co-ba/hero-nomouth.png",
-   "width": 863,
-   "height": 2144
+   "staging": {
+    "posture": "stand",
+    "gestures": [
+     "fan"
+    ],
+    "holds": [
+     "fan"
+    ],
+    "look": "up",
+    "facing": "3q"
+   },
+   "posture": "stand",
+   "img": "characters/co-ba/look-up/hero-nomouth.png",
+   "width": 865,
+   "height": 2146
   },
-  "co-ba@newspaper": {
+  "co-ba@newspaper-up": {
+   "character": "co-ba",
+   "pose": "newspaper-up",
    "image": "hero-nomouth.png",
    "source": "hero-cut.png",
    "coords": "pixels in hero-cut.png",
-   "height_rel": 0.86,
-   "character": "co-ba",
-   "pose": "newspaper",
-   "origin": "newspaper-01.png (job 93b82d26-36e9-46a4-9d53-b658f664b0c5)",
+   "origin": "newspaper-up-01.png (Higgsfield job 2bb893e3-4609-44aa-abae-4ffabdccd856, edit of newspaper)",
    "mouth": {
-    "cx": 482,
+    "cx": 488,
     "cy": 497,
-    "w": 96,
+    "w": 110,
     "erase": {
-     "rx": 56,
-     "ry": 20
+     "rx": 64,
+     "ry": 28
     }
    },
    "eyes": [
     {
-     "cx": 392,
-     "cy": 372,
-     "rx": 40,
-     "ry": 32
+     "cx": 405,
+     "cy": 362,
+     "rx": 36,
+     "ry": 28
     },
     {
-     "cx": 552,
-     "cy": 372,
-     "rx": 36,
-     "ry": 32
+     "cx": 556,
+     "cy": 356,
+     "rx": 32,
+     "ry": 28
     }
    ],
+   "height_rel": 0.86,
+   "anchor_x": 498,
    "skin": [
     253,
-    193,
-    152
+    191,
+    153
    ],
-   "img": "characters/co-ba/newspaper/hero-nomouth.png",
-   "width": 979,
-   "height": 2146
+   "staging": {
+    "posture": "stand",
+    "gestures": [
+     "hold_newspaper"
+    ],
+    "holds": [
+     "newspaper"
+    ],
+    "look": "up",
+    "facing": "3q"
+   },
+   "posture": "stand",
+   "img": "characters/co-ba/newspaper-up/hero-nomouth.png",
+   "width": 981,
+   "height": 2148
   },
   "tin@wave": {
    "image": "hero-nomouth.png",
@@ -162,6 +199,15 @@
     200,
     160
    ],
+   "staging": {
+    "posture": "stand",
+    "gestures": [
+     "wave"
+    ],
+    "holds": [],
+    "facing": "3q"
+   },
+   "posture": "stand",
    "img": "characters/tin/wave/hero-nomouth.png",
    "width": 831,
    "height": 2175
@@ -205,9 +251,370 @@
     194,
     158
    ],
+   "staging": {
+    "posture": "seated",
+    "gestures": [],
+    "holds": [
+     "shoulder-bag"
+    ],
+    "facing": "3q"
+   },
+   "posture": "seated",
    "img": "characters/jake/seated/hero-nomouth.png",
    "width": 982,
    "height": 2162
+  },
+  "jake@seated-wave": {
+   "character": "jake",
+   "pose": "seated-wave",
+   "image": "hero-nomouth.png",
+   "source": "hero-cut.png",
+   "coords": "pixels in hero-cut.png",
+   "origin": "seated-wave-01.png (Higgsfield job de4c4474-a9fb-43f6-bcd8-5d87599e842f, edit of seated)",
+   "mouth": {
+    "cx": 472,
+    "cy": 380,
+    "w": 100,
+    "erase": {
+     "rx": 58,
+     "ry": 18
+    }
+   },
+   "eyes": [
+    {
+     "cx": 425,
+     "cy": 272,
+     "rx": 32,
+     "ry": 25
+    },
+    {
+     "cx": 535,
+     "cy": 272,
+     "rx": 28,
+     "ry": 25
+    }
+   ],
+   "height_rel": 1,
+   "anchor_x": 502,
+   "skin": [
+    251,
+    191,
+    157
+   ],
+   "staging": {
+    "posture": "seated",
+    "gestures": [
+     "wave"
+    ],
+    "holds": [
+     "shoulder-bag"
+    ],
+    "look": "level",
+    "facing": "3q"
+   },
+   "posture": "seated",
+   "img": "characters/jake/seated-wave/hero-nomouth.png",
+   "width": 993,
+   "height": 2164
+  },
+  "jake@seated-rub-belly": {
+   "character": "jake",
+   "pose": "seated-rub-belly",
+   "image": "hero-nomouth.png",
+   "source": "hero-cut.png",
+   "coords": "pixels in hero-cut.png",
+   "origin": "seated-rub-belly-01.png (Higgsfield job 57b8a214-3639-40ff-9a7a-51dcaa9f54bb, edit of seated)",
+   "mouth": {
+    "cx": 470,
+    "cy": 381,
+    "w": 100,
+    "erase": {
+     "rx": 58,
+     "ry": 18
+    }
+   },
+   "eyes": [
+    {
+     "cx": 423,
+     "cy": 275,
+     "rx": 32,
+     "ry": 25
+    },
+    {
+     "cx": 533,
+     "cy": 275,
+     "rx": 28,
+     "ry": 25
+    }
+   ],
+   "height_rel": 1,
+   "anchor_x": 500,
+   "skin": [
+    251,
+    192,
+    159
+   ],
+   "staging": {
+    "posture": "seated",
+    "gestures": [
+     "rub_belly"
+    ],
+    "holds": [
+     "shoulder-bag"
+    ],
+    "look": "level",
+    "facing": "3q"
+   },
+   "posture": "seated",
+   "img": "characters/jake/seated-rub-belly/hero-nomouth.png",
+   "width": 983,
+   "height": 2164
+  },
+  "jake@seated-raise-hand": {
+   "character": "jake",
+   "pose": "seated-raise-hand",
+   "image": "hero-nomouth.png",
+   "source": "hero-cut.png",
+   "coords": "pixels in hero-cut.png",
+   "origin": "seated-raise-hand-01.png (Higgsfield job d2a8ffbf-ac5b-46a9-8bae-6cc0580256d4, edit of seated)",
+   "mouth": {
+    "cx": 470,
+    "cy": 382,
+    "w": 100,
+    "erase": {
+     "rx": 58,
+     "ry": 18
+    }
+   },
+   "eyes": [
+    {
+     "cx": 423,
+     "cy": 275,
+     "rx": 32,
+     "ry": 25
+    },
+    {
+     "cx": 533,
+     "cy": 275,
+     "rx": 28,
+     "ry": 25
+    }
+   ],
+   "height_rel": 1,
+   "anchor_x": 500,
+   "skin": [
+    250,
+    193,
+    161
+   ],
+   "staging": {
+    "posture": "seated",
+    "gestures": [
+     "raise_hand"
+    ],
+    "holds": [
+     "shoulder-bag"
+    ],
+    "look": "level",
+    "facing": "3q"
+   },
+   "posture": "seated",
+   "img": "characters/jake/seated-raise-hand/hero-nomouth.png",
+   "width": 984,
+   "height": 2164
+  },
+  "tin@turn-notepad": {
+   "character": "tin",
+   "pose": "turn-notepad",
+   "image": "hero-nomouth.png",
+   "source": "hero-cut.png",
+   "coords": "pixels in hero-cut.png",
+   "origin": "turn-notepad-01.png (Higgsfield job b70a72f2-9f4c-440d-acba-33a5ee0a50ce, edit of turn eb66ea0f)",
+   "mouth": {
+    "cx": 350,
+    "cy": 380,
+    "w": 72,
+    "sx": 0.6,
+    "erase": {
+     "rx": 33,
+     "ry": 12
+    }
+   },
+   "eyes": [
+    {
+     "cx": 303,
+     "cy": 268,
+     "rx": 26,
+     "ry": 26
+    }
+   ],
+   "height_rel": 1,
+   "anchor_x": 222.5,
+   "skin": [
+    254,
+    195,
+    161
+   ],
+   "staging": {
+    "posture": "stand",
+    "gestures": [
+     "write"
+    ],
+    "holds": [
+     "notepad",
+     "pen"
+    ],
+    "look": "level",
+    "facing": "profile",
+    "note": "nghiêng, ghi món vào sổ"
+   },
+   "posture": "stand",
+   "img": "characters/tin/turn-notepad/hero-nomouth.png",
+   "width": 744,
+   "height": 2180
+  },
+  "jake@seated-chopsticks": {
+   "character": "jake",
+   "pose": "seated-chopsticks",
+   "image": "hero-nomouth.png",
+   "source": "hero-cut.png",
+   "coords": "pixels in hero-cut.png",
+   "origin": "seated-chopsticks-01.png (Higgsfield job d075ed35-a755-4553-92a1-330dc54bdb92, edit of seated)",
+   "mouth": {
+    "cx": 470,
+    "cy": 381,
+    "w": 100,
+    "erase": {
+     "rx": 58,
+     "ry": 18
+    }
+   },
+   "eyes": [
+    {
+     "cx": 423,
+     "cy": 275,
+     "rx": 32,
+     "ry": 25
+    },
+    {
+     "cx": 533,
+     "cy": 275,
+     "rx": 28,
+     "ry": 25
+    }
+   ],
+   "height_rel": 1,
+   "anchor_x": 500,
+   "skin": [
+    253,
+    192,
+    159
+   ],
+   "staging": {
+    "posture": "seated",
+    "gestures": [],
+    "holds": [
+     "shoulder-bag",
+     "chopsticks"
+    ],
+    "look": "level",
+    "facing": "3q"
+   },
+   "posture": "seated",
+   "img": "characters/jake/seated-chopsticks/hero-nomouth.png",
+   "width": 1014,
+   "height": 2164
+  },
+  "tin@turn": {
+   "character": "tin",
+   "pose": "turn",
+   "image": "hero-nomouth.png",
+   "source": "hero-cut.png",
+   "coords": "pixels in hero-cut.png",
+   "origin": "turn-03.png (Higgsfield job eb66ea0f-c2b1-4c45-9e70-60b98d3b8996: edit of 9e9dbb65 + sheet 9c911582, cả thân xoay nghiêng). Loại: turn-01 (7efb58da) vẫn 3/4; turn-02 (9e9dbb65) đầu nghiêng nhưng thân 3/4 = vặn cổ.",
+   "mouth": {
+    "cx": 346,
+    "cy": 376,
+    "w": 72,
+    "sx": 0.6,
+    "erase": {
+     "rx": 34,
+     "ry": 12
+    }
+   },
+   "eyes": [
+    {
+     "cx": 300,
+     "cy": 268,
+     "rx": 26,
+     "ry": 26
+    }
+   ],
+   "height_rel": 1,
+   "skin": [
+    254,
+    199,
+    163
+   ],
+   "staging": {
+    "posture": "stand",
+    "gestures": [],
+    "holds": [],
+    "look": "level",
+    "facing": "profile",
+    "note": "xoay nghiêng hẳn về người nghe (dùng khi người nghe ở phía sau, vd. khách đang ngồi)"
+   },
+   "posture": "stand",
+   "img": "characters/tin/turn/hero-nomouth.png",
+   "width": 439,
+   "height": 2178
+  },
+  "tin@turn-point": {
+   "character": "tin",
+   "pose": "turn-point",
+   "image": "hero-nomouth.png",
+   "source": "hero-cut.png",
+   "coords": "pixels in hero-cut.png",
+   "origin": "turn-point-01.png (Higgsfield job 72ee8419-3e5a-4ba8-9e25-5256818f50a2, edit of turn eb66ea0f)",
+   "mouth": {
+    "cx": 350,
+    "cy": 380,
+    "w": 72,
+    "sx": 0.6,
+    "erase": {
+     "rx": 33,
+     "ry": 12
+    }
+   },
+   "eyes": [
+    {
+     "cx": 303,
+     "cy": 268,
+     "rx": 26,
+     "ry": 26
+    }
+   ],
+   "height_rel": 1,
+   "anchor_x": 222.5,
+   "skin": [
+    254,
+    196,
+    161
+   ],
+   "staging": {
+    "posture": "stand",
+    "gestures": [
+     "point"
+    ],
+    "holds": [],
+    "look": "level",
+    "facing": "profile",
+    "note": "nghiêng, chỉ tay xuống mặt bàn"
+   },
+   "posture": "stand",
+   "img": "characters/tin/turn-point/hero-nomouth.png",
+   "width": 762,
+   "height": 2180
   },
   "tin": {
    "character": "tin",
@@ -244,7 +651,14 @@
     200,
     160
    ],
+   "staging": {
+    "posture": "stand",
+    "gestures": [],
+    "holds": [],
+    "facing": "3q"
+   },
    "pose": "stand",
+   "posture": "stand",
    "img": "characters/tin/hero-nomouth.png",
    "width": 631,
    "height": 2172
@@ -284,10 +698,391 @@
     172,
     123
    ],
+   "staging": {
+    "posture": "stand",
+    "gestures": [],
+    "holds": [
+     "helmet-orange"
+    ],
+    "facing": "3q"
+   },
    "pose": "stand",
+   "posture": "stand",
    "img": "characters/tony/hero-nomouth.png",
    "width": 726,
    "height": 2216
+  },
+  "tony@thumbs-up": {
+   "character": "tony",
+   "pose": "thumbs-up",
+   "image": "hero-nomouth.png",
+   "source": "hero-cut.png",
+   "coords": "pixels in hero-cut.png",
+   "origin": "thumbs-up-01.png (Higgsfield job 180676dd-979e-4dd4-850d-3175446b3354, edit of hero)",
+   "mouth": {
+    "cx": 468,
+    "cy": 412,
+    "w": 130,
+    "erase": {
+     "rx": 74,
+     "ry": 28
+    }
+   },
+   "eyes": [
+    {
+     "cx": 422,
+     "cy": 305,
+     "rx": 32,
+     "ry": 26
+    },
+    {
+     "cx": 532,
+     "cy": 305,
+     "rx": 28,
+     "ry": 26
+    }
+   ],
+   "height_rel": 1.02,
+   "anchor_x": 365,
+   "skin": [
+    241,
+    170,
+    125
+   ],
+   "staging": {
+    "posture": "stand",
+    "gestures": [
+     "thumbs_up"
+    ],
+    "holds": [
+     "helmet-orange"
+    ],
+    "look": "level",
+    "facing": "3q"
+   },
+   "posture": "stand",
+   "img": "characters/tony/thumbs-up/hero-nomouth.png",
+   "width": 987,
+   "height": 2218
+  },
+  "tony@scratch-head": {
+   "character": "tony",
+   "pose": "scratch-head",
+   "image": "hero-nomouth.png",
+   "source": "hero-cut.png",
+   "coords": "pixels in hero-cut.png",
+   "origin": "scratch-head-01.png (Higgsfield job b14a94c3-e8a1-4527-ab2d-c6a107422595, edit of hero)",
+   "mouth": {
+    "cx": 468,
+    "cy": 412,
+    "w": 130,
+    "erase": {
+     "rx": 74,
+     "ry": 30
+    }
+   },
+   "eyes": [
+    {
+     "cx": 422,
+     "cy": 305,
+     "rx": 32,
+     "ry": 26
+    },
+    {
+     "cx": 530,
+     "cy": 305,
+     "rx": 28,
+     "ry": 26
+    }
+   ],
+   "height_rel": 1.02,
+   "anchor_x": 364,
+   "skin": [
+    240,
+    170,
+    123
+   ],
+   "staging": {
+    "posture": "stand",
+    "gestures": [
+     "scratch_head"
+    ],
+    "holds": [
+     "helmet-orange"
+    ],
+    "look": "level",
+    "facing": "3q"
+   },
+   "posture": "stand",
+   "img": "characters/tony/scratch-head/hero-nomouth.png",
+   "width": 890,
+   "height": 2219
+  },
+  "jake": {
+   "character": "jake",
+   "image": "hero-nomouth.png",
+   "source": "hero-cut.png",
+   "coords": "pixels in hero-cut.png",
+   "mouth": {
+    "cx": 395,
+    "cy": 378,
+    "w": 110,
+    "erase": {
+     "rx": 62,
+     "ry": 20
+    }
+   },
+   "eyes": [
+    {
+     "cx": 320,
+     "cy": 272,
+     "rx": 36,
+     "ry": 26
+    },
+    {
+     "cx": 434,
+     "cy": 272,
+     "rx": 30,
+     "ry": 26
+    }
+   ],
+   "height_rel": 1.06,
+   "note": "Jake cao nhất; miệng nằm trong râu — chỉ xóa hẹp",
+   "skin": [
+    251,
+    193,
+    154
+   ],
+   "staging": {
+    "posture": "stand",
+    "gestures": [],
+    "holds": [
+     "shoulder-bag"
+    ],
+    "facing": "3q"
+   },
+   "pose": "stand",
+   "posture": "stand",
+   "img": "characters/jake/hero-nomouth.png",
+   "width": 632,
+   "height": 2190
+  },
+  "jake@hand-over": {
+   "character": "jake",
+   "pose": "hand-over",
+   "image": "hero-nomouth.png",
+   "source": "hero-cut.png",
+   "coords": "pixels in hero-cut.png",
+   "origin": "hand-over-01.png (Higgsfield job df7d936d-e8bc-48be-8dbd-4fef212ba877, edit of hero)",
+   "mouth": {
+    "cx": 380,
+    "cy": 383,
+    "w": 100,
+    "erase": {
+     "rx": 56,
+     "ry": 17
+    }
+   },
+   "eyes": [
+    {
+     "cx": 322,
+     "cy": 275,
+     "rx": 30,
+     "ry": 26
+    },
+    {
+     "cx": 440,
+     "cy": 272,
+     "rx": 26,
+     "ry": 25
+    }
+   ],
+   "height_rel": 1.06,
+   "anchor_x": 320,
+   "skin": [
+    250,
+    192,
+    158
+   ],
+   "staging": {
+    "posture": "stand",
+    "gestures": [
+     "hand_over"
+    ],
+    "holds": [
+     "shoulder-bag",
+     "cash-60k"
+    ],
+    "look": "level",
+    "facing": "3q",
+    "front": true,
+    "note": "tờ tiền ở (903,832) ảnh gốc; tay đưa vẽ đè lên tay người nhận",
+    "hand": [
+     903,
+     832
+    ]
+   },
+   "posture": "stand",
+   "img": "characters/jake/hand-over/hero-nomouth.png",
+   "width": 1041,
+   "height": 2192
+  },
+  "tin@receive": {
+   "character": "tin",
+   "pose": "receive",
+   "image": "hero-nomouth.png",
+   "source": "hero-cut.png",
+   "coords": "pixels in hero-cut.png",
+   "origin": "receive-01.png (Higgsfield job 60be94bc-ff06-46e7-a478-760f6887a870, edit of hero)",
+   "mouth": {
+    "cx": 376,
+    "cy": 362,
+    "w": 110,
+    "erase": {
+     "rx": 56,
+     "ry": 17
+    }
+   },
+   "eyes": [
+    {
+     "cx": 318,
+     "cy": 262,
+     "rx": 32,
+     "ry": 26
+    },
+    {
+     "cx": 440,
+     "cy": 262,
+     "rx": 28,
+     "ry": 26
+    }
+   ],
+   "height_rel": 1,
+   "anchor_x": 314.5,
+   "skin": [
+    255,
+    199,
+    160
+   ],
+   "staging": {
+    "posture": "stand",
+    "gestures": [
+     "receive"
+    ],
+    "holds": [],
+    "look": "level",
+    "facing": "3q",
+    "note": "lòng bàn tay ~ (880,915) ảnh gốc",
+    "hand": [
+     880,
+     915
+    ]
+   },
+   "posture": "stand",
+   "img": "characters/tin/receive/hero-nomouth.png",
+   "width": 972,
+   "height": 2174
+  },
+  "tin@look-down": {
+   "character": "tin",
+   "pose": "look-down",
+   "image": "hero-nomouth.png",
+   "source": "hero-cut.png",
+   "coords": "pixels in hero-cut.png",
+   "origin": "look-down-01.png (Higgsfield job 086ed604-2f90-4fc6-b8dc-a10fce91335d, ref: tin hero e50ec22d)",
+   "mouth": {
+    "cx": 422,
+    "cy": 378,
+    "w": 95,
+    "erase": {
+     "rx": 50,
+     "ry": 15
+    }
+   },
+   "eyes": [
+    {
+     "cx": 378,
+     "cy": 268,
+     "rx": 32,
+     "ry": 24
+    },
+    {
+     "cx": 497,
+     "cy": 280,
+     "rx": 26,
+     "ry": 23
+    }
+   ],
+   "height_rel": 1,
+   "skin": [
+    253,
+    199,
+    160
+   ],
+   "staging": {
+    "posture": "stand",
+    "gestures": [],
+    "holds": [],
+    "look": "down",
+    "note": "đứng nói với người đang ngồi: cúi đầu, mắt nhìn xuống",
+    "facing": "3q"
+   },
+   "posture": "stand",
+   "img": "characters/tin/look-down/hero-nomouth.png",
+   "width": 632,
+   "height": 2150
+  },
+  "co-ba": {
+   "character": "co-ba",
+   "image": "hero-nomouth.png",
+   "source": "hero-cut.png",
+   "coords": "pixels in hero-cut.png",
+   "mouth": {
+    "cx": 520,
+    "cy": 492,
+    "w": 120,
+    "erase": {
+     "rx": 70,
+     "ry": 22
+    }
+   },
+   "eyes": [
+    {
+     "cx": 436,
+     "cy": 368,
+     "rx": 38,
+     "ry": 30
+    },
+    {
+     "cx": 598,
+     "cy": 368,
+     "rx": 34,
+     "ry": 30
+    }
+   ],
+   "height_rel": 0.86,
+   "note": "Cô Ba thấp, tròn",
+   "skin": [
+    252,
+    195,
+    150
+   ],
+   "staging": {
+    "posture": "stand",
+    "gestures": [
+     "fan"
+    ],
+    "holds": [
+     "fan"
+    ],
+    "note": "cầm quạt sẵn (quạt không động)",
+    "facing": "3q"
+   },
+   "pose": "stand",
+   "posture": "stand",
+   "img": "characters/co-ba/hero-nomouth.png",
+   "width": 863,
+   "height": 2144
   },
   "muop": {
    "character": "muop",
@@ -304,6 +1099,7 @@
    ],
    "height_rel": 0.4,
    "pose": "stand",
+   "posture": "stand",
    "img": "characters/muop/hero-cut.png",
    "width": 1254,
    "height": 1900
@@ -315,28 +1111,33 @@
    "kind": "puppet",
    "dur": 8.830000000000002,
    "bg": "locations/quan-co-ba/counter.png",
+   "seat": null,
    "location": "quan-counter",
    "positions": {
-    "jake": "left",
+    "jake": "center",
     "co-ba": "right"
    },
    "cast": [
     {
      "id": "jake",
-     "slot": "left",
-     "rig": "jake",
-     "poses": []
+     "slot": "center",
+     "rig": "jake@look-down",
+     "poses": [],
+     "from": null,
+     "until": null
     },
     {
      "id": "co-ba",
      "slot": "right",
-     "rig": "co-ba",
+     "rig": "co-ba@look-up",
      "poses": [
       {
        "from": 3.06,
-       "rig": "co-ba@newspaper"
+       "rig": "co-ba@newspaper-up"
       }
-     ]
+     ],
+     "from": null,
+     "until": null
     }
    ],
    "lines": [
@@ -452,7 +1253,8 @@
      "role": null,
      "phrase": null,
      "q": null,
-     "to": null
+     "to": null,
+     "react": null
     },
     {
      "id": "L02",
@@ -591,7 +1393,8 @@
      "role": null,
      "phrase": null,
      "q": null,
-     "to": null
+     "to": null,
+     "react": null
     }
    ],
    "sfx": [
@@ -784,7 +1587,8 @@
      "role": null,
      "phrase": null,
      "q": null,
-     "to": null
+     "to": null,
+     "react": null
     },
     {
      "id": "L04",
@@ -1053,7 +1857,8 @@
      "role": null,
      "phrase": null,
      "q": null,
-     "to": null
+     "to": null,
+     "react": null
     }
    ],
    "sfx": [
@@ -1086,10 +1891,17 @@
    "kind": "puppet",
    "dur": 19.15,
    "bg": "locations/quan-co-ba/table.png",
+   "seat": {
+    "x": 400,
+    "bottom": 1080,
+    "height": 1010,
+    "for": "left-seated",
+    "depth": 0.65
+   },
    "location": "quan-table",
    "positions": {
     "jake": "left-seated",
-    "tin": "right"
+    "tin": "beside-table"
    },
    "cast": [
     {
@@ -1099,15 +1911,39 @@
      "poses": [
       {
        "from": 2.0999999999999996,
-       "rig": "jake"
+       "rig": "jake@seated-wave"
+      },
+      {
+       "from": 3.8799999999999994,
+       "rig": "jake@seated"
+      },
+      {
+       "from": 9.059999999999999,
+       "rig": "jake@seated-rub-belly"
+      },
+      {
+       "from": 11.879999999999999,
+       "rig": "jake@seated"
+      },
+      {
+       "from": 13.339999999999998,
+       "rig": "jake@seated-raise-hand"
+      },
+      {
+       "from": 14.959999999999999,
+       "rig": "jake@seated"
       }
-     ]
+     ],
+     "from": null,
+     "until": null
     },
     {
      "id": "tin",
-     "slot": "right",
-     "rig": "tin",
-     "poses": []
+     "slot": "beside-table",
+     "rig": "tin@turn-notepad",
+     "poses": [],
+     "from": null,
+     "until": null
     }
    ],
    "lines": [
@@ -1168,7 +2004,8 @@
      "role": null,
      "phrase": null,
      "q": null,
-     "to": null
+     "to": null,
+     "react": null
     },
     {
      "id": "L06",
@@ -1222,7 +2059,8 @@
      "role": null,
      "phrase": null,
      "q": null,
-     "to": null
+     "to": null,
+     "react": null
     },
     {
      "id": "L07",
@@ -1273,7 +2111,8 @@
      "role": null,
      "phrase": null,
      "q": null,
-     "to": null
+     "to": null,
+     "react": null
     },
     {
      "id": "L08",
@@ -1334,7 +2173,8 @@
      "role": null,
      "phrase": null,
      "q": null,
-     "to": null
+     "to": null,
+     "react": null
     },
     {
      "id": "L09",
@@ -1400,7 +2240,8 @@
      "role": null,
      "phrase": null,
      "q": null,
-     "to": null
+     "to": null,
+     "react": null
     },
     {
      "id": "L10",
@@ -1494,7 +2335,8 @@
      "role": null,
      "phrase": null,
      "q": null,
-     "to": null
+     "to": null,
+     "react": null
     },
     {
      "id": "L11",
@@ -1543,7 +2385,8 @@
      "role": null,
      "phrase": null,
      "q": null,
-     "to": null
+     "to": null,
+     "react": null
     },
     {
      "id": "L12",
@@ -1609,7 +2452,8 @@
      "role": null,
      "phrase": null,
      "q": null,
-     "to": null
+     "to": null,
+     "react": null
     },
     {
      "id": "L13",
@@ -1668,7 +2512,8 @@
      "role": null,
      "phrase": null,
      "q": null,
-     "to": null
+     "to": null,
+     "react": null
     },
     {
      "id": "L14",
@@ -1712,7 +2557,8 @@
      "role": null,
      "phrase": null,
      "q": null,
-     "to": null
+     "to": null,
+     "react": null
     }
    ],
    "sfx": [],
@@ -1740,31 +2586,75 @@
    "id": "SH06",
    "kind": "puppet",
    "dur": 22.529999999999998,
-   "bg": "locations/quan-co-ba/table.png",
+   "bg": "locations/quan-co-ba/table-served.png",
+   "seat": {
+    "x": 400,
+    "bottom": 1080,
+    "height": 1010,
+    "for": "left-seated",
+    "depth": 0.65
+   },
    "location": "quan-table",
    "positions": {
     "jake": "left-seated",
-    "tin": "center",
-    "tony": "right"
+    "tin": "beside-table",
+    "tony": "far-right"
    },
    "cast": [
     {
      "id": "jake",
      "slot": "left-seated",
      "rig": "jake@seated",
-     "poses": []
+     "poses": [
+      {
+       "from": 7.66,
+       "rig": "jake@seated-chopsticks"
+      }
+     ],
+     "from": null,
+     "until": null
     },
     {
      "id": "tin",
-     "slot": "center",
-     "rig": "tin",
-     "poses": []
+     "slot": "beside-table",
+     "rig": "tin@turn",
+     "poses": [
+      {
+       "from": 4.5200000000000005,
+       "rig": "tin@turn-point"
+      },
+      {
+       "from": 7.66,
+       "rig": "tin@turn"
+      },
+      {
+       "from": 9.76,
+       "rig": "tin"
+      }
+     ],
+     "from": null,
+     "until": null
     },
     {
      "id": "tony",
-     "slot": "right",
+     "slot": "far-right",
      "rig": "tony",
-     "poses": []
+     "poses": [
+      {
+       "from": 9.76,
+       "rig": "tony@thumbs-up"
+      },
+      {
+       "from": 13.86,
+       "rig": "tony"
+      },
+      {
+       "from": 18.439999999999998,
+       "rig": "tony@scratch-head"
+      }
+     ],
+     "from": 9.26,
+     "until": null
     }
    ],
    "lines": [
@@ -1812,7 +2702,8 @@
      "role": null,
      "phrase": null,
      "q": null,
-     "to": null
+     "to": null,
+     "react": null
     },
     {
      "id": "L16",
@@ -1893,7 +2784,8 @@
      "role": null,
      "phrase": null,
      "q": null,
-     "to": null
+     "to": null,
+     "react": null
     },
     {
      "id": "L17",
@@ -1977,7 +2869,8 @@
      "role": null,
      "phrase": null,
      "q": null,
-     "to": null
+     "to": null,
+     "react": null
     },
     {
      "id": "L18",
@@ -2026,7 +2919,8 @@
      "role": null,
      "phrase": null,
      "q": null,
-     "to": null
+     "to": null,
+     "react": null
     },
     {
      "id": "L19",
@@ -2155,7 +3049,8 @@
      "role": null,
      "phrase": null,
      "q": null,
-     "to": null
+     "to": "tin",
+     "react": null
     },
     {
      "id": "L20",
@@ -2251,7 +3146,8 @@
      "role": null,
      "phrase": null,
      "q": null,
-     "to": null
+     "to": null,
+     "react": null
     },
     {
      "id": "L21",
@@ -2375,7 +3271,8 @@
      "role": null,
      "phrase": null,
      "q": null,
-     "to": null
+     "to": null,
+     "react": null
     }
    ],
    "sfx": [],
@@ -2404,35 +3301,72 @@
    "kind": "puppet",
    "dur": 14.17,
    "bg": "locations/quan-co-ba/counter.png",
+   "seat": null,
    "location": "quan-counter",
    "positions": {
-    "jake": "left",
-    "tin": "center",
+    "jake": "counter-left",
+    "tin": "counter-mid",
     "co-ba": "right"
    },
    "cast": [
     {
      "id": "jake",
-     "slot": "left",
+     "slot": "counter-left",
      "rig": "jake",
-     "poses": []
+     "poses": [
+      {
+       "from": 3.9600000000000004,
+       "rig": "jake@hand-over"
+      },
+      {
+       "from": 6.220000000000001,
+       "rig": "jake"
+      }
+     ],
+     "from": null,
+     "until": null
     },
     {
      "id": "tin",
-     "slot": "center",
+     "slot": "counter-mid",
      "rig": "tin",
      "poses": [
       {
+       "from": 3.9600000000000004,
+       "rig": "tin@receive"
+      },
+      {
        "from": 6.220000000000001,
        "rig": "tin@wave"
+      },
+      {
+       "from": 8.4,
+       "rig": "tin@look-down"
       }
-     ]
+     ],
+     "from": null,
+     "until": null
     },
     {
      "id": "co-ba",
      "slot": "right",
      "rig": "co-ba",
-     "poses": []
+     "poses": [
+      {
+       "from": 2.02,
+       "rig": "co-ba@look-up"
+      },
+      {
+       "from": 3.9600000000000004,
+       "rig": "co-ba"
+      },
+      {
+       "from": 6.220000000000001,
+       "rig": "co-ba@look-up"
+      }
+     ],
+     "from": null,
+     "until": null
     }
    ],
    "lines": [
@@ -2490,7 +3424,8 @@
      "role": null,
      "phrase": null,
      "q": null,
-     "to": null
+     "to": null,
+     "react": null
     },
     {
      "id": "L23",
@@ -2554,7 +3489,8 @@
      "role": null,
      "phrase": null,
      "q": null,
-     "to": null
+     "to": null,
+     "react": null
     },
     {
      "id": "L24",
@@ -2628,7 +3564,10 @@
      "role": null,
      "phrase": null,
      "q": null,
-     "to": null
+     "to": null,
+     "react": {
+      "tin": "receive"
+     }
     },
     {
      "id": "L25",
@@ -2702,7 +3641,8 @@
      "role": null,
      "phrase": null,
      "q": null,
-     "to": null
+     "to": null,
+     "react": null
     },
     {
      "id": "L26",
@@ -2886,7 +3826,8 @@
      "role": null,
      "phrase": null,
      "q": null,
-     "to": null
+     "to": null,
+     "react": null
     }
    ],
    "sfx": [],
@@ -2897,7 +3838,7 @@
   {
    "id": "S04",
    "kind": "learn",
-   "dur": 110.69000000000003,
+   "dur": 129.01000000000002,
    "bg": "locations/quan-co-ba/wide.png",
    "blur": 16,
    "host": {
@@ -2910,7 +3851,7 @@
      "kind": "phrase",
      "start": 0.6,
      "items": [],
-     "dur": 16.67,
+     "dur": 18.55,
      "lines": [
       {
        "id": "N01",
@@ -2989,7 +3930,8 @@
        "role": "title",
        "phrase": "P1",
        "q": null,
-       "to": null
+       "to": null,
+       "react": null
       },
       {
        "id": "L07",
@@ -3037,16 +3979,79 @@
        ],
        "gesture": null,
        "emotion": "friendly",
-       "role": null,
+       "role": "source",
        "phrase": null,
        "q": null,
-       "to": null
+       "to": null,
+       "react": null
+      },
+      {
+       "id": "L08",
+       "speaker": "jake",
+       "lang": "en",
+       "start": 3.6799999999999997,
+       "dur": 1.43,
+       "audio": "episodes/an-uong-th01-A1/audio/L08.mp3",
+       "mouth": [
+        {
+         "start": 0,
+         "end": 0.01,
+         "value": "X"
+        },
+        {
+         "start": 0.01,
+         "end": 0.08,
+         "value": "A"
+        },
+        {
+         "start": 0.08,
+         "end": 0.21,
+         "value": "B"
+        },
+        {
+         "start": 0.21,
+         "end": 0.35,
+         "value": "G"
+        },
+        {
+         "start": 0.35,
+         "end": 0.49,
+         "value": "E"
+        },
+        {
+         "start": 0.49,
+         "end": 0.59,
+         "value": "A"
+        },
+        {
+         "start": 0.59,
+         "end": 1.11,
+         "value": "B"
+        },
+        {
+         "start": 1.11,
+         "end": 1.28,
+         "value": "X"
+        }
+       ],
+       "text": "Beef pho, please.",
+       "vi": "Cho anh phở bò.",
+       "highlight": [
+        "Beef pho, please."
+       ],
+       "gesture": null,
+       "emotion": "happy",
+       "role": "source",
+       "phrase": null,
+       "q": null,
+       "to": null,
+       "react": null
       },
       {
        "id": "N02",
        "speaker": "tin",
        "lang": "en",
-       "start": 3.6799999999999997,
+       "start": 5.56,
        "dur": 3.27,
        "audio": "episodes/an-uong-th01-A1/audio/N02.mp3",
        "mouth": [
@@ -3139,13 +4144,18 @@
        "role": "phrase_slow",
        "phrase": "P1",
        "q": null,
-       "to": null
+       "to": null,
+       "react": null,
+       "parts": [
+        0.256,
+        1.888
+       ]
       },
       {
        "id": "N03",
        "speaker": "tin",
        "lang": "vi",
-       "start": 7.4,
+       "start": 9.28,
        "dur": 5.91,
        "audio": "episodes/an-uong-th01-A1/audio/N03.mp3",
        "mouth": [
@@ -3328,13 +4338,14 @@
        "role": "explain",
        "phrase": "P1",
        "q": null,
-       "to": null
+       "to": null,
+       "react": null
       },
       {
        "id": "N04",
        "speaker": "tin",
        "lang": "en",
-       "start": 13.760000000000002,
+       "start": 15.64,
        "dur": 1.91,
        "audio": "episodes/an-uong-th01-A1/audio/N04.mp3",
        "mouth": [
@@ -3392,11 +4403,12 @@
        "role": "example",
        "phrase": "P1",
        "q": null,
-       "to": null
+       "to": null,
+       "react": null
       }
      ],
      "phrase": "What would you like? — Beef pho, please.",
-     "vi": "Anh muốn ăn gì?",
+     "vi": "Anh muốn ăn gì? — Cho anh phở bò.",
      "explain": "Người bán hỏi \"Bạn muốn gì?\". Trả lời rất đơn giản: tên món cộng please.",
      "example": "Chicken rice, please.",
      "wrong": null,
@@ -3405,9 +4417,9 @@
     {
      "id": "P2",
      "kind": "phrase",
-     "start": 17.270000000000003,
+     "start": 19.150000000000002,
      "items": [],
-     "dur": 14.43,
+     "dur": 17.35,
      "lines": [
       {
        "id": "N05",
@@ -3481,7 +4493,8 @@
        "role": "title",
        "phrase": "P2",
        "q": null,
-       "to": null
+       "to": null,
+       "react": null
       },
       {
        "id": "L09",
@@ -3544,16 +4557,112 @@
        ],
        "gesture": null,
        "emotion": "friendly",
-       "role": null,
+       "role": "source",
        "phrase": null,
        "q": null,
-       "to": null
+       "to": null,
+       "react": null
+      },
+      {
+       "id": "L10",
+       "speaker": "jake",
+       "lang": "en",
+       "start": 3.92,
+       "dur": 2.4699999999999998,
+       "audio": "episodes/an-uong-th01-A1/audio/L10.mp3",
+       "mouth": [
+        {
+         "start": 0,
+         "end": 0.13,
+         "value": "X"
+        },
+        {
+         "start": 0.13,
+         "end": 0.19,
+         "value": "H"
+        },
+        {
+         "start": 0.19,
+         "end": 0.31,
+         "value": "D"
+        },
+        {
+         "start": 0.31,
+         "end": 0.38,
+         "value": "B"
+        },
+        {
+         "start": 0.38,
+         "end": 0.46,
+         "value": "A"
+        },
+        {
+         "start": 0.46,
+         "end": 1.04,
+         "value": "B"
+        },
+        {
+         "start": 1.04,
+         "end": 1.12,
+         "value": "C"
+        },
+        {
+         "start": 1.12,
+         "end": 1.19,
+         "value": "B"
+        },
+        {
+         "start": 1.19,
+         "end": 1.29,
+         "value": "A"
+        },
+        {
+         "start": 1.29,
+         "end": 1.51,
+         "value": "G"
+        },
+        {
+         "start": 1.51,
+         "end": 1.58,
+         "value": "C"
+        },
+        {
+         "start": 1.58,
+         "end": 1.79,
+         "value": "B"
+        },
+        {
+         "start": 1.79,
+         "end": 1.93,
+         "value": "C"
+        },
+        {
+         "start": 1.93,
+         "end": 2.28,
+         "value": "B"
+        },
+        {
+         "start": 2.28,
+         "end": 2.32,
+         "value": "X"
+        }
+       ],
+       "text": "Large, please. I'm very hungry!",
+       "vi": "Tô lớn nhé. Anh đói lắm!",
+       "highlight": [],
+       "gesture": "rub_belly",
+       "emotion": "happy",
+       "role": "source",
+       "phrase": null,
+       "q": null,
+       "to": null,
+       "react": null
       },
       {
        "id": "N06",
        "speaker": "tin",
        "lang": "en",
-       "start": 3.92,
+       "start": 6.84,
        "dur": 3.59,
        "audio": "episodes/an-uong-th01-A1/audio/N06.mp3",
        "mouth": [
@@ -3656,13 +4765,18 @@
        "role": "phrase_slow",
        "phrase": "P2",
        "q": null,
-       "to": null
+       "to": null,
+       "react": null,
+       "parts": [
+        0.438,
+        2.24
+       ]
       },
       {
        "id": "N07",
        "speaker": "tin",
        "lang": "vi",
-       "start": 7.96,
+       "start": 10.879999999999999,
        "dur": 3.67,
        "audio": "episodes/an-uong-th01-A1/audio/N07.mp3",
        "mouth": [
@@ -3790,13 +4904,14 @@
        "role": "explain",
        "phrase": "P2",
        "q": null,
-       "to": null
+       "to": null,
+       "react": null
       },
       {
        "id": "N08",
        "speaker": "tin",
        "lang": "en",
-       "start": 12.08,
+       "start": 15,
        "dur": 1.3499999999999999,
        "audio": "episodes/an-uong-th01-A1/audio/N08.mp3",
        "mouth": [
@@ -3844,11 +4959,12 @@
        "role": "example",
        "phrase": "P2",
        "q": null,
-       "to": null
+       "to": null,
+       "react": null
       }
      ],
      "phrase": "Small or large? — Large, please.",
-     "vi": "Tô nhỏ hay tô lớn?",
+     "vi": "Tô nhỏ hay tô lớn? — Tô lớn nhé.",
      "explain": "Hỏi cỡ nhỏ hay lớn. Chỉ cần chọn một từ cộng please.",
      "example": "Small, please.",
      "wrong": null,
@@ -3857,9 +4973,9 @@
     {
      "id": "P3",
      "kind": "phrase",
-     "start": 31.700000000000003,
+     "start": 36.5,
      "items": [],
-     "dur": 15.63,
+     "dur": 18.310000000000002,
      "lines": [
       {
        "id": "N09",
@@ -3918,13 +5034,64 @@
        "role": "title",
        "phrase": "P3",
        "q": null,
-       "to": null
+       "to": null,
+       "react": null
+      },
+      {
+       "id": "L11",
+       "speaker": "tin",
+       "lang": "en",
+       "start": 1.96,
+       "dur": 1.1099999999999999,
+       "audio": "episodes/an-uong-th01-A1/audio/L11.mp3",
+       "mouth": [
+        {
+         "start": 0,
+         "end": 0.09,
+         "value": "X"
+        },
+        {
+         "start": 0.09,
+         "end": 0.14,
+         "value": "E"
+        },
+        {
+         "start": 0.14,
+         "end": 0.19,
+         "value": "H"
+        },
+        {
+         "start": 0.19,
+         "end": 0.54,
+         "value": "C"
+        },
+        {
+         "start": 0.54,
+         "end": 0.75,
+         "value": "B"
+        },
+        {
+         "start": 0.75,
+         "end": 0.96,
+         "value": "X"
+        }
+       ],
+       "text": "Onions?",
+       "vi": "Có hành không?",
+       "highlight": [],
+       "gesture": null,
+       "emotion": "neutral",
+       "role": "source",
+       "phrase": null,
+       "q": null,
+       "to": null,
+       "react": null
       },
       {
        "id": "L12",
        "speaker": "jake",
        "lang": "en",
-       "start": 1.96,
+       "start": 3.5199999999999996,
        "dur": 1.27,
        "audio": "episodes/an-uong-th01-A1/audio/L12.mp3",
        "mouth": [
@@ -3981,66 +5148,87 @@
        ],
        "gesture": "raise_hand",
        "emotion": "neutral",
-       "role": null,
+       "role": "source",
        "phrase": null,
        "q": null,
-       "to": null
+       "to": null,
+       "react": null
       },
       {
        "id": "N10",
        "speaker": "tin",
        "lang": "en",
-       "start": 3.6799999999999997,
-       "dur": 1.5899999999999999,
+       "start": 5.239999999999999,
+       "dur": 2.71,
        "audio": "episodes/an-uong-th01-A1/audio/N10.mp3",
        "mouth": [
         {
          "start": 0,
-         "end": 0.1,
+         "end": 0.08,
          "value": "X"
         },
         {
-         "start": 0.1,
-         "end": 0.19,
+         "start": 0.08,
+         "end": 0.29,
+         "value": "B"
+        },
+        {
+         "start": 0.29,
+         "end": 0.78,
          "value": "C"
         },
         {
-         "start": 0.19,
-         "end": 0.33,
+         "start": 0.78,
+         "end": 1.06,
+         "value": "B"
+        },
+        {
+         "start": 1.06,
+         "end": 1.43,
+         "value": "X"
+        },
+        {
+         "start": 1.43,
+         "end": 1.5,
+         "value": "C"
+        },
+        {
+         "start": 1.5,
+         "end": 1.56,
          "value": "E"
         },
         {
-         "start": 0.33,
-         "end": 0.4,
+         "start": 1.56,
+         "end": 1.63,
          "value": "F"
         },
         {
-         "start": 0.4,
-         "end": 0.54,
+         "start": 1.63,
+         "end": 1.84,
          "value": "C"
         },
         {
-         "start": 0.54,
-         "end": 0.75,
+         "start": 1.84,
+         "end": 1.98,
          "value": "B"
         },
         {
-         "start": 0.75,
-         "end": 0.83,
+         "start": 1.98,
+         "end": 2.06,
          "value": "A"
         },
         {
-         "start": 0.83,
-         "end": 1.29,
+         "start": 2.06,
+         "end": 2.5,
          "value": "B"
         },
         {
-         "start": 1.29,
-         "end": 1.44,
+         "start": 2.5,
+         "end": 2.56,
          "value": "X"
         }
        ],
-       "text": "No onions, please.",
+       "text": "Onions? ... No onions, please.",
        "vi": null,
        "highlight": [],
        "gesture": null,
@@ -4048,13 +5236,18 @@
        "role": "phrase_slow",
        "phrase": "P3",
        "q": null,
-       "to": null
+       "to": null,
+       "react": null,
+       "parts": [
+        0.32,
+        1.413
+       ]
       },
       {
        "id": "N11",
        "speaker": "tin",
        "lang": "vi",
-       "start": 5.72,
+       "start": 8.399999999999999,
        "dur": 6.630000000000001,
        "audio": "episodes/an-uong-th01-A1/audio/N11.mp3",
        "mouth": [
@@ -4217,13 +5410,14 @@
        "role": "explain",
        "phrase": "P3",
        "q": null,
-       "to": null
+       "to": null,
+       "react": null
       },
       {
        "id": "N12",
        "speaker": "tin",
        "lang": "en",
-       "start": 12.8,
+       "start": 15.48,
        "dur": 1.8299999999999998,
        "audio": "episodes/an-uong-th01-A1/audio/N12.mp3",
        "mouth": [
@@ -4276,11 +5470,12 @@
        "role": "example",
        "phrase": "P3",
        "q": null,
-       "to": null
+       "to": null,
+       "react": null
       }
      ],
-     "phrase": "No onions, please.",
-     "vi": "Không hành nhé.",
+     "phrase": "Onions? — No onions, please.",
+     "vi": "Có hành không? — Không hành nhé.",
      "explain": "No, cộng thứ bạn không muốn, cộng please. Nhớ đọc rõ âm z ở cuối chữ onions.",
      "example": "No chili, please.",
      "wrong": null,
@@ -4289,9 +5484,9 @@
     {
      "id": "P4",
      "kind": "phrase",
-     "start": 47.330000000000005,
+     "start": 54.81,
      "items": [],
-     "dur": 16.990000000000002,
+     "dur": 21.110000000000003,
      "lines": [
       {
        "id": "N13",
@@ -4380,7 +5575,8 @@
        "role": "title",
        "phrase": "P4",
        "q": null,
-       "to": null
+       "to": null,
+       "react": null
       },
       {
        "id": "L16",
@@ -4458,66 +5654,167 @@
        ],
        "gesture": null,
        "emotion": "curious",
-       "role": null,
+       "role": "source",
        "phrase": null,
        "q": null,
-       "to": null
+       "to": null,
+       "react": null
+      },
+      {
+       "id": "L17",
+       "speaker": "tin",
+       "lang": "en",
+       "start": 5.04,
+       "dur": 2.79,
+       "audio": "episodes/an-uong-th01-A1/audio/L17.mp3",
+       "mouth": [
+        {
+         "start": 0,
+         "end": 0.03,
+         "value": "X"
+        },
+        {
+         "start": 0.03,
+         "end": 0.11,
+         "value": "C"
+        },
+        {
+         "start": 0.11,
+         "end": 0.32,
+         "value": "E"
+        },
+        {
+         "start": 0.32,
+         "end": 0.49,
+         "value": "F"
+        },
+        {
+         "start": 0.49,
+         "end": 0.84,
+         "value": "B"
+        },
+        {
+         "start": 0.84,
+         "end": 0.98,
+         "value": "C"
+        },
+        {
+         "start": 0.98,
+         "end": 1.3,
+         "value": "B"
+        },
+        {
+         "start": 1.3,
+         "end": 1.37,
+         "value": "C"
+        },
+        {
+         "start": 1.37,
+         "end": 1.65,
+         "value": "B"
+        },
+        {
+         "start": 1.65,
+         "end": 1.72,
+         "value": "H"
+        },
+        {
+         "start": 1.72,
+         "end": 1.86,
+         "value": "C"
+        },
+        {
+         "start": 1.86,
+         "end": 2.42,
+         "value": "B"
+        },
+        {
+         "start": 2.42,
+         "end": 2.64,
+         "value": "X"
+        }
+       ],
+       "text": "No, it isn't. The chili is here.",
+       "vi": "Không cay đâu. Ớt ở đây nè.",
+       "highlight": [],
+       "gesture": "point",
+       "emotion": "friendly",
+       "role": "source",
+       "phrase": null,
+       "q": null,
+       "to": null,
+       "react": null
       },
       {
        "id": "N14",
        "speaker": "tin",
        "lang": "en",
-       "start": 5.04,
-       "dur": 2.15,
+       "start": 8.280000000000001,
+       "dur": 3.03,
        "audio": "episodes/an-uong-th01-A1/audio/N14.mp3",
        "mouth": [
         {
          "start": 0,
-         "end": 0.14,
+         "end": 0.05,
          "value": "X"
         },
         {
-         "start": 0.14,
-         "end": 0.28,
-         "value": "D"
-        },
-        {
-         "start": 0.28,
-         "end": 0.42,
+         "start": 0.05,
+         "end": 0.38,
          "value": "B"
         },
         {
-         "start": 0.42,
-         "end": 0.64,
-         "value": "X"
+         "start": 0.38,
+         "end": 0.46,
+         "value": "A"
         },
         {
-         "start": 0.64,
+         "start": 0.46,
+         "end": 0.68,
+         "value": "C"
+        },
+        {
+         "start": 0.68,
          "end": 1.03,
          "value": "B"
         },
         {
          "start": 1.03,
-         "end": 1.11,
-         "value": "A"
+         "end": 1.52,
+         "value": "X"
         },
         {
-         "start": 1.11,
-         "end": 1.32,
+         "start": 1.52,
+         "end": 1.71,
          "value": "C"
         },
         {
-         "start": 1.32,
-         "end": 1.74,
+         "start": 1.71,
+         "end": 1.85,
+         "value": "E"
+        },
+        {
+         "start": 1.85,
+         "end": 1.99,
+         "value": "F"
+        },
+        {
+         "start": 1.99,
+         "end": 2.62,
          "value": "B"
         },
         {
-         "start": 1.74,
-         "end": 2,
+         "start": 2.62,
+         "end": 2.83,
+         "value": "C"
+        },
+        {
+         "start": 2.83,
+         "end": 2.88,
          "value": "X"
         }
        ],
-       "text": "Is it spicy?",
+       "text": "Is it spicy? ... No, it isn't.",
        "vi": null,
        "highlight": [],
        "gesture": null,
@@ -4525,13 +5822,18 @@
        "role": "phrase_slow",
        "phrase": "P4",
        "q": null,
-       "to": null
+       "to": null,
+       "react": null,
+       "parts": [
+        0.142,
+        1.68
+       ]
       },
       {
        "id": "N15",
        "speaker": "tin",
        "lang": "vi",
-       "start": 7.640000000000001,
+       "start": 11.760000000000002,
        "dur": 6.390000000000001,
        "audio": "episodes/an-uong-th01-A1/audio/N15.mp3",
        "mouth": [
@@ -4729,13 +6031,14 @@
        "role": "explain",
        "phrase": "P4",
        "q": null,
-       "to": null
+       "to": null,
+       "react": null
       },
       {
        "id": "N16",
        "speaker": "tin",
        "lang": "en",
-       "start": 14.48,
+       "start": 18.6,
        "dur": 1.51,
        "audio": "episodes/an-uong-th01-A1/audio/N16.mp3",
        "mouth": [
@@ -4788,11 +6091,12 @@
        "role": "example",
        "phrase": "P4",
        "q": null,
-       "to": null
+       "to": null,
+       "react": null
       }
      ],
-     "phrase": "Is it spicy?",
-     "vi": "Cảm ơn! Ừm... Có cay không?",
+     "phrase": "Is it spicy? — No, it isn't.",
+     "vi": "Có cay không? — Không cay đâu.",
      "explain": "Hỏi món có cay không. Trả lời: Yes, it is, hoặc No, it isn't.",
      "example": "Is it hot?",
      "wrong": null,
@@ -4801,9 +6105,9 @@
     {
      "id": "P5",
      "kind": "phrase",
-     "start": 64.32000000000001,
+     "start": 75.92,
      "items": [],
-     "dur": 15.309999999999999,
+     "dur": 17.35,
      "lines": [
       {
        "id": "N17",
@@ -4867,7 +6171,8 @@
        "role": "title",
        "phrase": "P5",
        "q": null,
-       "to": null
+       "to": null,
+       "react": null
       },
       {
        "id": "L22",
@@ -4920,16 +6225,82 @@
        ],
        "gesture": null,
        "emotion": "neutral",
-       "role": null,
+       "role": "source",
        "phrase": null,
        "q": null,
-       "to": null
+       "to": null,
+       "react": null
+      },
+      {
+       "id": "L23",
+       "speaker": "tin",
+       "lang": "en",
+       "start": 3.76,
+       "dur": 1.5899999999999999,
+       "audio": "episodes/an-uong-th01-A1/audio/L23.mp3",
+       "mouth": [
+        {
+         "start": 0,
+         "end": 0.03,
+         "value": "X"
+        },
+        {
+         "start": 0.03,
+         "end": 0.54,
+         "value": "B"
+        },
+        {
+         "start": 0.54,
+         "end": 0.68,
+         "value": "C"
+        },
+        {
+         "start": 0.68,
+         "end": 0.75,
+         "value": "E"
+        },
+        {
+         "start": 0.75,
+         "end": 0.82,
+         "value": "B"
+        },
+        {
+         "start": 0.82,
+         "end": 0.89,
+         "value": "C"
+        },
+        {
+         "start": 0.89,
+         "end": 0.96,
+         "value": "B"
+        },
+        {
+         "start": 0.96,
+         "end": 1.38,
+         "value": "E"
+        },
+        {
+         "start": 1.38,
+         "end": 1.44,
+         "value": "X"
+        }
+       ],
+       "text": "Sixty thousand dong.",
+       "vi": "Sáu mươi nghìn đồng ạ.",
+       "highlight": [],
+       "gesture": null,
+       "emotion": "friendly",
+       "role": "source",
+       "phrase": null,
+       "q": null,
+       "to": null,
+       "react": null
       },
       {
        "id": "N18",
        "speaker": "tin",
        "lang": "en",
-       "start": 3.76,
+       "start": 5.8,
        "dur": 3.4299999999999997,
        "audio": "episodes/an-uong-th01-A1/audio/N18.mp3",
        "mouth": [
@@ -5022,13 +6393,18 @@
        "role": "phrase_slow",
        "phrase": "P5",
        "q": null,
-       "to": null
+       "to": null,
+       "react": null,
+       "parts": [
+        0.225,
+        1.76
+       ]
       },
       {
        "id": "N19",
        "speaker": "tin",
        "lang": "vi",
-       "start": 7.64,
+       "start": 9.68,
        "dur": 3.9899999999999998,
        "audio": "episodes/an-uong-th01-A1/audio/N19.mp3",
        "mouth": [
@@ -5166,13 +6542,14 @@
        "role": "explain",
        "phrase": "P5",
        "q": null,
-       "to": null
+       "to": null,
+       "react": null
       },
       {
        "id": "N20",
        "speaker": "tin",
        "lang": "en",
-       "start": 12.079999999999998,
+       "start": 14.12,
        "dur": 2.23,
        "audio": "episodes/an-uong-th01-A1/audio/N20.mp3",
        "mouth": [
@@ -5230,11 +6607,12 @@
        "role": "example",
        "phrase": "P5",
        "q": null,
-       "to": null
+       "to": null,
+       "react": null
       }
      ],
      "phrase": "How much is it? — Sixty thousand dong.",
-     "vi": "Tín ơi, bao nhiêu tiền?",
+     "vi": "Bao nhiêu tiền? — Sáu mươi nghìn đồng.",
      "explain": "Hỏi giá. Đừng nói How much this, vì thiếu chữ is.",
      "example": "How much is the iced tea?",
      "wrong": null,
@@ -5243,7 +6621,7 @@
     {
      "id": "P6",
      "kind": "phrase",
-     "start": 79.63000000000001,
+     "start": 93.27000000000001,
      "items": [],
      "dur": 9.670000000000002,
      "lines": [
@@ -5314,7 +6692,8 @@
        "role": "title",
        "phrase": "P6",
        "q": null,
-       "to": null
+       "to": null,
+       "react": null
       },
       {
        "id": "L15",
@@ -5357,10 +6736,11 @@
        ],
        "gesture": null,
        "emotion": "friendly",
-       "role": null,
+       "role": "source",
        "phrase": null,
        "q": null,
-       "to": null
+       "to": null,
+       "react": null
       },
       {
        "id": "N22",
@@ -5414,7 +6794,8 @@
        "role": "phrase_slow",
        "phrase": "P6",
        "q": null,
-       "to": null
+       "to": null,
+       "react": null
       },
       {
        "id": "N23",
@@ -5533,11 +6914,12 @@
        "role": "explain",
        "phrase": "P6",
        "q": null,
-       "to": null
+       "to": null,
+       "react": null
       }
      ],
      "phrase": "Here you are.",
-     "vi": "Của anh đây ạ.",
+     "vi": "Của bạn đây.",
      "explain": "Câu dùng khi đưa đồ hoặc đưa tiền cho ai đó.",
      "example": null,
      "wrong": null,
@@ -5546,9 +6928,9 @@
     {
      "id": "ERR",
      "kind": "error",
-     "start": 89.30000000000001,
+     "start": 102.94000000000001,
      "items": [],
-     "dur": 20.990000000000002,
+     "dur": 25.67,
      "lines": [
       {
        "id": "N24",
@@ -5647,7 +7029,8 @@
        "role": "error_title",
        "phrase": "ERR",
        "q": null,
-       "to": null
+       "to": null,
+       "react": null
       },
       {
        "id": "L19",
@@ -5773,16 +7156,114 @@
        "highlight": [],
        "gesture": "thumbs_up",
        "emotion": "proud",
-       "role": null,
+       "role": "source",
        "phrase": null,
        "q": null,
-       "to": null
+       "to": "tin",
+       "react": null
+      },
+      {
+       "id": "L20",
+       "speaker": "tin",
+       "lang": "en",
+       "start": 8.08,
+       "dur": 4.23,
+       "audio": "episodes/an-uong-th01-A1/audio/L20.mp3",
+       "mouth": [
+        {
+         "start": 0,
+         "end": 0.04,
+         "value": "X"
+        },
+        {
+         "start": 0.04,
+         "end": 0.41,
+         "value": "D"
+        },
+        {
+         "start": 0.41,
+         "end": 0.49,
+         "value": "C"
+        },
+        {
+         "start": 0.49,
+         "end": 0.99,
+         "value": "B"
+        },
+        {
+         "start": 0.99,
+         "end": 1.12,
+         "value": "E"
+        },
+        {
+         "start": 1.12,
+         "end": 1.68,
+         "value": "B"
+        },
+        {
+         "start": 1.68,
+         "end": 2.93,
+         "value": "X"
+        },
+        {
+         "start": 2.93,
+         "end": 3.07,
+         "value": "A"
+        },
+        {
+         "start": 3.07,
+         "end": 3.11,
+         "value": "E"
+        },
+        {
+         "start": 3.11,
+         "end": 3.19,
+         "value": "A"
+        },
+        {
+         "start": 3.19,
+         "end": 3.43,
+         "value": "B"
+        },
+        {
+         "start": 3.43,
+         "end": 3.5,
+         "value": "G"
+        },
+        {
+         "start": 3.5,
+         "end": 3.58,
+         "value": "A"
+        },
+        {
+         "start": 3.58,
+         "end": 4.03,
+         "value": "B"
+        },
+        {
+         "start": 4.03,
+         "end": 4.08,
+         "value": "X"
+        }
+       ],
+       "text": "Tony... \"More beef, please.\"",
+       "vi": "Anh Tony... phải nói \"More beef, please.\"",
+       "highlight": [
+        "More beef, please."
+       ],
+       "gesture": null,
+       "emotion": "annoyed",
+       "role": "source",
+       "phrase": null,
+       "q": null,
+       "to": null,
+       "react": null
       },
       {
        "id": "N26",
        "speaker": "tin",
        "lang": "en",
-       "start": 8.08,
+       "start": 12.760000000000002,
        "dur": 3.11,
        "audio": "episodes/an-uong-th01-A1/audio/N26.mp3",
        "mouth": [
@@ -5850,13 +7331,14 @@
        "role": "phrase_slow",
        "phrase": "ERR",
        "q": null,
-       "to": null
+       "to": null,
+       "react": null
       },
       {
        "id": "N25",
        "speaker": "tin",
        "lang": "vi",
-       "start": 11.64,
+       "start": 16.32,
        "dur": 5.3500000000000005,
        "audio": "episodes/an-uong-th01-A1/audio/N25.mp3",
        "mouth": [
@@ -6044,13 +7526,14 @@
        "role": "explain",
        "phrase": "ERR",
        "q": null,
-       "to": null
+       "to": null,
+       "react": null
       },
       {
        "id": "N27",
        "speaker": "tin",
        "lang": "en",
-       "start": 17.44,
+       "start": 22.12,
        "dur": 2.55,
        "audio": "episodes/an-uong-th01-A1/audio/N27.mp3",
        "mouth": [
@@ -6123,7 +7606,8 @@
        "role": "example",
        "phrase": "ERR",
        "q": null,
-       "to": null
+       "to": null,
+       "react": null
       }
      ],
      "phrase": null,
@@ -6131,7 +7615,7 @@
      "explain": "Beef là danh từ không đếm được nên không dùng many. Muốn thêm thì nói more.",
      "example": "More noodles, please.",
      "wrong": "many beef",
-     "right": "more beef, please"
+     "right": "More beef, please."
     }
    ],
    "sfx": [
@@ -6142,32 +7626,32 @@
     },
     {
      "src": "audio/sfx/pop.mp3",
-     "at": 17.270000000000003,
+     "at": 19.150000000000002,
      "volume": 0.6
     },
     {
      "src": "audio/sfx/pop.mp3",
-     "at": 31.700000000000003,
+     "at": 36.5,
      "volume": 0.6
     },
     {
      "src": "audio/sfx/pop.mp3",
-     "at": 47.330000000000005,
+     "at": 54.81,
      "volume": 0.6
     },
     {
      "src": "audio/sfx/pop.mp3",
-     "at": 64.32000000000001,
+     "at": 75.92,
      "volume": 0.6
     },
     {
      "src": "audio/sfx/pop.mp3",
-     "at": 79.63000000000001,
+     "at": 93.27000000000001,
      "volume": 0.6
     },
     {
      "src": "audio/sfx/pop.mp3",
-     "at": 89.30000000000001,
+     "at": 102.94000000000001,
      "volume": 0.6
     }
    ],
@@ -6331,7 +7815,8 @@
     "role": null,
     "phrase": null,
     "q": null,
-    "to": null
+    "to": null,
+    "react": null
    },
    "questions": [
     {
@@ -6455,7 +7940,8 @@
       "role": "quiz_q",
       "phrase": null,
       "q": 0,
-      "to": null
+      "to": null,
+      "react": null
      },
      "cdStart": 7.12,
      "reveal": 12.120000000000001,
@@ -6521,7 +8007,8 @@
       "role": "quiz_a",
       "phrase": null,
       "q": 0,
-      "to": null
+      "to": null,
+      "react": null
      },
      "end": 15.05
     },
@@ -6626,7 +8113,8 @@
       "role": "quiz_q",
       "phrase": null,
       "q": 1,
-      "to": null
+      "to": null,
+      "react": null
      },
      "cdStart": 17.94,
      "reveal": 22.94,
@@ -6697,7 +8185,8 @@
       "role": "quiz_a",
       "phrase": null,
       "q": 1,
-      "to": null
+      "to": null,
+      "react": null
      },
      "end": 25.950000000000003
     }
@@ -6731,7 +8220,7 @@
     }
    ],
    "music": "audio/music/bg-cozy-ukulele.mp3",
-   "start": 203.66000000000003
+   "start": 221.98000000000002
   },
   {
    "id": "S06",
@@ -7058,7 +8547,8 @@
      "role": null,
      "phrase": null,
      "q": null,
-     "to": null
+     "to": null,
+     "react": null
     },
     {
      "id": "L29",
@@ -7292,7 +8782,8 @@
      "role": null,
      "phrase": null,
      "q": null,
-     "to": null
+     "to": null,
+     "react": null
     }
    ],
    "cards": [
@@ -7312,7 +8803,7 @@
     }
    ],
    "music": "audio/music/bg-cozy-ukulele.mp3",
-   "start": 230.11
+   "start": 248.43
   }
  ],
  "subtitleMode": "dual_burn_in",

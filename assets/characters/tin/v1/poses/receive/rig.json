@@ -1,0 +1,52 @@
+{
+  "character": "tin",
+  "pose": "receive",
+  "image": "hero-nomouth.png",
+  "source": "hero-cut.png",
+  "coords": "pixels in hero-cut.png",
+  "origin": "receive-01.png (Higgsfield job 60be94bc-ff06-46e7-a478-760f6887a870, edit of hero)",
+  "mouth": {
+    "cx": 376.0,
+    "cy": 362.0,
+    "w": 110.0,
+    "erase": {
+      "rx": 56.0,
+      "ry": 17.0
+    }
+  },
+  "eyes": [
+    {
+      "cx": 318.0,
+      "cy": 262.0,
+      "rx": 32.0,
+      "ry": 26.0
+    },
+    {
+      "cx": 440.0,
+      "cy": 262.0,
+      "rx": 28.0,
+      "ry": 26.0
+    }
+  ],
+  "height_rel": 1,
+  "anchor_x": 314.5,
+  "skin": [
+    255,
+    199,
+    160
+  ],
+  "staging": {
+    "posture": "stand",
+    "gestures": [
+      "receive"
+    ],
+    "holds": [],
+    "look": "level",
+    "facing": "3q",
+    "note": "lòng bàn tay ~ (880,915) ảnh gốc",
+    "hand": [
+      880,
+      915
+    ]
+  }
+}

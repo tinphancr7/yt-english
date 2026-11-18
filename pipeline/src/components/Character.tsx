@@ -36,6 +36,9 @@ const isBlinking = (name: string, t: number) => {
 export const Character: React.FC<{ rig: Rig; place: Placement; t: number; lines: Line[]; shotStartFrame?: number }> = ({ rig, place, t, lines }) => {
   const scale = place.height / rig.height;
   const w = rig.width * scale;
+  // anchor_x (image px): the body's centre line. Poses with an arm stretched out are wider than the base image;
+  // anchoring on the body keeps the character from sliding sideways when the pose changes.
+  const ax = (rig.anchor_x ?? rig.width / 2) * scale;
   // Active line for this character
   const mine = lines.filter((l) => l.speaker === rig.character);
   const cur = mine.find((l) => t >= l.start && t < l.start + l.dur);
@@ -55,20 +58,20 @@ export const Character: React.FC<{ rig: Rig; place: Placement; t: number; lines:
     <div
       style={{
         position: 'absolute',
-        left: place.x - w / 2,
+        left: place.x - ax,
         top: place.topY + bob,
         width: w,
         height: place.height,
         zIndex: place.z,
         transform: `scaleX(${place.flip ? -1 : 1}) scaleY(${breathe})`,
-        transformOrigin: '50% 100%',
+        transformOrigin: `${ax}px 100%`,
         clipPath: place.clipY !== undefined ? `inset(0 0 ${Math.max(0, place.topY + place.height - place.clipY)}px 0)` : undefined,
       }}
     >
       <Img src={staticFile(rig.img)} style={{ width: '100%', height: '100%', display: 'block' }} />
       <svg viewBox={`0 0 ${rig.width} ${rig.height}`} style={{ position: 'absolute', inset: 0, width: '100%', height: '100%' }}>
         {m && (
-          <g transform={`translate(${m.cx},${m.cy}) scale(${mouthScale})`}>
+          <g transform={`translate(${m.cx},${m.cy}) scale(${mouthScale * (m.sx ?? 1)},${mouthScale})`}>
             <MouthShape shape={shape} />
           </g>
         )}

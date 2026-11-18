@@ -47,18 +47,20 @@
     "prompt_source": "storyboard quan-counter",
     "review": "Đạt: tủ kính, nồi phở, hộp tiền, bàn thờ, lịch trống, biển số trống."
   },
-  "table-with-stool": {
-    "file": "table-with-stool.png",
-    "storyboard_id": "quan-table",
-    "source": "explore/table-02.png",
-    "date": "2026-11-17",
+  "table-served": {
+    "file": "table-served.png",
+    "storyboard_id": "quan-table-served",
+    "source": "explore/table-served-03.png",
+    "date": "2026-11-18",
     "tool": "Higgsfield via ChatGPT plugin (free-trial unlimited, 0 credits)",
     "model": "nano_banana_flash (Nano Banana 2)",
-    "aspect_ratio": "16:9",
     "resolution": "2k (2752x1536)",
-    "higgsfield_job_id": "45cd5e96-310f-48d6-b5d0-5cb1aad0eda7",
-    "reference_job": "715832fe-… (wide, chỉ lấy phong cách)",
-    "prompt_source": "storyboard quan-table, viết lại thành MEDIUM SHOT",
-    "review": "Bản gốc có ghế đỏ — giữ dự phòng."
+    "higgsfield_job_id": "bcdd8752-6ef9-4b74-a403-99a3e84e9f27",
+    "edit_chain": [
+      "7f64319b (table) → e8a336b7 (+phở, trà, rau; MẤT hũ ớt)",
+      "→ 9d1ad3ea (+hũ ớt; MẤT ly trà)",
+      "→ bcdd8752 (+ly trà) ✅"
+    ],
+    "review": "Đạt: tô phở bốc khói, đũa, muỗng, hũ ớt, ly trà đá, rổ rau, ống đũa, chai nước tương, hộp khăn giấy. Bài học: mỗi lần AI sửa ảnh có thể làm mất món khác → đối chiếu đủ danh sách contains sau mỗi lần sửa."
   }
 }

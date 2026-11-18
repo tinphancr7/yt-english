@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "studio": "remotion studio src/index.ts",
-    "render": "remotion render src/index.ts"
+    "render": "remotion render src/index.ts",
+    "check": "node tests/regressions.mjs"
   },
   "dependencies": {
     "@remotion/cli": "^4.0.544",

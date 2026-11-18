@@ -1,0 +1,51 @@
+{
+ "id": "R09",
+ "speaker": "tin",
+ "lang": "vi",
+ "text": "Trà đá nhé.",
+ "sent_text": "Trà đá nhé.",
+ "model": "eleven_v4",
+ "voice_id": "cQ2W4ckra8YvQY18vkmE",
+ "hash": "ced2b3666165",
+ "alignment": {
+  "characters": [
+   "T",
+   "r",
+   "à",
+   " ",
+   "đ",
+   "á",
+   " ",
+   "n",
+   "h",
+   "é",
+   "."
+  ],
+  "character_start_times_seconds": [
+   0,
+   0.12,
+   0.16,
+   0.2,
+   0.24,
+   0.32,
+   0.4,
+   0.48,
+   0.52,
+   0.56,
+   0.72
+  ],
+  "character_end_times_seconds": [
+   0.12,
+   0.16,
+   0.2,
+   0.24,
+   0.32,
+   0.4,
+   0.48,
+   0.52,
+   0.56,
+   0.72,
+   1.04
+  ]
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "id": "R19",
+ "speaker": "tin",
+ "lang": "vi",
+ "text": "Cho tôi cơm gà.",
+ "sent_text": "Cho tôi cơm gà.",
+ "model": "eleven_v4",
+ "voice_id": "cQ2W4ckra8YvQY18vkmE",
+ "hash": "2bf786bf7cc6",
+ "alignment": {
+  "characters": [
+   "C",
+   "h",
+   "o",
+   " ",
+   "t",
+   "ô",
+   "i",
+   " ",
+   "c",
+   "ơ",
+   "m",
+   " ",
+   "g",
+   "à",
+   "."
+  ],
+  "character_start_times_seconds": [
+   0,
+   0.107,
+   0.133,
+   0.16,
+   0.24,
+   0.32,
+   0.36,
+   0.4,
+   0.48,
+   0.56,
+   0.64,
+   0.68,
+   0.72,
+   0.8,
+   1.04
+  ],
+  "character_end_times_seconds": [
+   0.107,
+   0.133,
+   0.16,
+   0.24,
+   0.32,
+   0.36,
+   0.4,
+   0.48,
+   0.56,
+   0.64,
+   0.68,
+   0.72,
+   0.8,
+   1.04,
+   1.36
+  ]
+ }
+}

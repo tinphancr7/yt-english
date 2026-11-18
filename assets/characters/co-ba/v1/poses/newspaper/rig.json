@@ -33,5 +33,15 @@
     253,
     193,
     152
-  ]
+  ],
+  "staging": {
+    "posture": "stand",
+    "gestures": [
+      "hold_newspaper"
+    ],
+    "holds": [
+      "newspaper"
+    ],
+    "facing": "3q"
+  }
 }

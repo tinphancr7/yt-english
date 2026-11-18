@@ -1,0 +1,43 @@
+{
+  "character": "tin",
+  "pose": "turn-point",
+  "image": "hero-nomouth.png",
+  "source": "hero-cut.png",
+  "coords": "pixels in hero-cut.png",
+  "origin": "turn-point-01.png (Higgsfield job 72ee8419-3e5a-4ba8-9e25-5256818f50a2, edit of turn eb66ea0f)",
+  "mouth": {
+    "cx": 350,
+    "cy": 380,
+    "w": 72,
+    "sx": 0.6,
+    "erase": {
+      "rx": 33,
+      "ry": 12
+    }
+  },
+  "eyes": [
+    {
+      "cx": 303,
+      "cy": 268,
+      "rx": 26,
+      "ry": 26
+    }
+  ],
+  "height_rel": 1,
+  "anchor_x": 222.5,
+  "skin": [
+    254,
+    196,
+    161
+  ],
+  "staging": {
+    "posture": "stand",
+    "gestures": [
+      "point"
+    ],
+    "holds": [],
+    "look": "level",
+    "facing": "profile",
+    "note": "nghiêng, chỉ tay xuống mặt bàn"
+  }
+}

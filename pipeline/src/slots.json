@@ -1,0 +1,15 @@
+{
+  "_note": "Vị trí ngang (tỉ lệ khung 0–1) của các slot đứng. Dùng chung cho Episode.tsx (dựng) và stage-lint.mjs (kiểm tra). Slot *-seated đặt theo ghế của ảnh nền (staging.json → seat).",
+  "left": 0.22,
+  "left-seated": 0.195,
+  "behind-table": 0.195,
+  "center": 0.52,
+  "beside-table": 0.63,
+  "right": 0.8,
+  "far-right": 0.88,
+  "body_half_width": 0.1,
+  "stand_height": 1500,
+  "stand_top_frac": 0.72,
+  "counter-left": 0.17,
+  "counter-mid": 0.593
+}

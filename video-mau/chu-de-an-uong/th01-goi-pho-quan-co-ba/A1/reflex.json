@@ -1,0 +1,597 @@
+{
+ "$note": "Nguồn dữ liệu của video Phản xạ 7 giây A1 (sinh từ luyen-phan-xa-7s.md). Câu số 1–25 là số câu toàn kênh. en_audio: cắt từ câu phim (from + cut) hoặc giọng mới (tts).",
+ "id": "an-uong-th01-A1-reflex",
+ "title": "BÀI THI PHẢN XẠ 7 GIÂY — GỌI PHỞ Ở QUÁN CÔ BA — A1",
+ "level": "A1",
+ "countdown_sec": 7,
+ "pipeline": {
+  "timeline": "a1-reflex",
+  "composition": "A1-Reflex",
+  "build": "scripts/build-reflex.mjs"
+ },
+ "items": [
+  {
+   "n": 1,
+   "vi": "Chào buổi sáng!",
+   "en": "Good morning!",
+   "vi_audio": "R01",
+   "en_audio": {
+    "from": "L05",
+    "cut": "Good morning!"
+   }
+  },
+  {
+   "n": 2,
+   "vi": "Anh muốn ăn gì?",
+   "en": "What would you like?",
+   "vi_audio": "R02",
+   "en_audio": {
+    "from": "L07",
+    "cut": "What would you like?"
+   }
+  },
+  {
+   "n": 3,
+   "vi": "Cho tôi phở bò.",
+   "en": "Beef pho, please.",
+   "vi_audio": "R03",
+   "en_audio": {
+    "from": "L08",
+    "cut": "Beef pho, please."
+   }
+  },
+  {
+   "n": 4,
+   "vi": "Tô nhỏ hay tô lớn?",
+   "en": "Small or large?",
+   "vi_audio": "R04",
+   "en_audio": {
+    "from": "L09",
+    "cut": "Small or large?"
+   }
+  },
+  {
+   "n": 5,
+   "vi": "Tô lớn nhé.",
+   "en": "Large, please.",
+   "vi_audio": "R05",
+   "en_audio": {
+    "from": "L10",
+    "cut": "Large, please."
+   }
+  },
+  {
+   "n": 6,
+   "vi": "Tôi đói lắm!",
+   "en": "I'm very hungry!",
+   "vi_audio": "R06",
+   "en_audio": {
+    "from": "L10",
+    "cut": "I'm very hungry!"
+   }
+  },
+  {
+   "n": 7,
+   "vi": "Không hành nhé.",
+   "en": "No onions, please.",
+   "vi_audio": "R07",
+   "en_audio": {
+    "from": "L12",
+    "cut": "No onions, please."
+   }
+  },
+  {
+   "n": 8,
+   "vi": "Còn uống gì ạ?",
+   "en": "And to drink?",
+   "vi_audio": "R08",
+   "en_audio": {
+    "from": "L13",
+    "cut": "And to drink?"
+   }
+  },
+  {
+   "n": 9,
+   "vi": "Trà đá nhé.",
+   "en": "Iced tea, please.",
+   "vi_audio": "R09",
+   "en_audio": {
+    "from": "L14",
+    "cut": "Iced tea, please."
+   }
+  },
+  {
+   "n": 10,
+   "vi": "Của anh đây ạ.",
+   "en": "Here you are.",
+   "vi_audio": "R10",
+   "en_audio": {
+    "from": "L15",
+    "cut": "Here you are."
+   }
+  },
+  {
+   "n": 11,
+   "vi": "Có cay không?",
+   "en": "Is it spicy?",
+   "vi_audio": "R11",
+   "en_audio": {
+    "from": "L16",
+    "cut": "Is it spicy?"
+   }
+  },
+  {
+   "n": 12,
+   "vi": "Không, không cay.",
+   "en": "No, it isn't.",
+   "vi_audio": "R12",
+   "en_audio": {
+    "from": "L17",
+    "cut": "No, it isn't."
+   }
+  },
+  {
+   "n": 13,
+   "vi": "Ớt ở đây.",
+   "en": "The chili is here.",
+   "vi_audio": "R13",
+   "en_audio": {
+    "from": "L17",
+    "cut": "The chili is here."
+   }
+  },
+  {
+   "n": 14,
+   "vi": "Ngon quá!",
+   "en": "It's delicious!",
+   "vi_audio": "R14",
+   "en_audio": {
+    "from": "L18",
+    "cut": "It's delicious!"
+   }
+  },
+  {
+   "n": 15,
+   "vi": "Thêm bò nhé.",
+   "en": "More beef, please.",
+   "vi_audio": "R15",
+   "en_audio": {
+    "from": "L21",
+    "cut": "More beef, please."
+   }
+  },
+  {
+   "n": 16,
+   "vi": "Bao nhiêu tiền?",
+   "en": "How much is it?",
+   "vi_audio": "R16",
+   "en_audio": {
+    "from": "L22",
+    "cut": "How much is it?"
+   }
+  },
+  {
+   "n": 17,
+   "vi": "Sáu mươi nghìn đồng.",
+   "en": "Sixty thousand dong.",
+   "vi_audio": "R17",
+   "en_audio": {
+    "from": "L23",
+    "cut": "Sixty thousand dong."
+   }
+  },
+  {
+   "n": 18,
+   "vi": "Cảm ơn! Hẹn gặp lại ngày mai!",
+   "en": "Thank you! See you tomorrow!",
+   "vi_audio": "R18",
+   "en_audio": {
+    "from": "L25",
+    "cut": "Thank you! See you tomorrow!"
+   }
+  },
+  {
+   "n": 19,
+   "vi": "Cho tôi cơm gà.",
+   "en": "Chicken rice, please.",
+   "vi_audio": "R19",
+   "en_audio": {
+    "tts": "R49",
+    "speaker": "jake"
+   }
+  },
+  {
+   "n": 20,
+   "vi": "Cho tôi một ly cà phê.",
+   "en": "A coffee, please.",
+   "vi_audio": "R20",
+   "en_audio": {
+    "tts": "R50",
+    "speaker": "jake"
+   }
+  },
+  {
+   "n": 21,
+   "vi": "Tô nhỏ nhé.",
+   "en": "Small, please.",
+   "vi_audio": "R21",
+   "en_audio": {
+    "tts": "R51",
+    "speaker": "jake"
+   }
+  },
+  {
+   "n": 22,
+   "vi": "Không đá nhé.",
+   "en": "No ice, please.",
+   "vi_audio": "R22",
+   "en_audio": {
+    "tts": "R52",
+    "speaker": "jake"
+   }
+  },
+  {
+   "n": 23,
+   "vi": "Không ớt nhé.",
+   "en": "No chili, please.",
+   "vi_audio": "R23",
+   "en_audio": {
+    "tts": "R53",
+    "speaker": "jake"
+   }
+  },
+  {
+   "n": 24,
+   "vi": "Có nóng không?",
+   "en": "Is it hot?",
+   "vi_audio": "R24",
+   "en_audio": {
+    "tts": "R54",
+    "speaker": "jake"
+   }
+  },
+  {
+   "n": 25,
+   "vi": "Trà đá bao nhiêu tiền?",
+   "en": "How much is the iced tea?",
+   "vi_audio": "R25",
+   "en_audio": {
+    "tts": "R55",
+    "speaker": "jake"
+   }
+  }
+ ],
+ "part2_order": [
+  11,
+  3,
+  22,
+  16,
+  8,
+  19,
+  1,
+  14,
+  4,
+  25,
+  7,
+  17,
+  2,
+  23,
+  10,
+  6,
+  20,
+  13,
+  15,
+  24,
+  5,
+  12,
+  9,
+  21,
+  18
+ ],
+ "lines": [
+  {
+   "id": "R01",
+   "speaker": "tin",
+   "lang": "vi",
+   "text": "Chào buổi sáng!",
+   "model": "eleven_v4",
+   "speed": 0.85
+  },
+  {
+   "id": "R02",
+   "speaker": "tin",
+   "lang": "vi",
+   "text": "Anh muốn ăn gì?",
+   "model": "eleven_v4",
+   "speed": 0.85
+  },
+  {
+   "id": "R03",
+   "speaker": "tin",
+   "lang": "vi",
+   "text": "Cho tôi phở bò.",
+   "model": "eleven_v4",
+   "speed": 0.85
+  },
+  {
+   "id": "R04",
+   "speaker": "tin",
+   "lang": "vi",
+   "text": "Tô nhỏ hay tô lớn?",
+   "model": "eleven_v4",
+   "speed": 0.85
+  },
+  {
+   "id": "R05",
+   "speaker": "tin",
+   "lang": "vi",
+   "text": "Tô lớn nhé.",
+   "model": "eleven_v4",
+   "speed": 0.85
+  },
+  {
+   "id": "R06",
+   "speaker": "tin",
+   "lang": "vi",
+   "text": "Tôi đói lắm!",
+   "model": "eleven_v4",
+   "speed": 0.85
+  },
+  {
+   "id": "R07",
+   "speaker": "tin",
+   "lang": "vi",
+   "text": "Không hành nhé.",
+   "model": "eleven_v4",
+   "speed": 0.85
+  },
+  {
+   "id": "R08",
+   "speaker": "tin",
+   "lang": "vi",
+   "text": "Còn uống gì ạ?",
+   "model": "eleven_v4",
+   "speed": 0.85
+  },
+  {
+   "id": "R09",
+   "speaker": "tin",
+   "lang": "vi",
+   "text": "Trà đá nhé.",
+   "model": "eleven_v4",
+   "speed": 0.85
+  },
+  {
+   "id": "R10",
+   "speaker": "tin",
+   "lang": "vi",
+   "text": "Của anh đây ạ.",
+   "model": "eleven_v4",
+   "speed": 0.85
+  },
+  {
+   "id": "R11",
+   "speaker": "tin",
+   "lang": "vi",
+   "text": "Có cay không?",
+   "model": "eleven_v4",
+   "speed": 0.85
+  },
+  {
+   "id": "R12",
+   "speaker": "tin",
+   "lang": "vi",
+   "text": "Không, không cay.",
+   "model": "eleven_v4",
+   "speed": 0.85
+  },
+  {
+   "id": "R13",
+   "speaker": "tin",
+   "lang": "vi",
+   "text": "Ớt ở đây.",
+   "model": "eleven_v4",
+   "speed": 0.85
+  },
+  {
+   "id": "R14",
+   "speaker": "tin",
+   "lang": "vi",
+   "text": "Ngon quá!",
+   "model": "eleven_v4",
+   "speed": 0.85
+  },
+  {
+   "id": "R15",
+   "speaker": "tin",
+   "lang": "vi",
+   "text": "Thêm bò nhé.",
+   "model": "eleven_v4",
+   "speed": 0.85
+  },
+  {
+   "id": "R16",
+   "speaker": "tin",
+   "lang": "vi",
+   "text": "Bao nhiêu tiền?",
+   "model": "eleven_v4",
+   "speed": 0.85
+  },
+  {
+   "id": "R17",
+   "speaker": "tin",
+   "lang": "vi",
+   "text": "Sáu mươi nghìn đồng.",
+   "model": "eleven_v4",
+   "speed": 0.85
+  },
+  {
+   "id": "R18",
+   "speaker": "tin",
+   "lang": "vi",
+   "text": "Cảm ơn! Hẹn gặp lại ngày mai!",
+   "model": "eleven_v4",
+   "speed": 0.85
+  },
+  {
+   "id": "R19",
+   "speaker": "tin",
+   "lang": "vi",
+   "text": "Cho tôi cơm gà.",
+   "model": "eleven_v4",
+   "speed": 0.85
+  },
+  {
+   "id": "R20",
+   "speaker": "tin",
+   "lang": "vi",
+   "text": "Cho tôi một ly cà phê.",
+   "model": "eleven_v4",
+   "speed": 0.85
+  },
+  {
+   "id": "R21",
+   "speaker": "tin",
+   "lang": "vi",
+   "text": "Tô nhỏ nhé.",
+   "model": "eleven_v4",
+   "speed": 0.85
+  },
+  {
+   "id": "R22",
+   "speaker": "tin",
+   "lang": "vi",
+   "text": "Không đá nhé.",
+   "model": "eleven_v4",
+   "speed": 0.85
+  },
+  {
+   "id": "R23",
+   "speaker": "tin",
+   "lang": "vi",
+   "text": "Không ớt nhé.",
+   "model": "eleven_v4",
+   "speed": 0.85
+  },
+  {
+   "id": "R24",
+   "speaker": "tin",
+   "lang": "vi",
+   "text": "Có nóng không?",
+   "model": "eleven_v4",
+   "speed": 0.85
+  },
+  {
+   "id": "R25",
+   "speaker": "tin",
+   "lang": "vi",
+   "text": "Trà đá bao nhiêu tiền?",
+   "model": "eleven_v4",
+   "speed": 0.85
+  },
+  {
+   "id": "R49",
+   "speaker": "jake",
+   "lang": "en",
+   "text": "Chicken rice, please."
+  },
+  {
+   "id": "R50",
+   "speaker": "jake",
+   "lang": "en",
+   "text": "A coffee, please."
+  },
+  {
+   "id": "R51",
+   "speaker": "jake",
+   "lang": "en",
+   "text": "Small, please."
+  },
+  {
+   "id": "R52",
+   "speaker": "jake",
+   "lang": "en",
+   "text": "No ice, please."
+  },
+  {
+   "id": "R53",
+   "speaker": "jake",
+   "lang": "en",
+   "text": "No chili, please."
+  },
+  {
+   "id": "R54",
+   "speaker": "jake",
+   "lang": "en",
+   "text": "Is it hot?"
+  },
+  {
+   "id": "R55",
+   "speaker": "jake",
+   "lang": "en",
+   "text": "How much is the iced tea?"
+  },
+  {
+   "id": "R00",
+   "speaker": "tin",
+   "lang": "vi",
+   "emotion": "cheerful",
+   "text": "Bài thi phản xạ bảy giây! Phần một: mình đọc một câu tiếng Việt, bạn có bảy giây để nói to câu tiếng Anh. Bắt đầu nhé!"
+  },
+  {
+   "id": "R80",
+   "speaker": "tin",
+   "lang": "vi",
+   "emotion": "cheerful",
+   "text": "Phần một bạn được mấy câu? Giờ đổi chiều! Phần hai: nghe câu tiếng Anh, nói nghĩa tiếng Việt trong bảy giây."
+  },
+  {
+   "id": "R90",
+   "speaker": "tin",
+   "lang": "vi",
+   "emotion": "cheerful",
+   "text": "Phần một bạn được mấy câu, phần hai được mấy câu? Bình luận điểm của bạn nhé. Chưa đạt hai mươi lăm trên hai mươi lăm thì thi lại nha. Câu nào chưa hiểu, xem lại video Phân tích nhé. Hẹn gặp ở bản A2!"
+  }
+ ],
+ "segments": [
+  {
+   "id": "X1",
+   "name": "Mở đầu + Phần 1 câu 1–5 (duyệt khuôn)",
+   "from": "RI",
+   "to": "A05"
+  },
+  {
+   "id": "X2",
+   "name": "Phần 1 câu 6–25",
+   "from": "A06",
+   "to": "A25"
+  },
+  {
+   "id": "X3",
+   "name": "Phần 2 + kết thúc",
+   "from": "RT",
+   "to": "RO"
+  }
+ ],
+ "publish": {
+  "youtube_studio": {
+   "_note": "Gắn trong YouTube Studio, không vẽ vào video. Màn hình cuối = 15 s cuối.",
+   "end_screen": {
+    "elements": [
+     {
+      "type": "video",
+      "target": "an-uong-th01-A2 (phim)"
+     },
+     {
+      "type": "video",
+      "target": "an-uong-th01-A1-analysis"
+     },
+     {
+      "type": "subscribe"
+     }
+    ]
+   }
+  },
+  "chapters": "00:00 Luật thi · Phần 1 · Việt → Anh · Phần 2 · Anh → Việt · Tổng kết (mốc lấy từ timeline khi xuất bản)"
+ }
+}

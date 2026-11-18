@@ -1,0 +1,51 @@
+{
+ "id": "R05",
+ "speaker": "tin",
+ "lang": "vi",
+ "text": "Tô lớn nhé.",
+ "sent_text": "Tô lớn nhé.",
+ "model": "eleven_v4",
+ "voice_id": "cQ2W4ckra8YvQY18vkmE",
+ "hash": "5df9caae13c3",
+ "alignment": {
+  "characters": [
+   "T",
+   "ô",
+   " ",
+   "l",
+   "ớ",
+   "n",
+   " ",
+   "n",
+   "h",
+   "é",
+   "."
+  ],
+  "character_start_times_seconds": [
+   0,
+   0.08,
+   0.16,
+   0.24,
+   0.32,
+   0.36,
+   0.4,
+   0.48,
+   0.52,
+   0.56,
+   0.72
+  ],
+  "character_end_times_seconds": [
+   0.08,
+   0.16,
+   0.24,
+   0.32,
+   0.36,
+   0.4,
+   0.48,
+   0.52,
+   0.56,
+   0.72,
+   0.96
+  ]
+ }
+}
